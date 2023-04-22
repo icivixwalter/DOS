@@ -4,7 +4,8 @@ ECHO OFF
 @REM     file batch : Salva-C rar
 @REM     directory = c:\CASA\CDM\ZIP_SALVATAGGI\ ; \DOC  e \STAMPE
 @REM     file WinRAR
-
+@REM 					@GE614@esempio@DECRIPTA_(DECRIPTA da DA GE614 a RAR esempio)
+@REM 					
 @REM  ***************************************************************
 
 SET PATH_DEST_S=c:\Casa\CDM\LaQuercia\2022_2023\SALVATAGGI_2022_2023\

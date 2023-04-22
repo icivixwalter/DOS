@@ -1,4 +1,12 @@
 DOS_PROGETTI.MD
+	Note
+		tutti i progetti in dos vengono divisi per lettera di inizio, gli esempi sono riportati qui nei progetti e divisi per cartella. Alcune volte vengon richiamati i comandi dos riportati nel file .md denominato COMANDI_DOS_TUTTI.md
+	F
+		FORFILE
+			Dove_si_trova
+				File dos che apre tutte le pulizie del condominio con il comando forFile si trova
+				qui ----> @dove.si.trova@apri@pulizie@condominio.LaQuercia_(indirizzo Dos per aprire tutti apro tutti i file delle pulizie del condominio con il cdm ForFile)
+					digita ----> @Esempi@FORFILES_(chiave di ricerca)
 	Z
 		ZIP_INCREMENTALE
 				Note

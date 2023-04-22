@@ -1,6 +1,7 @@
 @ECHO OFF
 
-@REM		directory y dove archiviare i dati = path di destinazione
+@REM		directory y dove archiviare i dati = path di destinazione  @esempio@cripta_(esempio di cripta in GE614)
+@REM		 														   @GE614@esempio@cripta_(cripta in GE614)
 @REM .......................................................
 SET PATH_DEST_S=c:\Casa\CDM\LaQuercia\2022_2023\SALVATAGGI_2022_2023\
 
