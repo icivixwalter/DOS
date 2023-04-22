@@ -1,3 +1,19 @@
+@REM-------------------------------------------------------------------------------
+@REM        CHIAMO IL BAT TASKKILL per pulire la memoria @pulizia@memoria@taskkill 
+@REM        @pulizia@processi  @chiudi@task   @comando@pulizia
+@REM                    @pulisci@in@DOS
+@REM                    CALL "C:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_GUIDA_HTML_IT\react-guida-html\tutorial\TasKill_N51_KILL_SOLO_PROCESSI.bat"
+@REM                    CALL "TasKill_N51_KILL_SOLO_PROCESSI.bat"
+@REM               ----------------------------------------------
+@REM                    @pulisci@in@powershell
+@REM        Start-Process -FilePath "C:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_GUIDA_HTML_IT\react-guida-html\tutorial\TasKill_N51_KILL_SOLO_PROCESSI.bat"
+@REM        Start-Process -FilePath "TasKill_N51_KILL_SOLO_PROCESSI.bat"
+
+@REM-------------------------------------------------------------------------------
+
+
+
+
 
 @REM --------------------- IN STUDIO  ------------------------------------
 @rem  /IM nomeimmagine	
@@ -8,10 +24,11 @@
 @REM TASKLIST /S system /FO LIST
 @REM in studio
 @rem TASKLIST /M /FO LIST 
-@REM TASKKILL /F /IM kpm_tray.exe
+@REM TASKKILL /F /IM cTrader.exe
 
 
 @rem PAUSE
+
 
 
 @REM --------------------- IN STUDIO  ------------------------------------
@@ -34,6 +51,15 @@ TASKKILL /F /IM "FortiClientSecurity.exe"
 @REM-------------------------------------------------------------------------------
 
 
+
+@REM ANTIVIRUS MCFEE + karspesky
+@REM-------------------------------------------------------------------------------
+
+@REM //cisco CHIUDE SOLO se c'è * e le "" + /f
+TASKKILL /IM "ModuleCoreService.exe" /F 
+TASKKILL /F /IM kpm_tray.exe
+
+F
 @REM --------------------- internet + office + ONDRIVE ------------------------
 
 @REM outlook
@@ -67,12 +93,14 @@ TASKKILL /IM "atmgr.exe" /F
 @REM-------------------------------------------------------------------------------
 
 
-@REM ANTIVIRUS MCFEE + karspesky
+@REM ANTIVIRUS MCFEE + SOFOS
 @REM-------------------------------------------------------------------------------
 
 @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
 TASKKILL /IM "ModuleCoreService.exe" /F 
-TASKKILL /F /IM kpm_tray.exe
+
+TASKKILL /F /IM swc_service.exe
+TASKKILL /F /IM ALsvc.exe
 
 
 
@@ -119,8 +147,6 @@ TASKKILL /IM devenv.exe
 
 @REM VISUAL STUDIO CODE
 TASKKILL /IM Code.exe 
-
-
 
 @REM-------------------------------------------------------------------------------
 
@@ -230,11 +256,8 @@ TASKKILL /F/IM "git.exe"
 TASKKILL /IM "git.exe" /f 
 
 
-
 @REM OPERA
 TASKKILL /IM opera.exe /F 
-
-
 
 
 @REM-------------------------------------------------------------------------------
@@ -304,18 +327,26 @@ TASKKILL /IM "splwow64.exe"
 
 @REM-------------------------------------------------------------------------------
 
+@REM ICtrade  ICMarket
+@REM-------------------------------------------------------------------------------
+@REM  il trading sospendo IcMarkets su desktop
+TASKKILL /F /IM cTrader.exe
+
+@REM-------------------------------------------------------------------------------
 
 
+
+
+  
+        
+    
+GOTO note_taskill
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ò
 
                                 TESTO DOS PER IL TUTORIA
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ò
-  
-        
-    
-GOTO note_taskill
 
 [C:\Program Files (x86)\Java\jre1.8.0_171\bin\javaw.exe]
 
