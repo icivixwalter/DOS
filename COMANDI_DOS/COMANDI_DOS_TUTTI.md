@@ -1,13 +1,4 @@
 NOTE_DOS
-				@git@salvataggio@progetto_(comandi git per il @salvataggio@rapido)
-
-					git add.
-					git commit -m"agg"
-					git push
-
-				@git@salvataggio@progetto_(salvataggio rapido con comandi git concatenati con &&)
-					
-					git add . && git commit -m "agg dos" && git push
 
 
 
@@ -45,6 +36,225 @@ B
 C
 D
 F 
+	FIND
+				@dos@find_(comando Finds)
+
+		Sintax
+			findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<File>] [/c:<String>] [/g:<File>] [/d:<DirList>] [/a:<ColorAttribute>] [/off[line]] <Strings> [<Drive>:][<Path>]<FileName>[ ...]
+			Parameter 	Description
+
+			/b
+							Corrisponde il modello di testo se è all'inizio di una riga.
+							Matches the text pattern if it is at the beginning of a line.
+
+			/e
+								Corrisponde il modello di testo se è alla fine di una linea.
+								Matches the text pattern if it is at the end of a line.
+
+			/l
+								Processi stringhe di ricerca letteralmente.
+								Processes search strings literally.
+
+			/r
+			Processi stringhe di ricerca come espressioni regolari. Questa è l'impostazione predefinita.
+			Processes search strings as regular expressions. This is the default setting.
+
+			/s
+			Cerchi nella directory corrente e in tutte le sottodirectory.
+			Searches the current directory and all subdirectories.
+
+			/i
+			Ignora il caso dei caratteri durante la ricerca della stringa (Maiuscole o minuscole).
+			Ignores the case of the characters when searching for the string.
+
+			/x
+			Stampa le linee che corrispondono esattamente.
+			Prints lines that match exactly.
+
+			/v
+			Stampa solo le righe che non contengono una corrispondenza.
+			Prints only lines that do not contain a match.
+
+			/n
+			Stampa il numero di riga di ogni riga che corrisponde.
+			Prints the line number of each line that matches.
+
+			/m
+			Stampa solo il nome del file se un file contiene una corrispondenza.
+			Prints only the file name if a file contains a match.
+
+			/o
+			Stampa carattere  Offset prima di ogni riga corrispondente
+			Prints character offset before each matching line.
+
+			/p
+			Ignora i file con caratteri non stampabili.
+			Skips files with non-printable characters.
+
+			/off[line]
+			Non saltare i file che hanno l'attributo di linea set.
+			Does not skip files that have the offline attribute set.
+
+			/f:<File>
+			Ottiene un elenco di file dal file specificato.
+			Gets a file list from the specified file.
+
+			/c:<String>
+			Utilizza il testo specificato come stringa di ricerca letterale.
+			Uses the specified text as a literal search string.
+
+			/g:<File>
+			Ottiene stringhe di ricerca dal file specificato.
+			Gets search strings from the specified file.
+
+			/d:<DirList>
+			Cerchi l'elenco specificato di directory. Ogni directory deve essere separato con un punto e virgola (;), ad esempio dir1; dir2; dir3.
+			Searches the specified list of directories. Each directory must be separated with a semicolon (;), for example dir1;dir2;dir3.
+
+			/a:<ColorAttribute>
+			Specifica attributi di colore con due cifre esadecimali. Tipo di colore /? per ulteriori informazioni.
+			Specifies color attributes with two hexadecimal digits. Type color /? for additional information.
+
+			<Strings>
+			Specifica il testo da cercare nel nome del file. Richiesto.
+			Specifies the text to search for in FileName. Required.
+
+			[<Drive>:][<Path>]<FileName>[ ...]
+			Specifica la posizione e il file oi file da ricercare. è richiesto almeno un nome di file.
+			Specifies the location and file or files to search. At least one file name is required.
+
+			/?
+			Visualizza la Guida al prompt dei comandi.
+			Displays Help at the command prompt.
+		Remarks
+		Osservazioni:
+
+		    Tutte le opzioni di findstr della riga di comando devono precedere le stringhe e il nome nella stringa di comando.
+		    All findstr command-line options must precede Strings and FileName in the command string.
+		    
+		    Le espressioni regolari utilizzano entrambi i caratteri letterali e metacaratteri per trovare modelli di testo, piuttosto che le stringhe esatte di caratteri. Un carattere letterale è un personaggio che non ha un significato speciale nella regular-expression sintassi corrisponde un evento di quel personaggio. Ad esempio, le lettere ed i numeri sono caratteri letterali. Un metacarattere è un simbolo con un significato speciale (un operatore o delimitatore) nella sintassi delle espressioni regolari.
+		    Regular expressions use both literal characters and metacharacters to find patterns of text, rather than exact strings of characters. A literal character is a character that does not have a special meaning in the regular-expression syntax—it matches an occurrence of that character. For example, letters and numbers are literal characters. A metacharacter is a symbol with special meaning (an operator or delimiter) in the regular-expression syntax.
+		    
+		    Nella tabella seguente sono elencati i metacaratteri che findstr accetta.
+		    The following table lists the metacharacters that findstr accepts.
+
+
+		    Examples
+
+				Utilizzare gli spazi per separare più stringhe di ricerca a meno che l'argomento è preceduto da / c.
+				Use spaces to separate multiple search strings unless the argument is prefixed with /c.
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per verificare la "ciao" o "là" nel file X.Y, digitare:
+				To search for "hello" or "there" in file x.y, type:
+
+				findstr "hello there" x.y 
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per verificare la "ciao là" nel file X.Y, digitare:
+				To search for "hello there" in file x.y, type:
+
+				findstr /c:"hello there" x.y 
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per trovare tutte le occorrenze della parola "Windows" (con l'iniziale maiuscola W) nel file Proposal.txt, digitare:
+				To find all occurrences of the word "Windows" (with an initial capital letter W) in the file Proposal.txt, type:
+
+				findstr Windows proposal.txt 
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per cercare tutti i file nella directory corrente e tutte le sottodirectory che contenevano la parola di Windows, a prescindere dalla lettera caso, digitare:
+				To search every file in the current directory and all subdirectories that contained the word Windows, regardless of the letter case, type:
+
+				findstr /s /i Windows *.* 
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per trovare tutte le occorrenze di linee che iniziano con "FOR" e sono preceduti da zero o più spazi (come in un loop di programma per computer), e per visualizzare il numero di riga in cui si trova ogni occorrenza, tipo:
+				To find all occurrences of lines that begin with "FOR" and are preceded by zero or more spaces (as in a computer program loop), and to display the line number where each occurrence is found, type:
+
+				findstr /b /n /r /c:"^ *FOR" *.bas 
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per cercare più stringhe in una serie di file, creare un file di testo che contiene ogni criterio di ricerca su una riga separata. È inoltre possibile elencare i file esatto che si desidera cercare in un file di testo. Ad esempio, per utilizzare i criteri di ricerca nel file Stringlist.txt, la ricerca di file elencati nella filelist.txt, e quindi memorizzare i risultati nel file Results.out, digitare:
+				To search for multiple strings in a set of files, create a text file that contains each search criterion on a separate line. You can also list the exact files that you want to search in a text file. For example, to use the search criteria in the file Stringlist.txt, search the files listed in Filelist.txt, and then store the results in the file Results.out, type:
+
+				findstr /g:stringlist.txt /f:filelist.txt > results.out 
+
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per elencare tutti i file che contiene la parola "computer" all'interno della directory corrente e in tutte le sottodirectory, a prescindere dal caso, tipo:
+				To list every file containing the word "computer" within the current directory and all subdirectories, regardless of case, type:
+
+				findstr /s /i /m "\<computer\>" *.*
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Per elencare tutti i file che contiene la parola "computer" e tutte le parole che iniziano con "comp", (come ad esempio "complimento" e "competizione"), digitare:
+				To list every file containing the word "computer" and any other words that begin with "comp", (such as "compliment" and "compete"), type:
+
+				findstr /s /i /m "\<comp.*" *.*
+
+				//--------------------------------------------------------------------------------------------------------------------------//
+
+				Additional references
+				Command-Line Syntax Key = Della riga di comando chiave Sintassi
+
+
+				TESTO SENZA PARENTESI []{}
+				Text without brackets or braces = Testo senza parentesi quadre o graffe
+				Items you must type as shown = I prodotti che è necessario digitare come mostrato
+
+				PARENTESI ANGOLARI <>
+				<Text inside angle brackets> = <Testo all'interno di parentesi angolari>
+				Placeholder for which you must supply a value = Segnaposto per il quale è necessario fornire un valore
+
+				PARENTESI []
+				[Text inside square brackets] = [Testo all'interno di parentesi quadre]
+				Optional items = elementi facoltativi
+
+				PARENESTI {}
+				{Text inside braces}= {Testo} all'interno bretelle
+				Set of required items; choose one = Set di elementi richiesti; sceglierne uno
+
+				BARRE  VERTICCALI
+				Vertical bar (|) = barre verticali
+				Separator for mutually exclusive items; choose one = Separatore per gli elementi si escludono a vicenda; sceglierne uno
+
+				PUNTINI DI SOSPENSIONE
+				Ellipsis (...) = Puntini di sospensione (...) 
+				Items that can be repeated = Gli elementi che possono essere ripetuti
+
+		@Dos@Find@Esempi.2_TrovaOccorrenze_(Find trova le occorrenze che iniziano con COMP)
+
+				@REM FINDSTR
+				@REM ------------------------------------------------------------------------------------------- 
+				@REM Sintassi 	findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<File>] [/c:<String>] [/g:<File>] [/d:<DirList>] [/a:<ColorAttribute>] [/off[line]] <Strings> [<Drive>:][<Path>]<FileName>[ ...]
+				@REM Opzioni
+				@REM /b /e /l /r /s /i /x /v /n /m /o /p /off[line] /f:<File> /c:<String> /g:<File> /d:<DirList> /a:<ColorAttribute> <Strings> [<Drive>:][<Path>]<FileName>[ ...] /? 
+
+				@REM FINDSTR
+				@REM -------------------------------------------------------------------------------------------
+
+
+				@ECHO.
+				@ECHO. "Per trovare tutte le occorrenze di linee che iniziano con "COMP" e sono preceduti da zero o più 
+				@ECHO. "spazi (come in un loop di programma per computer), e per visualizzare il numero di riga in cui si trova ogni occorrenza, tipo:"
+				@ECHO. "TROVA LE OCCORRENZE CHE INIZIANO CON  <<COMP>> IN TUTTI I FILE DELLA DIRECTORY CORRENTE"
+				@ECHO.
+				findstr /s /i /m "\<comp.*" *.*
+
+				PAUSE
+
+
+
+
 	FORFILES
 		Aggiornamento: aprile 2007 
 			Si Applica a: Windows Server 2008, Windows Vista 
@@ -287,3 +497,325 @@ X
 	XCOPY
 		comando di copia nuovo. Per un esempio di digitare questo codice di ricerca:
 			@XCOPY_(Nota comandi dos)
+
+
+
+FAQ_DOS
+
+	CONTROLLO DISCO
+		@dos@controllo@disco_(Come controllare l'esistenza di un disco)
+
+
+			@ECHO OFF
+			@REM.-- Prepare the Command Processor
+			@REM SETLOCAL ENABLEEXTENSIONS
+			@REM SETLOCAL ENABLEDELAYEDEXPANSION
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------	
+			@REM		MODALITA DI ARCHIVIAZIONE E NOTE
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------	
+			@REM n.b se non vengono indicate la directory di partenza non vengono trovati i dati da archiviare
+			@REM n.b se non  viene indicata la directory di arrivo i dati vengono archiviati nella directory winrar
+
+			@REM parametri directory di partenza	directory di arrivo  parametri  + lista parametri 
+			@REM a -r -U   c:\GESTIONI\SALVATAGGI\brs\file.rar	c:\GESTIONI\SALVATAGGI\brs\         -n           A03_Salvataggi_BRS_LISTA_01_TUTTO.lst
+
+
+			@REM  PARAMETRI OPZIONI:
+			@REM  Opzione -x Estrae file e cartelle con il percorso originale. 
+			@REM  Opzione -r considera le sottocartelle (processa gli archivi delle sottocartelle)
+			@REM  Opzione -u Estrai solo i nuovi
+			@REM  Opzione -y Assumi la risposta 'Si' a tutte le domande
+
+
+
+			@REM ------------ ESEMPIO CON WINRAR --------------------
+			@REM ma deve essere correttamente settato altrimenti da errore nella ricerca del
+			@REM file lista.lst perche i comandi dos di rar non riconoscono la path ed il file dove risiede
+			@REM lista.lst. In alternativa salvare nella direttory gli eseguibili rar.exe e unrar.exe ed
+			@REM utilizzare i comandi dos.
+			@REM WinRAR.lnk a -r -U c:\GESTIONI\SALVATAGGI\provaLista -n@lista.lst
+
+
+			@REM ------------ ESEMPIO CON I COMANDI DOS CON RAR.EXE ED UNRAR.EXE ------------------------------
+			@REM alternativo a winrar che non è settato correttamente. Utilizzare gli eseguibili rar.exe e unrar.exe
+
+			@REM rar.exe a -r -U c:\GESTIONI\SALVATAGGI\provaLista -n@lista.lst
+
+			@REM ------------- ESEMPIO LISTA.LST -----------------------------
+			@REM salvataggio dei file *.mdb + *.xls nella sottodirectory brs
+			@REM brs\*.mdb 
+			@REM brs\*.xls
+
+
+			@REM  ***************************************************************
+			@REM  Utilizzo alternativo di varie estrazioni che viene eseguita quella
+			@REM  con il disco esterno lexar attivo : es. se è attivo il disco g viene
+			@REM  effettuata la procedura di estrazione LEXAR_G mentre viene saltata la LEXAR_G
+
+
+			@REM//ESTRAI PARZIALI SOLO ARCHIVI TRIBUTI DISCO LEXAR_G
+			@REM Unrar.exe x -y -r -U G:\GESTIONI\SALVATAGGI\A01_01_N03_Salvataggi_del_Menu_Principale.rar *.* 
+
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------	
+			@REM		MODALITA DI ARCHIVIAZIONE E NOTE *** FINE ***
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------	
+
+
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------	
+			@:DISCO_LEXAR_E
+
+
+			@IF ERRORLEVEL 1 (GOTO ERRORE_DISCO_E)
+			@DIR E:
+
+			@:ERRORE_DISCO_E
+
+			echo.
+			echo.
+			echo."=================================================================="
+			echo."				MSG_ERRORE_LEXAR_E:"
+			echo.
+			echo."---------------> "ERRORE DISCO_E VADO AL DISCO_G" "			
+			echo.
+			echo.
+			echo."=================================================================="
+
+			@REM Ritardo per /T:2 secondi
+			@choice /C:X /N /T:2 /D:X > NUL
+
+			GOTO DISCO_LEXAR_G
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------
+
+			@:DISCO_LEXAR_G
+
+
+			@IF ERRORLEVEL 2 (GOTO ERRORE_DISCO_G)
+			@DIR G:
+
+			@:ERRORE_DISCO_G
+			echo.
+			echo.
+			echo."=================================================================="
+			echo."				MSG_ERRORE_LEXAR_G:"
+			echo.
+			echo."---------------> "ERRORE DISCO_G VADO AL DISCO_I" "			
+			echo.
+			echo.
+			echo."=================================================================="
+
+			@REM Ritardo per /T:2 secondi
+			@choice /C:X /N /T:2 /D:X > NUL
+			GOTO DISCO_LEXAR_I
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------
+			@:DISCO_LEXAR_I
+
+			@IF ERRORLEVEL 3 (GOTO ERRORE_DISCO_I)
+			@DIR I:
+
+			echo.
+			echo.
+			echo."******************************************************************"
+			echo."				MSG_LEXAR_I:"
+			echo.
+			echo.">>>>>>>>>>>>>>>> "ESISTE_DISCO_I" "			
+			echo.
+			echo. "FINE PROCEDURA"
+			echo.
+			echo."******************************************************************"
+
+			@REM Ritardo per /T:2 secondi
+			@choice /C:X /N /T:2 /D:X > NUL
+			@REM USCITA BATCH
+			EXIT /W
+
+			@:ERRORE_DISCO_I
+
+
+			echo.
+			echo."=================================================================="
+			echo."				MSG_ERRORE_LEXAR_G:"
+			echo.
+			echo."---------------> "ERRORE DISCO_G VADO AL DISCO_I" "			
+			echo.
+			echo."	FINE DEI CONTROLLI - DISCO LEXAR NON TROVATO CONTROLLARE	"
+			echo.
+			echo."=================================================================="
+
+			@REM Ritardo per /T:2 secondi
+			@choice /C:X /N /T:2 /D:X > NUL
+
+			@REM Uscita dalla procedura batch
+			EXIT /B
+				
+
+			@REM ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+	CONTROLLO_DRIVER
+	
+		@dos@driver@query_(scrivere l'elenco dei driver su csv)
+			faccio l'elenco dei driver e si salvo su un .csv
+				driverquery /fo CSV > drivers.csv
+		@dos@driver@query_(definizione del comando DriverQuery)
+
+			Driverquery
+			Il comando driverquery genera un elenco di tutti i driver hardware installati in Windows.
+			Questo è utile per salvare la lista in un foglio stampabile.
+			Come al solito, ci sono delle opzioni:
+				driverquery /S 
+						consente di specificare il nome o l'indirizzo IP di un computer remoto in modo da indagare sui driver installati.
+				driverquery /SI 
+						mostra le informazioni di firma digitale per i driver.
+				driverquery /fo 
+					consente di specificare il formato in cui vengono visualizzate le informazioni in modo da poterle salvare in una tabella.
+
+				Dopo avere digitando 
+					/fo aggiungere 
+					TABLE per salvare la lista in una tabella, 
+					LIST per un elenco e 
+					CSV per visualizzare i dati come valori separati da virgola.
+			Alla fine, aggiungere un simbolo > seguito dal nome del file in cui salvare la lista.
+
+				Ad esempio: driverquery /fo CSV > drivers.csv
+		@dos@controllo@driver_(come individuare i driver presenti sul sistema)
+
+				@ECHO OFF
+				REM.-- Prepare the Command Processor
+				REM SETLOCAL ENABLEEXTENSIONS
+				REM SETLOCAL ENABLEDELAYEDEXPANSION
+
+				REM  ***************************************************************
+				rem     file batch : Salvataggio.rar
+				REM     directory = c:\Casa\LEGGI\PAUS
+				rem     file WinRAR
+
+
+				rem  Opzione -x Estrae file e cartelle con il percorso originale. 
+				rem  Opzione -r considera le sottocartelle (processa gli archivi delle sottocartelle)
+				rem  Opzione -u Estrai solo i nuovi
+				REM  ***************************************************************
+
+
+
+
+
+				@REM 					LE SOSTITUZIONI GENERALI
+				@REM @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+				@REM  		Disco e codice Disco
+				@REM .......................................................
+				@REM -----> 	Y:
+				@REM -----> 	_I
+				@REM ----->	DISCO_Y_LLPP
+				@REM .......................................................
+
+
+				@REM		directory y dove archiviare i dati
+				@REM .......................................................
+				@REM ----->	Y:\Valter\Scanner\Backup\BackUp_TRIBUTI_LOCALI\
+				@REM .......................................................
+
+
+
+				@REM 		Il file di archivio dei dati
+				@REM .......................................................
+				@REM ----->	TRIBUTI_LOCALI_C01_S01_S01_S01_03_Archivi.*
+
+				@REM .......................................................
+
+				@REM 					LE SOSTITUZIONI GENERALI *** FINE ***
+				@REM @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+				@REM 				ELIMINA_DUE_CARATTERI_DAL_NOME
+				@REM //**********************************************************************************************************************
+					
+				@:ELIMINA_DUE_CARATTERI_DAL_NOME
+						
+				ECHO OFF
+						@REM IF SALVATAGGI SU ELIMINA_DUE_CARATTERI_DAL_NOME	
+						@REM=================================================================================================
+						@REM NOTE : Elimina due caratteri dal nome.
+						@REM	    controllo if.
+
+						
+							@REM 01) If exist E: = SE ESISTE IL FILE.RAR AGGIORNA QUELLO ESISTENTE
+							@REM --------------------------------------------------------------------------------------
+								
+								@rem  Consente a un amministratore di visualizzare un elenco dei 
+				    				@rem driver di dispositivo installati.	
+
+								 DRIVERQUERY 
+								
+								pause
+								
+								@REM fine procedura
+								:eof
+								
+									@REM Ritardo per 3 secondi
+									@choice /C:X /N /T:3 /D:X > NUL
+									EXIT
+
+								 @REM ----> PAUSE
+								 
+								 
+								
+							@REM 01) If exist E: = SE ESISTE IL FILE.RAR AGGIORNA QUELLO ESISTENTE  *** FINE ***
+							@REM --------------------------------------------------------------------------------------
+							
+							
+
+							
+							
+
+
+						@REM ELIMINA_DUE_CARATTERI_DAL_NOME	*** FINE ***
+						@REM=================================================================================================
+
+
+
+
+				@:ERR_ELIMINA_DUE_CARATTERI_DAL_NOME
+
+					echo.
+					echo."=================================================================="
+					echo."			MSG - ERR_ELIMINA_DUE_CARATTERI_DAL_NOME "
+					echo.
+					echo."ATTENZIONE '!!!' NON ESISTE ELIMINA_DUE_CARATTERI_DAL_NOME - USCITA - "			
+					echo."=================================================================="
+					
+					@REM Ritardo per 3 secondi
+					@choice /C:X /N /T:3 /D:X > NUL
+
+
+					@REM RESTITUISCE AL CHIAMANTE
+					
+
+
+				@REM 				ELIMINA_DUE_CARATTERI_DAL_NOME		*** FINE ***
+				@REM //**********************************************************************************************************************
+
+	COME_ESEGUIRE_COMANDI_IN_LINEA
+		@dos@comandi@multipli_(come eseguire in dos dei comandi multipli sulla stessa linea di comando)
+			Per eseguire due comandi insieme nella stessa riga, basta separarli con && .
+			Quello a sinistra delle E commerciali viene eseguito prima, l'altro subito dopo senza chiedere conferma.
+				in dos scrivere:
+
+				DIR *.TXT && DIR *.BAT
+
+
