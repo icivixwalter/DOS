@@ -1,4 +1,7 @@
 NOTE_DOS
+				@git@salvataggio@progetto_(comandi git per il @salvataggio@rapido)
+
+
 					@dove@si@trova.il.DOS_(questo è il file dei comandi DOS)
 					@dove@si@trova@DOS@Comand@tutti_(tutti i comandi del DOS)
 					@dove@si@trova@DOS@Cmd@Comandi.tutti_(file di tutti  i comandi del DOS)
@@ -22,6 +25,12 @@ NOTE_DOS
 						@dos@note_@esempi_(esempi in dos dei commenti con REM, : e segnalibro)		
 		@:note
 
+
+		Il tutorial di dos si trova sul web in questa pagina:
+			@dos@tutorial@web_(Il tutorial web del DOS si trova in questo indirizzo https:
+					https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/forfiles)
+
+
 A
 B
 C
@@ -33,7 +42,7 @@ F
 			Seleziona ed esegue un comando su un file o un insieme di file. Questo comando è utile per l'elaborazione batch. 
 			Per alcuni esempi di come usare questo comando, vedere gli esempi . 
 				@FORFILES@CMD.DOS_(Comando ForFile + sintassi + parametri)+@Sintassi
-
+					
 		Sintassi 
  			forfiles [/ p <Percorso>] [/ m <SearchMask>] [/ s] [/ c "<Command>"] [/ d [{+ | -}] [{<data> | <Giorni>}]]
 		
@@ -113,17 +122,12 @@ F
 	 				@apri@pulizie@condominio.LaQuercia_(Dos apro tutti i file delle pulizie cdm ForFile)
 	 				@Esempi@FORFILES.sintassi_(sintassi e ricerca file collettivi)
 
-
- 			SintassiForFile
-
-				@REM //NOTE DI FUNZIONAMENTO
-				@REM //============================================================================//
-				@REM APRE TUTTI I FILE  @APERTURA@COLLETTIVA@PULIZIE@CONDOMINIO_(apro tutti i file delle pulizie del condominio esempio con ForFile)
+			@ForFiles@Esempi.1_APRI_LaQuercia_(Apri la quercia)
+ 				SintassiForFiles
+					@REM //NOTE DI FUNZIONAMENTO
+					@REM //============================================================================//
+					@REM APRE TUTTI I FILE  @APERTURA@COLLETTIVA@PULIZIE@CONDOMINIO_(apro tutti i file delle pulizie del condominio esempio con ForFile)
 				@REM @APRI@GRUPPO@FILE_(esempio dos di apertura collettiva tutte le pulizie del condominio)
-
-
-
-
 
 				echo off
 				@REM  ************************************************************************************************************************
@@ -231,7 +235,44 @@ F
 
 				@REM -> pause
 
+			@ForFiles@Esempi.2_APRI_Vittoria_(apro con maschera /M  + file)
+					/s=sottodirectory /M=il file mdb /p=la path
+				 FORFILES /S /M VITTORIA_770_GE_NUOVO.mdb /P c:\CASA\CDM\Vittoria\770_2022_2021\ /C "cmd /c START call @file"
 
+			@ForFiles@Esempi.3_APRI_Mdb_( prima /P=con path +/S +/M =specifico il "file"
+					SintassiForFiles
+						FORFILES /S /M "c:\CASA\CDM\Vittoria\770_2022_2021\VITTORIA_770_GE_NUOVO.mdb" /C "cmd /c START call @file"
+					FORFILES /S /M "COMANDI_DOS_TUTTI.MD" /C "cmd /c START call @file" &^EXIT
+					
+					@REM parametri =  S/ = RICERCA RICORSIVA NELLE sottodirectory
+					@REM parametri =  M/ = Maschera di ricerca base  *.*
+					@REM parametri =  P/ = percorso di ricerca defualt se non indicato la directory corrente
+					@REM parametri =  C/ = esegui il comando per ogni file 
+					@REM attenzione & commerciale non consentita , la path /P = c:\tmp senza virgolette ""
+					@REM @forfiles@path_(forfile ricerca nella path ma non devi inserire le virgolette)
+					
+					FORFILES /P c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\ /S /M "GE_MODELLI_DbBase.mdb" /C "cmd /c START call @file"
+
+			@ForFiles@Esempi.4_(Elencare le directory nell'unita corrente)
+				SintassiForFiles
+					Qui fai la ricerca delle directory e stampi a video
+
+					forfiles /P c:\CASA\LINGUAGGI\DOS\ /S /M * /C "cmd /c if @isdir==TRUE echo @file is a directory"
+
+			@ForFiles@Esempi.5_(Elenca i file batch della directory corrente)	
+					tutti i file .bat
+					forfiles /P c:\ /S /M *.bat /C "cmd /c echo @file is a batch file"
+
+			@ForFiles@Esempi.6_(Elenca i file data + di 3 gg nella directory corrente @elenco@file@old)	
+
+					Per elencare tutti i file nella directory corrente che sono almeno un anno fa, digitare:
+
+					forfiles /S /M *.* /D -0 /C "cmd /c echo @file is at least one year old."
+
+			@ForFiles@Esempi.7_(@Elenco@formato@colonna)	
+					Per elencare le estensioni di tutti i file nella directory corrente nel formato di colonna e aggiungere una scheda prima dell'estensione, digitare:
+					
+					forfiles /S /M *.* /C "cmd /c echo The extension of @file is 0x09@ext"
 
 X
 	XCOPY
