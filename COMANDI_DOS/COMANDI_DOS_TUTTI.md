@@ -1,6 +1,15 @@
 NOTE_DOS
 				@git@salvataggio@progetto_(comandi git per il @salvataggio@rapido)
 
+					git add.
+					git commit -m"agg"
+					git push
+
+				@git@salvataggio@progetto_(salvataggio rapido con comandi git concatenati con &&)
+					
+					git add . && git commit -m "agg dos" && git push
+
+
 
 					@dove@si@trova.il.DOS_(questo è il file dei comandi DOS)
 					@dove@si@trova@DOS@Comand@tutti_(tutti i comandi del DOS)
