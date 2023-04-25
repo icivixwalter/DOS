@@ -29,12 +29,83 @@ NOTE_DOS
 		Il tutorial di dos si trova sul web in questa pagina:
 			@dos@tutorial@web_(Il tutorial web del DOS si trova in questo indirizzo https:
 					https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/forfiles)
+		TUTORIAL IN PDF
+			https://pages.di.unipi.it/milazzo/teaching/AA1314-ProgJava/extra/DOS.pdf
 
 
 A
 B
 C
 D
+	DIR
+		
+		SINTASSI
+					@DIR@sintassi_(Comandi dor tutta la sintassi di DIR)
+
+				Visualizza l'elenco dei file e delle sottodirectory in una directory
+			DIR [unità:][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] 
+				[/S] [/B] [/L] [/V]
+
+				Parametri
+				unità:   Specifica l’unità di cui si desidera visualizzare l’elenco.
+				percorso Specifica la directory di cui si desidera visualizzare l’elenco.
+				nomefile Specifica il file o il gruppo di file di cui si desidera visualizzare
+				l’elenco.
+
+		OPZIONI
+			/P 		Visualizza l’elenco una schermata per volta. Per passare alla schermata
+					successiva, è sufficiente premere un tasto.
+			/W 		Visualizza l’elenco in formato ampio, elencando fino a cinque file 
+					o directory per riga.
+			/O 		Elenca i file secondo un ordinamento specificato
+				ordinamento :
+							N Per nome (alfabetico).
+							S Per dimensione (dal più piccolo).
+							E Per estensione (alfabetico).
+							D Per data e ora (dal più recente).
+							G Directory prima dei file. Prefisso “-“ per invertire
+							l’ordine.
+
+			/S Visualizza i file nella directory specificata e in tutte le sottodirectory.
+			
+			/B Usa il formato semplice (solo nomi, senza intestazioni).
+			
+			/L Usa le lettere minuscole.
+			
+			/V Visualizzazione completa
+
+				Le opzioni possono essere preimpostate nella variabile d’ambiente DIRCMD
+
+		PARAMETRI DIR
+			In questa tabella ti elenco quali sono e a cosa servono.
+			/A	Visualizza i file con gli attributi specificati ( 
+				D per le directory, 
+				R per i file di sola lettura, H per i file nascosti, 
+				A per i file di archivio, 
+				S per i file di sistema, 
+				I per i file non indicizzati, 
+				L per i Reparse point, - per negare l'attributo).
+			/B Visualizza l'elenco senza intestazioni e informazioni di riepilogo.
+			/C Visualizza il separatore delle migliaia nella dimensione dei files.
+			/D Visualizza l'elenco in formato ampio con i file ordinati per colonna.
+			/L Visualizza la lista con caratteri minuscoli.
+			/N Visualizza la lisa in un formato lungo con i nomi dei file a destra.
+			/O Elenca i files ordinandoli per nome in ordine alfabetico ( N ) 
+				per le dimensioni a partire dal minore (S), per l'estensione (E), per la data a partire
+				dal più vecchio (D), raggruppando le directory (G). 
+				Il simbolo - davanti al parametro inverte l'ordine.
+			/P Mostra l'elenco dividendoli in schermate successive.
+			/Q Visualizza il proprietario dei files.
+			/R Visualizza i flussi di dati alternativi del file.
+			/S Visualizza anche l'elenco dei files nelle sottodirectory.
+			/T Visualizza l'elenco in ordine di data di creazione (C), 
+				ultimo accesso (A), ultima scrittura (W).
+			/W Visualizza in formato ampio
+			/X Mostra i nomi brevi generati dai nomi in formato lungo.
+			/4 Mostra l'anno in formato a 4 cifre
+
+	
+
 F 
 	FIND
 				@dos@find_(comando Finds)
