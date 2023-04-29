@@ -28,8 +28,8 @@ ECHO
 git push
 
 
-@rem pausa di 5 secondi per il controllo
+@rem pausa di  secondi per il controllo
 ECHO
 
-ECHO pausa di 5 secondi per il controllo
-@TIMEOUT /T 5 /NOBREAK
+ECHO pausa di 3 secondi per il controllo
+@TIMEOUT /T 3 /NOBREAK
