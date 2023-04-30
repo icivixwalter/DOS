@@ -32,6 +32,9 @@ NOTE_DOS
 		TUTORIAL IN PDF
 			https://pages.di.unipi.it/milazzo/teaching/AA1314-ProgJava/extra/DOS.pdf
 
+		TUTORIAL DEI COMANDI DOS
+			https://comandi-dos-e-altro.jimdofree.com/i-comandi-dos/
+
 
 A
 B
@@ -103,8 +106,23 @@ D
 			/W Visualizza in formato ampio
 			/X Mostra i nomi brevi generati dai nomi in formato lungo.
 			/4 Mostra l'anno in formato a 4 cifre
+	DATE
+		date
+			Note
+				Per visualizzare la data senza modifica
+					date /t
+				Per impostare una nuova data, digitare “DATE” seguito dalla nuova data nel formato gg/mm/aa e premere INVIO.
+						@dos@date_(Comando DATE: come visualizzare una data o impostare una nuova data)
 
-	
+				echo %DATE% %TIME% 
+						@Time_( @ora@corrente: visualizza la data e time corrente)
+
+						@data_(con forfile visualizzo la data e il time del file)
+
+						forfiles /P C:\ /S /M week.bat /C "cmd /c echo @fdate @ftime	
+						forfiles /P c:\CASA\LINGUAGGI\DOS\DATE_DOS\ /S /M week.bat /C "cmd /c echo @fdate @ftime
+
+
 
 F 
 	FIND
@@ -327,6 +345,7 @@ F
 
 
 	FORFILES
+
 		Aggiornamento: aprile 2007 
 			Si Applica a: Windows Server 2008, Windows Vista 
 			Seleziona ed esegue un comando su un file o un insieme di file. Questo comando è utile per l'elaborazione batch. 
@@ -393,15 +412,33 @@ F
 
 				Esempi 
 						Per elencare tutti i file batch sull'unità C, digitare: 
-						forfiles / pc: \ / s / m * .bat / c "cmd / c eco @file è un file batch"
-						Per elencare tutte le directory sull'unità C, digitare: 
-						 forfiles / pc:. \ / s / m * * / c "cmd / c se @ isdir == true eco @file è una directory"
-						Per elencare tutti i file nella directory corrente che sono almeno un anno di età, tipo: 
-						 forfiles / s / m *. * / D -365 / C "cmd / c eco @file è di almeno un anno di età."
-						Per visualizzare il testo "File è obsoleto" per ognuno dei file nella directory corrente che sono più vecchi di 1 ° gennaio 2007, digitare: 
-						 forfiles / s / m *. * / D -01/01/2007 / c "cmd / c eco @file è obsoleto." 
-						Per elencare le estensioni di file di tutti i file nella directory corrente in formato colonna e aggiungere una scheda prima dell'estensione, tipo: 
-						 forfiles / s / m *. * / c "cmd / c eco L'estensione della @file è 0x09 @ ext" 
+							forfiles /P c:\ /S /M *.bat /C "cmd /c echo @file is a batch file"
+
+
+						
+						Per elencare tutte le directory sull'unità C, digitare:
+						forfiles /P c:\ /S /M * /C "cmd /c if @isdir==TRUE echo @file is a directory"
+
+						Per elencare tutti i file nella directory corrente che sono almeno un GIORNO, digitare:
+
+							forfiles /S /M *.* /D -1 /C "cmd /c echo @file is at least one year old."
+
+						Per elencare tutti i file nella directory corrente che sono almeno un anno fa, digitare:
+							forfiles /S /M *.* /D -365 /C "cmd /c echo @file is at least one year old."
+
+
+						Per visualizzare il file di testo non aggiornato per ogni file nella directory corrente precedente al 1° gennaio 2007, digitare:
+
+						forfiles /S /M *.* /D -01/01/2007 /C "cmd /c echo @file is outdated."
+
+						Per elencare le estensioni di file di tutti i file nella directory corrente in formato
+						 colonna e aggiungere una scheda prima dell'estensione, tipo: 
+						
+						 forfiles /S /M *.* /C "cmd /c echo The extension of @file is 0x09@ext"
+
+
+						 es.
+						 forfiles /P "c:\CASA\LINGUAGGI\DOS\" /S /M *.* /C "cmd /c echo @fdate @fdate"
 
 
 					 
@@ -563,6 +600,11 @@ F
 					Per elencare le estensioni di tutti i file nella directory corrente nel formato di colonna e aggiungere una scheda prima dell'estensione, digitare:
 					
 					forfiles /S /M *.* /C "cmd /c echo The extension of @file is 0x09@ext"
+
+T
+	timeout /t 8 /nobreak 
+		@timeout_(sospensione tempo  )
+		@sospensione@time_(Qui si trova un esempio sospensione del tempo in dos)
 
 X
 	XCOPY
