@@ -218,6 +218,74 @@ COMANDI_DOS_TUTTI_GLI_ESEMPI.MD
 
 
 
+	@ESEMPI@FORFILE
+			Nota
+				Esempio di forfiles che stampa solo i nomi, attenzione utilizza %f perche su linea
+				di comando altrimenti su bat deve essere %%f
+					esempi qui: https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/forfiles
+
+				@FNAME	Nome file senza estensione.
+					//@FORFILES_@Stampa@NOME@FILE_(ES.1 di ForFile che stampa solo i nomi dei file senza directory ed estensione)
+					//utilizzo di for file nella directory corrente che utilizza /m = maschera tutti i file
+					// /c = comando e cmd/c eho @fname = stampa SOLO IL NOME DEI FILE
+					forfiles /m *.* /c "cmd /c echo Nome file senza estensione: @fname"
+
+				@FILE	Nome file.
+					@forfiles@estensione_(es.2 forfile con estesione del file ma senza directory )
+					forfiles /m *.* /c "cmd /c echo nome con estensione: @file"
+
+				@EXT	Estensione di file.
+					@forfiles@solo@estensione_(es.3 solo estensione del file )
+					forfiles /m *.* /c "cmd /c echo solo l'estensione: @EXT"
+
+				@PATH	Percorso completo del file.
+					@forfiles@path+file_(es.4 path+file )
+					forfiles /m *.* /c "cmd /c echo solo la path: @PATH"
+
+				@RELPATH	Percorso relativo del file.
+					@forfiles@percorso@relativo+file_(es.6 percorso relativo+file )
+					forfiles /m *.* /c "cmd /c echo percorso relativo: @RELPATH"
+
+				@ISDIR	è una directory
+					Restituisce TRUE se un tipo di file è una directory. In caso contrario, questa variabile restituisce FALSE.
+
+					@forfiles@directory_(es.7 è una directory )
+					forfiles /m *.* /c "cmd /c echo indica se è un file=FALSE o una directory=TRUE: @ISDIR"
+
+				@FSIZE	Dimensione del file in byte.
+					@forfiles@dimensione@file_(es.9 individua la dimensione del file )
+					forfiles /m *.* /c "cmd /c echo dimensione del file = @FSIZE"
+
+				@FDATE	Data ultima modifica al file.
+					@forfiles@modifica@file_(es.10 data dell'ultima modifica del file)
+					forfiles /m *.* /c "cmd /c echo la data dell'ultima modifica del file = @FDATE"
+
+
+				@FTIME	Ora ultima modifica al file.
+					@forfiles@ORA@modifica@file_(es.11 ORA dell'ultima modifica del file)
+					forfiles /m *.* /c "cmd /c echo ORA dell'ultima modifica del file = @FTIME"
+
+				/D DATA RELATIVO O ASSOLUTA
+					/D [{+\|-}][{<date> | <days>}]
+						@forfiles@VECCHI@_(es.12 seleziona i file vecchi di 3 gg)
+						forfiles /D -3 /C "cmd /c echo @file estrae i file con data di modifica: @fdate  vecchia di -3 gg"
+
+						@forfiles@modifica@+data_(es.12 file con data di modifica > 30.04.2023)
+						forfiles /S /M *.* /D +30/04/2023 /C "cmd /c echo @file file con data di modifica dopo = @fdate"
+
+						@forfiles@modifica@-data_(es.13 file con data di modifica < 30.04.2023)
+						forfiles /S /M *.* /D -30/04/2023 /C "cmd /c echo @file file con data di modifica dopo = @fdate"
+
+						@forfiles@modifica@-data_(es.13 file con data di modifica < 30.04.2023)
+						forfiles /S /M *.* /D -1 /C "cmd /c echo @file file con data di modifica prima di 1 giorno = @fdate"
+
+						
+						forfiles /S /M *.* /D -27/04/2023 /C "cmd /c echo @file con il parametro /d -27/04/2023 estrae il file con data di modifica prima o uguale al giorno = @fdate"
+
+
+
+
+
 
 	@ESEMPI@BAT_INCREMENTALE
 		Note:
@@ -669,4 +737,31 @@ COMANDI_DOS_TUTTI_GLI_ESEMPI.MD
 
 		@REM	USCITA FINALE CON SOSPENSIONE *** FINE ***
 		@REM ======================================================================================================================
+
+
+
+
+esempio controlla data
+
+for %%c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*)
+
+
+for %%c in (c:\*.*) do (echo "%%c" %~tc)
+for %c in (c:\) do (echo "%c" %~tc)
+for %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo "%c")
+for %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo "%c"@FNAME)
+
+forFILES %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo %C@FNAME)
+
+forfiles /p c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.* /m *.* /c "cmd /c echo @fname"
+
+
+
+//@FORFILES_@Stampa@NOME@FILE_(ES. di ForFile che stampa solo i nomi dei file senza directory)
+//utilizzo di for file nella directory corrente che utilizza /m = maschera tutti i file
+// /c = comando e cmd/c eho @fname = stampa SOLO IL NOME DEI FILE
+
+@forfiles@percorso@relativo+file_(es.6 percorso relativo+file )
+forfiles /m *.* /c "cmd /c echo percorso relativo: @RELPATH"
+
 

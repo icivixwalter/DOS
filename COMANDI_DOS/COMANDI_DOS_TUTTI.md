@@ -347,6 +347,8 @@ F
 	FORFILES
 
 		Aggiornamento: aprile 2007 
+			Il comando forfiles consente di eseguire un comando su o passare argomenti a più file. Ad esempio, è possibile eseguire il tipo comando su tutti i file in una struttura ad albero con l’estensione del nome file con estensione txt.
+			
 			Si Applica a: Windows Server 2008, Windows Vista 
 			Seleziona ed esegue un comando su un file o un insieme di file. Questo comando è utile per l'elaborazione batch. 
 			Per alcuni esempi di come usare questo comando, vedere gli esempi . 
@@ -382,9 +384,10 @@ F
 
 				@FILE 				Nome del file. 
 				@FNAME  			nome del file senza estensione. 
-				@EXT 					Estensione nome file. 
-				@IL PERCORSO  Percorso completo del file. 
-				@RELPATH 			Restituisce true se un tipo di file è una directory. In caso contrario, questa variabile restituisce FALSE. 
+				@EXT 				Estensione nome file. 
+				@IL 				PERCORSO  Percorso completo del file. 
+				@RELPATH 			Restituisce true se un tipo di file è una directory. In caso contrario, 
+									questa variabile restituisce FALSE. 
 				@FSIZE 				dimensione del file, in byte. 
 				@FDATE 				Ultima modifica timbro data sul file. 
 				@FTIME 				Ultima modifica di data e ora sul file. 
