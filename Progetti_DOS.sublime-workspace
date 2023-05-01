@@ -63,18 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/c/CASA/LINGUAGGI/DOS/DATE_DOS/Calendar.bat",
-			"settings":
-			{
-				"buffer_size": 7510,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -214,6 +202,9 @@
 	},
 	"expanded_folders":
 	[
+		"/c/CASA/LINGUAGGI/DOS",
+		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI"
 	],
 	"file_history":
 	[
@@ -366,6 +357,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@sospensione@time_(esempio sospensione del tempo in dos)",
 			"for %c in (c:\\) do (echo \"%c\" %~tc)",
 			"@date",
 			"@impostare",
@@ -439,38 +431,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/c/CASA/LINGUAGGI/DOS/DATE_DOS/Calendar.bat",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 7510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
