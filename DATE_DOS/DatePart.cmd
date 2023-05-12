@@ -8,6 +8,7 @@ IF NOT "%OS%"=="Windows_NT" GOTO Syntax
 IF     "%~1"=="" GOTO Syntax
 IF NOT "%~2"=="" GOTO Syntax
 
+
 :: Check if help is required
 ECHO.%1 | FINDSTR.EXE /R /C:"[/?\.]" >NUL && GOTO Syntax
 
@@ -179,3 +180,6 @@ ECHO          DST check will only work if PHP is installed.
 ECHO.
 ECHO Written by Rob van der Woude
 ECHO http://www.robvanderwoude.com
+
+
+pause

@@ -38,3 +38,15 @@ ECHO.
 ECHO Written by Rob van der Woude
 ECHO http://www.robvanderwoude.com
 IF "%OS%"=="Windows_NT" ENDLOCAL
+
+pause
+
+
+GOTO Nota_DATEPARTE
+
+	@data@parziale_(come costruire una data parziale)
+
+	@data@settimane_(w = settimane come numero) 
+
+
+:Nota_DATEPARTE

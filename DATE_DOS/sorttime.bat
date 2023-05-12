@@ -33,3 +33,5 @@ ECHO It's %TIME% now
 :: Thanks for Holger Stein who mailed me this correction (add leading zero):
 IF %SORTTIME% LSS 1000 SET SORTTIME=0%SORTTIME%
 ECHO For sorting purposes: %SORTTIME%
+
+pause
