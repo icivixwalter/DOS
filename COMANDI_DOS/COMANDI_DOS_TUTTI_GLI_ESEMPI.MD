@@ -738,30 +738,116 @@ COMANDI_DOS_TUTTI_GLI_ESEMPI.MD
 		@REM	USCITA FINALE CON SOSPENSIONE *** FINE ***
 		@REM ======================================================================================================================
 
+	@ESEMPIO@TOTALCOMMADER_(Apro total commander)
+		C:\CASA\PROGRAMMI\TOTALCMD_64\TOTALCMD64.EXE left: c:\CASA\LTT\ANALISI\SUBLIME_TEXT_ANALISI\, right: c:\CASA\LTT\
+			
+				@apro@total@commander_(apro total commander left e right)
+
+			goto Commands_line_parameters
+				
+				TOTAL COMMADER I PARAMETI DEI COMANDI IN LINEA
+				
+				
+						Command line parameters
+						
+						N.B per la ricerca sull'help di tc digitare ricerca libera e scrivere:
+							command
+				 
+
+				Total Commander può essere chiamato con una o due directory come parametri della riga di comando. 
+				Questo imposterà queste directory in una o entrambe le finestre dei file. Ciò ti consente di creare 
+				più icone per Total Commander in progman o nel menu di avvio, che avviano Total Commander in
+				directory diverse o anche con file compressi. Inoltre, è possibile specificare un file ini diverso
+				da quello predefinito wincmd.ini per consentire a più utenti sulla stessa macchina di avere impostazioni diverse in Total Commander.
+
+			syntax
+				totalcmd.exe [/o] [/n] [Drive1:\Directory1 [Drive2:\Directory2]] [/i=name.ini] [/f=ftpname.ini]
+				o
+				totalcmd.exe [/o] [/n] [/L=Drive1:\Directory1] [/R=Drive2:\Directory2] [/i=name.ini] [/f=ftpname.ini]
+
+			parameters
+				
+
+
+				
+			Drive:\Directory 	
+				Carica la prima directory passata a Total Commander nella finestra di sinistra e la seconda nella finestra di destra. I nomi delle directory contenenti spazi devono essere inseriti tra virgolette! Specificare sempre il nome completo del percorso, inclusa l'unità! Per aprire una connessione FTP memorizzata, utilizzare FTPOPEN: nome_ftp_memorizzato come percorso
+
+			/O 
+				Se Total Commander è già in esecuzione, attivalo e passa i percorsi nella riga di comando a quell'istanza (sostituisce le impostazioni nella finestra di dialogo di configurazione per avere più finestre)
+
+
+
+			/N 
+				Apre in ogni caso una nuova finestra di Total Commander (sovrascrive le impostazioni nella finestra di configurazione per consentire solo una copia di Total Commander alla volta)
+
+			/L
+				= Set path in left window
+			/R
+				= Set path right window
+
+			/A
+				Quando un file di archivio viene passato come percorso, non aprirlo, ma aprire invece la directory contenente l'archivio e impostare l'archivio come file attivo (posizionare il cursore del testo su di esso)
+
+			/S
+				Interpreta le directory passate come origine/destinazione anziché sinistra/destra (per l'utilizzo con /O). Ad esempio, una directory passata con /R= verrà interpretata come directory di destinazione
+
+			/C
+				Avvia "Confronta per contenuto" senza la finestra principale di TC, ad es. totalcmd.exe /S=C c:\file1 d:\file2
+
+
+			/S=F 
+
+					Aprire la finestra di dialogo "Trova file" senza la finestra principale di TC, ad es. totalcmd.exe /S=F "c:\percorso iniziale"
+					Accetta parametri aggiuntivi separati da due punti, ad es. /S=F:S1Lnome
+					S Ordina i risultati per: 1=nome, 2=interno, 3=dimensione, 4=data/ora. Valore negativo per ordine decrescente
+					L<x> Come ULTIMO parametro: carica la ricerca con il nome <x>, ad es. "/S=F:Lmax 1 giorno fa"
+
+			/S=L 
+					Aprire la finestra di dialogo "Trova file" senza la finestra principale di TC, ad es. totalcmd.exe /S=F "c:\percorso iniziale"
+					Accetta parametri aggiuntivi separati da due punti, ad es. /S=F:S1Lnome
+					S Ordina i risultati per: 1=nome, 2=interno, 3=dimensione, 4=data/ora. Valore negativo per ordine decrescente
+					L<x> Come ULTIMO parametro: carica la ricerca con il nome <x>, ad es. "/S=F:Lmax 1 giorno fa"
+
+			/S=P:PORT 
+					.... DA FINIRE TODO:DA FARE
+					....
+
+			Examples:
+					@esempi
+					
+					totalcmd.exe c:\windows left window is loaded with c:\windows  			= apre solo il destro 
+					
+					totalcmd.exe left: d:\data, right: c:\programs
+															= apre il dx e sx preimpostati
+						....
+						TODO: DA FARE 
+
+			:Commands_line_parameters
 
 
 
 esempio controlla data
 
-for %%c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*)
+	for %%c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*)
 
 
-for %%c in (c:\*.*) do (echo "%%c" %~tc)
-for %c in (c:\) do (echo "%c" %~tc)
-for %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo "%c")
-for %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo "%c"@FNAME)
+	for %%c in (c:\*.*) do (echo "%%c" %~tc)
+	for %c in (c:\) do (echo "%c" %~tc)
+	for %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo "%c")
+	for %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo "%c"@FNAME)
 
-forFILES %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo %C@FNAME)
+	forFILES %c in (c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.*) do (echo %C@FNAME)
 
-forfiles /p c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.* /m *.* /c "cmd /c echo @fname"
+	forfiles /p c:\CASA\LINGUAGGI\DOS\DATE_DOS\*.* /m *.* /c "cmd /c echo @fname"
 
 
 
-//@FORFILES_@Stampa@NOME@FILE_(ES. di ForFile che stampa solo i nomi dei file senza directory)
-//utilizzo di for file nella directory corrente che utilizza /m = maschera tutti i file
-// /c = comando e cmd/c eho @fname = stampa SOLO IL NOME DEI FILE
+	//@FORFILES_@Stampa@NOME@FILE_(ES. di ForFile che stampa solo i nomi dei file senza directory)
+	//utilizzo di for file nella directory corrente che utilizza /m = maschera tutti i file
+	// /c = comando e cmd/c eho @fname = stampa SOLO IL NOME DEI FILE
 
-@forfiles@percorso@relativo+file_(es.6 percorso relativo+file )
-forfiles /m *.* /c "cmd /c echo percorso relativo: @RELPATH"
+	@forfiles@percorso@relativo+file_(es.6 percorso relativo+file )
+	forfiles /m *.* /c "cmd /c echo percorso relativo: @RELPATH"
 
 
