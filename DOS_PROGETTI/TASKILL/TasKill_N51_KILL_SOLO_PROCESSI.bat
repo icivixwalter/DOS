@@ -1,4 +1,4 @@
-﻿@REM-------------------------------------------------------------------------------
+@REM-------------------------------------------------------------------------------
 @REM        CHIAMO IL BAT TASKKILL per pulire la memoria @pulizia@memoria@taskkill 
 @REM        @pulizia@processi  @chiudi@task   @comando@pulizia
 @REM                    @pulisci@in@DOS
@@ -24,7 +24,7 @@
 @REM TASKLIST /S system /FO LIST
 @REM in studio
 @rem TASKLIST /M /FO LIST 
-@REM TASKKILL /F /IM GoSignDesktop.exe
+@REM TASKKILL /F /IM cTrader.exe
 
 
 @rem PAUSE
@@ -59,7 +59,7 @@ TASKKILL /F /IM "FortiClientSecurity.exe"
 TASKKILL /IM "ModuleCoreService.exe" /F 
 TASKKILL /F /IM kpm_tray.exe
 
-
+F
 @REM --------------------- internet + office + ONDRIVE ------------------------
 
 @REM outlook
@@ -269,10 +269,8 @@ TASKKILL /IM opera.exe /F
 @REM-------------------------------------------------------------------------------
 TASKKILL /IM Dike.exe /F 
 TASKKILL /IM "GoSignDesktop.exe"					//IL DIKE
-TASKKILL /IM "GoSignDesktop.exe *32"					//IL DIKEGoSignDesktop.exe
+TASKKILL /IM "GoSignDesktop.exe *32"				//IL DIKEGoSignDesktop.exe
 TASKKILL /IM "GoSignDesktop.exe"					//IL GoSignDesktop.exe
-
-TASKKILL /F /IM GoSignDesktop.exe					//IL DIKE new				
 
 TASKKILL /IM "GoSignDesktop.exe*32" /F				//IL DIKEGoSignDesktop.exe
 TASKKILL /IM "GoSignDesktop.exe*32" 				//IL DIKEGoSignDesktop.exe	
