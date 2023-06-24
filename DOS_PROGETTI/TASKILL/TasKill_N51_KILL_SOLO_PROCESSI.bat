@@ -24,10 +24,188 @@
 @REM TASKLIST /S system /FO LIST
 @REM in studio
 @rem TASKLIST /M /FO LIST 
-@REM TASKKILL /F /IM cTrader.exe
+@REM 
+
+@rem TASKKILL /F /IM c:\Users\icivi\AppData\Local\Programs\Opera\99.0.4788.77\opera.exe
+@rem  TASKKILL /F /IM opera.exe /IM launcher.exe
+@rem tasklist /svc
+@rem tasklist /svc | findstr /i "launcher.exe"
+@rem tasklist /svc | findstr /i "CCleaner64.exe"
 
 
-@rem PAUSE
+goto Servizi_attivi_UTENTE
+Per ottenere una lista dei servizi attivi dell'utente e non di sistema in un 
+file batch, puoi utilizzare il comando "tasklist" insieme al filtro "/FI" (Filter) 
+e la specifica "USERNAME ne NT AUTHORITY\SYSTEM". Ecco un esempio di come puoi fare:
+
+In questo esempio, la variabile %services% conterrà una lista di tutti i nomi
+ dei servizi attivi dell'utente corrente. 
+ Il comando tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM" filtra i servizi 
+ in base all'utente, escludendo quelli di sistema.
+
+Il ciclo for /F viene utilizzato per elaborare l'output del comando tasklist. 
+La variabile %%A riceve il nome del servizio per ogni riga dell'output. 
+All'interno del ciclo, viene aggiunto il nome del servizio alla variabile %services%.
+
+Infine, viene visualizzata la lista dei servizi attivi dell'utente 
+mediante l'echo della variabile %services%.
+
+
+:Servizi_attivi_UTENTE
+
+
+@echo off
+
+setlocal enabledelayedexpansion
+set "services="
+
+for /F "skip=3 tokens=1" %%A in ('tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM"') do (
+  set "serviceName=%%A"
+  set "services=!services!^|!serviceName!"
+)
+
+echo Servizi attivi dell'utente:
+echo ------------------------------------------
+
+rem Imposta la lunghezza massima di una riga
+set "maxLineLength=70"
+
+rem Suddivide la lista dei servizi in righe
+set "line="
+for %%B in (%services%) do (
+  set "line=!line! %%B"
+  if "!line!"=="" (
+    echo %%B
+  ) else (
+    setlocal enabledelayedexpansion
+    if "!line:~1!"=="" (
+      echo !line!
+    ) else (
+      echo !line:~1!
+    )
+    endlocal
+    set "line="
+  )
+)
+
+echo ------------------------------------------
+
+
+
+pause
+
+
+rem altro esempio con stampa su file
+
+@echo off
+
+setlocal enabledelayedexpansion
+set "services="
+
+:------------------------ aggiunto file
+set file_s=stampa.txt       
+
+for /F "skip=3 tokens=1" %%A in ('tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM"') do (
+  set "serviceName=%%A"
+  set "services=!services!^|!serviceName!"
+)
+
+set "outputFile=services.txt"
+
+rem Rimuovi il file di output se esiste già
+if exist "%outputFile%" del "%outputFile%"
+
+echo Servizi attivi dell'utente: >> "%outputFile%"
+echo ------------------------------------------ >> "%outputFile%"
+
+rem Imposta la lunghezza massima di una riga
+set "maxLineLength=70"
+
+rem Suddivide la lista dei servizi in righe e scrive su file
+set "line="
+for %%B in (%services%) do (
+  set "line=!line! %%B"
+  if "!line!"=="" (
+    echo %%B >> "%outputFile%"
+  ) else (
+    setlocal enabledelayedexpansion
+    if "!line:~1!"=="" (
+      echo !line! >> "%outputFile%"
+    ) else (
+      echo !line:~1! >> "%outputFile%"
+    )
+    endlocal
+    set "line="
+  )
+)
+
+echo ------------------------------------------ >> "%outputFile%"
+
+echo La lista dei servizi attivi è stata salvata nel file "%outputFile%".
+
+pause
+
+
+
+
+
+goto Servizi_attivi
+Ecco un esempio di file batch (.bat) che filtra i servizi attivi 
+e termina quello con il nome "chrome.exe", se presente:
+
+Servizi_attivi
+
+@echo off
+set serviceName=firefox.exe
+
+tasklist /FI "IMAGENAME eq %serviceName%" 2>NUL | find /I "%serviceName%" >NUL
+
+if %errorlevel% equ 0 (
+    echo Il servizio %serviceName% è attivo. Terminazione in corso...
+    taskkill /F /IM %serviceName%
+    echo Il servizio è stato terminato.
+) else (
+    echo Il servizio %serviceName% non è attivo.
+)
+
+pause
+
+
+@rem  PROVA A DISABILITARE IL SERVIZIO ATTIVO CON LA IF
+@REM  CONTROLLO SE ESISTE IL SERVIZIO ATTIVO, con svc controllo
+@REM  se ci sono i servizi attivi filtrando tra le righe  Cleaaner 64 
+@REM  e se non esiste l'operatore >null indirizza l'output su null cioè
+@REM  sul dispositivo speciale che ignora l'output
+@rem tasklist /svc | findstr /i "CCleaner64.exe" > nul
+
+
+@rem @echo off
+@rem setlocal
+@rem 
+@rem REM Esegue il comando per ottenere l'output completo di tasklist /svc
+@rem for /f "delims=" %%A in ('tasklist /svc') do (
+@rem   REM Cerca il nome del servizio nel risultato del comando
+@rem   echo %%A | findstr /i "CCleaner64.exe" >nul
+@rem   REM Controlla il valore di %errorlevel%
+@rem   if %errorlevel% equ 0 (
+@rem     REM Esegue le azioni desiderate per il servizio trovato
+@rem     echo Il servizio CCleaner64.exe è attivo.
+@rem     REM Puoi eseguire ulteriori azioni qui, come sospendere il servizio
+@rem     goto exit
+@rem   )
+@rem 
+@rem )
+
+
+@rem endlocal
+
+:exit
+pause   
+
+@rem C:\Users\icivi\AppData\Local\Programs\Opera\assistant
+
+@rem 
+PAUSE
 
 
 
@@ -532,7 +710,7 @@ COMANDI_TASK_KILL
                     /PID  id processo      Specifica il PID del processo che
                                   deve essere terminato.
 
-                    /IM   nome immagine       Specifica il nome immagine del processo
+                    /IM   nome immagine       Specifica il nome immagine del processo  @IM
                                   che deve essere terminato. Carattere jolly '*'
                                   può essere utilizzato per specificare tutti i nomi immagine.
 
@@ -572,7 +750,10 @@ COMANDI_TASK_KILL
             Esempi:
                TASKKILL /S sistema /F /IM notepad.exe /T
                TASKKILL /PID 1230 /PID 1241 /PID 1253 /T
+
+               @ESEMPIO@/F@/IM
                TASKKILL /F /IM notepad.exe /IM mspaint.exe
+
                TASKKILL /F /FI "PID ge 1000" /FI "WINDOWTITLE ne untitle*"
                TASKKILL /F /FI "USERNAME eq NT AUTHORITY\SYSTEM" /IM notepad.exe
                TASKKILL /S sistema /U dominio\nomeutente /FI "USERNAME ne NT*" /IM
@@ -675,6 +856,13 @@ COMANDI_TASK_KILL
 
                   /SVC                    Visualizza i servizi compresi in ciascun
                                            processo.
+
+                                           esempio di @/svc@SERVIZI@PROCESSO@findstr
+                                            se trova il launcher stampa il pd altrimento è vuoto
+                                           tasklist /svc | findstr /i "launcher.exe"
+                                           @esempio@Cleaner
+                                           @trova il @servizio di Cleaner e esiste stampa il pd
+                                           tasklist /svc | findstr /i "CCleaner64.exe"
 
                   /V                      Specifica che devono essere visualizzate
                                           informazioni dettagliate.
