@@ -1,516 +1,510 @@
 @REM-------------------------------------------------------------------------------
-@REM        CHIAMO IL BAT TASKKILL per pulire la memoria @pulizia@memoria@taskkill 
-@REM        @pulizia@processi  @chiudi@task   @comando@pulizia
-@REM                    @pulisci@in@DOS
-@REM                    CALL "C:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_GUIDA_HTML_IT\react-guida-html\tutorial\TasKill_N51_KILL_SOLO_PROCESSI.bat"
-@REM                    CALL "TasKill_N51_KILL_SOLO_PROCESSI.bat"
-@REM               ----------------------------------------------
-@REM                    @pulisci@in@powershell
-@REM        Start-Process -FilePath "C:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_GUIDA_HTML_IT\react-guida-html\tutorial\TasKill_N51_KILL_SOLO_PROCESSI.bat"
-@REM        Start-Process -FilePath "TasKill_N51_KILL_SOLO_PROCESSI.bat"
+  @REM        CHIAMO IL BAT TASKKILL per pulire la memoria @pulizia@memoria@taskkill 
+  @REM        @pulizia@processi  @chiudi@task   @comando@pulizia
+  @REM                    @pulisci@in@DOS
+  @REM                    CALL "C:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_GUIDA_HTML_IT\react-guida-html\tutorial\TasKill_N51_KILL_SOLO_PROCESSI.bat"
+  @REM                    CALL "TasKill_N51_KILL_SOLO_PROCESSI.bat"
+  @REM               ----------------------------------------------
+  @REM                    @pulisci@in@powershell
+  @REM        Start-Process -FilePath "C:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_GUIDA_HTML_IT\react-guida-html\tutorial\TasKill_N51_KILL_SOLO_PROCESSI.bat"
+  @REM        Start-Process -FilePath "TasKill_N51_KILL_SOLO_PROCESSI.bat"
 
-@REM-------------------------------------------------------------------------------
-
-
-
+  @REM-------------------------------------------------------------------------------
 
 
 @REM --------------------- IN STUDIO  ------------------------------------
-@rem  /IM nomeimmagine	
+    @rem  /IM nomeimmagine	
 
-@rem STUDIARE ---> TASKKILL /IM "MoUsoCoreWorker.exe" 
-
-
-@REM TASKLIST /S system /FO LIST
-@REM in studio
-@rem TASKLIST /M /FO LIST 
-@REM 
-
-@rem TASKKILL /F /IM c:\Users\icivi\AppData\Local\Programs\Opera\99.0.4788.77\opera.exe
-@rem  TASKKILL /F /IM opera.exe /IM launcher.exe
-@rem tasklist /svc
-@rem tasklist /svc | findstr /i "launcher.exe"
-@rem tasklist /svc | findstr /i "CCleaner64.exe"
+    @rem STUDIARE ---> TASKKILL /IM "MoUsoCoreWorker.exe" 
 
 
-goto Servizi_attivi_UTENTE
-Per ottenere una lista dei servizi attivi dell'utente e non di sistema in un 
-file batch, puoi utilizzare il comando "tasklist" insieme al filtro "/FI" (Filter) 
-e la specifica "USERNAME ne NT AUTHORITY\SYSTEM". Ecco un esempio di come puoi fare:
+    @REM TASKLIST /S system /FO LIST
+    @REM in studio
+    @rem TASKLIST /M /FO LIST 
+    @REM 
 
-In questo esempio, la variabile %services% conterrà una lista di tutti i nomi
- dei servizi attivi dell'utente corrente. 
- Il comando tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM" filtra i servizi 
- in base all'utente, escludendo quelli di sistema.
-
-Il ciclo for /F viene utilizzato per elaborare l'output del comando tasklist. 
-La variabile %%A riceve il nome del servizio per ogni riga dell'output. 
-All'interno del ciclo, viene aggiunto il nome del servizio alla variabile %services%.
-
-Infine, viene visualizzata la lista dei servizi attivi dell'utente 
-mediante l'echo della variabile %services%.
+    @rem TASKKILL /F /IM c:\Users\icivi\AppData\Local\Programs\Opera\99.0.4788.77\opera.exe
+    @rem  TASKKILL /F /IM opera.exe /IM launcher.exe
+    @rem tasklist /svc
+    @rem tasklist /svc | findstr /i "launcher.exe"
+    @rem tasklist /svc | findstr /i "CCleaner64.exe"
+    @REM --------------------- IN STUDIO  ------------------------------------
 
 
-:Servizi_attivi_UTENTE
+goto ELENCO_Servizi_attivi_UTENTE
+      Per ottenere una lista dei servizi attivi dell'utente e non di sistema in un 
+      file batch, puoi utilizzare il comando "tasklist" insieme al filtro "/FI" (Filter) 
+      e la specifica "USERNAME ne NT AUTHORITY\SYSTEM". Ecco un esempio di come puoi fare:
+
+      In questo esempio, la variabile %services% conterrà una lista di tutti i nomi
+       dei servizi attivi dell'utente corrente. 
+       Il comando tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM" filtra i servizi 
+       in base all'utente, escludendo quelli di sistema.
+
+      Il ciclo for /F viene utilizzato per elaborare l'output del comando tasklist. 
+      La variabile %%A riceve il nome del servizio per ogni riga dell'output. 
+      All'interno del ciclo, viene aggiunto il nome del servizio alla variabile %services%.
+
+      Infine, viene visualizzata la lista dei servizi attivi dell'utente 
+      mediante l'echo della variabile %services%.
 
 
-@echo off
+      :Servizi_attivi_UTENTE
 
-setlocal enabledelayedexpansion
-set "services="
 
-for /F "skip=3 tokens=1" %%A in ('tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM"') do (
-  set "serviceName=%%A"
-  set "services=!services!^|!serviceName!"
-)
+      @echo off
 
-echo Servizi attivi dell'utente:
-echo ------------------------------------------
+      setlocal enabledelayedexpansion
+      set "services="
 
-rem Imposta la lunghezza massima di una riga
-set "maxLineLength=70"
+      for /F "skip=3 tokens=1" %%A in ('tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM"') do (
+        set "serviceName=%%A"
+        set "services=!services!^|!serviceName!"
+      )
 
-rem Suddivide la lista dei servizi in righe
-set "line="
-for %%B in (%services%) do (
-  set "line=!line! %%B"
-  if "!line!"=="" (
-    echo %%B
-  ) else (
-    setlocal enabledelayedexpansion
-    if "!line:~1!"=="" (
-      echo !line!
+      echo Servizi attivi dell'utente:
+      echo ------------------------------------------
+
+      rem Imposta la lunghezza massima di una riga
+      set "maxLineLength=70"
+
+      rem Suddivide la lista dei servizi in righe
+      set "line="
+      for %%B in (%services%) do (
+        set "line=!line! %%B"
+        if "!line!"=="" (
+          echo %%B
+        ) else (
+          setlocal enabledelayedexpansion
+          if "!line:~1!"=="" (
+            echo !line!
+          ) else (
+            echo !line:~1!
+          )
+          endlocal
+          set "line="
+        )
+      )
+
+      echo ------------------------------------------
+
+
+
+
+
+
+      rem altro esempio con stampa su file
+
+      @echo off
+
+      setlocal enabledelayedexpansion
+      set "services="
+
+      :------------------------ aggiunto file
+      set file_s=stampa.txt       
+
+      for /F "skip=3 tokens=1" %%A in ('tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM"') do (
+        set "serviceName=%%A"
+        set "services=!services!^|!serviceName!"
+      )
+
+      set "outputFile=services.txt"
+
+      rem Rimuovi il file di output se esiste già
+      if exist "%outputFile%" del "%outputFile%"
+
+      echo Servizi attivi dell'utente: >> "%outputFile%"
+      echo ------------------------------------------ >> "%outputFile%"
+
+      rem Imposta la lunghezza massima di una riga
+      set "maxLineLength=70"
+
+      rem Suddivide la lista dei servizi in righe e scrive su file
+      set "line="
+      for %%B in (%services%) do (
+        set "line=!line! %%B"
+        if "!line!"=="" (
+          echo %%B >> "%outputFile%"
+        ) else (
+          setlocal enabledelayedexpansion
+          if "!line:~1!"=="" (
+            echo !line! >> "%outputFile%"
+          ) else (
+            echo !line:~1! >> "%outputFile%"
+          )
+          endlocal
+          set "line="
+        )
+      )
+
+      echo ------------------------------------------ >> "%outputFile%"
+
+      echo La lista dei servizi attivi è stata salvata nel file "%outputFile%".
+
+
+
+
+
+
+
+    Ecco un esempio di file batch (.bat) che filtra i servizi attivi 
+    e termina quello con il nome "chrome.exe", se presente:
+
+    Servizi_attivi
+
+    @echo off
+    set serviceName=firefox.exe
+
+    tasklist /FI "IMAGENAME eq %serviceName%" 2>NUL | find /I "%serviceName%" >NUL
+
+    if %errorlevel% equ 0 (
+        echo Il servizio %serviceName% è attivo. Terminazione in corso...
+        taskkill /F /IM %serviceName%
+        echo Il servizio è stato terminato.
     ) else (
-      echo !line:~1!
+        echo Il servizio %serviceName% non è attivo.
     )
-    endlocal
-    set "line="
-  )
-)
 
-echo ------------------------------------------
+    pause
 
 
+    @rem  PROVA A DISABILITARE IL SERVIZIO ATTIVO CON LA IF
+    @REM  CONTROLLO SE ESISTE IL SERVIZIO ATTIVO, con svc controllo
+    @REM  se ci sono i servizi attivi filtrando tra le righe  Cleaaner 64 
+    @REM  e se non esiste l'operatore >null indirizza l'output su null cioè
+    @REM  sul dispositivo speciale che ignora l'output
+    @rem tasklist /svc | findstr /i "CCleaner64.exe" > nul
 
-pause
+
+    @rem @echo off
+    @rem setlocal
+    @rem 
+    @rem REM Esegue il comando per ottenere l'output completo di tasklist /svc
+    @rem for /f "delims=" %%A in ('tasklist /svc') do (
+    @rem   REM Cerca il nome del servizio nel risultato del comando
+    @rem   echo %%A | findstr /i "CCleaner64.exe" >nul
+    @rem   REM Controlla il valore di %errorlevel%
+    @rem   if %errorlevel% equ 0 (
+    @rem     REM Esegue le azioni desiderate per il servizio trovato
+    @rem     echo Il servizio CCleaner64.exe è attivo.
+    @rem     REM Puoi eseguire ulteriori azioni qui, come sospendere il servizio
+    @rem     goto exit
+    @rem   )
+    @rem 
+    @rem )
 
 
-rem altro esempio con stampa su file
+    @rem endlocal
 
-@echo off
+    :exit
+    pause   
 
-setlocal enabledelayedexpansion
-set "services="
+    @rem C:\Users\icivi\AppData\Local\Programs\Opera\assistant
 
-:------------------------ aggiunto file
-set file_s=stampa.txt       
-
-for /F "skip=3 tokens=1" %%A in ('tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM"') do (
-  set "serviceName=%%A"
-  set "services=!services!^|!serviceName!"
-)
-
-set "outputFile=services.txt"
-
-rem Rimuovi il file di output se esiste già
-if exist "%outputFile%" del "%outputFile%"
-
-echo Servizi attivi dell'utente: >> "%outputFile%"
-echo ------------------------------------------ >> "%outputFile%"
-
-rem Imposta la lunghezza massima di una riga
-set "maxLineLength=70"
-
-rem Suddivide la lista dei servizi in righe e scrive su file
-set "line="
-for %%B in (%services%) do (
-  set "line=!line! %%B"
-  if "!line!"=="" (
-    echo %%B >> "%outputFile%"
-  ) else (
-    setlocal enabledelayedexpansion
-    if "!line:~1!"=="" (
-      echo !line! >> "%outputFile%"
-    ) else (
-      echo !line:~1! >> "%outputFile%"
-    )
-    endlocal
-    set "line="
-  )
-)
-
-echo ------------------------------------------ >> "%outputFile%"
-
-echo La lista dei servizi attivi è stata salvata nel file "%outputFile%".
-
-pause
+    @rem 
+    PAUSE
 
 
 
+    @REM --------------------- IN STUDIO  ------------------------------------
 
 
-goto Servizi_attivi
-Ecco un esempio di file batch (.bat) che filtra i servizi attivi 
-e termina quello con il nome "chrome.exe", se presente:
-
-Servizi_attivi
-
-@echo off
-set serviceName=firefox.exe
-
-tasklist /FI "IMAGENAME eq %serviceName%" 2>NUL | find /I "%serviceName%" >NUL
-
-if %errorlevel% equ 0 (
-    echo Il servizio %serviceName% è attivo. Terminazione in corso...
-    taskkill /F /IM %serviceName%
-    echo Il servizio è stato terminato.
-) else (
-    echo Il servizio %serviceName% non è attivo.
-)
-
-pause
-
-
-@rem  PROVA A DISABILITARE IL SERVIZIO ATTIVO CON LA IF
-@REM  CONTROLLO SE ESISTE IL SERVIZIO ATTIVO, con svc controllo
-@REM  se ci sono i servizi attivi filtrando tra le righe  Cleaaner 64 
-@REM  e se non esiste l'operatore >null indirizza l'output su null cioè
-@REM  sul dispositivo speciale che ignora l'output
-@rem tasklist /svc | findstr /i "CCleaner64.exe" > nul
-
-
-@rem @echo off
-@rem setlocal
-@rem 
-@rem REM Esegue il comando per ottenere l'output completo di tasklist /svc
-@rem for /f "delims=" %%A in ('tasklist /svc') do (
-@rem   REM Cerca il nome del servizio nel risultato del comando
-@rem   echo %%A | findstr /i "CCleaner64.exe" >nul
-@rem   REM Controlla il valore di %errorlevel%
-@rem   if %errorlevel% equ 0 (
-@rem     REM Esegue le azioni desiderate per il servizio trovato
-@rem     echo Il servizio CCleaner64.exe è attivo.
-@rem     REM Puoi eseguire ulteriori azioni qui, come sospendere il servizio
-@rem     goto exit
-@rem   )
-@rem 
-@rem )
-
-
-@rem endlocal
-
-:exit
-pause   
-
-@rem C:\Users\icivi\AppData\Local\Programs\Opera\assistant
-
-@rem 
-PAUSE
-
-
-
-@REM --------------------- IN STUDIO  ------------------------------------
-
-
-
+  :ELENCO_Servizi_attivi_UTENTE
 
 
 
 @REM FORTI TRAY
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
-TASKKILL /F /IM FortiTray.exe
+  TASKKILL /F /IM FortiTray.exe
 
-TASKKILL /F /IM "FortiClient.exe"
-TASKKILL /F /IM "FortiClientConsole.exe"
-TASKKILL /F /IM "FortiClientSecurity.exe"
+  TASKKILL /F /IM "FortiClient.exe"
+  TASKKILL /F /IM "FortiClientConsole.exe"
+  TASKKILL /F /IM "FortiClientSecurity.exe"
 
 
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 
 
 @REM ANTIVIRUS MCFEE + karspesky
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
-@REM //cisco CHIUDE SOLO se c'è * e le "" + /f
-TASKKILL /IM "ModuleCoreService.exe" /F 
-TASKKILL /F /IM kpm_tray.exe
+  @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
+  TASKKILL /IM "ModuleCoreService.exe" /F 
+  TASKKILL /F /IM kpm_tray.exe
 
-F
+
 @REM --------------------- internet + office + ONDRIVE ------------------------
 
-@REM outlook
-TASKKILL /IM "OUTLOOK.EXE" 
-TASKKILL /IM "OUTLOOK.EXE *32"/F 			//CHIUDE SOLO se c'è * e le "" + /f
+  @REM outlook
+  TASKKILL /IM "OUTLOOK.EXE" 
+  TASKKILL /IM "OUTLOOK.EXE *32"/F 			//CHIUDE SOLO se c'è * e le "" + /f
 
 
 
-@REM oppure cosi
-TASKKILL /IM "Microsoft Office Outlook"
+  @REM oppure cosi
+  TASKKILL /IM "Microsoft Office Outlook"
 
-@REM ONDRIVE
-TASKKILL /F /IM OneDrive.exe
+  @REM ONDRIVE
+  TASKKILL /F /IM OneDrive.exe
 
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 
 @REM PHONE
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
-TASKKILL /F /IM YourPhone.exe
+  TASKKILL /F /IM YourPhone.exe
 
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 @REM CISCO WEB
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
-@REM //cisco CHIUDE SOLO se c'è * e le "" + /f
-TASKKILL /IM "WebexHost.exe" /F 
-TASKKILL /IM "atmgr.exe" /F 
-@REM-------------------------------------------------------------------------------
+  @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
+  TASKKILL /IM "WebexHost.exe" /F 
+  TASKKILL /IM "atmgr.exe" /F 
+  @REM-------------------------------------------------------------------------------
 
 
 @REM ANTIVIRUS MCFEE + SOFOS
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
-@REM //cisco CHIUDE SOLO se c'è * e le "" + /f
-TASKKILL /IM "ModuleCoreService.exe" /F 
+  @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
+  TASKKILL /IM "ModuleCoreService.exe" /F 
 
-TASKKILL /F /IM swc_service.exe
-TASKKILL /F /IM ALsvc.exe
+  TASKKILL /F /IM swc_service.exe
+  TASKKILL /F /IM ALsvc.exe
 
 
 
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 
 @REM		WINDOWS . ESPLORA RISORSE + TASKHOST + VS CODE
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 
-@REM WINDOWS
-TASKKILL /IM taskhost.exe 
+  @REM WINDOWS
+  TASKKILL /IM taskhost.exe 
 
-TASKKILL /IM Code.exe 
+  TASKKILL /IM Code.exe 
 
-@REM  windos ricerca SearchApp
-TASKKILL /F /IM "SearchApp.exe"
-
-
-
-@REM-------------------------------------------------------------------------------
+  @REM  windos ricerca SearchApp
+  TASKKILL /F /IM "SearchApp.exe"
 
 
+
+  @REM-------------------------------------------------------------------------------
 
 
 @REM		I DATABASE: SQLITE
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
-
-
-@REM SQLITE
-TASKKILL /IM SQLiteStudio.exe 
-@REM-------------------------------------------------------------------------------
-
+  @REM SQLITE
+  TASKKILL /IM SQLiteStudio.exe 
+  @REM-------------------------------------------------------------------------------
 
 
 @REM		VISUAL STUDIO 2022 + VISUAL STUDIO CODE
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 
-@REM visual studio 2022
-TASKKILL /IM devenv.exe 
+  @REM visual studio 2022
+  TASKKILL /IM devenv.exe 
 
 
-@REM VISUAL STUDIO CODE
-TASKKILL /IM Code.exe 
+  @REM VISUAL STUDIO CODE
+  TASKKILL /IM Code.exe 
 
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 @REM PULISCO    VIRTUAL BOX
-@REM------------------------------------------------------------------------------- 
-TASKKILL /IM VBoxSVC.exe /F            
-TASKKILL /IM VirtualBox.exe /F 
-@REM-------------------------------------------------------------------------------          
+    @REM------------------------------------------------------------------------------- 
+    TASKKILL /IM VBoxSVC.exe /F            
+    TASKKILL /IM VirtualBox.exe /F 
+    @REM-------------------------------------------------------------------------------          
 
 
 
-@REM		LIBRE OFFICE + WORD  + JAVA + INTELLIJ + TEXSTUDIO +
-@REM		SUBLIME TEX + WORD + EXCEL + PDF +  ADOBE
-@REM-------------------------------------------------------------------------------
+@REM		LIBRE OFFICE + WORD  + JAVA + INTELLIJ + TEXSTUDIO + SUBLIME TEX + WORD + EXCEL + PDF +  ADOBE
+    @REM-------------------------------------------------------------------------------
 
-@REM LIBRE OFFICE 1
-TASKKILL /IM "soffice.exe" /f 
+    @REM LIBRE OFFICE 1
+    TASKKILL /IM "soffice.exe" /f 
 
-@REM LIBRE OFFICE 1			
-TASKKILL /IM "soffice.bin"  
+    @REM LIBRE OFFICE 1			
+    TASKKILL /IM "soffice.bin"  
 
-@REM WORD					
-TASKKILL /IM "WINWORD.EXE" /f 
+    @REM WORD					
+    TASKKILL /IM "WINWORD.EXE" /f 
 
-@REM EXCEL					
-TASKKILL /IM EXCEL.EXE 
-@REM //chiude solo se c'è "EXCEL.EXE" + /F dopo non c'è bisogno di *32
-TASKKILL /IM "EXCEL.EXE" /F					
+    @REM EXCEL					
+    TASKKILL /IM EXCEL.EXE 
+    @REM //chiude solo se c'è "EXCEL.EXE" + /F dopo non c'è bisogno di *32
+    TASKKILL /IM "EXCEL.EXE" /F					
 
-@REM PDFXCVIEW
-@rem chiude se "PDFXCview.exe" /F
-TASKKILL /IM "PDFXCview.exe" /F			
+    @REM PDFXCVIEW
+    @rem chiude se "PDFXCview.exe" /F
+    TASKKILL /IM "PDFXCview.exe" /F			
 
-@REM STICK NOTE
-TASKKILL /IM "StikyNot.exe" /F
-
+    @REM STICK NOTE
+    TASKKILL /IM "StikyNot.exe" /F
 
 
 
-@REM ADOBE
-TASKKILL /IM RdrCEF.exe 
 
-@REM ADOBE2
-TASKKILL /IM AcroRd32.exe 
+    @REM ADOBE
+    TASKKILL /IM RdrCEF.exe 
 
-
-@REM INTELLIJ + JAVA
-@rem chiude solo con il nome dell'immagne + /f dopo
-TASKKILL /IM "idea64.exe" 
+    @REM ADOBE2
+    TASKKILL /IM AcroRd32.exe 
 
 
-@REM JETBRAINS TOOLBOX
-TASKKILL /F /IM "jetbrains-toolbox.exe" 
+    @REM INTELLIJ + JAVA
+    @rem chiude solo con il nome dell'immagne + /f dopo
+    TASKKILL /IM "idea64.exe" 
 
 
-
-:------------- java 2 tipi di processi
-TASKKILL /IM "java.exe" 
-TASKKILL /IM javaw.exe
-TASKKILL /IM javaw.exe *32
-
-TASKKILL /IM [C:\Program Files (x86)\Java\jre1.8.0_171\bin\javaw.exe]
+    @REM JETBRAINS TOOLBOX
+    TASKKILL /F /IM "jetbrains-toolbox.exe" 
 
 
 
-@REM TEXT STUDIO - LATEX
-TASKKILL /IM "texstudio.exe" /F 
+    :------------- java 2 tipi di processi
+    TASKKILL /IM "java.exe" 
+    TASKKILL /IM javaw.exe
+    TASKKILL /IM javaw.exe *32
+
+    TASKKILL /IM [C:\Program Files (x86)\Java\jre1.8.0_171\bin\javaw.exe]
 
 
 
-@RE........................ I TEX .................................
-@REM SUBLIME TEXT
-TASKKILL /IM sublime_text.exe 
-
-@REM TEXPAD
-TASKKILL /IM "TextPad.exe" /f 
+    @REM TEXT STUDIO - LATEX
+    TASKKILL /IM "texstudio.exe" /F 
 
 
-@REM  FUNZIONA ANCHE /IM    /F
-@REM-------------------------------------------------------------------------------
+@REM........................ I TEX .................................
+  @REM SUBLIME TEXT
+  TASKKILL /IM sublime_text.exe 
+
+  @REM TEXPAD
+  TASKKILL /IM "TextPad.exe" /f 
+
+
+  @REM  FUNZIONA ANCHE /IM    /F
+  @REM-------------------------------------------------------------------------------
 
 
 @REM        CCLEAN = OPERA /F = FORZATO /IMV = IMMAGINE utilizzare /f/im
-@REM-------------------------------------------------------------------------------
+  @REM-------------------------------------------------------------------------------
 
 
-@REM come amministratore devi operare con  taskkill /im processo /f sostituendo la parola “processo”
-@REM con l’esatto processo del programma che si desidera terminare all’istante, 
-@REM ad esempio taskkill /im chrome.exe /f per terminare Google Chrome.
-@REM ma devi eseguire il bat come amministratore
-TASKKILL /IM CCleaner64.exe /F 
-@REM-------------------------------------------------------------------------------
+  @REM come amministratore devi operare con  taskkill /im processo /f sostituendo la parola “processo”
+  @REM con l’esatto processo del programma che si desidera terminare all’istante, 
+  @REM ad esempio taskkill /im chrome.exe /f per terminare Google Chrome.
+  @REM ma devi eseguire il bat come amministratore
+  TASKKILL /IM CCleaner64.exe /F 
+  @REM-------------------------------------------------------------------------------
 
 
 @REM		INTERNET = OPERA + FIRE FOX, EDGE + GIT  /F = FORZATO /IMV = IMMAGINE utilizzare /f/im
-@REM-------------------------------------------------------------------------------
+    @REM-------------------------------------------------------------------------------
 
-TASKKILL /F /IM "msedge.exe" 
+    TASKKILL /F /IM "msedge.exe" 
 
-@REM FIRE FOX	
-TASKKILL /IM "firefox.exe" /F
-
-
-@REM GITHUB DESKTOP
-TASKKILL /IM "GitHubDesktop.exe" /f 
-TASKKILL /F/IM "git.exe"
-TASKKILL /IM "git.exe" /f 
+    @REM FIRE FOX	
+    TASKKILL /IM "firefox.exe" /F
 
 
-@REM OPERA
-TASKKILL /IM opera.exe /F 
+    @REM GITHUB DESKTOP
+    TASKKILL /IM "GitHubDesktop.exe" /f 
+    TASKKILL /F/IM "git.exe"
+    TASKKILL /IM "git.exe" /f 
 
 
-@REM-------------------------------------------------------------------------------
+    @REM OPERA
+    TASKKILL /IM opera.exe /F 
+
+
+    @REM-------------------------------------------------------------------------------
 
 
 
 
 @REM PULISCO ANCHE IL DIKE = PENNA DIGITALE	dike.exe + ACROBAT+ AK910		
-@REM-------------------------------------------------------------------------------
-TASKKILL /IM Dike.exe /F 
-TASKKILL /IM "GoSignDesktop.exe"					//IL DIKE
-TASKKILL /IM "GoSignDesktop.exe *32"				//IL DIKEGoSignDesktop.exe
-TASKKILL /IM "GoSignDesktop.exe"					//IL GoSignDesktop.exe
+    @REM-------------------------------------------------------------------------------
+    TASKKILL /IM Dike.exe /F 
+    TASKKILL /IM "GoSignDesktop.exe"					//IL DIKE
+    TASKKILL /IM "GoSignDesktop.exe *32"				//IL DIKEGoSignDesktop.exe
+    TASKKILL /IM "GoSignDesktop.exe"					//IL GoSignDesktop.exe
 
-TASKKILL /IM "GoSignDesktop.exe*32" /F				//IL DIKEGoSignDesktop.exe
-TASKKILL /IM "GoSignDesktop.exe*32" 				//IL DIKEGoSignDesktop.exe	
-TASKKILL /IM GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
-TASKKILL /IM C:\Users\walter.rossi\AppData\Local\InfoCert\GoSign Desktop\GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
+    TASKKILL /IM "GoSignDesktop.exe*32" /F				//IL DIKEGoSignDesktop.exe
+    TASKKILL /IM "GoSignDesktop.exe*32" 				//IL DIKEGoSignDesktop.exe	
+    TASKKILL /IM GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
+    TASKKILL /IM C:\Users\walter.rossi\AppData\Local\InfoCert\GoSign Desktop\GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
 
-TASKKILL /IM /T "GoSignDesktop*" 				//IL DIKEGoSignDesktop.exe	
-
-
-@SOSPESO
-@REM PULISCO ACROBAT SERVICE = 	SI TROVA IN C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe
-TASKKILL /IM armsvc.exe 							//ACROBAT		
+    TASKKILL /IM /T "GoSignDesktop*" 				//IL DIKEGoSignDesktop.exe	
 
 
+    @SOSPESO
+    @REM PULISCO ACROBAT SERVICE = 	SI TROVA IN C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe
+    TASKKILL /IM armsvc.exe 							//ACROBAT		
 
-@SOSPESO
-@REM PULISCO AK910 = 	SI TROVA IN C:\Program Files (x86)\AK910SwitchService\svc
-TASKKILL /IM  AK910SwitchService.exe 			
 
-@REM-------------------------------------------------------------------------------
+
+    @SOSPESO
+    @REM PULISCO AK910 = 	SI TROVA IN C:\Program Files (x86)\AK910SwitchService\svc
+    TASKKILL /IM  AK910SwitchService.exe 			
+
+    @REM-------------------------------------------------------------------------------
 
 
 
 
 @REM PULISCO ZOOM	     			=		SI TROVA IN C:\Users\walter.rossi\AppData\Roaming\Zoom\bin\Zoom.exe
-TASKKILL /IM "Zoom Meetings *" 
-TASKKILL /IM "Zoom.exe *" 
+    @REM-------------------------------------------------------------------------------
+
+    TASKKILL /IM "Zoom Meetings *" 
+    TASKKILL /IM "Zoom.exe *" 
 
 
 
-@REM PULISCO WINRARR	     			=		SI TROVA IN C:\Program Files (x86)\WinRAR\WinRAR.EXE		
-TASKKILL /IM "WinRAR archiver" 		
+    @REM PULISCO WINRARR	     			=		SI TROVA IN C:\Program Files (x86)\WinRAR\WinRAR.EXE		
+    TASKKILL /IM "WinRAR archiver" 		
 
 
 
-@REM PULISCO UFFICIO PULISCO CIVILIA
-@REM-------------------------------------------------------------------------------
+    @REM PULISCO UFFICIO PULISCO CIVILIA
+    @REM-------------------------------------------------------------------------------
 
 
 @REM CIVILIA
-TASKKILL /IM "CIVILIA_Portal.exe" 
+    @REM-------------------------------------------------------------------------------  
 
-@REM-------------------------------------------------------------------------------  
+    TASKKILL /IM "CIVILIA_Portal.exe" 
+
+    @REM-------------------------------------------------------------------------------  
 
 
 
 @REM PULISCO FILE DI SISTEMA host + LO SPOILER DI STAMPA
-@REM-------------------------------------------------------------------------------
+    @REM-------------------------------------------------------------------------------
 
-TASKKILL /IM "plugin_host-3.8.exe" 
+    TASKKILL /IM "plugin_host-3.8.exe" 
 
-TASKKILL /IM "splwow64.exe" 
+    TASKKILL /IM "splwow64.exe" 
 
 
-@REM-------------------------------------------------------------------------------
+    @REM-------------------------------------------------------------------------------
 
 @REM ICtrade  ICMarket
-@REM-------------------------------------------------------------------------------
-@REM  il trading sospendo IcMarkets su desktop
-TASKKILL /F /IM cTrader.exe
+    @REM-------------------------------------------------------------------------------
+    @REM  il trading sospendo IcMarkets su desktop
+    TASKKILL /F /IM cTrader.exe
 
-@REM-------------------------------------------------------------------------------
+    @REM-------------------------------------------------------------------------------
 
 
 
