@@ -56,7 +56,8 @@ MENU_SALVATAGGI_DISCO_C_DISCO_ESTERO
 
 
 		ECHO.//==============================================================================//  
-		ECHO.			MENU PRINCIPALE - LA_QUERCIA
+		ECHO.			MENU PRINCIPALE - LA_QUERCIA  @dos@menus_(costruzione dei @menu in @dos o) 
+		ECHO.			@dos@menus_(costruzione dei @menu in @dos detta @MASCHERA @DEI @MENU)_@MENU@DOS 
 		ECHO Gestione dei principali servizi per il condominio LA QUERCIA:
 		ECHO TITLE :IL MENU PRINCIPALE DEL CONDOMINIO LA QUERCIA.
 		ECHO.
