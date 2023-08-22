@@ -995,7 +995,8 @@ FAQ_DOS
 
 		ES_02_COMANDO_MULTIPLO
 			Comando multiplo in dos per aprie la path + file.pdf e la variabile di ambiente impostata.
-				@dos@comando@multiplo_(con il comando @set che @imposta la @variabile)
+				@dos@salvataggio@comando@multiplo_(con il comando @set che @imposta la @variabile)
+				@comando@dos_(in unica @riga di @comando @set+path+start)
 
 
 			SET PATH_S=c:\\CASA\\LINGUAGGI\\DOS\\DOS_TUTORIAL\\ && START "APRI in dos pdf + path in unico comando" %PATH_S% && START "APRI IL FILE" CALL "%PATH_S%\DOS_BATCH_{TUTORIAL_batch-file-it}.pdf"
