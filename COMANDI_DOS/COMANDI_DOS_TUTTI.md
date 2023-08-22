@@ -985,10 +985,17 @@ FAQ_DOS
 
 	COME_ESEGUIRE_COMANDI_IN_LINEA
 		@dos@comandi@multipli_(come eseguire in dos dei comandi multipli sulla stessa linea di comando)
-			Per eseguire due comandi insieme nella stessa riga, basta separarli con && .
+			Per eseguire due comandi, detto @comando@multiplo, insieme nella stessa riga, basta separarli con && .
 			Quello a sinistra delle E commerciali viene eseguito prima, l'altro subito dopo senza chiedere conferma.
-				in dos scrivere:
+				@esempio_@camando_@multiplo_(il @comando @multipo in dos si scrive con la &&)
 
 				DIR *.TXT && DIR *.BAT
 
 
+
+		ES_02_COMANDO_MULTIPLO
+			Comando multiplo in dos per aprie la path + file.pdf e la variabile di ambiente impostata.
+				@dos@comando@multiplo_(con il comando @set che @imposta la @variabile)
+
+
+			SET PATH_S=c:\\CASA\\LINGUAGGI\\DOS\\DOS_TUTORIAL\\ && START "APRI in dos pdf + path in unico comando" %PATH_S% && START "APRI IL FILE" CALL "%PATH_S%\DOS_BATCH_{TUTORIAL_batch-file-it}.pdf"
