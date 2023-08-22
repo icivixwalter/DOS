@@ -1,4 +1,3 @@
-
 :-------@_PROGETTO_BAT_INCREMENTALE_@-------
 		
 	
@@ -7,8 +6,9 @@
 			GOTO DoveSiTrova
 
 				Note
-					questo esempio di bat incrementale si trova i questa path dello Zzip:	
-						c:\CASA\CDM\GE_COND\ZZ_SALVATAGGI\
+					questo esempio di bat incrementale si trova i questa path dello Zzip ed 
+					anche un @parametro_(@path che puo essere cambiata in tutto il progetto):	
+						c:\Casa\CDM\LaQuercia\2022_2023\SALVATAGGI_2022_2023\
 
 
 				PER COSTRUIRE UN BAT INCREMENTALE DENOMINATO 7ZIP_INCREMENTALE.BAT 
@@ -55,7 +55,7 @@
 				@REM		directory y dove archiviare i dati = path di destinazione
 				@REM   		@path@destinazione_(il parametro della path di destinazione si trova qui)
 				@REM .......................................................
-					SET PATH_DEST_S=c:\CASA\CDM\GE_COND\ZZ_SALVATAGGI\
+					SET PATH_DEST_S=c:\Casa\CDM\LaQuercia\2022_2023\SALVATAGGI_2022_2023\
 				@REM .......................................................
 
 
@@ -88,7 +88,7 @@
 				@REM @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 				@REM ----> PAUSE
-	
+
 	:03-------------------------------CHIAMO DECODIFICA
 
 
@@ -96,7 +96,7 @@
 					@ECHO. DEVO POSIZIONARMI SULLA DIRECTORY, CHIAMARE IL BAT E TORNARE INDIETRO ALTRIMENTI NON FUNZIONA IL BAT
 					@ECHO. in quanto il bat esegue la today ma non trova il file completo.
 					
-						CD c:\CASA\CDM\GE_COND\ZZ_SALVATAGGI\
+						CD c:\Casa\CDM\LaQuercia\2022_2023\SALVATAGGI_2022_2023\
 						CALL Zip_N70_DECODIFICA.bat"
 						CD..
 
@@ -211,7 +211,6 @@
 			@REM occorre inserire tutto il percorso assoluto dell'eseguibile  tra "" altrimenti non lo
 			@REM legge l'eseguibile e da errore. CONTROLLARE SEMPRE che l'eseguibile si trovi in quella path.
 			"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S% -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
-
 			
 	:07------------------------------ CHIAMO CRIPTA
 					@ECHO  QUI CHIAMO CRIPTA.BAT

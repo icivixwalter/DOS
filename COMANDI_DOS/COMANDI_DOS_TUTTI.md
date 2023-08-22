@@ -39,6 +39,63 @@ NOTE_DOS
 A
 B
 C
+	CHOICE
+		Sintassi
+			choice [/c [<choice1><choice2><…>]] [/n] [/cs] [/t <timeout> /d <choice>] [/m <text>]
+
+		Parametri
+			Parametro			Descrizione
+			/C <choice1>
+				<choice2><…>	Specifica l'elenco di scelte da creare. Le scelte valide includono-z, A-Z, 0-9 e 
+								caratteri ASCII estesi (128-254). L'elenco predefinito è YN, visualizzato come [Y,N]?.
+								/n	Nasconde l'elenco di scelte, anche se sono ancora abilitati le scelte disponibili e il testo del messaggio (se specificato da /m) è ancora visualizzato.
+			/cs					Specifica che le opzioni di maiuscole e minuscole. Per impostazione predefinita, le 
+								scelte non sono rilevanti.
+			/T <timeout>		Specifica il numero di secondi di pausa prima di utilizzare l'opzione predefinita 
+								specificata da /d. I valori accettabili sono compresi 0 a 9999. Se /t è impostato su 0, scelta non sospendere prima di restituire la scelta predefinita.
+			/D <choice>			Specifica la scelta predefinita da utilizzare dopo un'attesa il numero di secondi 
+								specificato da /t. La scelta predefinita deve essere nell'elenco di scelte specificato 
+								da /c.
+			/M <text>			Specifica un messaggio da visualizzare prima dell'elenco di scelte. Se /m non è 
+								specificato, viene visualizzato solo il messaggio desiderato.
+			/?					Visualizza la guida al prompt dei comandi.
+
+
+		Commenti
+		La variabile di ambiente ERRORLEVEL è impostata sull'indice della chiave selezionata dall'elenco di scelte. La prima scelta nell'elenco restituisce un valore di , il secondo valore di 12e così via. Se l'utente preme un tasto che non è una scelta valida, scelta emette un segnale acustico di avviso.
+
+		Se scelta rileva una condizione di errore, restituisce un valore ERRORLEVEL di 255. Se l'utente preme CTRL+BREAK o CTRL+C, scegliere restituisce un valore ERRORLEVEL di 0.
+
+		Esempi
+			Es_01
+				choice /c ync
+					Per presentare le scelte Y, N e C, digitare la riga seguente in un file batch:
+
+			Es_02
+				[Y,N,C]?
+					Il seguente messaggio viene visualizzato quando il file batch viene eseguito CON LA scelta comando
+
+
+			Es_03
+				choice /c ync /n /m "Yes, No, or Continue?"
+					Per nascondere le scelte Y, N e C, ma visualizzare il testo Sì, No o Continua, digitare la riga seguente in un file batch
+
+					nOTA
+						Se si utilizza il /n parametro, ma non si utilizza /m, l'utente non è richiesto quando scelta è in attesa di input.
+							choice /c ync /n ...
+
+
+			Es_04
+
+					choice /c ync /m "Yes, No, or Continue"
+						Per visualizzare testo e le opzioni utilizzate negli esempi precedenti, digitare la riga seguente in un file batch:
+
+
+			Es_05
+					Per impostare un limite di cinque secondi e specificare N come valore predefinito, digitare la riga seguente in un file batch:
+						choice /c ync /t 5 /d n
+
+
 D
 	DIR
 		
