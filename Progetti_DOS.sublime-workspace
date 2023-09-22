@@ -64,16 +64,13 @@
 	"buffers":
 	[
 		{
-			"file": "COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+			"file": "DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
 			"settings":
 			{
-				"buffer_size": 38822,
+				"buffer_size": 35186,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
+			}
 		}
 	],
 	"build_system": "",
@@ -88,12 +85,12 @@
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Advanced Install Package"
+				"INSTA",
+				"Package Control: Install Package"
 			],
 			[
-				"inst",
-				"Install Package Control"
+				"TERMI",
+				"Preferences: Terminal Key Bindings"
 			],
 			[
 				"Package Control: ",
@@ -188,6 +185,10 @@
 				"Package Control: Install Package"
 			],
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"Package ",
 				"Install Package Control"
 			]
@@ -219,50 +220,61 @@
 	"expanded_folders":
 	[
 		"/C/CASA/LINGUAGGI/DOS",
-		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS"
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL",
+		"/C/CASA/LINGUAGGI/DOS/GIT_BAT"
 	],
 	"file_history":
 	[
-		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI.md",
-		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_RAR_INCREMENTALE.BAT",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DELETE/DELETE_01_FILE_LOG_WINDOWS.bat",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DELETE/MENU_DELETE_01_FILE_LOG_WINDOWS.bat",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/MENU/MENU_SALVATAGGI.MD",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/Zip_N70_DECODIFICA.bat",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
-		"/C/CASA/LINGUAGGI/DOS/DATE_DOS/Now.bat",
-		"/C/CASA/LINGUAGGI/DOS/Progetti_DOS.sublime-project",
-		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
-		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/DOS_DIR_N01.txt",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/Zip_N70_ElencoFile.txt",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
-		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
-		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI.md",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/Taskill_52_PROVA_SERVIZI_ATTIVI.bat",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/Taskill_52_PROVA_SERVIZI_ATTIVI.bat",
-		"/c/CASA/LINGUAGGI/DOS/100_FILTRA_MESI_CON_CICLO_ANNIDATO.bat",
-		"/c/CASA/LINGUAGGI/DOS/DATE_DOS/DATE_FORMAT_ES_01.MD",
-		"/c/CASA/LINGUAGGI/DOS/DATE_DOS/DatePart.bat",
-		"/c/CASA/LINGUAGGI/DOS/DATE_DOS/sorttime.bat",
-		"/c/CASA/LINGUAGGI/DOS/DATE_DOS/sorttime.cmd",
-		"/c/CASA/LINGUAGGI/DOS/DATE_DOS/DatePart.cmd",
-		"/c/CASA/LINGUAGGI/DOS/Date_(Format_AAA_MM_GG).bat",
-		"/C/CASA/LINGUAGGI/DOS/DATE_DOS/DATE_FORMAT_ES_01.MD",
+		"/C/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/ACCESS_PROPRIETA_ESEMPIO_FORMATTA_DATE.MD",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/PROPRIETA_ACCESS.md",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/TAB_CONTROL/Project_TAB_CONTROLL/TAB_CONTROLL_PagineASchede.md",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI.MD",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
-		"/c/CASA/LINGUAGGI/DOS/DRIVER_N02-01_CMD_DriverQuery.txt",
-		"/c/CASA/LINGUAGGI/DOS/Progetti_DOS.sublime-project",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/APRI_FILE.md",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_RAR_INCREMENTALE.BAT",
-		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY.MD",
+		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+		"/c/CASA/LINGUAGGI/DOS/DATE_DOS/DATE_FORMAT_ES_01.MD",
+		"/c/CASA/LINGUAGGI/ZIP/7ZIP/7ZIP_INCREMENTALE.MD",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GUIDA_RIFERIMENTO_MODELLO_OGGETTO_MICROSOFT_SYSTEM.MD",
+		"/c/CASA/LINGUAGGI/ZIP_N71_RAR_INCREMENTALE.BAT",
+		"/c/CASA/LINGUAGGI/ELENCO_CARTELLE_LINGUAGGI.TXT",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/TAB_CONTROL/Project_TAB_CONTROLL/TAB_CONTROL.md",
+		"/c/CASA/LINGUAGGI/Zip_N72_ElencoFile.txt",
+		"/c/CASA/LINGUAGGI/Zip_N70_ElencoFile.txt",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/SUBLIMETEXT_DOCUMENTAZIONE_UFFICIALE.MD",
+		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/MENU/MENU_SALVATAGGI.MD",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/ACCESS_GE_OGGETTI_NEW/GE_OGGETTI_NEW_MDB/GE_OGGETTI_Access_2000_NEW.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/FORM_CARICAMENTO_AUTOMATICO/MDB/FORM_N01_CaricamentoAutomatico.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GESTIONE_OGGETTI_01/GE_OGGETTI_DB_01.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/TAB_CONTROL/TAB_CONTROLL.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/SERVIZI/MDB/GE_SERVIZI.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/OGGETTO_COMMANDBAR/MDB/Oggetto_CommandBars.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/OGGETTO_COMMANDBAR/MDB/Oggetto_CommandBar.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/MSYS_OGGETTI/MDB/MSYS_N01_OGGETTI.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GESTIONE_BARRA_MENU/GE_OGGETTI_MENU_COMMAND_BAR.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/ACCESS_GE_OGGETTI_NEW/OGGETTO_COMMANDBAR/MDB/Oggetto_CommandBar.mdb",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/ACCESS_GE_OGGETTI_NEW/GE_OGGETTI_NEW_ANALISI/Analisi_Text/GE_OGGETTI_NEW_ANALISI_TEX.tex",
+		"/c/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/ACCESS_GE_OGGETTI_NEW/GE_OGGETTI_NEW_ANALISI/Analisi_SublimeText/Tabelle/MSys_OGGETTI.txt",
+		"/C/CASA/LINGUAGGI/LINGUAGGI_Project.sublime-project",
+		"/C/CASA/LINGUAGGI/ZIP_RAR_INCREMENTALE.BAT",
+		"/C/CASA/LINGUAGGI/Zip_N70_ElencoFile.txt",
+		"/C/CASA/LINGUAGGI/LINGUAGGI.sublime-project",
+		"/C/CASA/LINGUAGGI/ZIP/7ZIP/7ZIP_INCREMENTALE.MD",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/CASA/LINGUAGGI/ZIP/7ZIP/7ZIP.MD",
+		"/C/CASA/LINGUAGGI/ZIP/GIT_BAT/git_PULL.BAT",
+		"/C/CASA/LINGUAGGI/ZIP/ZIP_PROCEDURE/ZIP.MD",
+		"/C/CASA/LINGUAGGI/TROVA_PROGETTI/TROVA_PROGETTI.MD",
+		"/C/CASA/LINGUAGGI/TROVA_PROGETTI/TROVA_PROGETTI.sublime-project",
+		"/c/CASA/LINGUAGGI/POWERSHELL/GUIDA_POWER_SHELL.sublime-project",
+		"/c/CASA/LINGUAGGI/POWERSHELL/GUIDA_POWER_SHELL.MD",
+		"/C/CASA/LINGUAGGI/POWERSHELL/GUIDA_POWER_SHELL.sublime-project",
+		"/C/CASA/LINGUAGGI/POWERSHELL/ProgettoPowerShell.sublime-project",
+		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI.md",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_DECODIFICA.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/APRI_FILE.md",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/COMANDI_DOS_TUTTI.md",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/untitled.sublime-build",
+		"/C/CASA/LINGUAGGI/DOS/Progetti_DOS.sublime-project",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_ElencoFile.txt",
 		"/C/CASA/LINGUAGGI/DOS/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
 		"/C/CASA/LINGUAGGI/DOS/Progetto_DOS.sublime-project",
@@ -315,6 +327,7 @@
 		"/C/Users/icivi/AppData/Local/lapce/Lapce-Stable/data/plugins/d4rkr41n.dracula/README.md",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/TabellaProdotti.tsx",
 		"/C/GESTIONI/JAVA_JSX_CONCETTI_CHIAVE.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/App.css",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraRegistrazione.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFigo.tsx",
@@ -340,33 +353,18 @@
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/Liste_e_Chiavi.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/react_concetti_chiave_deno.sublime-project",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/JAVA_JSX_CONCETTI_CHIAVE.MD",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/App.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/Benvenuto.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/TextArea.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/Liste_e_Chiavi.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/App.css",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/index.css",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/Separatore.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/Loghi.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/Button2.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/main.tsx"
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/Project/react-concetti-chiave/src/components/App.tsx"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 27.2
 	},
 	"find_in_files":
 	{
-		"height": 224.0,
+		"height": 229.0,
 		"where_history":
 		[
-			"",
-			"*.MD",
-			"*.MD *.TXT *.BAT",
-			"<project filters>",
-			"",
-			"<project filters>",
+			"*.md",
 			""
 		]
 	},
@@ -375,120 +373,47 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"+start",
-			"@comando@multiplo",
-			"@salvataggio@multiplo",
-			"multiplo",
-			"apri in dos",
-			"@multi",
-			"@comando",
-			"@unico",
-			"@comando@unico",
-			"c:\\CASA\\CDM\\GE_COND\\ZZ_SALVATAGGI\\",
-			"@dos@comandi",
-			"dos comandi",
-			"dos",
-			"choice",
-			"GESTIONE_LA_QUERCIA",
-			"GESTIONE_LA_QUERCIA_CON_SottoMenu",
-			"/T:1 secondi",
-			"/T:6 secondi",
-			"SALVATAGGI_SU_DISCO_C",
-			"@MENU",
-			"SELECT",
-			"@DOS@MENU",
-			"@DOS @MENU",
-			"MENU",
-			"@DOS",
-			"@DOS @MENU",
-			"i menu",
-			"gestione menu",
-			"dos",
-			"menu",
-			"menu dos",
-			"dos@menu",
-			"menu",
-			"/T:8",
-			"APPL_02_PATH_LOG_S",
-			"APPL_01_PATH_LOG_S",
-			"/T:5",
-			"/T:3",
-			"Ccleaner",
-			"PATH_LOG",
-			"01",
-			"ritardo",
-			"attendi",
-			"wite",
-			"ATTESA",
-			"sublime",
-			"comandi sublime",
-			"terminal",
-			"@TOTAL",
-			"@_PROGETTO_BAT_INCREMENTALE_@",
-			"@sospensione",
-			"@sopsensione",
-			"@exit",
-			"\"CCleaner64.exe\"",
-			"/sv",
-			"sv",
-			"@/im",
-			"servizi",
-			"@im",
+			"@formatta@date",
+			"@formatta@data",
+			"@formatta@@data",
+			"@formatta@le@date",
+			"@formatta",
+			"@format",
+			"@PROPRIETA",
+			"@ACCESS@FORMAT",
+			"FORMAT",
+			"@OGGETTI",
+			"@ACCESS",
+			"@archivia@cartelle",
+			"@dos",
+			"@SALVATAGGI",
+			"@DOS@SALVATAGGI",
+			"@commander",
 			"@total",
-			"@totaleù",
-			"@sospensione@time_(esempio sospensione del tempo in dos)",
-			"for %c in (c:\\) do (echo \"%c\" %~tc)",
-			"@date",
-			"@impostare",
-			"@data@corrente",
-			"@data",
-			"@timeout",
-			"@SOSPENSIONE",
-			"@TIME",
-			"@format@datE",
-			"@format@data",
-			"@format@date",
-			"========================================================================================================================",
-			"if",
-			"@salvataggi",
-			"@git",
-			"@salvataggio@veloce",
-			"@salvataggi",
-			"@FORFILES",
-			"@FIND",
-			"@salvataggio",
-			"@salvataggio@rapdi",
-			"@web",
-			"@forfiles@path",
-			"@forfile@path",
-			"@WEB",
-			"@TUTORIAL",
-			"      @WEB",
-			"@dos@tutorial",
-			"SintassiForFile",
-			"@forfiles@esempi",
-			"@forfile@esempi",
-			"@apri",
-			"@git",
-			"@zip@incrementale",
-			"ANALISI_DB_VITTORIA_770_GE.txt",
-			"@xcopy",
-			"@comandi@dos",
-			"@comando",
-			"@sintassi",
-			"@FORFILE",
-			"@comandi@dos",
-			"@GE614",
-			"@Esempi@FORFILES",
-			"@dove",
-			"@pulizie@condominio",
-			"@apri@file",
-			"@dos@apri@file",
-			"@INCREMENTALE",
-			"@bat@INCREMENTALE",
-			"@ZIP@INCREMENTALE",
-			"rem",
-			"@incrementale"
+			"@file@spazi",
+			"@spazi",
+			"@application",
+			"@membri",
+			"APPLICATION",
+			"Zip_N720_ElencoFile.txt ",
+			"elencofile",
+			"elenco_file",
+			"@selezione",
+			"selezione",
+			"@selezione",
+			"@selezione@colore",
+			"@selezione",
+			"//-----------------------------------------",
+			"c:\\Casa\\CDM\\LaQuercia\\2021_2022\\SALVATAGGI_2021_2022\\",
+			"ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_cREAZIONE",
+			"@BAT@INCREMENTALE",
+			"@REN",
+			"@file@processati",
+			"@command@l",
+			"@l",
+			"bsp",
+			"-tzip",
+			"@salvataggio"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -496,14 +421,14 @@
 		"regex": false,
 		"replace_history":
 		[
-			"/T:1",
-			"APPL_02_PATH_S",
-			"APPL_01_PATH_S"
+			"//------------------------------------------------------------",
+			"@ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE",
+			"@REM"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
 		"show_context": false,
-		"use_buffer2": false,
+		"use_buffer2": true,
 		"use_gitignore": false,
 		"whole_word": false,
 		"wrap": false
@@ -515,30 +440,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+					"file": "DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
 					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 38822,
+						"buffer_size": 35186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62,
-								62
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -550,7 +475,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 27.2
 	},
 	"input":
 	{
@@ -597,7 +522,7 @@
 	},
 	"output.find_results":
 	{
-		"height": 236.0
+		"height": 301.0
 	},
 	"output.markdown":
 	{
@@ -615,7 +540,7 @@
 	"project": "Progetti_DOS.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 51.2
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -654,7 +579,7 @@
 	{
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 358.0,
