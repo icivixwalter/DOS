@@ -231,20 +231,20 @@ goto ELENCO_Servizi_attivi_UTENTE
   @REM-------------------------------------------------------------------------------
 
   @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
-  TASKKILL /IM "ModuleCoreService.exe" /F 
+  TASKKILL /F /IM "ModuleCoreService.exe" 
   TASKKILL /F /IM kpm_tray.exe
 
 
 @REM --------------------- internet + office + ONDRIVE ------------------------
 
   @REM outlook
-  TASKKILL /IM "OUTLOOK.EXE" 
-  TASKKILL /IM "OUTLOOK.EXE *32"/F 			//CHIUDE SOLO se c'è * e le "" + /f
+  TASKKILL /F /IM "OUTLOOK.EXE" 
+  TASKKILL /F /IM "OUTLOOK.EXE *32"/F 			//CHIUDE SOLO se c'è * e le "" + /f
 
 
 
   @REM oppure cosi
-  TASKKILL /IM "Microsoft Office Outlook"
+  TASKKILL /F /IM "Microsoft Office Outlook"
 
   @REM ONDRIVE
   TASKKILL /F /IM OneDrive.exe
@@ -263,8 +263,8 @@ goto ELENCO_Servizi_attivi_UTENTE
   @REM-------------------------------------------------------------------------------
 
   @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
-  TASKKILL /IM "WebexHost.exe" /F 
-  TASKKILL /IM "atmgr.exe" /F 
+  TASKKILL /F /IM "WebexHost.exe"
+  TASKKILL /F /IM "atmgr.exe"
   @REM-------------------------------------------------------------------------------
 
 
@@ -272,7 +272,7 @@ goto ELENCO_Servizi_attivi_UTENTE
   @REM-------------------------------------------------------------------------------
 
   @REM //cisco CHIUDE SOLO se c'è * e le "" + /f
-  TASKKILL /IM "ModuleCoreService.exe" /F 
+  TASKKILL /F /IM "ModuleCoreService.exe"  
 
   TASKKILL /F /IM swc_service.exe
   TASKKILL /F /IM ALsvc.exe
@@ -322,8 +322,8 @@ goto ELENCO_Servizi_attivi_UTENTE
 
 @REM PULISCO    VIRTUAL BOX
     @REM------------------------------------------------------------------------------- 
-    TASKKILL /IM VBoxSVC.exe /F            
-    TASKKILL /IM VirtualBox.exe /F 
+    TASKKILL /F /IM VBoxSVC.exe            
+    TASKKILL /F /IM VirtualBox.exe
     @REM-------------------------------------------------------------------------------          
 
 
@@ -415,17 +415,17 @@ goto ELENCO_Servizi_attivi_UTENTE
     TASKKILL /F /IM "msedge.exe" 
 
     @REM FIRE FOX	
-    TASKKILL /IM "firefox.exe" /F
+    TASKKILL /F /IM "firefox.exe" 
 
 
     @REM GITHUB DESKTOP
-    TASKKILL /IM "GitHubDesktop.exe" /f 
-    TASKKILL /F/IM "git.exe"
-    TASKKILL /IM "git.exe" /f 
+    TASKKILL /F /IM "GitHubDesktop.exe"
+    TASKKILL /F /IM "git.exe"
+    
 
 
     @REM OPERA
-    TASKKILL /IM opera.exe /F 
+    TASKKILL /F /IM opera.exe
 
 
     @REM-------------------------------------------------------------------------------
@@ -434,23 +434,25 @@ goto ELENCO_Servizi_attivi_UTENTE
 
 
 @REM PULISCO ANCHE IL DIKE = PENNA DIGITALE	dike.exe + ACROBAT+ AK910		
-    @REM-------------------------------------------------------------------------------
-    TASKKILL /IM Dike.exe /F 
-    TASKKILL /IM "GoSignDesktop.exe"					//IL DIKE
-    TASKKILL /IM "GoSignDesktop.exe *32"				//IL DIKEGoSignDesktop.exe
-    TASKKILL /IM "GoSignDesktop.exe"					//IL GoSignDesktop.exe
+  @REM-------------------------------------------------------------------------------
+  TASKKILL /F /IM Dike.exe /F 
+  TASKKILL /F /IM "GoSignDesktop.exe"					//IL DIKE
+  TASKKILL /F /IM "GoSignDesktop.exe *32"				//IL DIKEGoSignDesktop.exe
+  TASKKILL /F /IM "GoSignDesktop.exe"					//IL GoSignDesktop.exe
+  TASKKILL /F /IM "GoSignDesktop.exe*32" /F				//IL DIKEGoSignDesktop.exe
+  TASKKILL /F /IM "GoSignDesktop.exe*32" 				//IL DIKEGoSignDesktop.exe	
+  TASKKILL /F /IM GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
+  TASKKILL /F /IM C:\Users\walter.rossi\AppData\Local\InfoCert\GoSign Desktop\GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
 
-    TASKKILL /IM "GoSignDesktop.exe*32" /F				//IL DIKEGoSignDesktop.exe
-    TASKKILL /IM "GoSignDesktop.exe*32" 				//IL DIKEGoSignDesktop.exe	
-    TASKKILL /IM GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
-    TASKKILL /IM C:\Users\walter.rossi\AppData\Local\InfoCert\GoSign Desktop\GoSignDesktop.exe *32 				//IL DIKEGoSignDesktop.exe	
-
-    TASKKILL /IM /T "GoSignDesktop*" 				//IL DIKEGoSignDesktop.exe	
+    TASKKILL /F /IM /T "GoSignDesktop*" 				//IL DIKEGoSignDesktop.exe	
 
 
     @SOSPESO
     @REM PULISCO ACROBAT SERVICE = 	SI TROVA IN C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe
     TASKKILL /IM armsvc.exe 							//ACROBAT		
+    TASKKILL /F/IM armsvc.exe *32               //ACROBAT   
+
+
 
 
 
@@ -466,8 +468,13 @@ goto ELENCO_Servizi_attivi_UTENTE
 @REM PULISCO ZOOM	     			=		SI TROVA IN C:\Users\walter.rossi\AppData\Roaming\Zoom\bin\Zoom.exe
     @REM-------------------------------------------------------------------------------
 
-    TASKKILL /IM "Zoom Meetings *" 
-    TASKKILL /IM "Zoom.exe *" 
+    TASKKILL /F /IM "Zoom Meetings *" 
+    TASKKILL /F /IM "Zoom.exe" 
+    TASKKILL /F /IM "c:\Users\walter.rossi\AppData\Roaming\Zoom\bin\Zoom_launcher.exe" 
+    TASKKILL /F /IM "c:\Users\walter.rossi\AppData\Roaming\Zoom\bin\Zoom.exe" 
+    
+    
+    
 
 
 
