@@ -13,6 +13,8 @@
 
   @REM --------------------- POSIZIONATO SUL DESKTOP E CHIAMO IL BAT TASKKILL DOS STUDIO  ------------------------------------
       @REM File posizionasto sul C:\Users\walter.rossi\Desktop\TasKill_N51_KILL_SOLO_PROCESSI.bat
+      @REM per aprire il file chiamato eseguire il comando start:
+      @REM START "APRI IL COMANDO CHIAMTO .BAT" CALL C:\CASA\LINGUAGGI\DOS\DOS_PROGETTI\TASKILL\TasKill_N51_KILL_SOLO_PROCESSI.bat
 
 
 
