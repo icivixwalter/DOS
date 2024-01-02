@@ -64,11 +64,10 @@
 	"buffers":
 	[
 		{
-			"file": "DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1569,
-				"encoding": "Western (Windows 1252)",
+				"buffer_size": 413,
 				"line_ending": "Windows"
 			},
 			"undo_stack":
@@ -461,20 +460,20 @@
 			[
 				{
 					"buffer": 0,
-					"file": "DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
+					"file": "README.md",
 					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1569,
+						"buffer_size": 413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								267,
+								309
 							]
 						],
 						"settings":
@@ -484,7 +483,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
