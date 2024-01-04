@@ -12,6 +12,7 @@ Tutorial di acces
 
 
 GIT
+	@COMANDO@UNICO
 	fare add + commit + push
 		git add . & git commit -m "agg" & git push
 

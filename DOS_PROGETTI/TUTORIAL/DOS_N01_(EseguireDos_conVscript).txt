@@ -1,0 +1,158 @@
+
+Cosa c'è in questa pagina
+
+In questa pagina vengono illustrati i metodi per avviare un programma o un comando dos. Si può lanciare un documento provocando l'avvio del programma associato (ad esempio lanciando un xls si avvia excel).
+
+Si illustra l'uso del comando SORT per ordinare dei dati; l'uso dello standard input StdIn da vbscript per inviare i dati al programma; l'uso dello standard output StdOut per recuperare il risultato delle elaborazioni.
+
+Come chiamare un programma esterno
+
+Nel file di help di VbScript sono già illustrati i metodi utilizzabili per chiamare un programma esterno. In questa pagina cercherò di ampliare un poco l'argomento, risolvendo alcuni problemi che sorgono comunemente.
+
+Il metodo più semplice è usare il comando EXEC. Questo esempio lancia la calcolatrice di Windows.
+
+Set WshShell = CreateObject("WScript.Shell")
+ Set oExec = WshShell.Exec("calc")
+
+Una seconda possibilità, più flessibile, utilizza invece il comando RUN. 
+
+set wshShell = CreateObject("WScript.Shell")
+ wshShell.run "notepad",3,true
+ WshShell.run "calc",2,false
+
+Il primo parametro specifica il programma da avviare. Il secondo parametro indica il tipo di finestra nel quale aprire il programma. Se vale 2, il programma verrà lanciato ridotto ad icona sulla barra delle applicazioni, dove sarà attivo e pertanto potrebbe lampeggiare. Se vale 3, il programma sarà avviato con finestra ingrandita a tutto schermo. Se vale 7, la finestra è minimizzata nella taskbar ma non attiva. Ci sono anche altre possibilità, elencate nell'help, molto meno utilizzate.
+
+Il terzo parametro specifica se è necessario attendere la chiusura del programma per continuare l'esecuzione dello script. Nell'esempio si attende che l'operatore chiuda il notepad prima di avviare la calcolatrice. Se invece il parametro è false (di default), l'esecuzione dello script continua subito dopo aver avviato l'applicazione richiesta.
+
+L'esempio che segue lancia il notepad, attende che l'utente scriva qualcosa e lo chiuda, poi legge il file creato e ne mostra il contenuto in una finestra. In questo caso è necessario attendere che l'esecuzione di notepad sia terminata in modo da poter leggere il testo creato.
+
+set wshShell = CreateObject("WScript.Shell")
+ wshShell.run "notepad temp.txt",3,true
+ Set fso = CreateObject("scripting.filesystemobject")
+ Set txtStream= fso.OpenTextFile("temp.txt",1)
+ MsgBox txtStream.ReadAll
+
+Fin qui tutto normale. Con quello che abbiamo visto possiamo lanciare tutti i programmi che vogliamo. Passiamo ora a vedere qualche particolarità.
+
+Se il percorso del programma da lanciare contiene degli spazi, otterremo un errore. Questo accade perchè i caratteri fino al primo spazio sono interpretati come nome del file, mentre i caratteri dopo lo spazio saranno interpretati come  dei parametri da passare al programma. Per ovviare a questo problema (a parte usare pathname senza spazi) bisogna racchiudere tra virgolette tutto il percorso del programma da lanciare. Per far questo si può usare il codice ascii chr(34), che restituisce le doppie virgolette, oppure la stringa "" (due volte le doppie virgolette). Dato che la stringa va indicata all'interno delle virgolette, bisognerà usare ben quattro virgolette: le due alle estremità per delimitare la stringa, mentre le due all'interno per indicare il carattere "virgolette". Forse un esempio può essere di aiuto.
+
+wshShell.run """C:\Dati\miei file\un mio programma""  parametro"
+
+Le prime virgolette iniziano a delimitare la stringa. Le due prima di C:\ iniziano a delimitare il nome file che contiene degli spazi. Dopo 'programma' termina il nome del programma, poi segue uno spazio ed i parametri da passare.
+
+In alternativa si può provare a spezzare il codice su più righe, che forse lo rende più comprensibile. In ogni caso se si hanno dei problemi tentando di lanciare un programma, è bene far apparire in una finestra la stringa che è stata composta, in modo da poterla controllare.
+
+set wshShell = CreateObject("WScript.Shell")
+ prog = "C:\Dati\CD documentazione\Altri linguaggi\mio primo programma"
+ prog= """" & prog & """"
+ 'oppure 
+ 'prog = chr(34) & prog & chr(34)
+ prog =prog & "parametro"
+ msgbox prog ' per vedere cosa è uscito
+ wshShell.run prog 
+
+Con i sistemi che ho elencato qui sopra si possono avviare solo gli eseguibili (bat, exe e com).
+
+Se si vuole avviare qualcosa di diverso, come ad esempio un file excel, bisogna chiamare excel e passargli il file come parametro. Questo metodo è piuttosto complicato, perchè excel potrebbe essere in una cartella diversa da quella di default.
+
+Esiste però il comando "START" che permette di lanciare un file come se vi si cliccasse sopra per due volte. Viene infatti eseguita l'azione predefinita che è associata a quel tipo di file.
+
+Set wshshell=CreateObject("wscript.shell")
+ wshshell.Run "%comspec% /c start c:\dati\Manuale.pdf"
+
+%comspec% è il command prompt. Cioè COMMAND.COM per i sistemi Windows 98/ME e CMD.EXE per NT e XP. Oppure qualsiasi altro programma sia stato installato come interfaccia a linea di comando. Il fatto di poter indicare %comspec% ci risolve il problema di sapere in quale sistema operativo ci troviamo.
+
+Il parametro /c significa che il prompt dei comandi dovrà essere chiuso al termine dell'operazione. Se avessimo indicato /k invece la finestra sarebbe rimasta aperta. Per avere altre informazioni sui parametri è sufficiente aprire il command prompt e digitare CMD /?
+
+Sempre dal command prompt potete avere informazioni sul comando START digitando START /?
+
+Nella pagina che ottenete è indicato che il comando cerca di eseguire il file con estensione, nell'ordine, exe, com, bat e cmd.  Se non li trova, prova ad aprire la directory con quel nome in Gestione Risorse. Se invece l'estensione è stata indicata, esegue il programma associato. Quindi avviando un pdf verrà lanciato Acrobat Reader, con un xls si avvierà excel, ecc.
+
+Utilizzando il prompt dei comandi si può usufruire della redirezione dell'output. In altre parole, è possibile inviare ad un file il risultato dell'elaborazione. I quattro comandi qui sotto inviano il proprio output ad altrettanti file di testo, specificati dopo il segno ">".
+
+Set wshshell=CreateObject("wscript.shell")
+ wshshell.Run "%comspec% /c start /? >c:\help-start.txt"
+ wshshell.Run "%comspec% /c dir /? >c:\help-dir.txt"
+ wshshell.Run "%comspec% /c cmd /? >c:\help-cmd.txt"
+ wshshell.Run "%comspec% /c dir >c:\dir.txt"
+
+I primi tre comandi "Run" chiedono l'help sul comando START, DIR e CMD. Il testo risultante non viene mostrato sullo schermo ma viene inviato a tre file di testo (help-start.txt, help-dir.txt, help-cmd.txt) nella directory c:\.
+
+L'ultimo comando Run invia ad un txt l'elenco dei file contenuti nella cartella in cui trova lo script.
+
+Utilizzando appositi parametri del comando dir è possibile elencare, ad esempio, tutti i pathname dei file con estensione mp3 presenti nel disco. Il comando, utilizzato anche nel mio programma che elenca i tag degli mp3, è "Dir \*.mp3 /s /b >elenco.txt". La lista che viene prodotta può poi essere letta dallo script per ulteriori elaborazioni. Questo metodo è molto più veloce che studiare un programma che cerca un file all'interno di tutte le cartelle presenti sul disco.
+
+Altro comando molto potente è il SORT. Permette di mettere in ordine le righe di un file, producendo eventualmente un nuovo documento. L'ordinamento può essere anche inverso e basato sul carattere numero "n" di una riga anzichè necessariamente dal primo. Il parametro /o indica il file da utilizzare per l'output. In mancanza, l'elenco ordinato viene visualizzato sullo schermo (output standard).
+
+Set wshshell=CreateObject("wscript.shell")
+ wshshell.Run "%comspec% /c sort c:\dir.txt /o c:\ordinata.txt"
+
+Catturare l'output di un comando
+
+Molti programmi, soprattutto quelli con interfaccia a linea di comando (il dos-prompt, per intenderci) inviano il proprio output ad un flusso di dati che si chiama StdOut, o Standard Output. Solitamente il risultato dell'elaborazione di questi programmi va a finire nella stessa finestra dalla quale sono stati lanciati, ma è possibile dirigere l'output su un file o anche su una stampante. Abbiamo visto come fare a inviare lo standard output su un file usando il carattere di redirezione ">" . Ora vediamo come intercettare direttamente da VbScript il flusso StdOut. 
+
+Per intercettare lo standard output è necessario avviare l'applicazione come un oggetto creato dal metodo Exec. L'oggetto avrà la proprietà StdOut che è un flusso di dati. Come flusso ha diversi metodi: read, readline, readAll, skip (numero caratteri), skipline. Ha anche delle proprietà per sapere a quale riga (line) e a quale colonna (column) stiamo leggendo, se siamo alla fine della riga (atEndOfLine) oppure alla fine del flusso di dati (atEndOfStream). Il codice che segue mostra in una finestra l'output del comando DIR del prompt dei comandi, intercettato leggendo l'intero stream prodotto.
+
+Set WshShell = CreateObject("Wscript.shell")
+ Set objExec= WshShell.Exec("%comspec% /c dir c:\")
+ msgbox objExec.StdOut.ReadAll
+
+e questo esempio, invece, crea un txt con l'elenco dei file in C:\ ed usa SORT per ordinarli. 
+
+Set WshShell = CreateObject("Wscript.shell")
+ WshShell.run "%comspec% /c dir /b c:\ >c:\dir.txt",3,true
+
+ set ObjExec= WshShell.Exec("sort c:\dir.txt")
+ msgbox objExec.StdOut.ReadAll
+
+In alternativa a mostrare il risultato con msgbox, è possibile leggere l'output e trasferirlo in un vettore per successive elaborazioni.
+
+a= objExec.StdOut.ReadAll
+ msgbox a
+ Riga=split(a,vbcrlf)
+ msgbox Riga(0)
+
+Bisogna notare che la prima riga ha indice zero e non uno. Se ce lo dimentichiamo, perderemo per strada una riga dell'output. Inoltre l'ultima riga prodotta da SORT è vuota. Quindi ci saranno uboud(riga) elementi, numerati da zero a ubound(riga)-1.
+
+Quando una applicazione a linea di comando come SORT è lanciata in questo modo, è possibile che riceva dallo script anche lo stream di input. Nell'esempio che segue lancio il comando SORT e gli invio le righe da ordinare. Concludo con un EOF (Ctrl-Z o chr(26)) per indicare che ho terminato i dati in input e per permettere a SORT di inviarli in uscita ordinati.
+
+Set WshShell = CreateObject("Wscript.shell")
+ set ObjExec= WshShell.Exec("sort")
+ objexec.StdIn.WriteLine "z"
+ objexec.StdIn.WriteLine "a"
+ objexec.StdIn.WriteLine "p"
+ objexec.StdIn.WriteLine  Chr(26)
+ a= objExec.StdOut.ReadAll
+ msgbox a
+
+In risultato ci saranno quattro righe: "a", "p", "z" e una riga vuota. Vediamo del codice da aggiungere al precedente:
+
+Riga=split(a,vbcrlf)
+ msgbox Riga(0)
+ msgbox ubound(riga)
+
+
+In questo modo otteniamo un vettore di quattro righe, numerate da zero a tre. Riga(0) varrà "a", Riga(2) sarà "z" e riga(3) conterrà un ritorno a capo (VbCrLf). Ubound(Riga) è pari a tre, ma i dati vanno dall'indice zero a 2.
+Un programma avviato con il metodo Exec può infine essere terminato usando il metodo objexec.terminate()
+
+E per terminare altre applicazioni?
+
+Il seguente script elenca i processi attivi, comprendendo oltre ai programmi attivi in background anche le applicazioni in esecuzione. Lanciandolo dal command prompt con CSCRIPT LISTA.VBS vengono visualizzati i programmi ed è possibile individuare quello che ci interessa chiudere.
+'LISTA processi.vbs
+ On Error Resume Next
+ strComputer = "."
+ Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+ Set colItems = objWMIService.ExecQuery("Select * from Win32_Process",,48)
+ For Each objItem in colItems
+     Wscript.Echo "CommandLine: " & objItem.CommandLine
+     Wscript.Echo "Name: " & objItem.Name
+ Next 
+All'interno del ciclo è possibile cercare il programma che vogliamo chiudere ed utilizzare il metodo Terminate.
+
+Ad esempio all'interno del for..next possiamo scrivere
+
+if objItem.Name="agent.exe" then objItem.Terminate
+
+
+
+Giovanni Cenati 

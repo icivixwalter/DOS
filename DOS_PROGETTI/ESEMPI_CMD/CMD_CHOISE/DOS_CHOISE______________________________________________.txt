@@ -1,0 +1,10 @@
+
+
+l comando CHOICE consente di gestire le scelte dell置tente, per esempio attraverso un menu.
+Le scelte vengono presentate all置tente attraverso una sequenza di righe con il comando ECHO.
+Il comando CHOICE ha due opzioni fondamentali: /C per elencare le scelte possibili da tastiera e /M
+per impostare il messaggio di sollecito per l置tente. Per esempio, il seguente comando:
+CHOICE  /C  abc  /M  "Scegli  tra  le  opzioni  disponibili  "
+Indica come scelte possibili i caratteri a, b oppure c e visualizza sullo schermo il seguente messaggio
+attendendo poi l段nput dell置tente:
+Scegli  tra  le  opzioni  disponibili  [A,B,C]?

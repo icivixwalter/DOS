@@ -1,0 +1,123 @@
+body {
+	font-family: verdana,arial,sans-serif; font-size: 11px;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+.navi {
+	background: rgb(0, 0, 0); margin: 0px; padding: 0px; color: rgb(170, 170, 170);
+}
+.nav {
+	margin: 0px; padding: 0px; height: 100%; float: right; opacity: 0.8;
+}
+.nav .ysel {
+	background: rgb(51, 51, 51);
+}
+.nav .nsel {
+	background: rgb(0, 0, 0);
+}
+.nav a {
+	color: rgb(170, 170, 170); font-family: verdana,arial,sans-serif; text-decoration: none;
+}
+.nav a:link {
+	color: rgb(170, 170, 170); font-family: verdana,arial,sans-serif; text-decoration: none;
+}
+.nav a:visited {
+	color: rgb(170, 170, 170); font-family: verdana,arial,sans-serif; text-decoration: none;
+}
+.nav a:hover {
+	color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; text-decoration: none;
+}
+.nav a:active {
+	color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; text-decoration: none;
+}
+.nav ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.nav li {
+	padding-left: 8px; font-size: 14px; font-weight: bold;
+}
+.nav li ul li {
+	padding-left: 12px; font-size: 11px;
+}
+h1 {
+	font-size: 16px; font-weight: bold;
+}
+.shortText {
+	
+}
+.menu {
+	font-size: 11px;
+}
+.menu .title {
+	padding-bottom: 4px; font-weight: bold;
+}
+.menu .text {
+	
+}
+h2 {
+	font-size: 14px; font-weight: bold;
+}
+.posts {
+	font-size: 11px;
+}
+.posts .title {
+	
+}
+.posts .text {
+	
+}
+.dosw {
+	background: rgb(221, 221, 221); width: 100%;
+}
+.dosw .title {
+	background: rgb(34, 102, 255); color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.dosw .text {
+	background: rgb(0, 0, 0); color: rgb(204, 204, 204); font-family: monospace; font-size: 11px;
+}
+.btchscr {
+	width: 100%;
+}
+.numbrs {
+	margin: 0px; padding: 0px; color: rgb(170, 170, 170); line-height: 12pt; font-size: 8pt;
+}
+.code {
+	background: rgb(204, 255, 204); margin: 0px; padding: 0px; line-height: 12pt; font-size: 8pt;
+}
+.code ol {
+	background: rgb(204, 255, 204); color: rgb(170, 170, 170); font-family: monospace;
+}
+.codeop {
+	background: rgb(0, 0, 0); margin: 0px; padding: 0px; color: rgb(204, 204, 204); line-height: 12pt; font-family: monospace; font-size: 8pt;
+}
+.inst {
+	color: rgb(0, 0, 0); font-size: 12px;
+}
+.inde {
+	padding-right: 50pt; padding-left: 50pt;
+}
+.resu {
+	background: rgb(238, 238, 238); color: rgb(0, 0, 0); text-indent: 3em; font-size: 12px;
+}
+.instr {
+	color: rgb(0, 0, 0); font-size: 12px;
+}
+.resul {
+	background: rgb(238, 238, 238); color: rgb(0, 0, 0); font-size: 12px;
+}
+.c_cmmt {
+	color: rgb(0, 136, 0);
+}
+.c_cmnt {
+	color: rgb(0, 0, 255); text-decoration: none;
+}
+.c_pvar {
+	color: rgb(255, 136, 0);
+}
+.c_labl {
+	color: rgb(255, 0, 170);
+}
+.bot {
+	
+}

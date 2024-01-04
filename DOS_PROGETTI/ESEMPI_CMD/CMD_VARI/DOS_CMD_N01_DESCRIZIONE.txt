@@ -1,0 +1,191 @@
+
+Comando dos CMD
+
+Avvia una nuova istanza dell'interprete dei comandi di Windows
+
+CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF][[/S] [/C | /K] stringa]
+
+ 
+
+/C       Esegue il comando specificato dalla stringa, quindi termina
+/K       Esegue il comando specificato dalla stringa e rimane
+/S       Modifica il trattamento della stringa dopo /C o /K (vedere di seguito)
+/Q       Disattiva echo
+/D       Disabilita l'esecuzione di comandi di esecuzione automatica dal Registro di sistema (vedere di seguito)
+/A       Rende l'output di comandi interni per pipe o file in formato ANSI
+/U       Rende l'output di comandi interni per pipe o file in formato Unicode
+/T:fg    Imposta i colori primo piano/sfondo (vedere  COLOR /? per ulteriori informazioni)
+/E:ON    Abilita estensioni ai comandi (vedere di seguito)
+/E:OFF   Disabilita estensioni ai comandi (vedere di seguito)
+/F:ON    Abilita caratteri di completamento nome directory e file (vedere di seguito)
+/F:OFF   Disabilita caratteri di completamento nome directory e file (vedere di seguito)
+/V:ON    Abilita l'espansione ritardata delle variabili di ambiente utilizzando ! come delimitatore. Ad esempio,
+	 /V:ON	 consente a !var! di espandere la variabile var al momento dell'esecuzione. 
+	 La sintassi var espande le variabili al momento dell'input. 
+	 Si tratta di due comportamenti diversi all'interno di un loop FOR.
+/V:OFF   Disabilita l'espansione ritardata dell'ambiente.
+
+ 
+
+Ricordare che comandi multipli separati da separatori '&&' sono accettati per le stringhe se racchiusi tra virgolette. Inoltre, per ragioni di compatibilità, /X è analogo a /E:ON, /Y è analogo a /E:OFF e /R è analogo a /C. Le altre opzioni sono ignorate.
+
+ 
+
+Se è specificato /C o /K, la parte restante della riga di comando dopo l'opzione viene elaborata come una riga di comando, 
+in cui viene utilizzata la logica seguente per elaborare le virgolette ("):
+
+ 
+
+    1.  Se sono soddisfatte tutte le seguenti condizioni, le virgolette nella riga di comando vengono mantenute:
+
+        - senza opzione  /S
+        - esattamente due caratteri di virgolette
+        - senza caratteri speciali tra due caratteri di
+          virgolette, dove per speciali si intende uno
+          tra: <>()@^|
+        - sono presenti uno o più spazi vuoti tra le due virgolette
+        - la stringa tra i due caratteri di virgolette è il nome di un file eseguibile.
+
+    2.  In caso contrario, si osserva se il primo carattere è un carattere di virgolette e, in tal caso, 
+    si eliminerà il primo e l'ultimo carattere di virgolette nella riga di comando, mantenendo il testo che 
+    segue l'ultimo carattere di virgolette.
+
+ 
+
+Se all'avvio di CMD.EXE NON è stata specificata l'opzione /D sulla riga di comando, 
+l'utilità ricercherà le seguenti variabili REG_SZ/REG_EXPAND_SZ del Registro di sistema e, 
+se almeno una di esse è presente, la eseguirà per prima.
+
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\AutoRun
+
+        e/o
+
+    HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun
+
+ 
+
+Le estensioni dei comandi sono attivate per impostazione predefinita. È possibile disattivare le estensioni 
+per una chiamata specifica utilizzando l'opzione /E:OFF. Per attivare o disattivare le estensioni per tutte le
+chiamate di CMD.EXE per uno specifico computer e/o sessione di accesso utente, 
+utilizzando REGEDIT.EXE impostare su 0x1 o 0x0 uno o entrambi i valori REG_DWORD seguenti nel Registro di sistema:
+
+ 
+
+ HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\EnableExtensions
+
+        e/o
+
+ HKEY_CURRENT_USER\Software\Microsoft\Command Processor\EnableExtensions
+
+ 
+
+Le impostazioni specifiche dell'utente hanno la precedenza sulle impostazioni a livello di computer. 
+Le opzioni specificate sulla riga di comando hanno la precedenza sulle impostazioni del Registro di sistema. 
+In un file batch, gli argomenti SETLOCAL ENABLEEXTENSIONS o DISABLEEXTENSIONS hanno 
+la precedenza sull'opzione /E:ON o /E:OFF. Digitare SETLOCAL /? per ulteriori informazioni.
+
+ 
+
+Le estensioni dei comandi apportano modifiche e/o aggiunte ai comandi seguenti:
+
+    DEL o ERASE
+    COLOR
+    CD o CHDIR
+    MD o MKDIR
+    PROMPT
+    PUSHD
+    POPD
+    SET
+    SETLOCAL
+    ENDLOCAL
+    IF
+    FOR
+    CALL
+    SHIFT
+    GOTO
+    START (include anche modifiche alla chiamata di comandi esterni)
+    ASSOC
+    FTYPE
+
+ 
+
+Per ulteriori informazioni, digitare il nome del comando seguito da /?, per visualizzarne le specifiche.
+
+L'espansione ritardata delle variabili di ambiente NON è attivata per impostazione predefinita. 
+È possibile attivare o disattivare tale funzionalità per una specifica chiamata di CMD.EXE utilizzando l'opzione /V:ON  /V:OFF.
+Per attivare o disattivare l'espansione ritardata per tutte le chiamate di CMD.EXE per uno specifico 
+computer e/o sessione di accesso utente, utilizzando REGEDIT.EXE impostare su 0x1 o 0x0 uno o entrambi 
+i valori REG_DWORD seguenti nel Registro di sistema:
+
+ 
+
+ HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\DelayedExpansion
+
+        e/o
+
+ HKEY_CURRENT_USER\Software\Microsoft\Command Processor\DelayedExpansion
+
+ 
+
+Le impostazioni specifiche dell'utente hanno la precedenza sulle impostazioni a livello di computer. 
+Le opzioni specificate sulla riga di comando hanno la precedenza sulle impostazioni del Registro di sistema. 
+In un file batch, gli argomenti SETLOCAL SETLOCAL ENABLEDELAYEDEXPANSION o DISABLEDELAYEDEXPANSIONS 
+hanno la precedenza sull'opzione /V:ON o /V:OFF. Digitare SETLOCAL /? per ulteriori informazioni.
+
+Se l'espansione ritardata delle variabili di ambiente è attivata, sarà possibile utilizzare il punto esclamativo (!) 
+per sostituire il valore di una variabile di ambiente al momento dell'esecuzione. 
+È possibile attivare o disattivare il completamento dei nomi di file per una 
+specifica chiamata di CMD.EXE utilizzando l'opzione /F:ON o /F:OFF. 
+Per attivare o disattivare il completamento dei nomi di file per tutte le chiamate di CMD.EXE per 
+uno specifico computer e/o sessione di accesso utente, utilizzando REGEDIT.EXE impostare uno o entrambi
+i seguenti valori REG_DWORD del Registro di sistema:
+
+ 
+
+   HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\CompletionChar
+   HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\PathCompletionChar
+
+        e/o
+
+   HKEY_CURRENT_USER\Software\Microsoft\Command Processor\CompletionChar
+   HKEY_CURRENT_USER\Software\Microsoft\Command Processor\PathCompletionChar
+
+ 
+
+sul valore esadecimale del carattere di controllo corrispondente a una particolare funzione 
+(ad esempio, 0x4 corrisponde a CTRL+D e 0x6 a CTRL+F). Le impostazioni specifiche dell'utente
+hanno la precedenza sulle impostazioni a livello di computer. Le opzioni specificate sulla riga di 
+comando hanno la precedenza sulle impostazioni del Registro di sistema.
+
+
+Se il completamento è stato attivato utilizzando l'opzione /F:ON, i due caratteri di controllo utilizzati 
+sono CTRL+D per il completamento dei nomi di directory e CTRL+F per il completamento dei nomi di file. 
+Per disattivare uno specifico carattere di completamento nel Registro di sistema, utilizzare il valore 
+corrispondente allo spazio (0x20), che non è un carattere di controllo valido.
+
+Il completamento viene richiamato quando l'utente digita uno dei due caratteri di controllo. 
+La funzione di completamento legge la stringa del percorso specificata a sinistra del cursore e 
+vi aggiunge un carattere jolly, se non è già incluso, quindi crea un elenco di percorsi corrispondenti 
+e visualizza il primo percorso ottenuto. Se non sono presenti percorsi corrispondenti, emette un segnale 
+acustico e non visualizza nulla. Premendo ripetutamente lo stesso carattere di controllo, è possibile 
+visualizzare in sequenza tutti gli elementi dell'elenco dei percorsi corrispondenti. 
+Premendo il tasto MAIUSC insieme al carattere di controllo, è possibile scorrere tale elenco 
+in senso inverso. Se si apporta una modifica qualsiasi alla riga e si preme di nuovo il 
+carattere di controllo, l'elenco salvato in precedenza verrà scartato e ne verrà creato un altro.
+Lo stesso avviene se si passa dal completamento dei nomi di file a quello dei nomi di directory. 
+L'unica differenza tra i due caratteri di controllo consiste nel fatto che il carattere di 
+completamento per i file individua sia nomi di file che di directory, mentre il carattere di 
+completamento per le directory individua solo nomi di directory. Se si utilizza il carattere 
+di completamento per i file insieme a uno qualsiasi dei comandi predefiniti per le directory (CD, MD o RD),
+verrà eseguito solo il completamento per le directory.
+
+Il codice di completamento gestisce correttamente anche i nomi di file che contengono spazi o altri caratteri speciali,
+racchiudendo il percorso tra virgolette. Inoltre, se si effettua un backup e quindi si richiama il
+completamento all'interno di una riga, il testo che si trova a destra del cursore nel momento 
+in cui viene richiamato il completamento verrà ignorato.
+
+ 
+
+Sono richieste le virgolette per i caratteri speciali seguenti:
+     <spazio>
+     &()[]{}^=;!'+,`~

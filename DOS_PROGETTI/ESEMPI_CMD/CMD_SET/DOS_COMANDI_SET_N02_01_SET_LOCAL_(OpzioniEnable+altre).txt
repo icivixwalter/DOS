@@ -1,0 +1,87 @@
+SETLOCAL
+
+Impostare le opzioni per controllare la visibilità delle variabili di ambiente in un file batch.
+
+  Sintassi
+       SETLOCAL
+
+       SETLOCAL { enabledelayedexpansion |  DisableDelayedExpansion} {EnableExtensions |  DisableExtensions}
+
+ Chiave
+    Enabledelayedexpansion Expand variabili in fase di esecuzione, piuttosto che in fase di analisi.
+
+    DisableDelayedExpansion Espandere le variabili in fase di analisi, piuttosto che in fase di esecuzione.
+
+    EnableExtensions tenta di attivare Comando estensioni. 
+
+    DisableExtensions tentano di disattivare Comando estensioni. 
+
+SETLOCAL su di essa la propria, di solito all'inizio di un file batch, inizierà la localizzazione delle variabili di ambiente.
+
+L'emissione di un comando SETLOCAL, il script batch erediterà tutte le variabili attuali dall'ambiente master / sessione.
+
+L'emissione di un ENDLOCAL comando ripristinerà tutte le variabili d'ambiente presenti prima del SETLOCAL è stato emesso.
+
+Se uno script batch non usa SETLOCAL e ENDLOCAL poi tutte le variabili saranno globale, cioè visibile e modificabile da altri script.
+
+Anche se le variabili globali sono facili da lavorare non sono le buone pratiche - per esempio se si dispone di più script batch che si occupano di nomi di file (e di questi script sono CALL Ing l'un l'altro), il primo script ha una variabile chiamata _filename, il secondo script un diverso variabile chiamata nome-file (un nome diverso per evitare conflitti con il primo script) un terzo script ora ha bisogno di qualcosa di simile a nome_file questo diventa rapidamente molto difficile da gestire.
+
+Con le variabili locali si è liberi di utilizzare gli stessi nomi delle variabili in più script batch - non vi è alcun conflitto perché le variabili locali non sono visibili a qualsiasi altro script.
+Le variabili locali possono essere passati da una routine di lotto all'altro con il ENDLOCAL comando.
+enabledelayedexpansion
+
+    Impostazione EnabledDelayedExpansion farà sì che ogni variabile per essere ampliato in tempo di esecuzione piuttosto che in fase di analisi. 
+
+DisableDelayedExpansion
+
+    Impostazione DisabledDelayedExpansion farà sì che ogni variabile da espandere in fase di analisi, piuttosto che in fase di esecuzione, questo è il comportamento di default. 
+
+Il sovraccarico di una variabile:
+
+    SETLOCAL può essere utilizzato più di una volta nella stessa file batch in modo che più valori possono essere memorizzati nella stessa variabile ambiente. Per tenere traccia di definizioni di variabili, associare ogni SETLOCAL con un corrispondente ENDLOCAL.
+
+    SETLOCAL è limitata a 32 istanze attive per CALL livello. Al livello principale di uno script può avere fino a 32 SETLOCAL attiva, e quindi chiamare una subroutine che prende il proprio assegnazione di un massimo di 32 SETLOCAL, etc.
+
+    @echo off
+    SETLOCAL
+    :: Commissione standard
+    Set _Commission = 20
+    Echo commissione standard% _Commission%
+
+    :: Commissione Premium
+    SETLOCAL
+    Set _Commission = 30
+    Commissione Echo Premium% _Commission%
+
+    :: torna alla commissione standard
+    ENDLOCAL
+    Echo% _Commission% 
+
+ErrorLevel
+
+    Quando viene eseguito da un file batch, SETLOCAL sarà sempre impostare un ERRORLEVEL.
+    Se dato un argomento valido o senza argomenti, un nuovo ambiente è stato creato % ERRORLEVEL% = 0
+    Se i parametri cattivi dati,% ERRORLEVEL% = 1 
+
+EnableExtensions / DisableExtensions
+
+    Estensioni ai comandi sono abilitate di default, raramente vi è alcuna necessità di disattivarli.
+
+    Se le estensioni ai comandi sono permanentemente disabili o se uno script è in esecuzione sotto il processore 95 di comando di Windows command.com poi EnableExtensions SETLOCAL non saranno in grado di ripristinarli.
+
+    Un file batch per avvertire se estensioni ai comandi non sono disponibili (vedi discussione sul forum ): 
+
+  VERIFICARE errori 2> nul
+    EnableExtensions SETLOCAL
+    IF ERRORLEVEL 1 echo Impossibile abilitare le estensioni 
+
+SETLOCAL è un interno di comando.
+
+"Un negozio locale per la popolazione locale" - The League of Gentlemen
+
+Correlata:
+
+ENDLOCAL - Fine localizzazione di modifiche di ambiente in un file batch.
+Sintassi: Funzioni - Come confezionare blocchi di codice
+PowerShell: Set-PSDebug -strict - Equivalente a 'Option Explicit' in VB
+Comando bash Equivalente (Linux): in sola lettura - variabili Segna / funzioni di sola lettura 

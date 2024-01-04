@@ -1,0 +1,48 @@
+DRIVERQUERY
+
+
+
+DRIVERQUERY [/S sistema [/U nomeutente [/P [password]]]]
+              [/FO formato] [/NH] [/SI] [/V] 
+Descrizione:
+    Consente a un amministratore di visualizzare un elenco dei 
+    driver di dispositivo installati.
+
+Elenco parametri:
+      /S   sistema             Specifica il sistema remoto a cui connettersi.
+
+      /U   [dominio\]utente   Specifica il contesto utente in cui 
+                               il comando viene eseguito.
+
+      /P   [password]          Specifica la password per il 
+                               contesto utente.
+
+      /FO  formato             Specifica il tipo di output da
+                               visualizzare.
+                               I valori validi da passare con
+                               il parametro sono "TABLE", "LIST" e
+                               "CSV".
+
+      /NH                      Specifica che "Intestazione colonna" 
+                               non verrà visualizzata. Valido 
+                               soltanto per i formati "TABLE" e
+                               "CSV".
+
+      /SI                      Fornisce informazioni sui driver
+                               firmati.
+
+      /V                       Visualizza output in modalità
+
+                               dettagliata. Non valido per 
+                               per driver firmati.
+
+      /?                       Visualizza questo messaggio della
+                               Guida.
+
+Esempi:
+    DRIVERQUERY
+    DRIVERQUERY /FO CSV /SI
+    DRIVERQUERY /NH
+    DRIVERQUERY /S indirizzo ip /U utente /V 
+    DRIVERQUERY /S sistema /U dominio\utente /P password /FO LIST
+ 

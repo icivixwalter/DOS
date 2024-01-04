@@ -1,0 +1,16 @@
+http://www.navigaweb.net/2014/03/strumenti-nascosti-nella-riga-di-comando.html
+
+Per eseguire due comandi insieme nella stessa riga, basta separarli con && .
+Quello a sinistra delle E commerciali viene eseguito prima, l'altro subito dopo senza chiedere conferma.
+
+
+) Driverquery
+Il comando driverquery genera un elenco di tutti i driver hardware installati in Windows.
+Questo è utile per salvare la lista in un foglio stampabile.
+Come al solito, ci sono delle opzioni:
+driverquery /S consente di specificare il nome o l'indirizzo IP di un computer remoto in modo da indagare sui driver installati.
+driverquery /SI mostra le informazioni di firma digitale per i driver.
+driverquery /fo consente di specificare il formato in cui vengono visualizzate le informazioni in modo da poterle salvare in una tabella.
+Dopo avere digitando /fo aggiungere TABLE per salvare la lista in una tabella, LIST per un elenco e CSV per visualizzare i dati come valori separati da virgola.
+Alla fine, aggiungere un simbolo > seguito dal nome del file in cui salvare la lista.
+Ad esempio: driverquery /fo CSV > drivers.csv

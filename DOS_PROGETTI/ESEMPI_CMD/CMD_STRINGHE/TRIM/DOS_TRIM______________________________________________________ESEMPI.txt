@@ -1,0 +1,10 @@
+Descrizione: 	Utilizzare il comando FOR per tagliare spazi all'inizio di una variabile. In questo esempio la variabile da ritagliare è str.
+script: 	
+1.
+2.
+3.
+4.
+set str= 15 Leading spaces to truncate
+echo."%str%"
+for /f "tokens=* delims= " %%a in ("%str%") do set str= %%a
+echo."%str%"

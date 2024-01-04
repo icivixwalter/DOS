@@ -1,0 +1,35 @@
+
+@REM http://www.sullaprogrammazione.com/dos-batch-impostare-una-variabile-con-un-valore-letto-da-un-file.html
+
+@REM Recupero il parametro da un file salvato su c:
+@REM esempio A partire da Windows 2000, il 
+@REM comando SET può essere invocato con il parametro /P. (SET /P variabile = [PromptSring]
+@REM  In quel caso, SET si aspetta un input dell'utente. 
+@REM [PromptString] sarà il testo proposto all'utente, il quale in risposta digiterà un 
+@REM valore che sarà inserito nella variabile specificata.
+@REM Se aggiungo al segno uguale "=" il segno di ridirezione "<" e poi il nome di un file, 
+@REM l'input arriverà dal file invece che dalla tastiera. 
+
+
+
+@REM // CREO UN FILE INSERENDO UN PARAMETRO E LO RECUPERO TRAMITE SET /P variabile
+@REM //----------------------------------------------------------------------------//
+
+	@REM 01) Creo il file di configurazione che contiene il mio valore e lo chiamo 
+	
+		C:\>ECHO D:\INSTALLAZIONE > root.config
+		
+	@REM 02) Posso così caricare il mio valore di configurazione dal file root.config nella mia variabile root:
+	@REM  digito il comando sotto indicato nel prompt di DOS
+		
+		C:\>SET /P root=<root.config
+		
+	@REM 03) verifica finale digitando nel prompt di dos il seguente comando:
+		
+		C:\>ECHO %root%
+		
+	
+	@REM Attenzione, se il file root.config contiene più di una linea, solo la 
+	@REM prima verrà assegnata alla nostra variabile. Questo perchè l'accapo viene interpretato allo stesso modo di un invio da tastiera.
+
+@REM //----------------------------------------------------------------------------//

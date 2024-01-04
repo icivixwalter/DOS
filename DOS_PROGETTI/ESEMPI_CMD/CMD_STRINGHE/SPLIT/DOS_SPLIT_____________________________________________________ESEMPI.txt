@@ -1,0 +1,33 @@
+
+DOS
+ESEMPIO DI SPLIT DI STRINGHE
+
+
+Split String - dividere una stringa, estrarre Sottostringhe da delimitatori
+Descrizione: 	Utilizzare il comando FOR per dividere una stringa in parti. 
+L'esempio mostra come dividere una variabile di data nelle sue parti.
+script: 	
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+	echo.-- Split off the first date token, ie day of the week
+for /f %%a in ("%date%") do set d= %%a
+echo.Date : %date%
+echo.d : %d%
+echo.
+
+echo.-- Split the date into weekday, month, day, and year, using slash and space as delimiters
+for /f "tokens=1,2,3,4 delims=/ " %%a in ("%date%") do set wday= %%a &set month= %%b &set day= %%c &set year= %%d
+echo.Weekday: %wday%
+echo.Month : %month%
+echo.Day : %day%
+echo.Year : %year%

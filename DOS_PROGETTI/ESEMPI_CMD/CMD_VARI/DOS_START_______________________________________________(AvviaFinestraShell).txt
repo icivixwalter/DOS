@@ -1,0 +1,101 @@
+
+Comando cmd START
+
+Apre una finestra a parte per eseguire un programma o un comando specifico.
+
+ 
+
+START ["titolo"] [/D percorso] [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED]
+      [/LOW | /NORMAL | /HIGH | /REALTIME | /ABOVENORMAL | /BELOWNORMAL]
+      [/NODE <nodo NUMA>] [/AFFINITY <maschera affinità hex>] [/WAIT] [/B]
+      [comando/programma] [parametri]
+
+ 
+
+    "titolo"    Testo da visualizzare nella barra del titolo della finestra.
+    percorso    Directory di avvio.
+    B           Avvia l'applicazione senza creare una nuova finestra.
+                L'applicazione ignora la gestione di ^C. Se l'applicazione
+                non riattiva l'elaborazione di ^C, ^Break è l'unico modo per
+                interrompere l'applicazione.
+    I           Il nuovo ambiente sarà l'ambiente originale trasmesso
+                a cmd.exe e non l'ambiente corrente.
+    MIN         Avvia la finestra ridotta a icona.
+    MAX         Avvia la finestra ingrandita.
+    SEPARATE    Avvia il programma Windows a 16 bit in uno spazio
+                di memoria separato.
+    SHARED      Avvia il programma Windows a 16 bit in uno spazio
+                di memoria condiviso.
+    LOW         Avvia l'applicazione nella classe di priorità IDLE.
+    NORMAL      Avvia l'applicazione nella classe di priorità NORMAL.
+    HIGH        Avvia l'applicazione nella classe di priorità HIGH.
+    REALTIME    Avvia l'applicazione nella classe di priorità REALTIME.
+    ABOVENORMAL Avvia l'applicazione nella classe di priorità ABOVENORMAL.
+    BELOWNORMAL Avvia l'applicazione nella classe di priorità BELOWNORMAL.
+    NODE        Specifica il nodo NUMA (Non-Uniform Memory Architecture)
+                preferito come numero intero decimale.
+    AFFINITY    Specifica la maschera di affinità come numero esadecimale.
+                Il processo è limitato all'esecuzione in questi processori.
+                La maschera di affinità viene interpretata in modo diverso
+                se /AFFINITY e /NODE sono combinati.  Specificare la maschera
+                di affinità come se la maschera del processore del nodo NUMA
+                venisse spostata a destra per iniziare al bit zero.
+                Il processo è limitato all'esecuzione nei processori in comune
+                tra la maschera di affinità specificata e il nodo NUMA.
+                Se non esistono processori in comune, il processo è limitato
+                all'esecuzione nel nodo NUMA specificato.
+    WAIT        Avvia l'applicazione e ne attende il completamento.
+    comando/programma
+                Se è un comando interno cmd o un file batch, il processore
+                dei comandi viene eseguito con l'opzione /K per cmd.exe.
+                La finestra non sarà quindi chiusa dopo l'esecuzione
+                del comando.
+
+                Se non è un comando interno cmd o un file batch, si tratta
+                di un programma che sarà eseguito come applicazione in una
+                finestra o come applicazione di console.
+
+    parametri   Parametri passati al comando/programma.
+
+ 
+
+NOTE: le opzioni SEPARATE e SHARED non sono supportate dalle piattaforme a 64 bit.
+
+ 
+
+Se si specifica /NODE, i processi verranno creati in modo da sfruttare la località della memoria nei sistemi NUMA.  Ad esempio, due processi che comunicano spesso tra loro mediante una memoria condivisa possono essere creati in modo da condividere lo stesso nodo NUMA preferito per ridurre al minimo le latenze della memoria.  Quando possibile, allocano la memoria dallo stesso nodo NUMA e possono essere eseguiti in processori che si trovano all'esterno del nodo specificato.
+
+    start /NODE 1 application1.exe
+    start /NODE 1 application2.exe
+
+ 
+
+Questi due processi possono essere ulteriormente vincolati per l'esecuzione in processori specifici all'interno dello stesso nodo NUMA. Nell'esempio seguente, application1 viene eseguito nei due processori di ordine inferiore del nodo, mentre application2 viene eseguito nei due processori successivi del nodo.  Nell'esempio si presume che il nodo specificato includa almeno quattro processori logici.  Si noti che il numero del nodo può essere impostato su qualsiasi numero di nodo valido per il computer senza modificare la maschera di affinità.
+
+ 
+
+    start /NODE 1 /AFFINITY 0x3 application1.exe
+    start /NODE 1 /AFFINITY 0xc application2.exe
+
+ 
+
+Se le estensioni dei comandi sono attivate, la chiamata dei comandi esterni tramite la riga di comando o il comando START verrà modificata come segue:
+
+I file non eseguibili possono essere richiamati tramite la relativa associazione, digitando il nome del file come un normale comando. Ad esempio: WORD.DOC avvia l'applicazione associata all'estensione di file DOC. Vedere i comandi ASSOC e FTYPE per informazioni sulla creazione delle associazioni nell'ambito di uno script di comandi.
+
+Se si esegue un'applicazione con GUI a 32 bit, CMD.EXE non attenderà la chiusura dell'applicazione per tornare al prompt dei comandi. Questo non accade se CMD.EXE viene eseguito da uno script di comandi.
+
+
+Quando si esegue una riga di comando in cui il primo token è la stringa "CMD", senza un'estensione o un percorso, la stringa "CMD" viene sostituita con il valore della variabile COMSPEC, per evitare di eseguire CMD.EXE dalla directory corrente.
+
+Quando si esegue una riga di comando in cui il primo token NON contiene un'estensione, CMD.EXE utilizza il valore della variabile di ambiente PATHEXT per determinare le estensioni da cercare e il relativo ordine.
+    Il valore predefinito per la variabile PATHTEXT è:
+
+
+        .COM;.EXE;.BAT;.CMD
+
+    La sintassi è uguale a quella della variabile PATH, con elementi separati da un punto e virgola (;).
+
+ 
+
+Se durante la ricerca di un eseguibile non viene trovata alcuna estensione corrispondente, verrà verificato se il nome specificato corrisponde a una directory. In tal caso, il comando START avvia Esplora risorse a partire dal percorso individuato. Se eseguito dalla riga di comando, equivale all'esecuzione di CD /D per passare a tale percorso.

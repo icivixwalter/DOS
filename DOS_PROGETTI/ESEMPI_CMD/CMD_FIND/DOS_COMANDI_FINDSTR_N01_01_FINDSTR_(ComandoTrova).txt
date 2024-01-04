@@ -1,0 +1,257 @@
+
+Utilizzando il sito si accetta l’uso di cookies per analisi, risultati personalizzati e pubblicità.
+Ulteriori informazioni
+TechNet
+Italia (Italiano) Esci
+icivix
+Windows Server
+A-Z List Findstr
+Stampa Esporta (0)
+Findstr
+
+Aggiornamento: settembre 2007
+
+Si applica a: Windows Server 2008, Windows Vista
+
+Searches for patterns of text in files.
+
+For examples of how to use this command, see Examples.
+Syntax
+
+findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<File>] [/c:<String>] [/g:<File>] [/d:<DirList>] [/a:<ColorAttribute>] [/off[line]] <Strings> [<Drive>:][<Path>]<FileName>[ ...]
+
+Parameters
+Parameter 	Description
+
+/b
+Corrisponde il modello di testo se è all'inizio di una riga.
+Matches the text pattern if it is at the beginning of a line.
+
+/e
+Corrisponde il modello di testo se è alla fine di una linea.
+Matches the text pattern if it is at the end of a line.
+
+/l
+Processi stringhe di ricerca letteralmente.
+Processes search strings literally.
+
+/r
+Processi stringhe di ricerca come espressioni regolari. Questa è l'impostazione predefinita.
+Processes search strings as regular expressions. This is the default setting.
+
+/s
+Cerchi nella directory corrente e in tutte le sottodirectory.
+Searches the current directory and all subdirectories.
+
+/i
+Ignora il caso dei caratteri durante la ricerca della stringa (Maiuscole o minuscole).
+Ignores the case of the characters when searching for the string.
+
+/x
+Stampa le linee che corrispondono esattamente.
+Prints lines that match exactly.
+
+/v
+Stampa solo le righe che non contengono una corrispondenza.
+Prints only lines that do not contain a match.
+
+/n
+Stampa il numero di riga di ogni riga che corrisponde.
+Prints the line number of each line that matches.
+
+/m
+Stampa solo il nome del file se un file contiene una corrispondenza.
+Prints only the file name if a file contains a match.
+
+/o
+Stampa carattere  Offset prima di ogni riga corrispondente
+Prints character offset before each matching line.
+
+/p
+Ignora i file con caratteri non stampabili.
+Skips files with non-printable characters.
+
+/off[line]
+Non saltare i file che hanno l'attributo di linea set.
+Does not skip files that have the offline attribute set.
+
+/f:<File>
+Ottiene un elenco di file dal file specificato.
+Gets a file list from the specified file.
+
+/c:<String>
+Utilizza il testo specificato come stringa di ricerca letterale.
+Uses the specified text as a literal search string.
+
+/g:<File>
+Ottiene stringhe di ricerca dal file specificato.
+Gets search strings from the specified file.
+
+/d:<DirList>
+Cerchi l'elenco specificato di directory. Ogni directory deve essere separato con un punto e virgola (;), ad esempio dir1; dir2; dir3.
+Searches the specified list of directories. Each directory must be separated with a semicolon (;), for example dir1;dir2;dir3.
+
+/a:<ColorAttribute>
+Specifica attributi di colore con due cifre esadecimali. Tipo di colore /? per ulteriori informazioni.
+Specifies color attributes with two hexadecimal digits. Type color /? for additional information.
+
+<Strings>
+Specifica il testo da cercare nel nome del file. Richiesto.
+Specifies the text to search for in FileName. Required.
+
+[<Drive>:][<Path>]<FileName>[ ...]
+Specifica la posizione e il file oi file da ricercare. è richiesto almeno un nome di file.
+Specifies the location and file or files to search. At least one file name is required.
+
+/?
+Visualizza la Guida al prompt dei comandi.
+Displays Help at the command prompt.
+
+//*****************************************************************************//
+Remarks
+Osservazioni:
+
+    Tutte le opzioni di findstr della riga di comando devono precedere le stringhe e il nome nella stringa di comando.
+    All findstr command-line options must precede Strings and FileName in the command string.
+    
+    Le espressioni regolari utilizzano entrambi i caratteri letterali e metacaratteri per trovare modelli di testo, piuttosto che le stringhe esatte di caratteri. Un carattere letterale è un personaggio che non ha un significato speciale nella regular-expression sintassi corrisponde un evento di quel personaggio. Ad esempio, le lettere ed i numeri sono caratteri letterali. Un metacarattere è un simbolo con un significato speciale (un operatore o delimitatore) nella sintassi delle espressioni regolari.
+    Regular expressions use both literal characters and metacharacters to find patterns of text, rather than exact strings of characters. A literal character is a character that does not have a special meaning in the regular-expression syntax—it matches an occurrence of that character. For example, letters and numbers are literal characters. A metacharacter is a symbol with special meaning (an operator or delimiter) in the regular-expression syntax.
+    
+    Nella tabella seguente sono elencati i metacaratteri che findstr accetta.
+    The following table lists the metacharacters that findstr accepts.
+
+     
+    Metacharacter 	Value
+
+    .    Wildcard: any character =Jolly: qualsiasi carattere
+
+    *  	Repeat: zero or more occurrences of the previous character or class = Ripetere: zero o più occorrenze del carattere precedente o di classe
+
+    ^	Line position: beginning of the line = Posizione riga: inizio riga
+
+    $ 	Line position: end of the line = Posizione riga: fine della riga
+
+    [class] Character class: any one character in a set = classe di caratteri: qualsiasi carattere in un set
+
+    [^class] Inverse class: any one character not in a set = Classe inversa: qualsiasi carattere non in un set
+
+    [x-y] Range: any characters within the specified range =Intervallo: qualsiasi carattere nell'intervallo specificato
+
+    \x Escape: literal use of a metacharacter x = Fuga: uso letterale di un metacarattere x
+
+    \<string Word position: beginning of the word = Posizione Parola: all'inizio della parola
+
+    string\ Word position: end of the word = Word position: end of the word = Posizione Parola: fine della parola
+    
+    
+//--------------------------------------------------------------------------------------------------------------------------//    
+    I caratteri speciali nella sintassi delle espressioni regolari hanno più potere quando si utilizzano insieme. Ad esempio, utilizzare la seguente combinazione del carattere jolly e il carattere di ripetizione (*) per adattarsi a qualsiasi stringa di caratteri (.):
+    The special characters in regular expression syntax have the most power when you use them together. For example, use the following combination of the wildcard character (.) and repeat (*) character to match any string of characters:
+
+    .*
+//--------------------------------------------------------------------------------------------------------------------------//
+
+
+//--------------------------------------------------------------------------------------------------------------------------//
+	Utilizzare la seguente espressione come parte di un'espressione più ampia per adattarsi a qualsiasi stringa che inizia con "b" e termina con "ing":
+  	Use the following expression as part of a larger expression to match any string beginning with "b" and ending with "ing":
+
+    b.*ing
+//--------------------------------------------------------------------------------------------------------------------------//
+
+
+Examples
+
+Utilizzare gli spazi per separare più stringhe di ricerca a meno che l'argomento è preceduto da / c.
+Use spaces to separate multiple search strings unless the argument is prefixed with /c.
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per verificare la "ciao" o "là" nel file X.Y, digitare:
+To search for "hello" or "there" in file x.y, type:
+
+findstr "hello there" x.y 
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per verificare la "ciao là" nel file X.Y, digitare:
+To search for "hello there" in file x.y, type:
+
+findstr /c:"hello there" x.y 
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per trovare tutte le occorrenze della parola "Windows" (con l'iniziale maiuscola W) nel file Proposal.txt, digitare:
+To find all occurrences of the word "Windows" (with an initial capital letter W) in the file Proposal.txt, type:
+
+findstr Windows proposal.txt 
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per cercare tutti i file nella directory corrente e tutte le sottodirectory che contenevano la parola di Windows, a prescindere dalla lettera caso, digitare:
+To search every file in the current directory and all subdirectories that contained the word Windows, regardless of the letter case, type:
+
+findstr /s /i Windows *.* 
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per trovare tutte le occorrenze di linee che iniziano con "FOR" e sono preceduti da zero o più spazi (come in un loop di programma per computer), e per visualizzare il numero di riga in cui si trova ogni occorrenza, tipo:
+To find all occurrences of lines that begin with "FOR" and are preceded by zero or more spaces (as in a computer program loop), and to display the line number where each occurrence is found, type:
+
+findstr /b /n /r /c:"^ *FOR" *.bas 
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per cercare più stringhe in una serie di file, creare un file di testo che contiene ogni criterio di ricerca su una riga separata. È inoltre possibile elencare i file esatto che si desidera cercare in un file di testo. Ad esempio, per utilizzare i criteri di ricerca nel file Stringlist.txt, la ricerca di file elencati nella filelist.txt, e quindi memorizzare i risultati nel file Results.out, digitare:
+To search for multiple strings in a set of files, create a text file that contains each search criterion on a separate line. You can also list the exact files that you want to search in a text file. For example, to use the search criteria in the file Stringlist.txt, search the files listed in Filelist.txt, and then store the results in the file Results.out, type:
+
+findstr /g:stringlist.txt /f:filelist.txt > results.out 
+
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per elencare tutti i file che contiene la parola "computer" all'interno della directory corrente e in tutte le sottodirectory, a prescindere dal caso, tipo:
+To list every file containing the word "computer" within the current directory and all subdirectories, regardless of case, type:
+
+findstr /s /i /m "\<computer\>" *.*
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Per elencare tutti i file che contiene la parola "computer" e tutte le parole che iniziano con "comp", (come ad esempio "complimento" e "competizione"), digitare:
+To list every file containing the word "computer" and any other words that begin with "comp", (such as "compliment" and "compete"), type:
+
+findstr /s /i /m "\<comp.*" *.*
+
+//--------------------------------------------------------------------------------------------------------------------------//
+
+Additional references
+Command-Line Syntax Key = Della riga di comando chiave Sintassi
+
+
+TESTO SENZA PARENTESI []{}
+Text without brackets or braces = Testo senza parentesi quadre o graffe
+Items you must type as shown = I prodotti che è necessario digitare come mostrato
+
+PARENTESI ANGOLARI <>
+<Text inside angle brackets> = <Testo all'interno di parentesi angolari>
+Placeholder for which you must supply a value = Segnaposto per il quale è necessario fornire un valore
+
+PARENTESI []
+[Text inside square brackets] = [Testo all'interno di parentesi quadre]
+Optional items = elementi facoltativi
+
+PARENESTI {}
+{Text inside braces}= {Testo} all'interno bretelle
+Set of required items; choose one = Set di elementi richiesti; sceglierne uno
+
+BARRE  VERTICCALI
+Vertical bar (|) = barre verticali
+Separator for mutually exclusive items; choose one = Separatore per gli elementi si escludono a vicenda; sceglierne uno
+
+PUNTINI DI SOSPENSIONE
+Ellipsis (...) = Puntini di sospensione (...) 
+Items that can be repeated = Gli elementi che possono essere ripetuti
+
+
+
+© 2016 Microsoft

@@ -1,0 +1,49 @@
+REM  ***************************************************************
+
+rem     file batch : Salva-C rar
+REM     directory = c:\casa\LTT ; \DOC  e \STAMPE
+rem     file WinRAR
+
+REM  ***************************************************************
+
+
+
+
+
+
+rem  salva PARTI
+
+
+
+
+c:\CASA\RAR a -r -U LeTorri_RIPARTO_MarcoGabriele.zip *.*
+
+@REM//SALVA SUL DISCO LEXAR_O SOLO AGGIORNAMENTI
+xcopy LeTorri_RIPARTO_MarcoGabriele*.* O:\CASA\CDM\LeTorri\ /d/y
+
+
+@REM VISUALIZZAZIONE DOPPIA FINESTRA CON RITARDO DI 2 SECONDI						
+@REM per far uscire la finestra alla fine del processo utilizzare il seguente comando ^& exit
+(START "CONTROLLO_SALVATAGGIO" /D O:\CASA\CDM\LeTorri\  DIR /W *.* ^& ECHO ^& ECHO. ===========CONTROLLO_SAVATAGGI=========== ^& @choice /C:X /N /T:2 /D:X > NUL ^& exit)
+(START "CONTROLLO_SALVATAGGIO" /D M:\CASA\CDM\LeTorri\  DIR /W *.* ^& ECHO ^& ECHO. ===========CONTROLLO_SAVATAGGI=========== ^& @choice /C:X /N /T:2 /D:X > NUL ^& exit)
+
+
+	@REM------->SALVATAGGIO_CON_START_ESEMPIO_03
+	@REM ___________________________________________________________________________
+		@REM APERTURA FINESTRA e ritorno procecesso a choise
+		START "CONTROLLO_SALVATAGGIO_2016_OTT_DIC" c:\Casa\RAR.EXE a -r -U -Y ViaBassini_N05_2016_OTT_DIC.rar @ViaBassini_N02_2016_OTT_DIC_Lista.lst 
+		
+		@REM ritorno al  processo principale con il messaggio
+		ECHO.
+		ECHO "===========CONTROLLO_CONTROLLO_SALVATAGGIO_2016_OTT_DIC==========="
+		ECHO.
+		ECHO. 
+		@REM i secondi di sospensione vanno dopo
+		@choice /C:X /N /T:5 /D:X > NUL 	
+
+	@REM ___________________________________________________________________________
+
+@REM Ritardo per 7 secondi
+@choice /C:X /N /T:3 /D:X > NUL		
+
+
