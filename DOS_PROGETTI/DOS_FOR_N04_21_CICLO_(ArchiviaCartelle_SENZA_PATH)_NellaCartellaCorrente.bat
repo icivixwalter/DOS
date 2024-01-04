@@ -1,5 +1,8 @@
 @echo off
 
+@REM  @archivia@le@cartelle_(esempio bat per l'archiviazione delle cartelle con i file)
+@REM  @CARTELLE@ARCHIVIA_(ricordati di)
+
 
 Title compress_c:\CASA\rar.exe_rev3.bat
 
@@ -92,8 +95,11 @@ for /f "tokens=*" %%G in ('dir /A:d /B %cd%') do (
 	echo controllo path da escludere %PATH_ARRIVO_s%
 		IF NOT %%~nG==AA_SALVATAGGI (
 		echo --------------  Estraggo "%%~nG" e salvo nella path di arrivo.
+
+		@REM  COMPRESSORE RAR: se non usi il compressore rar utilizza quello successivo 7zpi
 		@rem bloccato ---> C:\CASA\Rar.exe a -ep1 "%PATH_ARRIVO_s%""%%~nG" "%%~fG"
-		
+			
+		@rem  COMPRESSORE ATTIVO 7ZIP
 		"C:\Program Files\7-Zip\7z.exe" u -tzip -r "%PATH_ARRIVO_s%""%%~nG" "%%~fG"
 
 	)
