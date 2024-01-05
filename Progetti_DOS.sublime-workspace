@@ -63,17 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 413,
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -86,6 +75,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"TOG",
+				"View: Toggle Menu"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -241,10 +234,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/CASA/LINGUAGGI/DOS"
+		"/C/CASA/LINGUAGGI/DOS",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COMPRESSIONE_CARTELLE"
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/DOS/README.md",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_FOR_N04_21_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/Terminality/README.md",
 		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/TerminalinPackages/Default.sublime-keymap",
@@ -370,9 +367,7 @@
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (3).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (2).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642.zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_2022_2023_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365668053S6IKW2K.zip/0027834642_CCO_XEC_CSV_1680365668053S6IKW2K.CSV"
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642.zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv"
 	],
 	"find":
 	{
@@ -392,6 +387,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"comando unico",
+			"COMANDO",
+			"comprimi",
+			"cartelle",
+			"zip cartelle",
+			"cartelle",
+			"comprimi cartelle",
 			"@kill",
 			"@formatta@date",
 			"@formatta@data",
@@ -458,38 +460,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 413,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								413,
-								413
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],

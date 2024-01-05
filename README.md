@@ -12,7 +12,7 @@ Tutorial di acces
 
 
 GIT
-	@COMANDO@UNICO
+	@COMANDO@UNICO   @GIT@comando@unico(@comando @unico per le compressioni)
 	fare add + commit + push
 		git add . & git commit -m "agg" & git push
 

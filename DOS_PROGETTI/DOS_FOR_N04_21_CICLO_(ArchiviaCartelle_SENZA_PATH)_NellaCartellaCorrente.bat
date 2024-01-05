@@ -2,8 +2,23 @@
 
 @REM  @archivia@le@cartelle_(esempio bat per l'archiviazione delle cartelle con i file)
 @REM  @CARTELLE@ARCHIVIA_(ricordati di)
+@REM  @salvataggi@cartelle_(salvataggio dei dati nelle cartelle)
+@REM  @salvataggio@cartelle_(utilizzo del ciclo for file per il salvataggio delle cartell e + dati)
 
 
+@REM @FAQ
+@REM		@01_MEMO@PATH = ricordati di cambiare la path di partenza
+@REM		@02_MEMO@PATH = ricordati di cambiare se necessare il compressore
+
+@REM  I PARAMETRI PER IL SALVATAGGIO DELLE CARTELLE
+@REM PATH DI ARRIVO:
+@REM  				la path di arrivo viene ricavata automaticamente con il comando
+
+@REM PATH DI PARTENZA   @01_MEMO@PATH
+@REM 				la parth di partenza do controllo i file da zippare è la seguente.
+SET  PATH_PART_S="c:\CASA\LINGUAGGI\DOS\DOS_PROGETTI\"
+
+REM @titolo
 Title compress_c:\CASA\rar.exe_rev3.bat
 
 @REM updated 12/13/2017
@@ -29,12 +44,17 @@ Title compress_c:\CASA\rar.exe_rev3.bat
 @REM ==============================================================================================================
 
 
+
+
+
+
+
 @REM ***************************************************************************************************************
 @REM                                     *** ESPANSIONE RITARDATA INIZIO ****
 @REM
 @REM ***************************************************************************************************************
 @REM 
-@REM
+@REM  @espsanione @ritardata
 @REM  L'ESPANSIONE RITARDATA DELLE VARIABILI DI AMBIENTE
 @REM ---------------------------------------------------------------------------------------
 @REM Estensione del prompt.
@@ -46,7 +66,7 @@ Title compress_c:\CASA\rar.exe_rev3.bat
 @REM DISABLEDELAYEDEXPANSION = DISATTIVA l'espansione ritardata della variabile di ambiente (nel file batch locale)
 	setlocal EnableDelayedExpansion
 
-	@REM                 			IMPOSTO LA VARIABILE PATH
+	@REM                 			IMPOSTO LA VARIABILE PATH DI PARTENZA
 	@REM Path to Winc:\CASA\rar.exe executable in Program Files. Change if location is different
 	@REM Percorso all'eseguibile Winc:\CASA\rar.exe in Programmi. Cambia se la posizione è diversa
 	@REM ---------------------- Winc:\CASA\rar.exe Directory ------------------------------------
@@ -54,7 +74,9 @@ Title compress_c:\CASA\rar.exe_rev3.bat
 		@REM Nuova directory dove si trova winc:\CASA\rar.exe
 		@REM  ---> non funziona caminato in quello di sotto ---> set path="c:\CASA\";%path% - 
 		@REM qui viene imposta la VARIABILE PATH con espansione RITARDATA
-		 set path="c:\CASA\LINGUAGGI\DOS\DOS_PROGETTI\"; "c:\CASA\"; "C:\TMP\PROVA\"
+		@REM  path = nella variabile path vengolo salvate 3 cartelli di partenza.
+		 set path=%PATH_PART_S%; "c:\CASA\"; "C:\TMP\PROVA\"
+		 
 
 		echo "controllo della path settata:" %path%
 		
@@ -71,12 +93,16 @@ echo off
 
 :----------------------------SET DELLE VARIABILI PATH DI PARTENZA ED ARRIVO
 
+@REM CREAZIONE DELLA PATH SALVATAGGI SE NON ESISTE
 @REM Se non esiste la cartella AA_SALVATAGGI, la crea.
+@REM @creazione@cartella_(la @cartella @PATH@salvataggi viene @creata in modo @automatico se non esiste già essa viene denominata AA_SALVATAGGI)
 if not exist "%cd%\AA_SALVATAGGI\" (
 	echo Crea la cartella AA_SALVATAGGI
 	mkdir %cd%\AA_SALVATAGGI
 )
 
+
+@REM  la path di arrivo è quella dei salataggi dei zip 
 set PATH_ARRIVO_s="%cd%\AA_SALVATAGGI\"
 
 echo. 
@@ -87,7 +113,9 @@ echo "PATH ARRIVO: " %PATH_ARRIVO_s%
 :----------------------CICLO_FOR= Ciclo For su ogni riga del comando DIR (senza dettagli con le sottocartelle)
 echo Prova DIR
 
-@REM L'unico modo per salvare SOLO le cartelle e non i file. Se vuoi salvare anche i file RIMUOVI /A:d
+@REM dir /A:d = SALVATAGGIO DELLE CARTELLE ;L'unico modo per salvare SOLO le cartelle e non i file. 
+@REM Se vuoi salvare anche i file RIMUOVI /A:d
+@REM  ciclo for /f = per le cartelle + file contenuti
 for /f "tokens=*" %%G in ('dir /A:d /B %cd%') do (
 
 	@REM Per ogni cartella diversa da AA_SALVATAGGI...  C:\CASA\Rar.exe a -ep1 "%PATH_ARRIVO_s% %%~nG" "%%~fG"
@@ -98,8 +126,11 @@ for /f "tokens=*" %%G in ('dir /A:d /B %cd%') do (
 
 		@REM  COMPRESSORE RAR: se non usi il compressore rar utilizza quello successivo 7zpi
 		@rem bloccato ---> C:\CASA\Rar.exe a -ep1 "%PATH_ARRIVO_s%""%%~nG" "%%~fG"
-			
-		@rem  COMPRESSORE ATTIVO 7ZIP
+		
+
+		@REM  @attenzione@compressore_(se cambi da 7zip a rar occore anche modificare _
+		@REM  il compressore da 7zip a RAR o ZIP a seconda di quello registrato)
+		@rem  COMPRESSORE ATTIVO 7ZIP la posto del rar. 	@02_MEMO@PATH
 		"C:\Program Files\7-Zip\7z.exe" u -tzip -r "%PATH_ARRIVO_s%""%%~nG" "%%~fG"
 
 	)
