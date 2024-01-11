@@ -63,15 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
-			"settings":
-			{
-				"buffer_size": 1569,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -241,10 +232,13 @@
 	[
 		"/C/CASA/LINGUAGGI/DOS",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL"
+		"/C/CASA/LINGUAGGI/DOS/GIT_BAT"
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/APRI_FILE.md",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_RAR_INCREMENTALE.BAT",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/Terminality/README.md",
 		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/TerminalinPackages/Default.sublime-keymap",
@@ -301,7 +295,6 @@
 		"/c/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTTI.md",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_CRIPTA.bat",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_DECODIFICA.bat",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/APRI_FILE.md",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/APRI_FILE/COMANDI_DOS_TUTTI.md",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/untitled.sublime-build",
 		"/c/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI_BAT/ZIP_INCREMENTALE/Zip_N70_ElencoFile.txt",
@@ -370,9 +363,7 @@
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (3).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (2).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642.zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_2022_2023_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365668053S6IKW2K.zip/0027834642_CCO_XEC_CSV_1680365668053S6IKW2K.CSV"
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642.zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv"
 	],
 	"find":
 	{
@@ -392,6 +383,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@apri",
+			"@apri@cartella",
+			"@total",
 			"@kill",
 			"@formatta@date",
 			"@formatta@data",
@@ -458,38 +452,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1569,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
