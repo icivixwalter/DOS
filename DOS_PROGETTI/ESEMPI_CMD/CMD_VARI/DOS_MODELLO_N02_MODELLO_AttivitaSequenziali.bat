@@ -319,6 +319,9 @@ GOTO SELECT
 				echo.
 				echo."=================================================================="
 
+					@rem  @modello@xcopy_(xcopy *.* %pathArrivo% /d/y = cartelle +s)
+
+
 				 @REM//SALVA SUL DISCO LEXAR_J SOLO AGGIORNAMENTI
 				 xcopy Fatture_N05_ARCHIVIO_GESTIONI*.* J:\CASA\CDM\FATTURE\ /d/y
 				 xcopy Fatture_N05_ARCHIVIO_GESTIONI.GE614 J:\CASA\CDM\FATTURE\ /d/y

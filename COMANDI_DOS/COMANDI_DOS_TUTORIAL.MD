@@ -242,14 +242,14 @@ La gestione delle directory
 		C:\> DIR C:\
 
 		e vedrete che appare anche la scritta “LETTERE”. Adesso possiamo andare avanti nella costruzione del nostro archivio 
-		C:\> MKDIR C:\LETTERE\FORNITORI
-		C:\> MKDIR C:\LETTERE\FORNITORI\ROSSI
+		C:\> MKDIR C:\LETTERE\FORNITORII
+		C:\> MKDIR C:\LETTERE\FORNITORII\ROSSI
 
 		Nella subdirectory “LETTERE” abbiamo creato un’altra subdirectory “FORNITORI” per le lettere inviate ai fornitori. Quindi abbiamo individuato un livello “ROSSI” riservato alle lettere inviate alla ditta Rossi. 
 		Nel linguaggio del computer, abbiamo dato origine a tre subdirectory: 
 		\LETTERE 
-		\LETTERE\FORNITORI 
-		\LETTERE\FORNITORI\ROSSI 
+		\LETTERE\FORNITORII 
+		\LETTERE\FORNITORII\ROSSI 
 		Cambio di subdirectory 
 		Il nostro prompt ci indica che siamo sempre nella root directory del disco rigido. Possiamo entrare dentro la subdirectory appena creata. 
 		C:\> CHDIR C:\LETTERE
@@ -258,13 +258,13 @@ La gestione delle directory
 		C:\LETTERE>
 
 		Digitando 
-		C:\LETTERE> CHDIR C:\LETTERE\FORNITORI\ROSSI
+		C:\LETTERE> CHDIR C:\LETTERE\FORNITORII\ROSSI
 
 		il DOS ci porta ancora più addentro, e di nuovo il prompt cambia in 
-		C:\LETTERE\FORNITORI\ROSSI>
+		C:\LETTERE\FORNITORII\ROSSI>
 
 		e digitando 
-		C:\LETTERE\FORNITORI\ROSSI> CHDIR C:\
+		C:\LETTERE\FORNITORII\ROSSI> CHDIR C:\
 
 		si torna alla directory principale. 
 
@@ -272,18 +272,18 @@ La gestione delle directory
 		Con il comando 
 		C:\> TREE C:\
 
-		si ottiene una mappa del disco rigido, in modo da poter vedere graficamente la gerarchie delle subdirectory. Notate la struttura “ad albero” (è per questo che il comando è “TREE”) del disco: dalla root directory si diparte un “ramo” che porta alla scritta “LETTERE”, da qui a “FORNITOR” e da qui a “ROSSI”. Notate come già esistano altre “ramificazioni” del genere, od almeno una chiamata “DOS”: è quella del sistema operativo. 
+		si ottiene una mappa del disco rigido, in modo da poter vedere graficamente la gerarchie delle subdirectory. Notate la struttura “ad albero” (è per questo che il comando è “TREE”) del disco: dalla root directory si diparte un “ramo” che porta alla scritta “LETTERE”, da qui a “FORNITORI” e da qui a “ROSSI”. Notate come già esistano altre “ramificazioni” del genere, od almeno una chiamata “DOS”: è quella del sistema operativo. 
 		C:\ 
 		| 
 		|——DOS 
 		| 
 		|——LETTERE 
 		| | 
-		| |——FORNITOR 
+		| |——FORNITORI 
 		| | 
 		| |——ROSSI 
-		Nel caso particolare, avendo scritto una lettera indirizzata alla ditta Rossi, con il nostro programma di word processing, possiamo chiederne la registrazione in \LETTERE\FORNITOR\ROSSI. Questo indirizzo, che contiene tutte le successive subdirectory, viene chiamato path. Per individuare un file è necessario indicare il disco, la path ed il nome del file. Lavorando con un word processor e chiedendo l’apertura di un documento, ci viene richiesto di indicarlo: possiamo digitare 
-		C:\LETTERE\FORNITOR\ROSSI\AVVISO.TXT
+		Nel caso particolare, avendo scritto una lettera indirizzata alla ditta Rossi, con il nostro programma di word processing, possiamo chiederne la registrazione in \LETTERE\FORNITORI\ROSSI. Questo indirizzo, che contiene tutte le successive subdirectory, viene chiamato path. Per individuare un file è necessario indicare il disco, la path ed il nome del file. Lavorando con un word processor e chiedendo l’apertura di un documento, ci viene richiesto di indicarlo: possiamo digitare 
+		C:\LETTERE\FORNITORI\ROSSI\AVVISO.TXT
 
 		per ottenere il caricamento in memoria della lettera “AVVISO.TXT”. 
 		L’insieme di disco, path e nome del file permette di arrivare, finalmente, alla lettera desiderata. Nella sintassi della path è obbligatorio indicare la suddivisione con l’uso della sbarra rovesciata “\”. 
@@ -291,9 +291,9 @@ La gestione delle directory
 
 		Cancellazione di directory 
 		Con il comando 
-		C:\> RMDIR C:\LETTERE\FORNITORI\ROSSI
+		C:\> RM DIR C:\LETTERE\FORNITORII\ROSSI
 
-		cancelliamo dal disco la subdirectory \LETTERE\FORNITORI\ROSSI. Il DOS esegue questa operazione solamente se la subdirectory non contiene alcun file, in caso contrario visualizza un messaggio di errore. 
+		cancelliamo dal disco la subdirectory \LETTERE\FORNITORII\ROSSI. Il DOS esegue questa operazione solamente se la subdirectory non contiene alcun file, in caso contrario visualizza un messaggio di errore. 
 
 		Sintassi dei comandi DOS 
 
@@ -345,8 +345,8 @@ La gestione delle directory
 		il drive: è uno di quelli presenti 
 		la path è quella della subdirectory nella quale ci si vuole trasferire 
 
-		RMDIR 
+		RM DIR 
 		Consente di cancellare una subdirectory. 
-		sintassi: RMDIR [drive:] [path] 
+		sintassi: RM DIR [drive:] [path] 
 		il drive: è uno di quelli presenti 
 		la path è quella della subdirectory che si vuole cancellare Si può cancellare una subdirectory solamente se non contiene file.

@@ -76,6 +76,18 @@
 		"selected_items":
 		[
 			[
+				"toggl",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Toggle Block Comment"
+			],
+			[
+				"togle",
+				"View: Toggle Menu"
+			],
+			[
 				"TOG",
 				"View: Toggle Menu"
 			],
@@ -188,10 +200,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"",
-				"Build: New Build System"
-			],
-			[
 				"prv",
 				"PackageResourceViewer: Open Resource"
 			],
@@ -234,16 +242,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/CASA/LINGUAGGI/DOS",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COMPRESSIONE_CARTELLE"
+		"/C/CASA/LINGUAGGI/DOS"
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_VARI/DOS_MODELLO_N02_MODELLO_AttivitaSequenziali.bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE_RAR/ZIP_RAR_INCREMENTALE.BAT",
 		"/C/CASA/LINGUAGGI/DOS/README.md",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_FOR_N04_21_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/Terminality/README.md",
-		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/TerminalinPackages/Default.sublime-keymap",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/Zip_rar_SALVA_TUTTO_ARCHIVI_Y.bat.BAT",
@@ -364,10 +373,7 @@
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/CalcoloTemperatura.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/tutorial/JAVA_JSX_CONCETTI_CHIAVE.MD",
 		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-11-22_01-04-23_MOL56107915STDnch0027834642.zip/01-11-22_01-04-23_MOL56107915STDnch0027834642.csv",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (3).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (2).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.zip/0027834642_CCO_XEC_CSV_1680365771405SQVDW2K.CSV",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642.zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv"
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (3).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv"
 	],
 	"find":
 	{
@@ -378,6 +384,7 @@
 		"height": 229.0,
 		"where_history":
 		[
+			"*.md, *.BAT",
 			"*.md",
 			""
 		]
@@ -387,6 +394,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"XCOPY",
+			"@GIT@comando@unico",
+			"@GIT@comando",
+			"@GIT",
+			"@PATH@SALVATAGGI",
+			"@automatico",
+			"@01_MEMO",
+			"@SALVATAGGIO@CARTELLE",
+			"PATH_ARRIVO_s",
+			"@CARTELLE",
+			"@COMPRMI",
+			"@SALVATAGGI@CARTELLE",
 			"comando unico",
 			"COMANDO",
 			"comprimi",
@@ -553,7 +572,7 @@
 				"C:\\CASA\\LINGUAGGI\\SUBLIMETEXT\\SUBLIMETEXT.sublime-project"
 			]
 		],
-		"width": 391.2
+		"width": 391.0
 	},
 	"select_symbol":
 	{

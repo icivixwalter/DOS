@@ -142,7 +142,7 @@ Tale stringa verrà trattata come una riga di comando passata a un file CMD.EXE f
 
 È ora possibile utilizzare la sintassi seguente:
 
-    %~I         - Espande %I rimuovendo le virgolette (").
+    %~I         - Espande     %I rimuovendo le virgolette (").
     %~fI        - Sostituisce %I con un percorso completo.
     %~dI        - Sostituisce %I solo con una lettera di unità.
     %~pI        - Sostituisce %I solo con un percorso.
@@ -166,7 +166,7 @@ Tale stringa verrà trattata come una riga di comando passata a un file CMD.EXE f
     %~dpI       - Sostituisce %I solo con una lettera di unità e un percorso.
     %~nxI       - Sostituisce %I solo con il nome e l'estensione di un file.
     %~fsI       - Sostituisce %I solo con un percorso completo con nomi brevi.
-    %~dp$PATH:i - Ricerca %I nelle directory elencate nella variabile di
+    %~dp$PATH:i - Ricerca     %I nelle directory elencate nella variabile di
                    ambiente PATH e lo sostituisce con la lettera di unità
                    e il percorso del primo elemento trovato.
     %~ftzaI     - Sostituisce %I con una riga di output simile a DIR.

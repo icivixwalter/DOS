@@ -54,10 +54,14 @@ Di seguito sono riportati esempi di gruppi di file validi.
 
 (ar??1991.* ap??1991.*)
 
-Quando si utilizza il comando for, il primo valore in gruppo sostituisce %variabile o %%variabile e il comando specificato elabora questo valore. Tale procedura continua fino alla completa elaborazione di tutti i file o dei gruppi di file corrispondenti al valore di gruppo.
+Quando si utilizza il comando for, il primo valore in gruppo 
+sostituisce %variabile o %%variabile e il comando specificato elabora questo valore. 
+Tale procedura continua fino alla completa elaborazione di tutti i file 
+o dei gruppi di file corrispondenti al valore di gruppo.
 
-Utilizzo delle parole chiave in e do
-In e do non sono parametri, ma parole chiave da utilizzare con il comando for. Se si omette una delle due parole chiave, verrà visualizzato un messaggio di errore.
+IN e DO: Utilizzo delle parole chiave in e do
+In e do non sono parametri, ma parole chiave da utilizzare con il comando for. 
+Se si omette una delle due parole chiave, verrà visualizzato un messaggio di errore.
 
 Utilizzo di forme supplementari del comando for
 Se le estensioni ai comandi sono abilitate (impostazione predefinita), 
@@ -72,75 +76,101 @@ for /D {%% | %}variabile in (gruppo) do comando [OpzioniRigaComando]
 
 
 
-CICLO FOR Ricorsiva
-Nella struttura delle directory, considerando come directory principale [Unità:]Percorso, 
-esegue l'istruzione for in ogni directory della struttura. 
-Se non viene specificata una directory dopo /R, il comando verrà eseguito a partire dalla directory corrente. 
-Se gruppo è costituito solo da un punto (.), verrà enumerata solo la struttura della directory. La sintassi è:
+CICLO FOR Ricorsiva /R
+	Nella struttura delle directory, considerando come directory principale [Unità:]Percorso, 
+	esegue l'istruzione for in ogni directory della struttura. 
+	Se non viene specificata una directory dopo /R, il comando verrà eseguito a partire dalla directory corrente. 
+	Se gruppo è costituito solo da un punto (.), verrà enumerata solo la struttura della directory. La sintassi è:
 
-for /R [[Unità :]Percorso] {%% | %}variabile in (gruppo) do comando [OpzioniRigaComando]
+		for /R [[Unità :]Percorso] {%% | %}variabile in (gruppo) do comando [OpzioniRigaComando]
 
-Iterazione di un intervallo di valori
-Utilizzare una variabile iterativa per impostare il valore di inizio (ninizio) e quindi passare attraverso
-un intervallo di valori definito fino a quando il valore supera il valore di fine impostato (nfine). 
-/L eseguirà l'iterazione confrontando il valore di ninizio con quello di nfine. 
-Se ninizio è inferiore a nfine, il comando verrà eseguito.
-Se la variabile iterativa supera il valore di nfine, la shell dei comandi uscirà dal loop. 
-È inoltre possibile specificare un valore negativo per npassaggio per passare attraverso un 
-intervallo con valori decrescenti. Ad esempio, (1,1,5) genererà la sequenza 1 2 3 4 5, 
-mentre (5,-1,1) la sequenza (5 4 3 2 1). La sintassi è:
+INTERVALLO VALORI - /L
+	Iterazione di un intervallo di valori
+	Utilizzare una variabile iterativa per impostare il valore di inizio (ninizio) e quindi passare attraverso
+	un intervallo di valori definito fino a quando il valore supera il valore di fine impostato (nfine). 
+		/L eseguirà l'iterazione confrontando il valore di ninizio con quello di nfine. 
 
-for /L {%% | %}variabile in (ninizio,npassaggio,nfine) do comando [OpzioniRigaComando]
+		Se ninizio è inferiore a nfine, il comando verrà eseguito.
+		Se la variabile iterativa supera il valore di nfine, la shell dei comandi uscirà dal loop. 
 
-Iterazione e analisi dei file
-Utilizzare l'analisi dei file per elaborare l'output di un comando, stringhe e il contenuto di un file. 
-Utilizzare le variabili iterative per definire il contenuto o le stringhe che si desidera esaminare e 
-utilizzare le diverse opzioni per ParolechiaveAnalisi per modificare ulteriormente l'analisi. 
-Utilizzare l'opzione token di ParolechiaveAnalisi per specificare quali token devono essere passati come variabili iterative. 
-Si noti che, se non si utilizza l'opzione token, /F esaminerà unicamente il primo token.
+	È inoltre possibile specificare un valore negativo per npassaggio per passare attraverso un 
+	intervallo con valori decrescenti. Ad esempio, (1,1,5) genererà la sequenza 1 2 3 4 5, 
+	mentre (5,-1,1) la sequenza (5 4 3 2 1). La sintassi è:
 
-L'analisi dei file consiste nella lettura dell'output, della stringa o del contenuto del file, nella suddivisione in singole righe di testo e quindi nell'analisi di ciascuna riga in zero o più token. Il loop di for viene quindi richiamato mediante il valore della variabile iterativa impostato sul token. Per impostazione predefinita, /F passa il primo token delimitato da spazi di ogni riga di ogni file. Le righe vuote vengono ignorate. Le diverse sintassi sono:
+		for /L {%% | %}variabile in (ninizio,npassaggio,nfine) do comando [OpzioniRigaComando]
 
-for /F ["ParolechiaveAnalisi"] {%% | %}variabile in (grupponomifile) do comando [OpzioniRigaComando]
+FILE
+	Iterazione e analisi dei file
+	Utilizzare l'analisi dei file per elaborare l'output di un comando, stringhe e il contenuto di un file. 
+	Utilizzare le variabili iterative per definire il contenuto o le stringhe che si desidera esaminare e 
+	utilizzare le diverse opzioni per ParolechiaveAnalisi per modificare ulteriormente l'analisi. 
+	Utilizzare l'opzione token di ParolechiaveAnalisi per specificare quali token devono essere passati come variabili iterative. 
+	Si noti che, se non si utilizza l'opzione token, /F esaminerà unicamente il primo token.
 
-for /F ["ParolechiaveAnalisi"] {%% | %}variabile in ("StringaTesto") do comando [OpzioniRigaComando]
+	L'analisi dei file consiste nella 
+		lettura dell'output, 
+		della stringa o 
+		del contenuto del file, 
+	nella suddivisione in singole righe di testo e quindi nell'analisi di ciascuna riga in zero o più token. 
 
-for /F ["ParolechiaveAnalisi"] {%% | %}variabile in ('comando') do comando [OpzioniRigaComando]
+	Il loop di for viene quindi richiamato mediante il valore della variabile iterativa impostato sul token. Per impostazione predefinita, /F passa il primo token delimitato da spazi di ogni riga di ogni file. 
 
-L'argomento grupponomifile specifica uno o più nomi di file. Prima di procedere con il file successivo specificato in grupponomifile, ogni file viene aperto, letto ed elaborato. Per ignorare il funzionamento predefinito dell'operazione di analisi, specificare "ParolechiaveAnalisi". Si tratta di una stringa racchiusa tra virgolette contenente una o più parole chiave per specificare le diverse opzioni dell'analisi.
+	Le righe vuote vengono ignorate. Le diverse sintassi sono:
 
-Se si utilizza l'opzione usebackq, digitare una delle sintassi seguenti:
+		for /F ["ParolechiaveAnalisi"] {%% | %}variabile in (grupponomifile) do comando [OpzioniRigaComando]
 
-for /F ["usebackqParolechiaveAnalisi"] {%% | %}variabile in ("grupponomifile") do comando [OpzioniRigaComando]
+		for /F ["ParolechiaveAnalisi"] {%% | %}variabile in ("StringaTesto") do comando [OpzioniRigaComando]
 
-for /F ["usebackqParolechiaveAnalisi"] {%% | %}variabile in ('StringaTesto') do comando [OpzioniRigaComando]
+		for /F ["ParolechiaveAnalisi"] {%% | %}variabile in ('comando') do comando [OpzioniRigaComando]
 
-for /F ["usebackqParolechiaveAnalisi"] {%% | %}variabile in (`comando`) do comando [OpzioniRigaComando]
+	GRUPPO NOMI FILE:
+		L'argomento grupponomifile specifica uno o più nomi di file. Prima di procedere con il file successivo specificato in grupponomifile, ogni file viene aperto, letto ed elaborato. Per ignorare il funzionamento predefinito dell'operazione di analisi, specificare "ParolechiaveAnalisi". Si tratta di una stringa racchiusa tra virgolette contenente una o più parole chiave per specificare le diverse opzioni dell'analisi.
 
-Nella tabella seguente vengono descritte le parole chiave per l'analisi che è possibile utilizzare per ParolechiaveAnalisi.
+		OPZIONE usebackq
+
+
+			Se si utilizza l'opzione usebackq, digitare una delle sintassi seguenti:
+
+			for /F ["usebackqParolechiaveAnalisi"] {%% | %}variabile in ("grupponomifile") do comando [OpzioniRigaComando]
+
+			for /F ["usebackqParolechiaveAnalisi"] {%% | %}variabile in ('StringaTesto') do comando [OpzioniRigaComando]
+
+			for /F ["usebackqParolechiaveAnalisi"] {%% | %}variabile in (`comando`) do comando [OpzioniRigaComando]
+
+		Nella tabella seguente vengono descritte le parole chiave per l'analisi che è possibile utilizzare per ParolechiaveAnalisi.
 
 Parola chiave Descrizione
 eol=c Specifica un carattere di fine riga (un solo carattere).
+
 skip=n Specifica il numero di righe da ignorare all'inizio del file.
-delims=xxx Specifica un set di delimitatori. Sostituisce il set di delimitatori predefinito di spazio e tabulazione.
-tokens=x,y,m-n Specifica i token di ogni riga da passare al comando for per ogni iterazione. Ne consegue che vengono allocati nomi di variabili supplementari. La forma m-n rappresenta un intervallo che specifica i token dalla m sino alla n. Se l'ultimo carattere della stringa tokens= è un asterisco (*), verrà allocata un'ulteriore variabile che riceverà il testo della riga rimasto dopo l'analisi dell'ultimo token.
-usebackq Specifica che è possibile racchiudere tra virgolette i nomi dei file specificati in grupponomifile, che una stringa tra virgolette inverse verrà eseguita come un comando e che una stringa racchiusa tra virgolette semplici è un comando espresso da una stringa di testo.
 
-Sostituzione di variabili
-I modificatori di sostituzione per i riferimenti delle variabili del comando for sono stati migliorati. Nella tabella seguente vengono descritte le sintassi facoltative, per qualsiasi variabile I.
+delims=xxx Specifica un set di delimitatori. 
+	Sostituisce il set di delimitatori predefinito di spazio e tabulazione.
 
-Variabile con modificatore Descrizione
-%~I Espande %I, il quale rimuove le virgolette di chiusura ("").
-%~fI Espande %I in un nome di percorso completo.
-%~dI Espande %I solo in una lettera di unità.
-%~pI Espande %I solo in un percorso.
-%~nI Espande %I solo in un nome di file.
-%~xI Espande %I solo in una estensione di file.
-%~sI Espande il percorso in modo da contenere solo nomi brevi.
-%~aI Espande %I negli attributi del file.
-%~tI Espande %I nella data/ora del file.
-%~zI Espande %I nella dimensione del file.
-%~$PATH:I Esegue una ricerca nelle directory elencate nella variabile di ambiente PATH ed espande %I nel percorso completo della prima directory individuata. Se il nome della variabile di ambiente non è definito o la ricerca non ha portato all'individuazione del file, questo modificatore si espande nella stringa vuota.
+tokens=x,y,m-n 
+	Specifica i token di ogni riga da passare al comando for per ogni iterazione. Ne consegue che vengono allocati nomi di variabili supplementari. 
+
+	La forma m-n rappresenta un intervallo che specifica i token dalla m sino alla n. Se l'ultimo carattere della stringa tokens= è un asterisco (*), verrà allocata un'ulteriore variabile che riceverà il testo della riga rimasto dopo l'analisi dell'ultimo token.
+
+	usebackq Specifica che è possibile racchiudere tra virgolette i nomi dei file specificati in grupponomifile, che una stringa tra virgolette inverse verrà eseguita come un comando e che una stringa racchiusa tra virgolette semplici è un comando espresso da una stringa di testo.
+
+	Sostituzione di variabili
+
+			I modificatori di sostituzione per i riferimenti delle variabili del comando for sono stati migliorati. Nella tabella seguente vengono descritte le sintassi facoltative, per qualsiasi variabile I.
+
+			Variabile con modificatore Descrizione
+			%~I Espande %I, il quale rimuove le virgolette di chiusura ("").
+			%~fI Espande %I in un nome di percorso completo.
+			%~dI Espande %I solo in una lettera di unità.
+			%~pI Espande %I solo in un percorso.
+			%~nI Espande %I solo in un nome di file.
+			%~xI Espande %I solo in una estensione di file.
+			%~sI Espande il percorso in modo da contenere solo nomi brevi.
+			%~aI Espande %I negli attributi del file.
+			%~tI Espande %I nella data/ora del file.
+			%~zI Espande %I nella dimensione del file.
+			%~$PATH:I Esegue una ricerca nelle directory elencate nella variabile di ambiente PATH ed espande %I nel percorso completo della prima directory individuata. 
+			Se il nome della variabile di ambiente non è definito o la ricerca non ha portato all'individuazione del file, questo modificatore si espande nella stringa vuota.
 
 
 
