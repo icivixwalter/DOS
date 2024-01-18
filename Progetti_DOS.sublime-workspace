@@ -242,11 +242,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/CASA/LINGUAGGI/DOS"
+		"/C/CASA/LINGUAGGI/DOS",
+		"/C/CASA/LINGUAGGI/DOS/WINDOWS_COMANDI"
 	],
 	"file_history":
 	[
 		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE/DOS_FOR_N10_(ELENCO_FILE).bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N01_04_(COMANDO_FOR)_(DescrizioneComando)(Nozioni).txt",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_VARI/DOS_MODELLO_N02_MODELLO_AttivitaSequenziali.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE_RAR/ZIP_RAR_INCREMENTALE.BAT",
@@ -371,13 +374,11 @@
 		"/C/TMP/Package Control.sublime-package",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/sublime-react-ide/ReactIDE.sublime-settings",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/CalcoloTemperatura.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/tutorial/JAVA_JSX_CONCETTI_CHIAVE.MD",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-11-22_01-04-23_MOL56107915STDnch0027834642.zip/01-11-22_01-04-23_MOL56107915STDnch0027834642.csv",
-		"/C/Users/icivi/AppData/Local/Temp/Temp1_01-01-23_01-04-23_MOL56107915STDnch0027834642 (3).zip/01-01-23_01-04-23_MOL56107915STDnch0027834642.csv"
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/tutorial/JAVA_JSX_CONCETTI_CHIAVE.MD"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -394,6 +395,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"RMDIR",
+			"\\FORNITOR",
+			"for",
+			"for comprimi",
 			"XCOPY",
 			"@GIT@comando@unico",
 			"@GIT@comando",
@@ -512,7 +517,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.LSP Log Panel":
 	{
 		"height": 0.0
@@ -591,7 +596,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 358.0,
+	"side_bar_width": 582.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
