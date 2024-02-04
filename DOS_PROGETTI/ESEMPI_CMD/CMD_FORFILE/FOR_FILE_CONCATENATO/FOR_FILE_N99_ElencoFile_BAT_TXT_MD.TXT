@@ -1,0 +1,25 @@
+//SALVATAGGI DEI FILE DELLA CARTELLA CORRENTE che devono essere a path completa e specifici
+//.................................................................................
+
+
+FOR_FILE_N01_GESTIONE.bat
+
+FOR_FILE_N02_2021_2022.bat
+FOR_FILE_N02_2021_2022_ElencoFile.txt
+
+FOR_FILE_N04_2023_2024.bat
+FOR_FILE_N04_2023_2024_ElencoFile.txt
+
+FOR_FILE_N05_LEGGI.bat
+FOR_FILE_N05_LEGGI_ElencoFile.txt
+
+FOR_FILE_N98_SALVA_BAT_TXT_MD.bat
+FOR_FILE_N99_ElencoFile_BAT_TXT_MD.TXT
+
+PROJECT_FOR_FILE_BatSeparati.sublime-project
+PROJECT_FOR_FILE_BatSeparati.sublime-workspace
+
+
+
+
+//.................................................................................

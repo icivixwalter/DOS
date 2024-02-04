@@ -8,7 +8,7 @@
 SET file_DaAprire_s="MODELLO_FILE_DA_APRIRE.txt"
 
 @REM utilizzo SET con il parametro /P perchè si attende l'imput da tastiera, sostituito dall'imput da file
-SET /P path_archivi=<MFC_2017_00_path_archivi.txt
+SET /P path_archivi=<%%cd
 
 
 :2° CONTROLLO

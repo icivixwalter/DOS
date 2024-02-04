@@ -64,34 +64,33 @@
 	"buffers":
 	[
 		{
-			"contents": "Searching 177 files for \"set path\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI.md:\n  586: \t\t\t\tSET Path_s=c:\\Casa\\CDM\\LaQuercia\\2019_2020\\DOC\\\n 1002: \t\t\tSET PATH_S=c:\\\\CASA\\\\LINGUAGGI\\\\DOS\\\\DOS_TUTORIAL\\\\ && START \"APRI in dos pdf + path in unico comando\" %PATH_S% && START \"APRI IL FILE\" CALL \"%PATH_S%\\DOS_BATCH_{TUTORIAL_batch-file-it}.pdf\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI_GLI_ESEMPI.MD:\n  316: \t\t\t\tSET PATH_DEST_S=c:\\CASA\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n  334: \t\t\t\tSET PATH_SALV_S=c:\\CASA\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n  425: \t\t\t\tSET PATH_DEST_S=c:\\CASA\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n  781: \t\t\t\t\t= Set path in left window\n  783: \t\t\t\t\t= Set path right window\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\DOS_FOR_N04_21_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat:\n   73: \t\t@REM OLD set path=\"C:\\Program Files\\Winc:\\CASA\\rar.exe\\\";%path%\n   75: \t\t@REM  ---> non funziona caminato in quello di sotto ---> set path=\"c:\\CASA\\\";%path% - \n   78: \t\t set path=%PATH_PART_S%; \"c:\\CASA\\\"; \"C:\\TMP\\PROVA\\\"\n  106: set PATH_ARRIVO_s=\"%cd%\\AA_SALVATAGGI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\APRI_FILE\\APRI_FILE.md:\n   44: \t\t\tSET PATH_s=\\CASA\\PRES3000_07\\WALTER_ATTI\\\n  144: \t\t\tSET Path_s=c:\\Casa\\CDM\\LaQuercia\\2019_2020\\DOC\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\COMPRESSIONE_CARTELLE\\DOS_FOR_N04_21_CICLO_((ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat:\n   50: \t\t@REM OLD set path=\"C:\\Program Files\\Winc:\\CASA\\rar.exe\\\";%path%\n   52: \t\t@REM  ---> non funziona caminato in quello di sotto ---> set path=\"c:\\CASA\\\";%path% - \n   54: \t\t set path=\"c:\\CASA\\LINGUAGGI\\DOS\\DOS_ARCHIVI\\DOS_TUTORIAL\\\"; \"c:\\CASA\\\"; \"C:\\TMP\\PROVA\\\"\n   77: set PATH_ARRIVO_s=\"%cd%\\AA_SALVATAGGI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\COMPRESSIONE_CARTELLE\\DOS_FOR_N04_21_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat:\n   50: \t\t@REM OLD set path=\"C:\\Program Files\\Winc:\\CASA\\rar.exe\\\";%path%\n   52: \t\t@REM  ---> non funziona caminato in quello di sotto ---> set path=\"c:\\CASA\\\";%path% - \n   54: \t\t set path=\"c:\\CASA\\LINGUAGGI\\ACCESS\\ACCESS_PROGETTI_MDB\\CREAZIONE_TABELLE+TREEVIEW+INI\\\"; \"c:\\CASA\\\"; \"C:\\TMP\\PROVA\\\"\n   77: set PATH_ARRIVO_s=\"%cd%\\AA_SALVATAGGI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\COPIA\\Zip_rar_SALVA_TUTTO_ARCHIVI_Y.bat.BAT:\n   26: \t\t\t\tSET PATH_S=c:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\ \n   36: \t\t\t\tSET PATH_S=c:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\PRES3000_GESTIONE\\\n   48: \t\t\t\tSET PATH_S=c:\\CASA\\PRES3000_07\\WALTER_ATTI\\\n   59: \t\t\t\tSET PATH_S=c:\\Gestioni\\GeTributi\\GeTributi\\TributiArchivi\\\n   71: \t\t\t\tSET PATH_S=c:\\GESTIONI\\GESTIONE_LLPP\\01_POSTA_BOZZE\\\n   82: \t\t\t\tSET PATH_S=c:\\GESTIONI\\GESTIONE_LLPP\\10_LEGGI\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N04_21_CICLO_((ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat:\n   50: \t\t@REM OLD set path=\"C:\\Program Files\\Winc:\\CASA\\rar.exe\\\";%path%\n   52: \t\t@REM  ---> non funziona caminato in quello di sotto ---> set path=\"c:\\CASA\\\";%path% - \n   54: \t\t set path=\"c:\\CASA\\LINGUAGGI\\ACCESS\\ACCESS_PROGETTI_MDB\\CREAZIONE_TABELLE+TREEVIEW+INI\\\"; \"c:\\CASA\\\"; \"C:\\TMP\\PROVA\\\"\n   77: set PATH_ARRIVO_s=\"%cd%\\AA_SALVATAGGI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N21_(COMANDO_FOR)_(ESEMPI)_26_(ArchiviaCartelle_SENZA_PATH)_(SceltaCartellaPartenza_Arrivo).bat:\n    9: set PATH_PARTENZA_s=\"c:\\CASA\\LINGUAGGI\\VISUAL_STUDIO_2005\\PROGETTI_APOGEO\\\"\n   10: set PATH_ARRIVO_s=\"c:\\CASA\\LINGUAGGI\\VISUAL_STUDIO_2005\\PROGETTI_APOGEO\\AA_SALVATAGGI\\\"\n   11: set PATH_DA_ESCLUDERE_s=\"c:\\CASA\\LINGUAGGI\\VISUAL_STUDIO_2005\\PROGETTI_APOGEO\\AA_SALVATAGGI\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N21_(COMANDO_FOR)_(ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat:\n   11: set PATH_ARRIVO_s=\"%cd%\\AA_SALVATAGGI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N32_(EsempioCiclo_con_RAR_COMPRIMI)_ESPANSIONE_RITARDATA.BAT:\n   54: \t@REM OLD set path=\"C:\\Program Files\\WinRAR\\\";%path%\n   56: \t@REM  ---> non funziona camibiato in quello di sotto ---> set path=\"c:\\CASA\\\";%path%\n   57: \t set path=\"c:\\CASA\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N32_FOR_(5_Scelte)_ESPANSIONE_RITARDATA.BAT:\n   52: \t@REM OLD set path=\"C:\\Program Files\\Winc:\\CASA\\rar.exe\\\";%path%\n   54: \t@REM  ---> non funziona caminato in quello di sotto ---> set path=\"c:\\CASA\\\";%path%\n   55: \t set path=\"c:\\CASA\\LINGUAGGI\\ACCESS\\ACCESS_PROGETTI_MDB\\CREAZIONE_TABELLE+TREEVIEW+INI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\FOR_D\\FOR_R_(Esempi).bat:\n    7: SET Path_s=\\Gestioni\\GESTIONE_LLPP\\\n   42: SET Path_s=C:\\Gestioni\\GESTIONE_LLPP\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\FOR_R\\FOR_R_(Esempi).bat:\n    3: SET Path_s=c:\\CASA\\CDM\\LaQuercia\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FORFILE\\ForFile_ARCHIVIA_FILE_old_5gg.bat:\n   17: set path_partenza_s=c:\\CASA\\CDM\\LaQuercia\\LaQuercia_2021_2022\\XLS\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESPANSIONE_RITARDATA\\DOS_FOR_N32_FOR_(5_Scelte)_ESPANSIONE_RITARDATA.BAT:\n   52: \t@REM OLD set path=\"C:\\Program Files\\Winc:\\CASA\\rar.exe\\\";%path%\n   54: \t@REM  ---> non funziona caminato in quello di sotto ---> set path=\"c:\\CASA\\\";%path%\n   55: \t set path=\"c:\\CASA\\LINGUAGGI\\ACCESS\\ACCESS_PROGETTI_MDB\\CREAZIONE_TABELLE+TREEVIEW+INI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\FILE\\DOS_FOR_N21_(COMANDO_FOR)_(ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat:\n   11: set PATH_ARRIVO_s=\"%cd%\\AA_SALVATAGGI\\\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ZIP_INCREMENTALE\\ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.MD:\n   66: \t\t\t\t\t@SET PATH_DEST_S=\tc:\\CASA\\CDM\\LeTorri\\2023\\SALVATAGGI_2023\\\n   67: \t\t\t\t\t@SET PATH_PART_S=\tc:\\CASA\\CDM\\LeTorri\\2023\\\n   72: \t\t\t\t@ECHO.03.02 SET PATH DI DESTINAZIONE + PATH PARTENZA + FILE DI SALVATAGGIO + LISTA FILE \t\t\t\t\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ZIP_INCREMENTALE\\Zip_N70_CRIPTA.bat:\n    6: SET PATH_DEST_S=c:\\Casa\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ZIP_INCREMENTALE\\Zip_N70_DECODIFICA.bat:\n   11: SET PATH_DEST_S=c:\\Casa\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ZIP_INCREMENTALE\\ZIP_RAR_INCREMENTALE.BAT:\n   59: \t\t\t\t\tSET PATH_DEST_S=c:\\Casa\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ZIP_INCREMENTALE_RAR\\ZIP_RAR_INCREMENTALE.BAT:\n   17: SET PATH_DEST_S=c:\\CASA\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n   35: SET PATH_SALV_S=c:\\CASA\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n  126: SET PATH_DEST_S=c:\\CASA\\CDM\\LaQuercia\\2022_2023\\SALVATAGGI_2022_2023\\\n\n58 matches across 22 files\n",
+			"contents": "Searching 183 files for \"for file concatenato\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FORFILE\\FOR_FILE_CONCATENATO\\FOR_FILE_N01_GESTIONE.bat:\n    2: @REM FOR FILE concatenato, salvataggio delle directory con filtri\n\n1 match in 1 file\n\n\nSearching 183 files for \"filtri\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FORFILE\\FOR_FILE_CONCATENATO\\FOR_FILE_N01_GESTIONE.bat:\n    1: @REM @salvataggio@cartelle_(salvo le cartelle con filtri flessibili)\n    2: @REM FOR FILE concatenato, salvataggio delle directory con filtri\n\n2 matches in 1 file\n",
 			"settings":
 			{
-				"buffer_size": 6683,
+				"buffer_size": 558,
 				"line_ending": "Windows",
 				"name": "Find Results",
 				"scratch": true
 			}
 		},
 		{
-			"file": "DOS_PROGETTI/FILE/DOS_FOR_NXX_(ElencaFile)_(DirectoryCorrente).bat",
+			"file": "DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
 			"settings":
 			{
-				"buffer_size": 4033,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/ForFile_ARCHIVIA_FILE_old_5gg.bat",
-			"settings":
-			{
-				"buffer_size": 4554,
-				"encoding": "Western (Windows 1252)",
+				"buffer_size": 1140,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
+				[
+					6,
+					1,
+					"right_delete",
+					null,
+					"AQAAADUAAAAAAAAANQAAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+				]
 			]
 		}
 	],
@@ -275,20 +274,23 @@
 	[
 		"/C/CASA/LINGUAGGI/DOS",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COMPRESSIONE_CARTELLE",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE_RAR",
-		"/C/CASA/LINGUAGGI/DOS/DOS_TUTORIAL",
 		"/C/CASA/LINGUAGGI/DOS/GIT_BAT",
 		"/C/CASA/LINGUAGGI/DOS/WINDOWS_COMANDI"
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE/DOS_FOR_N10_(ELENCO_FILE).bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE/DOS_FOR_N03_04_CICLO_(File)_(Antecedenti_30gg).bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/ForFile_ARCHIVIA_FILE_old_5gg.bat",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/DOS_FOR_PathCorrente.BAT",
 		"/C/CASA/CDM/LaQuercia/LaQuercia_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
 		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/COMANDI_DOS_TUTORIAL.MD",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE/DOS_FOR_N10_(ELENCO_FILE).bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N01_04_(COMANDO_FOR)_(DescrizioneComando)(Nozioni).txt",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_VARI/DOS_MODELLO_N02_MODELLO_AttivitaSequenziali.bat",
@@ -409,15 +411,11 @@
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraRegistrazione.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFigo.tsx",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraBenvenuto.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD",
-		"/C/Users/icivi/Desktop/TasKill_N51_KILL_SOLO_PROCESSI.bat - collegamento.lnk",
-		"/C/TMP/Package Control.sublime-package",
-		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/sublime-react-ide/ReactIDE.sublime-settings",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/vite/src/components/CalcoloTemperatura.tsx"
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -434,6 +432,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"filtri",
+			"for file concatenato",
+			"@path@corrente",
+			"path corrente",
+			"@path@corrente",
 			"set path",
 			"recupero path",
 			"path corrente",
@@ -536,10 +539,11 @@
 			[
 				{
 					"buffer": 0,
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6683,
+						"buffer_size": 558,
 						"regions":
 						{
 							"match":
@@ -548,236 +552,16 @@
 								"regions":
 								[
 									[
-										103,
-										111
+										166,
+										186
 									],
 									[
-										161,
-										169
+										445,
+										451
 									],
 									[
-										431,
-										439
-									],
-									[
-										512,
-										520
-									],
-									[
-										593,
-										601
-									],
-									[
-										677,
-										685
-									],
-									[
-										715,
-										723
-									],
-									[
-										869,
-										877
-									],
-									[
-										990,
-										998
-									],
-									[
-										1030,
-										1038
-									],
-									[
-										1089,
-										1097
-									],
-									[
-										1199,
-										1207
-									],
-									[
-										1251,
-										1259
-									],
-									[
-										1466,
-										1474
-									],
-									[
-										1587,
-										1595
-									],
-									[
-										1627,
-										1635
-									],
-									[
-										1722,
-										1730
-									],
-									[
-										1916,
-										1924
-									],
-									[
-										2037,
-										2045
-									],
-									[
-										2077,
-										2085
-									],
-									[
-										2201,
-										2209
-									],
-									[
-										2333,
-										2341
-									],
-									[
-										2417,
-										2425
-									],
-									[
-										2501,
-										2509
-									],
-									[
-										2556,
-										2564
-									],
-									[
-										2626,
-										2634
-									],
-									[
-										2690,
-										2698
-									],
-									[
-										2901,
-										2909
-									],
-									[
-										3022,
-										3030
-									],
-									[
-										3062,
-										3070
-									],
-									[
-										3186,
-										3194
-									],
-									[
-										3393,
-										3401
-									],
-									[
-										3476,
-										3484
-									],
-									[
-										3571,
-										3579
-									],
-									[
-										3821,
-										3829
-									],
-									[
-										4003,
-										4011
-									],
-									[
-										4112,
-										4120
-									],
-									[
-										4148,
-										4156
-									],
-									[
-										4293,
-										4301
-									],
-									[
-										4413,
-										4421
-									],
-									[
-										4449,
-										4457
-									],
-									[
-										4625,
-										4633
-									],
-									[
-										4668,
-										4676
-									],
-									[
-										4794,
-										4802
-									],
-									[
-										4929,
-										4937
-									],
-									[
-										5123,
-										5131
-									],
-									[
-										5243,
-										5251
-									],
-									[
-										5279,
-										5287
-									],
-									[
-										5510,
-										5518
-									],
-									[
-										5657,
-										5665
-									],
-									[
-										5729,
-										5737
-									],
-									[
-										5795,
-										5803
-									],
-									[
-										5956,
-										5964
-									],
-									[
-										6110,
-										6118
-									],
-									[
-										6271,
-										6279
-									],
-									[
-										6431,
-										6439
-									],
-									[
-										6508,
-										6516
-									],
-									[
-										6585,
-										6593
+										530,
+										536
 									]
 								],
 								"scope": ""
@@ -786,15 +570,15 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								248,
+								248
 							]
 						],
 						"settings":
 						{
 							"detect_indentation": false,
 							"line_numbers": false,
-							"output_tag": 1,
+							"output_tag": 2,
 							"result_base_dir": "",
 							"result_file_regex": "^([^ \t].*):$",
 							"result_line_regex": "^ +([0-9]+):",
@@ -802,39 +586,7 @@
 							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2904.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "DOS_PROGETTI/FILE/DOS_FOR_NXX_(ElencaFile)_(DirectoryCorrente).bat",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 4033,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 160.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -842,33 +594,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/ForFile_ARCHIVIA_FILE_old_5gg.bat",
+					"buffer": 1,
+					"file": "DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4554,
+						"buffer_size": 1140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1863,
-								1863
+								53,
+								53
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2314.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -877,7 +627,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -942,7 +692,7 @@
 	"project": "Progetti_DOS.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -984,7 +734,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 436.0,
+	"side_bar_width": 497.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

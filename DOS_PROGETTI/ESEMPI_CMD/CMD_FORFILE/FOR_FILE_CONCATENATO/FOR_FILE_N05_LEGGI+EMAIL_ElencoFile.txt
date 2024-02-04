@@ -1,0 +1,17 @@
+
+//SALVATAGGI DEI FILE Devono essere a path completa e specifici
+//.................................................................................
+
+c:\CASA\CDM\LaQuercia\LEGGI\NORME_CONDOMINIO+SICUREZZA_CONDOMINIO\
+c:\CASA\CDM\LaQuercia\LEGGI\SICUREZZA_CONDOMINIO\
+c:\CASA\CDM\LaQuercia\LEGGI\La delibera  condomini.docx
+
+//.................................................................................
+
+
+
+
+//CARTELLA EMAIL SALVATE
+//.................................................................................
+.\TUTTE_LE_EMAIL_LAQUERCIA_SALVATE
+//.................................................................................

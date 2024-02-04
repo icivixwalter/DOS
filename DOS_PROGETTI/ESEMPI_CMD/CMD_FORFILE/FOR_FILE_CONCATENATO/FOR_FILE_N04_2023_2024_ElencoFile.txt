@@ -1,0 +1,23 @@
+//SALVATAGGIO DELLE CARTELLE
+//.................................................................................
+
+c:\CASA\CDM\LaQuercia\2023_2024\XLS\
+c:\CASA\CDM\LaQuercia\2023_2024\DOC\
+
+//.................................................................................
+
+//SALVATAGGI DEI FILE Devono essere a path completa e specifici
+//.................................................................................
+
+c:\CASA\CDM\LaQuercia\2023_2024\A________________________________________________________________________A.txt
+c:\CASA\CDM\LaQuercia\2023_2024\PROJECT_LaQuercia_2023_2024.sublime-project
+c:\CASA\CDM\LaQuercia\2023_2024\PROJECT_LaQuercia_2023_2024.sublime-workspace
+c:\CASA\CDM\LaQuercia\2023_2024\REPORT_GESTIONE_CONDOMINIO.md
+c:\CASA\CDM\LaQuercia\2023_2024\ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.BAT
+c:\CASA\CDM\LaQuercia\2023_2024\Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+c:\CASA\CDM\LaQuercia\2023_2024\Zip_N70_ElencoFile.txt
+c:\CASA\CDM\LaQuercia\2023_2024\Zip_N70_ElencoFileESCLUSI.txt
+c:\CASA\CDM\LaQuercia\2023_2024\ZIP_SALVATAGGIO_INCREMENTALE.BAT
+c:\CASA\CDM\LaQuercia\2023_2024\ZZ________________________________________________________________________ZZ.txt
+
+//.................................................................................

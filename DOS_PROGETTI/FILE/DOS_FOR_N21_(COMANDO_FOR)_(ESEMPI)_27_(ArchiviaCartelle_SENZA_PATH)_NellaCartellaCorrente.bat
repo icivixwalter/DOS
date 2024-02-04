@@ -35,7 +35,7 @@ eof
 @REM //NOTE DI FUNZIONAMENTO
 @REM //============================================================================//
 @REM attenzione per il salvataggio sono stati utilizzati questi parametri:
-@REM dir 	/b = elenca il contenuto della cartella corrente senza dettagli
+@REM dir /b = elenca il contenuto della cartella corrente senza dettagli
 @REM 	/s = Mostra il percorso completo di ogni file/cartella E DELLE SOTTOCARTELLE!!!!
 @REM 	/a:d = include SOLO LE CARTELLE (escluso perche altrimenti salvava ogni singolo
 @REM 	file della sottocartella in un zip)
