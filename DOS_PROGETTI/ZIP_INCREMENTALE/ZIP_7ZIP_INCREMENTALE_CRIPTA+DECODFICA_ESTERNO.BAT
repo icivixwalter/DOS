@@ -13,23 +13,24 @@
 				@REM separati di cripaggio e decriptagio in GE14 in quanto al suo interno effettua
 				@REM la traformazione in file criptato.
 
-				
+				@ECHO.	
+				@ECHO. 	FILE UTILIZZATI PER IL PROGETTO INCREMENTA CRIPTA+ DECODIFICA ESTERNO
+				@ECHO. 	
+				@ECHO. Questo zip incrementale esterno ha bisogno dei seguenti file esterni:
+				@ECHO.  	ZIP_7ZIP_________________________________________________________________ZZ.txt
+				@ECHO.  	ZIP_7ZIP_INCREMENTALE_CRIPTA+DECODFICA_ESTERNO.BAT
+				@ECHO.  	Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+				@ECHO.  	Zip_N70_CRIPTA.bat
+				@ECHO.  	Zip_N70_DECODIFICA.bat
+				@ECHO.  	Zip_N70_ElencoFile.txt
+				@ECHO.  	Zip_N70_ElencoFileESCLUSI.txt
+				@ECHO.  	ZZ________________________________________________________________________ZZ.txt
 
-				@REM Questo zip incrementale esterno ha bisogno dei seguenti file esterni:
-				@REM  	ZIP_7ZIP_________________________________________________________________ZZ.txt
-				@REM  	ZIP_7ZIP_INCREMENTALE_CRIPTA+DECODFICA_ESTERNO.BAT
-				@REM  	Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
-				@REM  	Zip_N70_CRIPTA.bat
-				@REM  	Zip_N70_DECODIFICA.bat
-				@REM  	Zip_N70_ElencoFile.txt
-				@REM  	Zip_N70_ElencoFileESCLUSI.txt
-				@REM  	ZZ________________________________________________________________________ZZ.txt
-
-				@REM i file CRIPTA+DECODIFICA deve essere impostato nella path corrente;
-				@REM questo bat crea la CARTELLA AA_SALVATAGGI se non esiste dove vengono salvati
-				@REM tutti i file 
-				@REM i file N70_... CRIPTA+DECODIFICA deve essere impostato nella path corrente
-				@REM insieme ai file .txt
+				@ECHO. i file CRIPTA+DECODIFICA deve essere impostato nella path corrente;
+				@ECHO. questo bat crea la CARTELLA AA_SALVATAGGI se non esiste dove vengono salvati
+				@ECHO. tutti i file 
+				@ECHO. i file N70_... CRIPTA+DECODIFICA deve essere impostato nella path corrente
+				@ECHO. insieme ai file .txt
 
 
 		@ECHO.

@@ -63,36 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "Searching 183 files for \"for file concatenato\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FORFILE\\FOR_FILE_CONCATENATO\\FOR_FILE_N01_GESTIONE.bat:\n    2: @REM FOR FILE concatenato, salvataggio delle directory con filtri\n\n1 match in 1 file\n\n\nSearching 183 files for \"filtri\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FORFILE\\FOR_FILE_CONCATENATO\\FOR_FILE_N01_GESTIONE.bat:\n    1: @REM @salvataggio@cartelle_(salvo le cartelle con filtri flessibili)\n    2: @REM FOR FILE concatenato, salvataggio delle directory con filtri\n\n2 matches in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 558,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
-			"settings":
-			{
-				"buffer_size": 1140,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					6,
-					1,
-					"right_delete",
-					null,
-					"AQAAADUAAAAAAAAANQAAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -274,9 +244,7 @@
 	[
 		"/C/CASA/LINGUAGGI/DOS",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COMPRESSIONE_CARTELLE",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE_RAR",
 		"/C/CASA/LINGUAGGI/DOS/GIT_BAT",
@@ -284,9 +252,11 @@
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_CRIPTA+DECODFICA_ESTERNO.BAT",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE/DOS_FOR_N10_(ELENCO_FILE).bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/FILE/DOS_FOR_N03_04_CICLO_(File)_(Antecedenti_30gg).bat",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/ForFile_ARCHIVIA_FILE_old_5gg.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/DOS_FOR_PathCorrente.BAT",
 		"/C/CASA/CDM/LaQuercia/LaQuercia_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
@@ -409,13 +379,11 @@
 		"/C/GESTIONI/JAVA_JSX_CONCETTI_CHIAVE.MD",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/App.css",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraRegistrazione.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFigo.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFinestraBenvenuto.tsx",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/tutorial/NUOVO PROGETTO REACT ELEMENTI ESSENZIALI.MD"
+		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/BordoFigo.tsx"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -537,97 +505,12 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 558,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										166,
-										186
-									],
-									[
-										445,
-										451
-									],
-									[
-										530,
-										536
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 160.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "DOS_PROGETTI/ESEMPI_CMD/CMD_FORFILE/FOR_FILE_CONCATENATO/FOR_FILE_N01_GESTIONE.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -692,7 +575,7 @@
 	"project": "Progetti_DOS.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
