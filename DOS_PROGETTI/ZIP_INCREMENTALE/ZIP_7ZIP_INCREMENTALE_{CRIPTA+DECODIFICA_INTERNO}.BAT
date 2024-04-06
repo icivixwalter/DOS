@@ -13,28 +13,32 @@
 				@REM separati di cripaggio e decriptagio in GE14 in quanto al suo interno effettua
 				@REM la traformazione in file criptato.
 
-				
-
-				@REM Questo zip incrementale esterno ha bisogno dei seguenti file esterni:
-				@REM  	ZIP_7ZIP_________________________________________________________________ZZ.txt
-				@REM  	ZIP_7ZIP_INCREMENTALE_CRIPTA+DECODFICA_ESTERNO.BAT
-				@REM  	Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
-				@REM  	Zip_N70_CRIPTA.bat
-				@REM  	Zip_N70_DECODIFICA.bat
-				@REM  	Zip_N70_ElencoFile.txt
-				@REM  	Zip_N70_ElencoFileESCLUSI.txt
-				@REM  	ZZ________________________________________________________________________ZZ.txt
-
-				@REM i file CRIPTA+DECODIFICA deve essere impostato nella path corrente;
-				@REM questo bat crea la CARTELLA AA_SALVATAGGI se non esiste dove vengono salvati
-				@REM tutti i file 
-				@REM i file N70_... CRIPTA+DECODIFICA deve essere impostato nella path corrente
-				@REM insieme ai file .txt
-
+			
 
 		@ECHO.
 		@ECHO.00.00 PROGETTO BAT INCREMENTALE BASATO SU 7zip
 		@ECHO.
+		@ECHO.
+		@ECHO. IMPOSTO I PARAMETRI SU TUTTO IL FILE e qui posson ossere cambiati e  
+		@ECHO. di seguito puoi cambiare questo percorso path per una sostituzione collettiva: 
+		@ECHO. 
+		@ECHO. cambia questo parametro ---------> 			c:\CASA\CDM\LaQuercia\2023_2024\ 
+		@ECHO. 
+		@ECHO. cambia questo parametro ---------> 			_LaQuercia
+		@ECHO. 
+		@ECHO. 
+		@ECHO. 
+		@ECHO. cambiando questi 2 parametri si ha effetto di cambiare i valori di tutti i parametri
+		@ECHO. dos preimpostati come di seguito indicato:
+		@ECHO. 
+		@ECHO. 									effetto sostituzione collettivo
+		@ECHO. --------------------------------------------------------------------------------------------------------
+		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\CASA\CDM\LaQuercia\2023_2024\%CARTELLA_SALVATAGGI_S%
+		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\CASA\CDM\LaQuercia\2023_2024\AA_SALVATAGGI\
+		@ECHO. LA PATH DI PARTENZA							= 	c:\CASA\CDM\LaQuercia\2023_2024\
+		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_LaQuercia
+		@ECHO. LISTA FILE UTILIZZATA 						= 	Zip_N70_ElencoFile.txt
+		@ECHO. --------------------------------------------------------------------------------------------------------
 		@ECHO.
 
 
@@ -141,11 +145,13 @@
 
 
 							@REM imposto le variabili
-							@SET PATH_DEST_S=c:\CASA\CDM\LaQuercia\2023_2024\AA_SALVATAGGI\
+
+							@SET PATH_DEST_S=c:\CASA\CDM\LaQuercia\2023_2024\%CARTELLA_SALVATAGGI_S%
+							@REM @SET PATH_DEST_S=c:\CASA\CDM\LaQuercia\2023_2024\AA_SALVATAGGI\
 							@SET PATH_PART_S=c:\CASA\CDM\LaQuercia\2023_2024\
 							
-							@SET FILE_S=LaQuercia_2023_2024_SALVATAGGI.ZIP
-							@SET LISTA_FILE_S=LaQuercia_2023_2024_SALVATAGGI_LISTA_FILE.txt
+							@SET FILE_S=ZIP_SALVATAGGI_LaQuercia
+							@SET LISTA_FILE_S=Zip_N70_ElencoFile.txt
 
 							
 					@REM ................................................................................
@@ -265,24 +271,28 @@
 				@echo solo L'ANNO che viene separato per la futura ricerca:
 				@echo "inserito nella variabile Mydate  		---> " %MyDate:~0,4%
 				
-				:---------------------------imposto la variabile dell'anno
+				:---------------------------imposto la variabile dell'anno + MESE + GIORNO
+				@ECHO
+				@ECHO.                IMPOSTO LE VARIABILI ANNO, MESE GIORNO
+				@ECHO
+				@ECHO
 				@SET ANNO_S=%MyDate:~0,4%
-				@echo "controllo anno nella variabile ANNO_S 	---> " %ANNO_S%
+				@SET MESE_S=%MyDate:~4,2%
+				@SET GIORNO_S=%MyDate:~6,2%
+				@echo "controllo nella variabile ANNO_S 		---> %ANNO_S%"
+				@echo "controllo nella variabile MESE_S 		---> %MESE_S%"
+				@echo "controllo nella variabile GIORNO_S 		---> %GIORNO_S%"
 				@echo 
-
-				
-
 				@echo solo il giorno:
 				@echo %MyDate:~6,2%
-
-				@echo I CASO la data con le sottostringhe con separataore l'undescore (_)
+				@echo DATA RICOSTRUITA con le sottostringhe con separatore l'undescore (_)
 				@set today=%MyDate:~0,4%_%MyDate:~4,2%_%MyDate:~6,2%
-
 				@echo.
 				@echo today in formato stringa: 
 				@echo %today%
 				@echo.
 
+				@REM -----> PAUSE
 
 
 								@REM SOSPENSIONE TEMPO IMPOSTATA CON T
@@ -394,22 +404,32 @@
 				@ECHO.   LA DIR CORRENTE
 				@ECHO. 	 %PATH_DEST_S%
 				@ECHO. 	 %PATH_PART_S%
-								
 			
+							CD %PATH_PART_S%
+							DIR  
+							
+					
+				@ECHO.  
+				@ECHO. 
+				@ECHO. 
+				@ECHO. 
+
+
 				@ECHO.					SALVATAGGI CON Z7.ZIP
 				@ECHO. "@echo.07.02--------------------------------------------------"
 				@ECHO. 
 				@ECHO qui effettuo il salvataggio del .zip con il nome DATA CORENTE in formato  AAA MM GG
-				@ECHO. STAMPA LA PATH DI DESTINAZIONE QUELLA DEI SALVATAGGI
+				@ECHO. %PATH_DEST_S%
+				@ECHO. %TODAY%
+				@ECHO. _%FILE_S%
 				
-					CD %PATH_PART_S%
 
-					@REM dopo la variabile path occorre lo slash altrimenti non capisce che è una directory
-					@REM e quindi per evitare errori occorre scrivere PATH_DEST_S\FILE_S
-					"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt
+				@ECHO. ATTIVO IL SALVATAGGIO CON 7ZIP 
+				@ECHO.  
+				"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt
 				@ECHO. 
 				@ECHO. 
-						
+				
 			
 				@ECHO.					SALVATAGGI ELENCO FILE IN .TXT
 				@ECHO. "@echo.07.03--------------------------------------------------"
@@ -424,18 +444,13 @@
 				@ECHO occorre inserire tutto il percorso assoluto dell'eseguibile  tra "" altrimenti non lo
 				@ECHO legge l'eseguibile e da errore. CONTROLLARE SEMPRE che l'eseguibile si trovi in quella path.
 				@ECHO 
-				@ECHO PRIMA mi devo posizionare sulla cartella salvataggi per recuperare il File
-				@ECHO .zip da scansionare e controllo se mi trov nella path di destinazione
-				@ECHO 
 
-					cd %PATH_DEST_S%\
-					dir 
-					@REM Pause
 				
 					
 					@ECHO 07.05 recupero i file processati nel .zip e li salvo in .txt
-					@ECHO 
-					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S% -bsp1 > %TODAY%_%LISTA_FILE_S%
+					@ECHO VADO NELLA PATH DI DESTINAZIONE E SALVO L'ELENCO DEI FILE 
+					CD %PATH_DEST_S%
+					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S% -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
 					
 
 				@ECHO.  					
