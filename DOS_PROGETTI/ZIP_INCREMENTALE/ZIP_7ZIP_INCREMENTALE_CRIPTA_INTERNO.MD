@@ -60,7 +60,6 @@
 				:DoveSiTrova
 
 
-
 	@echo.02--------------------------------PARAMETRI_GENERALI, DISCO, PATH DI DESTINAZIONE, NOME ARCHIVIO.ZIP NOME LISTA FILEeTorri
 
 					@SET PATH_DEST_S=	c:\CASA\CDM\LeTorri\2023\SALVATAGGI_2023\
@@ -76,8 +75,6 @@
 				@ECHO controllo nome file Zip.......................: %FILE_S%
 				@ECHO controllo elenco file salvati.................: %LISTA_FILE_S%
 				@ECHO 
-
-
 
 	@echo.03-------------------------------TIPO FILE DA ARCHIVIARE SE NON ESISTE LA LISTA FILE CON VARIE ESTENSION, *.DOC, *.MDB ecc...
 
@@ -108,8 +105,6 @@
 				@ECHO. 
 				@ECHO. 
 				@ECHO. 
-
-				
 
 	@ECHO.04------------------------------- CICLO FOR CON GESTIONE DELLA DATA CORRENTE DA RECUPERARE SOTTO FORMA DI AAA MM GG @04
 			@ECHO.
@@ -168,8 +163,6 @@
 			@ECHO. 
 			@ECHO. 
 			@ECHO. 
-
-
 
 	@echo.05-------------------------------CHIAMO DECODIFICA @05
 		@ECHO. 
@@ -270,7 +263,6 @@
 				@ECHO.  					
 				@ECHO.  					
 				@ECHO.  					
-
 			
 	@echo.07------------------------------ CHIAMO CRIPTA  @07
 					
@@ -292,6 +284,7 @@
 
 							@RENAME "%ANNO_S%*.ZIP" "%ANNO_S%*.GE614"
 							@RENAME "%ANNO_S%*.RAR" "%ANNO_S%*.GE614"
+
 	@echo.08------------------------------ SOSPENSIONE ED USCITA DALLA PROCEDURA @08
 
 				
