@@ -63,6 +63,334 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Searching 12 files for \"@CARTELLE\"\n\n0 matches\n\nSearching 12 files for \"archivia cartelle\"\n\n0 matches\n\nSearching 12 files for \"total commander\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI_GLI_ESEMPI.MD:\n  737: \t\t@ESEMPIO@TOTALCOMMADER_(Apro total commander)\n  740: \t\t\t\t\t@apro@total@commander_(apro total commander left e right)\n  753: \t\t\t\t\tTotal Commander può essere chiamato con una o due directory come parametri della riga di comando. \n  755: \t\t\t\t\tpiù icone per Total Commander in progman o nel menu di avvio, che avviano Total Commander in\n  757: \t\t\t\t\tda quello predefinito wincmd.ini per consentire a più utenti sulla stessa macchina di avere impostazioni diverse in Total Commander.\n  770: \t\t\t\t\tCarica la prima directory passata a Total Commander nella finestra di sinistra e la seconda nella finestra di destra. I nomi delle directory contenenti spazi devono essere inseriti tra virgolette! Specificare sempre il nome completo del percorso, inclusa l'unità! Per aprire una connessione FTP memorizzata, utilizzare FTPOPEN: nome_ftp_memorizzato come percorso\n  773: \t\t\t\t\tSe Total Commander è già in esecuzione, attivalo e passa i percorsi nella riga di comando a quell'istanza (sostituisce le impostazioni nella finestra di dialogo di configurazione per avere più finestre)\n  778: \t\t\t\t\tApre in ogni caso una nuova finestra di Total Commander (sovrascrive le impostazioni nella finestra di configurazione per consentire solo una copia di Total Commander alla volta)\n\n10 matches in 1 file\n\n\nSearching 12 files for \"total commander\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI_GLI_ESEMPI.MD:\n  737: \t\t@ESEMPIO@TOTALCOMMADER_(Apro total commander)\n  740: \t\t\t\t\t@apro@total@commander_(apro total commander left e right)\n  753: \t\t\t\t\tTotal Commander può essere chiamato con una o due directory come parametri della riga di comando. \n  755: \t\t\t\t\tpiù icone per Total Commander in progman o nel menu di avvio, che avviano Total Commander in\n  757: \t\t\t\t\tda quello predefinito wincmd.ini per consentire a più utenti sulla stessa macchina di avere impostazioni diverse in Total Commander.\n  770: \t\t\t\t\tCarica la prima directory passata a Total Commander nella finestra di sinistra e la seconda nella finestra di destra. I nomi delle directory contenenti spazi devono essere inseriti tra virgolette! Specificare sempre il nome completo del percorso, inclusa l'unità! Per aprire una connessione FTP memorizzata, utilizzare FTPOPEN: nome_ftp_memorizzato come percorso\n  773: \t\t\t\t\tSe Total Commander è già in esecuzione, attivalo e passa i percorsi nella riga di comando a quell'istanza (sostituisce le impostazioni nella finestra di dialogo di configurazione per avere più finestre)\n  778: \t\t\t\t\tApre in ogni caso una nuova finestra di Total Commander (sovrascrive le impostazioni nella finestra di configurazione per consentire solo una copia di Total Commander alla volta)\n\n10 matches in 1 file\n\n\nSearching 12 files for \"total commander\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI_GLI_ESEMPI.MD:\n  737: \t\t@ESEMPIO@TOTALCOMMADER_(Apro total commander)\n  740: \t\t\t\t\t@apro@total@commander_(apro total commander left e right)\n  753: \t\t\t\t\tTotal Commander può essere chiamato con una o due directory come parametri della riga di comando. \n  755: \t\t\t\t\tpiù icone per Total Commander in progman o nel menu di avvio, che avviano Total Commander in\n  757: \t\t\t\t\tda quello predefinito wincmd.ini per consentire a più utenti sulla stessa macchina di avere impostazioni diverse in Total Commander.\n  770: \t\t\t\t\tCarica la prima directory passata a Total Commander nella finestra di sinistra e la seconda nella finestra di destra. I nomi delle directory contenenti spazi devono essere inseriti tra virgolette! Specificare sempre il nome completo del percorso, inclusa l'unità! Per aprire una connessione FTP memorizzata, utilizzare FTPOPEN: nome_ftp_memorizzato come percorso\n  773: \t\t\t\t\tSe Total Commander è già in esecuzione, attivalo e passa i percorsi nella riga di comando a quell'istanza (sostituisce le impostazioni nella finestra di dialogo di configurazione per avere più finestre)\n  778: \t\t\t\t\tApre in ogni caso una nuova finestra di Total Commander (sovrascrive le impostazioni nella finestra di configurazione per consentire solo una copia di Total Commander alla volta)\n\n10 matches in 1 file\n\n\nSearching 12 files for \"total commander\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI_GLI_ESEMPI.MD:\n  737: \t\t@ESEMPIO@TOTALCOMMADER_(Apro total commander)\n  740: \t\t\t\t\t@apro@total@commander_(apro total commander left e right)\n  753: \t\t\t\t\tTotal Commander può essere chiamato con una o due directory come parametri della riga di comando. \n  755: \t\t\t\t\tpiù icone per Total Commander in progman o nel menu di avvio, che avviano Total Commander in\n  757: \t\t\t\t\tda quello predefinito wincmd.ini per consentire a più utenti sulla stessa macchina di avere impostazioni diverse in Total Commander.\n  770: \t\t\t\t\tCarica la prima directory passata a Total Commander nella finestra di sinistra e la seconda nella finestra di destra. I nomi delle directory contenenti spazi devono essere inseriti tra virgolette! Specificare sempre il nome completo del percorso, inclusa l'unità! Per aprire una connessione FTP memorizzata, utilizzare FTPOPEN: nome_ftp_memorizzato come percorso\n  773: \t\t\t\t\tSe Total Commander è già in esecuzione, attivalo e passa i percorsi nella riga di comando a quell'istanza (sostituisce le impostazioni nella finestra di dialogo di configurazione per avere più finestre)\n  778: \t\t\t\t\tApre in ogni caso una nuova finestra di Total Commander (sovrascrive le impostazioni nella finestra di configurazione per consentire solo una copia di Total Commander alla volta)\n\n10 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 5700,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+			"settings":
+			{
+				"buffer_size": 38822,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\n@echo.@@-------@_PROGETTO_BAT_INCREMENTALE_CRIPTA_DECOFICA_INTERNI@-----------------------\n\t\t@REM NOTE\n\t\t\t@REM file di zip denominato : ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.MD\n\t\t\t@REM  @salvataggio@incrementale_(con file @zip@incrementale con @cripta @interno)\n\n\t\t\tGoto Note_incrementale\n\t\t\t\tquesto bat effettuo il salvataggio incrementale ma non ha i due file bat\n\t\t\t\tseparati di cripaggio e decriptagio in GE14 in quanto al suo interno effettua\n\t\t\t\tla traformazione in file criptato.\n\n\t\t\t:Note_incrementale\n\n\n\n\t\n\t@echo.01--------------------------------TITOLO COSTRUZIONE DI UN BAT INCREMENTALE\n\n\t\t\tGOTO DoveSiTrova\n\n\t\t\t\tNote\n\t\t\t\t\tquesto esempio di bat incrementale si trova i questa path dello 7Z zip questi sono parametri\n\t\t\t\t\tche possono essere sostituiti da qui, la PATH DI DESTINAZIONE + LA PATH DI PARTENZA  + \n\t\t\t\t\tIL FILE :\t\n\t\t\t\t\t\t@parametri_(per la @sostituzione dei parametri per @tutto il @progetto)\n\t\t\t\t\t\tPATH DI DESTINAZIONE \t= c:\\CASA\\CDM\\LeTorri\\2023\\SALVATAGGI_2023\\\n\t\t\t\t\t\tPATH DI PARTENZA \t\t= c:\\CASA\\CDM\\LeTorri\\2023\\\n\t\t\t\t\t\tIL FILE DI ARCHIVIO \t= LeTorri_ARCHIVIO\n\n\t\t\t\t\t\t\n\n\n\n\t\t\t\tPER COSTRUIRE UN BAT INCREMENTALE DENOMINATO 7ZIP_INCREMENTALE.BAT \n\t\t\t\toccorre fare riferimento a questo progetto .BAT che si trova nel TUTORIAL ZIP E 7ZIP.\n\n\t\t\t\tPer individuare il progetto del bat incrementale occorre far riferimento al progetto \n\t\t\t\t.MD  ZIP che si trova in questa path. Ogni modifica del progetto BAT incrementale \n\t\t\t\tnelle sue istruzioni occorre riportarla in questa progettazione:\n\n\n\t\t\t\tTUTORIAL ZIP RAR O 7ZIP \n\t\t\t\t\t@DOVE@SI@TROVA_(@7zip dove si trova il 7z con il tutorial)_@7z\n\t\t\t\t\t\t\tapro il dos con il power shell\n\n\t\t\t\t\t\t\t  @APRI_@COMANDI_@7z_(la path ed il comando per aprire il progetto 7zip)\n\t\t\t\t\t\t\t\tSTART \"apri il progetto dei comandi PER IL TUTORIAL DI 7z\" \"c:\\\\CASA\\\\LINGUAGGI\\ZIP\\\\ZIP.sublime-project\"\n\n\n\t\t\t\tTUTTI I PROGETTI \n\t\t\t\t\tApro tutti i progetti con powershell\n\t\t\t\t\tSTART \"apri il progetto dei comandi di TUTTI@PROGETTI\" \"c:\\\\CASA\\\\LINGUAGGI\\\\TROVA_PROGETTI\\\\TROVA_PROGETTI.sublime-project\"\n\n\n\t\t\t\tSUBLIMETEXT \n\n\t\t\t\t\tPer avere un tutorial veloce in sublimetex utiliza questo link\n\t\t\t\t\t\thttps://www.w3schools.io/editor/sublime-text-terminal/\n\t\t\t\t:DoveSiTrova\n\n\n\t@echo.02--------------------------------PARAMETRI_GENERALI, DISCO, PATH DI DESTINAZIONE, NOME ARCHIVIO.ZIP NOME LISTA FILEeTorri\n\n\t\t\t\t\t@SET PATH_DEST_S=\tc:\\CASA\\CDM\\LeTorri\\2023\\SALVATAGGI_2023\\\n\t\t\t\t\t@SET PATH_PART_S=\tc:\\CASA\\CDM\\LeTorri\\2023\\\n\t\t\t\t\t\n\t\t\t\t\t@SET FILE_S=LeTorri_SALVATAGGI\n\t\t\t\t\t@SET LISTA_FILE_S=LeTorri_LISTA_SALVATAGGI\n\t\t\t\t\n\t\t\t\t@ECHO.03.02 SET PATH DI DESTINAZIONE + PATH PARTENZA + FILE DI SALVATAGGIO + LISTA FILE \t\t\t\t\n\t\t\t\t@ECHO \n\t\t\t\t@ECHO controllo PATH di partenza....................: %PATH_PART_S%\n\t\t\t\t@ECHO controllo PATH di DESTINAZIONE................: %PATH_DEST_S%\n\t\t\t\t@ECHO controllo nome file Zip.......................: %FILE_S%\n\t\t\t\t@ECHO controllo elenco file salvati.................: %LISTA_FILE_S%\n\t\t\t\t@ECHO \n\n\t@echo.03-------------------------------TIPO FILE DA ARCHIVIARE SE NON ESISTE LA LISTA FILE CON VARIE ESTENSION, *.DOC, *.MDB ecc...\n\n\t\t\t\t@ECHO.03.01                      RAGGRUPPAMENTO DI TIPI DI FILE *.DOC, *.XLS EC...\n\t\t\t\t@ECHO.\n\t\t\t\t@ECHO. @tipi@di@file_(da salvare raggruppati in una variabile per ora SONO BLOCCATI )\n\t\t\t\t@ECHO.\n\t\t\t\t@ECHO. imposta i file da salvare su diverse variabili (ATTENZIONE AGLI SPAZI DOPO VARIABILE=*.XLS ... NO CI DEVONO ESSERE\n\t\t\t\t@ECHO. ATTENZIONE ALL'ERRRORE NELLA VARIABILE inserendo lo spazio tra uguale e variabile (es. ====== TipoFile_Office_S =*.MDB)\n\t\t\t\t@ECHO. deve essere tutto contiguo senza spazi (es. corretto ====== TipoFile_Office_S=*.MDB )\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\t\t\t\t\n\t\t\t\t@SET TipoFile_TEXT_S=*.AUX *GZ *.LOG *.OUT *.TEX *.Tws\n\t\t\t\t@SET TipoFile_JAVA_S=*.CLASS *.EXE *HTLM *.IML *.JAR *.JAVA *.LOG *.MF *.LNK *.XML\n\t\t\t\t@SET TipoFile_TXT_S=*.TEX *.TWS *.TXT *BAT\n\t\t\t\t@SET TipoFile_Office_S=*.MDB *.XLS *.PDF\n\n\t\t\t\t@echo 03.1 ------------------------CONCATENA controlla ED ESEGUI\n\t\t\t\t@echo \n\t\t\t\t@SET TIPO_FILE_S=%TipoFile_TEXT_S% %TipoFile_JAVA_S% %TipoFile_TXT_S% %TipoFile_Office_S%\n\n\t\t\t\t@ECHO.\t\n\t\t\t\t@ECHO. \"--------------------------------------------------\"\n\t\t\t\t@ECHO. \"ELENCO FILE CON ESTENSIONE DA SALVARE \"\n\t\t\t\t@ECHO. controllo lista file della variabile salvata in tipo file al momento non utilizzata\n\t\t\t\t@ECHO. %TIPO_FILE_S%\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\n\t@ECHO.04------------------------------- CICLO FOR CON GESTIONE DELLA DATA CORRENTE DA RECUPERARE SOTTO FORMA DI AAA MM GG @04\n\t\t\t@ECHO.\n\t\t\t@ECHO.\n\t\t\t@ECHO.\n\t\t\t@ECHO.04.01 \t\tCICLO FOR I^ E II^ CASO PER LA GESTIONE DELLA DATA\n\t\t\t@ECHO.\n\t\t\t@ECHO ========================================================================================================================\n\t\t\t\n\t\t\t:----------------------------CICLO FOR  I^ CASO \n\t\t\t\t@ECHO  CICLO FOR I^ CASO per la gestione della data con le sottostringhe ma aggiunge lo 0 se <10\n\t\t\t\t\n\t\t\t\t@for /f \"skip=1\" %%x in ('wmic os get localdatetime') do if not defined MyDate set MyDate=%%x\n\t\t\t\t\n\t\t\t\t@echo solo L'ANNO che viene separato per la futura ricerca:\n\t\t\t\t@echo \"inserito nella variabile Mydate  \t\t---> \" %MyDate:~0,4%\n\t\t\t\t\n\t\t\t\t:---------------------------imposto la variabile dell'anno\n\t\t\t\t@SET ANNO_S=%MyDate:~0,4%\n\t\t\t\t@echo \"controllo anno nella variabile ANNO_S \t---> \" %ANNO_S%\n\t\t\t\t@echo \n\n\t\t\t\t\n\n\t\t\t\t@echo solo il giorno:\n\t\t\t\t@echo %MyDate:~6,2%\n\n\t\t\t\t@echo I CASO la data con le sottostringhe con separataore l'undescore (_)\n\t\t\t\t@set today=%MyDate:~0,4%_%MyDate:~4,2%_%MyDate:~6,2%\n\n\t\t\t\t@echo.\n\t\t\t\t@echo today in formato stringa: \n\t\t\t\t@echo %today%\n\t\t\t\t@echo.\n\n\t\t\t:----------------------------CICLO FOR  II^ CASO ciclo for per per la data AAA MM GG senza sottostringhe\n\n\t\t\t\t@ECHO E' possibile ottenere la data corrente in modo indipendente dalle impostazioni locali utilizzando\n\t\t\t\t@ECHO SENZA armeggiare con le sottostringhe\n\t\t\t\t@echo vedi il link: https://qastack.it/programming/10945572/windows-batch-formatted-date-into-variable\n\t\t\t\t@echo .\n\n\t\t\t\t@echo. II CASO la data senza le sottostringhe solo numerico e con separatore il trattino (-)\n\n\t\t\t\t@REM for /f %%x in ('wmic path win32_localtime get /format:list ^| findstr \"=\"') do set %%x\n\t\t\t\t@REM set today=%Year%_%Month%_%Day%\n\n\t\t\t\t@echo. IL GIORNO DEFINITO IN VARIABILE\n\t\t\t\t@ECHO %TODAY%\n\t\t\t\t@echo.\n\n\t\t\t@ECHO \tCICLO FOR I E II CASO PER LA GESTIONE DELLA DATA  *** FINE ***\n\t\t\t@ECHO ========================================================================================================================\n\n\t\t\t@ECHO. \n\t\t\t@ECHO. \n\t\t\t@ECHO. \n\t\t\t@ECHO. \n\n\t@echo.05-------------------------------CHIAMO DECODIFICA @05\n\t\t@ECHO. \n\t\t@ECHO. \n\t\t@ECHO. \n\n\t\t\t\t\t\t@ECHO. 05.01 CHIAMO DECODIFICA.BAT\n\t\t\t\t\t\t@ECHO. DEVO POSIZIONARMI SULLA DIRECTORY, CHIAMARE IL BAT E TORNARE INDIETRO ALTRIMENTI NON FUNZIONA IL BAT\n\t\t\t\t\t\t@ECHO. in quanto il bat esegue la today ma non trova il file completo.\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tCD c:\\CASA\\CDM\\LeTorri\\2023\\SALVATAGGI_2023\\\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t@ECHO. 05.02 CONTROLLO VARIABILE ANNO_S\n\t\t\t\t\t\t\t@echo \"controllo VALORE anno nella variabile ANNO_S \t--->  %ANNO_S%\"\n\t\t\t\t\t\t\t@echo \n\n\t\t\t\t\t\t\t@ECHO. 05.03 FACCIO IL RENAME se esistono i file e controllo con dir\n\t\t\t\t\t\t\t@echo \n\t\t\t\t\t\t\t\t@RENAME \"%ANNO_S%*.GE614\" \"%ANNO_S%*.ZIP\"\n\t\t\t\t\t\t\t\t@RENAME \"%ANNO_S%*.GE614\" \"%ANNO_S%*.RAR\"\n\n\t\t\t\t\t\t\t@echo \n\t\t\t\t\t\t\t@dir\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t@ECHO. 03.04 CHIAMO LA BAT DECODIFICA\n\t\t\t\t\t\t\t@ECHO.  se esiste la .bat  la eseguo.\n\t\t\t\t\t\t\t@ECHO. \n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCALL Zip_N70_DECODIFICA.bat\"\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t@ECHO. \n\t\t\t\t\t\t\t@ECHO. \n\t\t\t\t\t\t\t@ECHO. \n\n\t@echo.06------------------------------ SALVO TUTTI I FILE NELLE SOTTOCARTELLE /S con 7zip uso u -r  @06\n\t\t@ECHO.\n\t\t@ECHO.\n\t\t@ECHO.\n\t\t\t\n\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO.\t\t\t\t\tCONTROLLO CHE SIAMO NELLA PATH DI PARTENZA @06\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \"@echo.06.01--------------------------------------------------\"\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \"faccio il dir sulla directory corrente per vedere in quale\"\n\t\t\t\t@ECHO. \"posizione mi trovo per vedere se siamo nella path di destinazione\"\n\t\t\t\t@ECHO. \"In questo caso torno indieto di una posizione  ed effettuo un controllo\"\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO  \"attivo questi comandi: DIR W per controllare la cartella dei salvataggi\"\t\n\t\t\t\t@ECHO. \n\t\t\t\t\t\t@CD ..\n\t\t\t\t\t\t@DIR *.*\n\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\n\n\t\t\t\t@ECHO.\t\t\t\t\tSALVATAGGI CON Z7.ZIP\n\t\t\t\t@ECHO. \"@echo.06.02--------------------------------------------------\"\n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO qui effettuo il salvataggio del .zip con il nome DATA CORENTE in formato  AAA MM GG\n\t\t\t\t@ECHO. \n\t\t\t\t\n\t\t\t\t\t\"C:\\Program Files\\7-Zip\\7z.exe\" u -tzip -r %PATH_DEST_S%%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt \n\t\t\t\t@ECHO. \n\t\t\t\t@ECHO. \n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t@ECHO.\t\t\t\t\tSALVATAGGI ELENCO FILE IN .TXT\n\t\t\t\t@ECHO. \"@echo.06.03--------------------------------------------------\"\n\t\t\t\t@ECHO  \n\t\t\t\t@ECHO  qui salvo i file processati NEL .ZIP E CHE SI TROVA NELLA CARTELLA SALVATAGGI \n\t\t\t\t@ECHO  quindi 01) devo prima spostarmi di directory dei salvataggi; \n\t\t\t\t@ECHO  quindi 02) recupero la lista dei file salvati nel .zip con il commando \"l TODAY_FILE_S \" e \n\t\t\t\t@ECHO  l'ozione -bsp1  \">\" lo invio nel file .txt ricostruito.\n\n\t\t\t\t@ECHO attenzione se 7z.exe non ha la variabile di ambiente riportare il percorso completo \n\t\t\t\t@ECHO tendo presente che è stato salvato in Program File ed ha lo spazio in mezzo per cui \n\t\t\t\t@ECHO occorre inserire tutto il percorso assoluto dell'eseguibile  tra \"\" altrimenti non lo\n\t\t\t\t@ECHO legge l'eseguibile e da errore. CONTROLLARE SEMPRE che l'eseguibile si trovi in quella path.\n\t\t\t\t@ECHO \n\n\t\t\t\t\t@ECHO 06.04 mi sposto nella directory salvataggi\n\t\t\t\t\t@ECHO \n\t\t\t\t\tcd %PATH_DEST_S%\n\t\t\t\t\t\n\t\t\t\t\t@ECHO 06.05 recupo i file processati nel .zip e li salvo in .txt\n\t\t\t\t\t@ECHO \n\t\t\t\t\t\"c:\\Program Files\\7-Zip\\7z.exe\" l %TODAY%_%FILE_S% -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT\n\t\t\t\t\t\n\n\t\t\t\t@ECHO.  \t\t\t\t\t\n\t\t\t\t@ECHO.  \t\t\t\t\t\n\t\t\t\t@ECHO.  \t\t\t\t\t\n\t\t\t\n\t@echo.07------------------------------ CHIAMO CRIPTA  @07\n\t\t\t\t\t\n\t\t\t\t\t@ECHO  \t\t\t\t\tESEGUO IL CRIPTA.BAT\n\t\t\t\t\t@ECHO .  -----------------------------------------------------------------------\n\t\t\t\t\t@ECHO . \n\t\t\t\t\t@ECHO . 07.01.MI POSIZIONO NELLA  DIRECTORY DI DESTINAZIONE E ATTIVO IL CRIPTAGGIO !!!\n\t\t\t\t\t@ECHO . \n\t\t\t\t\t\n\n\t\t\t\t\t\tCD %PATH_DEST_S%\n\t\t\t\t\t\tDIR\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t@ECHO .\n\t\t\t\t\t\t\t@ECHO CRIPTA i file da .zip in GE614\n\t\t\t\t\t\t\t@ECHO .\n\n\t\t\t\t\t\t\t@RENAME \"%ANNO_S%*.ZIP\" \"%ANNO_S%*.GE614\"\n\t\t\t\t\t\t\t@RENAME \"%ANNO_S%*.RAR\" \"%ANNO_S%*.GE614\"\n\n\t@echo.08------------------------------ SOSPENSIONE ED USCITA DALLA PROCEDURA @08\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t@echo.\n\t\t\t\t@echo.\n\t\t\t\t@echo.\n\t\t\t\t@echo.\"==================================================================\"\n\t\t\t\t@echo.\"\t\t\tMSG - EXIT_PROCEDURA \"\n\t\t\t\t@echo.\n\t\t\t\t@echo.\"ATTENZIONE '!!!' USCITA DALLA PROCEDURA : - USCITA - \"\t\t\t\n\t\t\t\t@echo.\"==================================================================\"\n\n\t\t\t\t\n\t\t\t\t\t@REM 01)\n\t\t\t\t\t@REM sospensione per 1 secondo con crononometro \n\t\t\t\t\t@REM ---->\ttimeout /t 2 /nobreak > NUL\n\t\t\t\t\t@REM ---->\t\n\t\t\t\t\t@TIMEOUT /T 2 /NOBREAK\n\n\t\t\t\t@echo.\t\t\t\t\t\t\t\t\n\t\t\t\t@echo.\t\t\t\t\t\t\t\t\n\t\t\t\t@echo.\t\t\t\t\t\t\"**** fine ****\"\n\t\t\t\t@echo.\"==================================================================\"\n\t\t\t\tEXIT\n\n\t\t\n\n\n\n\n\n\n\n\n\t\t@GOTO NoteDos\n\n\t\t\tNOTE DOS DI UTILIZZO DELLA DIR CON I PARAMETRI\n\n\n\t\t\t\t@REM PARAMETRI DOS\n\t\t\t\t@REM ------------------------------------------------------------------------------------------- \n\t\t\t\t\n\t\t\t\t\t@REM DIR in dos ha diversi parametri per visualizzare le cartelle ed i file che sono:\n\t\t\t\t\t@REM \t\t:  /A:-d mostra solo i file    \n\t\t\t\t\t@REM \t\t/O:n  mostra i file in ordine alfabetico   \n\t\t\t\t\t@REM\t\t/W  per vedere l’elenco formato solo dai nomi dei file \n\t\t\t\t\t@REM\t\tBLOCCATO -----> DIR /S /A:-D /O:n /W %TIPO_FILE_S%> %PATH_DEST_S%%today%_ZIP_SALVATAGGI_ARCHIVI_ARCHIVIO_TIPO_FILE_SALVATI.TXT\n\n\n\t\t\t\t\t@REM -tzip \t=\tparametro -t per tipo file processato cioè il file zip.\n\t\t\t\t\t@REM -r \t=\titerazione delle sottocartelle\n\t\t\t\t\t@REM @file \t=\tlista file da processare\n\t\t\t\t\t@REM \t\t \tattenzione nella listafile.txt indicare la path e al posto di *.* occore solo * es. c:\\dos\\* pero per riportare la path completa\n\t\t\t\t\t@REM \t\t \tdella sottodirectory occorre il parametro -r = sottodirectory e nel file .txt indicare la path completa senza * es.\n\t\t\t\t\t@REM \t\t \tc:\\CASA\\LINGUAGGI\\ACCESS\\\n\t\t\t\t\t@REM path   =\tla path di salvataggio, per posizionare l'archivio in un'altra cartella occore scrivere il nome \n\t\t\t\t\t@REM \t\t \tDell'archivio preceduto dalla path estesa es.\n\t\t\t\t\t@REM \t\t\tC:\\CASA\\SALVATAGGI\\archive.zip\n\t\t\t\t\t@REM -bsp1\t= swithc che permette il reindirizzamento dell'output su file per l'elenco di tutti \n\t\t\t\t\t@REM \t\tquelli processati e salvati su un file .txt, ma deve essere eseguito su doppio comando.\n\t\t\t\t\t@REM NOME DATA CORRENTE : per il nome sulla data corrente occorre utilizzare la variabile tmp\n\t\t\t\t\t@REM \t\t\tche contiene il nome in AAMMGG_, Attenzione per espandere la variabile occorre utilizzare ! ! altrimenti non funziona;\n\t\t\t\t\t@REM \t\t\tper ora la espanzione delle variabile con (!!) non è stata utilizzata \n\t\t\t\t\t@REM \t\t\tes. %!PATH_DEST_S!%%today%_ZIP_SALVATAGGI_ARCHIVI.RAR %TIPO_FILE_S% %PATH_DEST_S%\n\n\t\t\t\t\t@REM  ATTENZIONE in @Zip_N70_ElencoFile.txt  devi inserire solo le directory senza *.* e no le cartelle interne perchè altrimenti\n\t\t\t\t\t@REM \t\t\t\tsalva solo le sottocartelle e non la cartella madre. Quindi nel file.txt indicare le cartelle ORIGINE in questo\n\t\t\t\t\t@REM  \t\t\t\tmodo: c:\\CASA\\LINGUAGGI\\ACCESS\\\n\t\t\t\t\t@REM  \t\t\t\tmodo: c:\\CASA\\LINGUAGGI\\CPP\\  ... ecc.\n\n\n\n\n\t\t\t\t@REM DIR @ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE\n\t\t\t\t@REM ------------------------------------------------------------------------------------------- \n\t\t\t\t@REM Sintassi \tDIR  [unità:][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] [/S]\n\t\t\t\t@REM      \t[/B] [/L] [/V]\n\t\t\t\t\t\n\n\t\t\t\t@REM  /A          Visualizza i file con gli attributi specificati.\n\t\t\t\t@REM  attributo\ta:-d  (-d) = non le directory\n\t\t\t\t@REM\t\t-h = non i file nascosti\n\t\t\t\t@REM /O\t\t Elenca file ordinandoli.\n\t\t\t\t@REM attributo\to:-n (-n) = escluso ordine alfabetico\n\t\t\t\t@REM /T\t\tControlla campo data visualizzato o utilizzato per ordinare.\n\t\t\t\t@REM attributo   t:c (:c)= ordina per creazione\n\n\t\t\t\t\t\n\t\t\t\t\t@REM ORDINA tutti i file escluso le directory ed i file nascosti in ordine alfabetico\n\t\t\t\t\t@REM decrescente e per data di creazione e salva nel file di testo.\n\t\t\t\t\tdir \"c:\\GESTIONI\\GESTIONE_LLPP\\02_SCANNER\\\" /a:-d -h /o:-n /t:c >>DOS_DIR_N01.txt\n\n\t\t\t\t@REM DIR @ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE *** fine ***\n\t\t\t\t@REM ----------------------------------------------------\n\n\n\n\n\n\n\t\t\t\t@REM\t\t\t\tPARAMETRI DOSE CON VARI ESEMPI DI COMANDO \n\t\t\t\t@REM *************************************************************************************************************************\n\t\t\t\t\t\t@OPZIONI@DOS@DI_(ELENCO DI OPZIONI del comando DIR in dos)\n\n\n\t\t\t\t\tle opzioni principali sono: \n\t\t\t\t\t/p per vedere l’elenco a schermate \n\t\t\t\t\t/w per vedere l’elenco formato solo dai nomi dei file \n\t\t\t\t\t/a:h mostra i file nascosti \n\t\t\t\t\t/a:s mostra i file di sistema \n\t\t\t\t\t/a:d mostra solo le subdirectory \n\t\t\t\t\t/a:-d mostra solo i file \n\t\t\t\t\t/o:n mostra in ordine alfabetico \n\t\t\t\t\t/o:-n mostra in ordine alfabetico inverso \n\t\t\t\t\t/o:d mostra in ordine di data \n\t\t\t\t\t/o:-d mostra in ordine di data inverso \n\t\t\t\t\t/o:s mostra in ordine di grandezza \n\t\t\t\t\t/o:-s mostra in ordine di grandezza inverso \n\t\t\t\t\t/s mostra tutto il disco \n\t\t\t\t\t>prn stampa l’elenco \n\t\t\t\t\t\tEsempio: \n\t\t\t\t\t\tc:\\> DIR c:\\LETTERE\\ROSSI /a:-d/o:n >prn\n\n\t\t\t\t\t\tstampa l’elenco, in ordine alfabetico, di tutti i file contenuti nella \n\t\t\t\t\t\tsubdirectory \\LETTERE\\ROSSI, omettendo i nomi delle eventuali subdirectory presenti. \n\n\n\n\n\t\t\t\t\t\t@REM DIR @ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE\n\t\t\t\t\t\t@REM ------------------------------------------------------------------------------------------- \n\t\t\t\t\t\t@REM Sintassi \tDIR  [unità:][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] [/S]\n\t\t\t\t\t\t@REM      \t[/B] [/L] [/V]\n\n\n\t\t\t\t\t\t@REM  /A          Visualizza i file con gli attributi specificati.\n\t\t\t\t\t\t@REM  attributo\ta:-d  (-d) = non le directory\n\t\t\t\t\t\t@REM\t\t\t-h = non i file nascosti\n\t\t\t\t\t\t@REM /O\t\t Elenca file ordinandoli.\n\t\t\t\t\t\t@REM attributo\to:-n (-n) = escluso ordine alfabetico\n\t\t\t\t\t\t@REM\n\t\t\t\t\t\t@REM /T\t\tControlla campo data visualizzato o utilizzato per ordinare.\n\t\t\t\t\t\t@REM attributo   t:c (:c)= ordina per creazione\n\n\n\t\t\t\t\t\t\t@REM ORDINA tutti i file escluso le directory ed i file nascosti in ordine alfabetico\n\t\t\t\t\t\t\t@REM decrescente e per data di creazione e salva nel file di testo.\n\t\t\t\t\t\t\tdir \"c:\\GESTIONI\\GESTIONE_LLPP\\02_SCANNER\\\" /a:-d -h /o:-n /t:c >>DOS_DIR_N01.txt\n\n\t\t\t\t\t\t@REM DIR @ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE *** fine ***\n\t\t\t\t\t\t@REM ----------------------------------------------------\n\n\n\n\n\n\t\t\t\t\t\t@REM DOS STRINGHE CONCATENA  @ESEMPIO@DOS@CONCATENA_(concatena le stringhe in dos)\n\t\t\t\t\t\t@REM ----------------------------------------------------\n\n\t\t\t\t\t\t\t:-------------------------------imposto le variabili set\n\t\t\t\t\t\t\tset str1=\"Hello\"\n\t\t\t\t\t\t\tset str2=\"World\"\n\t\t\t\t\t\t\tset str3= \"1\"\n\n\t\t\t\t\t\t\t:-------------------------------unisco le stringhe su una variabile \n\t\t\t\t\t\t\tset \"str3=%str1% %str3% %str2%\"\n\t\t\t\t\t\t\tset \"str4=%str1% %str2%\"\n\n\t\t\t\t\t\t\t@REM qui scrivo str1 + la parola dos  + str2\n\t\t\t\t\t\t\tset \"str1=%str1% DOS %str2%\"\n\n\t\t\t\t\t\t\t:-------------------------------controllo concatenamento\n\t\t\t\t\t\t\techo \"str3 concatenata ->\" %str3%\n\t\t\t\t\t\t\techo \"str4 concatenata ->\" %str4%\n\t\t\t\t\t\t\techo \"str1 concatenata ->\" %str1%\n\n\n\n\n\t\t\t\t\t\t@REM DOS STRINGHE CONCATENA\t*** fine ***\n\t\t\t\t\t\t@REM ----------------------------------------------------\n\n\n\n\n\n\t\t\t\t:NoteDos\n\n\t\t\t\t@REM *************************************************************************************************************************\n\n",
+			"file": "DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.MD",
+			"file_size": 18114,
+			"file_write_time": 133451414449518248,
+			"settings":
+			{
+				"buffer_size": 17602,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"right_delete",
+					null,
+					"AQAAAA4RAAAAAAAADhEAAAAAAAABAAAACQ",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAOEQAAAAAAAA4RAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAwRAAAAAAAADBEAAAAAAAABAAAACQ",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAMEQAAAAAAAAwRAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAwRAAAAAAAADBEAAAAAAAADAAAACQkK",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAMEQAAAAAAAA8RAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					16,
+					1,
+					"right_delete",
+					null,
+					"AQAAAHMZAAAAAAAAcxkAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABzGQAAAAAAAHQZAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					20,
+					1,
+					"right_delete",
+					null,
+					"AQAAAHMZAAAAAAAAcxkAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABzGQAAAAAAAHQZAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					23,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAsRAAAAAAAACxEAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAALEQAAAAAAAAwRAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					26,
+					1,
+					"right_delete",
+					null,
+					"AQAAAD4mAAAAAAAAPiYAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+JgAAAAAAAD8mAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAFQoAAAAAAAAVSgAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABUKAAAAAAAAFQoAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					33,
+					1,
+					"right_delete",
+					null,
+					"AQAAAIILAAAAAAAAggsAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACCCwAAAAAAAIMLAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					35,
+					1,
+					"right_delete",
+					null,
+					"AQAAAIILAAAAAAAAggsAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACCCwAAAAAAAIMLAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					39,
+					1,
+					"right_delete",
+					null,
+					"AQAAAJkIAAAAAAAAmQgAAAAAAAABAAAACg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACZCAAAAAAAAJoIAAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		},
+		{
+			"contents": "Microsoft Windows [Versione 10.0.19045.4046]                                                                                             \n(c) Microsoft Corporation. Tutti i diritti sono riservati.                                                                               \n                                                                                                                                         \nC:\\CASA\\LINGUAGGI\\DOS>git status\nOn branch master                                                                                                                         \nYour branch is ahead of 'origin/master' by 1 commit.                                                                                     \n  (use \"git push\" to publish your local commits)                                                                                         \n                                                                                                                                         \nChanges not staged for commit:                                                                                                           \n  (use \"git add <file>...\" to update what will be committed)                                                                             \n  (use \"git restore <file>...\" to discard changes in working directory)                                                                  \n        modified:   Progetti_DOS.sublime-workspace                                                                                       \n                                                                                                                                         \nno changes added to commit (use \"git add\" and/or \"git commit -a\")                                                                        \n\nC:\\CASA\\LINGUAGGI\\DOS>git pull\nYour configuration specifies to merge with the ref 'refs/heads/master'                                                                   \nfrom the remote, but no such ref was fetched.                                                                                            \n                                                                                                                                         \nC:\\CASA\\LINGUAGGI\\DOS>",
+			"settings":
+			{
+				"buffer_size": 2295,
+				"line_ending": "Windows",
+				"name": "Amministratore:  ",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					2,
+					3,
+					"terminus_render",
+					null,
+					"hQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJwAAAAAAAAAAAAAAJgAAAAAAAAAmAAAAAAAAAAEAAAAKJQAAAAAAAAAlAAAAAAAAAAEAAAAKJAAAAAAAAAAkAAAAAAAAAAEAAAAKIwAAAAAAAAAjAAAAAAAAAAEAAAAKIgAAAAAAAAAiAAAAAAAAAAEAAAAKIQAAAAAAAAAhAAAAAAAAAAEAAAAKIAAAAAAAAAAgAAAAAAAAAAEAAAAKHwAAAAAAAAAfAAAAAAAAAAEAAAAKHgAAAAAAAAAeAAAAAAAAAAEAAAAKHQAAAAAAAAAdAAAAAAAAAAEAAAAKHAAAAAAAAAAcAAAAAAAAAAEAAAAKGwAAAAAAAAAbAAAAAAAAAAEAAAAKGgAAAAAAAAAaAAAAAAAAAAEAAAAKGQAAAAAAAAAZAAAAAAAAAAEAAAAKGAAAAAAAAAAYAAAAAAAAAAEAAAAKFwAAAAAAAAAXAAAAAAAAAAEAAAAKFgAAAAAAAAAWAAAAAAAAAAEAAAAKFQAAAAAAAAAVAAAAAAAAAAEAAAAKFAAAAAAAAAAUAAAAAAAAAAEAAAAKEwAAAAAAAAATAAAAAAAAAAEAAAAKEgAAAAAAAAASAAAAAAAAAAEAAAAKEQAAAAAAAAARAAAAAAAAAAEAAAAKEAAAAAAAAAAQAAAAAAAAAAEAAAAKDwAAAAAAAAAPAAAAAAAAAAEAAAAKDgAAAAAAAAAOAAAAAAAAAAEAAAAKDQAAAAAAAAANAAAAAAAAAAEAAAAKDAAAAAAAAAAMAAAAAAAAAAEAAAAKCwAAAAAAAAALAAAAAAAAAAEAAAAKCgAAAAAAAAAKAAAAAAAAAAEAAAAKCQAAAAAAAAAJAAAAAAAAAAEAAAAKCAAAAAAAAAAIAAAAAAAAAAEAAAAKBwAAAAAAAAAHAAAAAAAAAAEAAAAKBgAAAAAAAAAGAAAAAAAAAAEAAAAKBQAAAAAAAAAFAAAAAAAAAAEAAAAKBAAAAAAAAAAEAAAAAAAAAAEAAAAKAwAAAAAAAAADAAAAAAAAAAEAAAAKAgAAAAAAAAACAAAAAAAAAAEAAAAKAQAAAAAAAAABAAAAAAAAAAEAAAAKAAAAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAiQAAAAAAAAAAAAAAiQAAAAAAAACKAAAAAAAAAAAAAACKAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAEwEAAAAAAAAAAAAAEwEAAAAAAAAUAQAAAAAAAAAAAAAUAQAAAAAAABQBAAAAAAAAAAAAABQBAAAAAAAAnQEAAAAAAAAAAAAAnQEAAAAAAACeAQAAAAAAAAAAAACeAQAAAAAAALQBAAAAAAAAAAAAALQBAAAAAAAAJwIAAAAAAAAAAAAAtAEAAAAAAAC0AQAAAAAAAHMAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"terminus_render",
+					null,
+					"AQAAALQBAAAAAAAAtQEAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0AQAAAAAAALQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"terminus_render",
+					null,
+					"AQAAALQBAAAAAAAAtAEAAAAAAAABAAAAIA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1AQAAAAAAALUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAtQEAAAAAAAAWAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPrUBAAAAAAAAJwIAAAAAAAAAAAAAtQEAAAAAAAC1AQAAAAAAAHIAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0AQAAAAAAALQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					10,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAtgEAAAAAAAAXAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPme2AQAAAAAAACcCAAAAAAAAAAAAALYBAAAAAAAAtgEAAAAAAABxAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1AQAAAAAAALUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAtwEAAAAAAAAYAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdptwEAAAAAAAAnAgAAAAAAAAAAAAC3AQAAAAAAALcBAAAAAAAAcAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC2AQAAAAAAALYBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					14,
+					1,
+					"terminus_render",
+					null,
+					"AQAAALcBAAAAAAAAuAEAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC3AQAAAAAAALcBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAuQEAAAAAAAAaAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCC5AQAAAAAAACcCAAAAAAAAAAAAALkBAAAAAAAAuQEAAAAAAABuAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC4AQAAAAAAALgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAugEAAAAAAAAbAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzugEAAAAAAAAnAgAAAAAAAAAAAAC6AQAAAAAAALoBAAAAAAAAbQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC5AQAAAAAAALkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					20,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAuwEAAAAAAAAcAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzdLsBAAAAAAAAJwIAAAAAAAAAAAAAuwEAAAAAAAC7AQAAAAAAAGwAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC6AQAAAAAAALoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					22,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAvAEAAAAAAAAdAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzdGG8AQAAAAAAACcCAAAAAAAAAAAAALwBAAAAAAAAvAEAAAAAAABrAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC7AQAAAAAAALsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAvQEAAAAAAAAeAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzdGF0vQEAAAAAAAAnAgAAAAAAAAAAAAC9AQAAAAAAAL0BAAAAAAAAagAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC8AQAAAAAAALwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAJ4BAAAAAAAAvgEAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzdGF0db4BAAAAAAAAJwIAAAAAAAAAAAAAvgEAAAAAAAC+AQAAAAAAAGkAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC9AQAAAAAAAL0BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					3,
+					"terminus_render",
+					null,
+					"KQAAAL4BAAAAAAAAvwEAAAAAAAAAAAAAvwEAAAAAAAC/AQAAAAAAAAAAAAC/AQAAAAAAAEgCAAAAAAAAAAAAAL8BAAAAAAAAvwEAAAAAAACJAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICC/AQAAAAAAAM8BAAAAAAAAAAAAAM8BAAAAAAAASAIAAAAAAAAAAAAASAIAAAAAAABJAgAAAAAAAAAAAABJAgAAAAAAAH0CAAAAAAAAAAAAAH0CAAAAAAAA0gIAAAAAAAAAAAAA0gIAAAAAAADTAgAAAAAAAAAAAADTAgAAAAAAAAMDAAAAAAAAAAAAAAMDAAAAAAAAXAMAAAAAAAAAAAAAXAMAAAAAAABdAwAAAAAAAAAAAABdAwAAAAAAAF0DAAAAAAAAAAAAAF0DAAAAAAAA5gMAAAAAAAAAAAAA5gMAAAAAAADnAwAAAAAAAAAAAADnAwAAAAAAAAUEAAAAAAAAAAAAAAUEAAAAAAAAcAQAAAAAAAAAAAAAcAQAAAAAAABxBAAAAAAAAAAAAABxBAAAAAAAAK0EAAAAAAAAAAAAAK0EAAAAAAAA+gQAAAAAAAAAAAAA+gQAAAAAAAD7BAAAAAAAAAAAAAD7BAAAAAAAAEIFAAAAAAAAAAAAAEIFAAAAAAAAhAUAAAAAAAAAAAAAhAUAAAAAAACFBQAAAAAAAAAAAACFBQAAAAAAALcFAAAAAAAAAAAAALcFAAAAAAAADgYAAAAAAAAAAAAADgYAAAAAAAAPBgAAAAAAAAAAAAAPBgAAAAAAAA8GAAAAAAAAAAAAAA8GAAAAAAAAmAYAAAAAAAAAAAAAmAYAAAAAAACZBgAAAAAAAAAAAACZBgAAAAAAANoGAAAAAAAAAAAAANoGAAAAAAAAIgcAAAAAAAAAAAAAIgcAAAAAAAAjBwAAAAAAAAAAAAAjBwAAAAAAACMHAAAAAAAAAAAAACMHAAAAAAAArAcAAAAAAAAAAAAAIwcAAAAAAAAjBwAAAAAAAIkAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMHAAAAAAAAJAcAAAAAAAAAAAAAJAcAAAAAAAA6BwAAAAAAAAAAAAA6BwAAAAAAAK0HAAAAAAAAAAAAADoHAAAAAAAAOgcAAAAAAABzAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC+AQAAAAAAAL4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAOwcAAAAAAAAWAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPjsHAAAAAAAArQcAAAAAAAAAAAAAOwcAAAAAAAA7BwAAAAAAAHIAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA6BwAAAAAAADoHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAPAcAAAAAAAAXAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmc8BwAAAAAAAK0HAAAAAAAAAAAAADwHAAAAAAAAPAcAAAAAAABxAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA7BwAAAAAAADsHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					34,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAPQcAAAAAAAAYAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpPQcAAAAAAACtBwAAAAAAAAAAAAA9BwAAAAAAAD0HAAAAAAAAcAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA8BwAAAAAAADwHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					1,
+					"terminus_render",
+					null,
+					"AQAAAD0HAAAAAAAAPgcAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA9BwAAAAAAAD0HAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					38,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAPwcAAAAAAAAaAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCA/BwAAAAAAAK0HAAAAAAAAAAAAAD8HAAAAAAAAPwcAAAAAAABuAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+BwAAAAAAAD4HAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAQAcAAAAAAAAbAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBwQAcAAAAAAACtBwAAAAAAAAAAAABABwAAAAAAAEAHAAAAAAAAbQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA/BwAAAAAAAD8HAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					42,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAQQcAAAAAAAAcAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBwdUEHAAAAAAAArQcAAAAAAAAAAAAAQQcAAAAAAABBBwAAAAAAAGwAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABABwAAAAAAAEAHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					44,
+					1,
+					"terminus_render",
+					null,
+					"AwAAACQHAAAAAAAAQgcAAAAAAAAdAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBwdWxCBwAAAAAAAK0HAAAAAAAAAAAAAEIHAAAAAAAAQgcAAAAAAABrAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABBBwAAAAAAAEEHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					46,
+					1,
+					"terminus_render",
+					null,
+					"BAAAAEIHAAAAAAAAQwcAAAAAAAAAAAAAQwcAAAAAAABDBwAAAAAAAAAAAABDBwAAAAAAAMwHAAAAAAAAAAAAAEMHAAAAAAAAQwcAAAAAAACJAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABCBwAAAAAAAEIHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					47,
+					1,
+					"terminus_render",
+					null,
+					"DAAAAEMHAAAAAAAAiQcAAAAAAAAAAAAAiQcAAAAAAADMBwAAAAAAAAAAAADMBwAAAAAAAM0HAAAAAAAAAAAAAM0HAAAAAAAA+gcAAAAAAAAAAAAA+gcAAAAAAABWCAAAAAAAAAAAAABWCAAAAAAAAFcIAAAAAAAAAAAAAFcIAAAAAAAAVwgAAAAAAAAAAAAAVwgAAAAAAADgCAAAAAAAAAAAAADgCAAAAAAAAOEIAAAAAAAAAAAAAOEIAAAAAAAA9wgAAAAAAAAAAAAA9wgAAAAAAABqCQAAAAAAAAAAAAD3CAAAAAAAAPcIAAAAAAAAcwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDBwAAAAAAAEMHAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -75,6 +403,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ter",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -231,8 +563,10 @@
 	"expanded_folders":
 	[
 		"/C/CASA/LINGUAGGI/DOS",
+		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI",
-		"/C/CASA/LINGUAGGI/DOS/GIT_BAT"
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE_RAR"
 	],
 	"file_history":
 	[
@@ -383,6 +717,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"total commander",
+			"archivia cartelle",
+			"@CARTELLE",
 			"@apri",
 			"@apri@cartella",
 			"@total",
@@ -452,6 +789,357 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5700,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										249,
+										264
+									],
+									[
+										306,
+										321
+									],
+									[
+										348,
+										363
+									],
+									[
+										473,
+										488
+									],
+									[
+										533,
+										548
+									],
+									[
+										680,
+										695
+									],
+									[
+										745,
+										760
+									],
+									[
+										1087,
+										1102
+									],
+									[
+										1339,
+										1354
+									],
+									[
+										1450,
+										1465
+									],
+									[
+										1649,
+										1664
+									],
+									[
+										1706,
+										1721
+									],
+									[
+										1748,
+										1763
+									],
+									[
+										1873,
+										1888
+									],
+									[
+										1933,
+										1948
+									],
+									[
+										2080,
+										2095
+									],
+									[
+										2145,
+										2160
+									],
+									[
+										2487,
+										2502
+									],
+									[
+										2739,
+										2754
+									],
+									[
+										2850,
+										2865
+									],
+									[
+										3049,
+										3064
+									],
+									[
+										3106,
+										3121
+									],
+									[
+										3148,
+										3163
+									],
+									[
+										3273,
+										3288
+									],
+									[
+										3333,
+										3348
+									],
+									[
+										3480,
+										3495
+									],
+									[
+										3545,
+										3560
+									],
+									[
+										3887,
+										3902
+									],
+									[
+										4139,
+										4154
+									],
+									[
+										4250,
+										4265
+									],
+									[
+										4449,
+										4464
+									],
+									[
+										4506,
+										4521
+									],
+									[
+										4548,
+										4563
+									],
+									[
+										4673,
+										4688
+									],
+									[
+										4733,
+										4748
+									],
+									[
+										4880,
+										4895
+									],
+									[
+										4945,
+										4960
+									],
+									[
+										5287,
+										5302
+									],
+									[
+										5539,
+										5554
+									],
+									[
+										5650,
+										5665
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								4505,
+								4505
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 6,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1206.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28616,
+								28729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13548.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.MD",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								510,
+								510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2295,
+								2295
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "C:\\CASA\\LINGUAGGI\\DOS",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 1,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"cmd.exe"
+								],
+								"cwd": "C:\\CASA\\LINGUAGGI\\DOS",
+								"default_title": "Command Prompt",
+								"env":
+								{
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": "Terminus",
+								"reactivable": true,
+								"show_in_panel": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.reactivable": true,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 0.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
