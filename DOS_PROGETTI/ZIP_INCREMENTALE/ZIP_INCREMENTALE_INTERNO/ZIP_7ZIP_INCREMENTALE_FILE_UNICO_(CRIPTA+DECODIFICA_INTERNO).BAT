@@ -19,27 +19,7 @@
 		@ECHO.00.00 PROGETTO BAT INCREMENTALE BASATO SU 7zip
 		@ECHO.
 		@ECHO.
-		@ECHO. IMPOSTO I PARAMETRI SU TUTTO IL FILE e qui posson ossere cambiati e  
-		@ECHO. di seguito puoi cambiare questo percorso path per una sostituzione collettiva: 
-		@ECHO. 
-		@ECHO. cambia questo parametro ---------= 			c:\CASA\CDM\LaQuercia\2023_2024\ 
-		@ECHO. 
-		@ECHO. cambia questo parametro ---------= 			_LaQuercia_2023_2024
-		@ECHO. 
-		@ECHO. 
-		@ECHO. 
-		@ECHO. cambiando questi 2 parametri si ha effetto di cambiare i valori di tutti i parametri
-		@ECHO. dos preimpostati come di seguito indicato:
-		@ECHO. 
-		@ECHO. 									effetto sostituzione collettivo
-		@ECHO. --------------------------------------------------------------------------------------------------------
-		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\CASA\CDM\LaQuercia\2023_2024\%CARTELLA_SALVATAGGI_S%
-		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\CASA\CDM\LaQuercia\2023_2024\AA_SALVATAGGI\
-		@ECHO. LA PATH DI PARTENZA							= 	c:\CASA\CDM\LaQuercia\2023_2024\
-		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_LaQuercia_2023_2024
-		@ECHO. LISTA FILE UTILIZZATA 						= 	Zip_N70_ElencoFile.txt
-		@ECHO. --------------------------------------------------------------------------------------------------------
-		@ECHO.
+
 
 	@CLS
 	@echo.01--------------------------------CREO LA CARTELLA SALVATAGGI SE NON ESISTE
@@ -145,11 +125,11 @@
 
 							@REM imposto le variabili
 
-							@SET PATH_DEST_S=c:\CASA\CDM\LaQuercia\2023_2024\%CARTELLA_SALVATAGGI_S%
-							@REM @SET PATH_DEST_S=c:\CASA\CDM\LaQuercia\2023_2024\AA_SALVATAGGI\
-							@SET PATH_PART_S=c:\CASA\CDM\LaQuercia\2023_2024\
+							@SET PATH_DEST_S=c:\CASA\CDM\Vittoria\%CARTELLA_SALVATAGGI_S%
+							@REM @SET PATH_DEST_S=c:\CASA\CDM\Vittoria\AA_SALVATAGGI\
+							@SET PATH_PART_S=c:\CASA\CDM\Vittoria\
 							
-							@SET FILE_S=ZIP_SALVATAGGI_LaQuercia_2023_2024
+							@SET FILE_S=ZIP_SALVATAGGI_Vittoria
 							@SET LISTA_FILE_S=Zip_N70_ElencoFile.txt
 
 							
@@ -211,9 +191,7 @@
 								@REM ---->	timeout /t 2 /nobreak > NUL
 								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM 
-
-								Pause
+								@REM Pause
     
 	
     @CLS

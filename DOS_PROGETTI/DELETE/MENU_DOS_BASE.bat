@@ -31,12 +31,12 @@
 		CLS && CLS
 
 	:-------------------------------------------------|*SELECT_MENU*
-		:SELECT_MENU
+	:SELECT_MENU
 			CLS && CLS
 
 
 
-
+		ECHO.			file attivo: DELETE_01_FILE_LOG_WINDOWS.bat
 			ECHO.//==============================================================================//  
 			ECHO.			MENU PRINCIPALE - DELETE  
 			ECHO.			@dos@menu_(costruzione dei @menu in @dos, @MASCHERA @DEI @MENU)_@MENU@DOS 
@@ -44,10 +44,10 @@
 			ECHO TITLE :IL MENU PRINCIPALE PER LE CANCELLAZIONI DI SISTEMA
 			ECHO.
 			ECHO.//==============================================================================//  
-			ECHO				SELEZIONE MENU
+			ECHO				SELEZIONE MENU PRINCIPALE
 			ECHO.
-			ECHO [0] GESTIONE_LA_QUERCIA_ConSottoMenu
-			ECHO.
+			ECHO [0] @GESTIONE_LA_QUERCIA_ConSottoMenu 
+			ECHO.    
 			ECHO				CANCELLA DATI DI SISTEMA
 			ECHO [1] MENU_APPL_01_CANCELLA
 			ECHO [3] MENU_SALVATAGGI_SU_DISCHI_ESTERNI
@@ -59,7 +59,7 @@
 			ECHO.
 			ECHO //--------------------------------------------------------------// 
 			ECHO.
-			ECHO [e] esci
+			ECHO [x] @EXIT.00 uscita procedura
 			ECHO ..........................................................................
 			ECHO.
 
@@ -76,7 +76,7 @@
 			@REM CONTROLLO IF SCELTA + USCITA
 			@REM ==================================================================
 
-			IF "%s%" equ "0" (GOTO GESTIONE_LA_QUERCIA_ConSottoMenu)
+			IF "%s%" equ "0" (GOTO @GESTIONE_LA_QUERCIA_ConSottoMenu)
 
 			IF "%s%" equ "1" (GOTO APPL_01_CANCELLA)
 			IF "%s%" equ "3" (GOTO MENU_SALVATAGGI_SU_DISCHI_ESTERNI)
@@ -89,55 +89,44 @@
 
 				@REM ERRATA
 
-			@REM 		USCITA
+			@REM 		USCITA @EXIT.01
 			@REM ------------------------------------
 
-			IF "%s%" equ "e" (GOTO EXIT)
-			IF "%s%" equ "E" (GOTO EXIT)
+			IF "%s%" equ "x" (GOTO EXIT)
+			IF "%s%" equ "X" (GOTO EXIT)
 
 
 			@REM ==================================================================
 
-			@REM SELEZIONE ERRATA - RITARDO ESECUZIONE + MESSAGGIO
+		@REM SELEZIONE ERRATA - RITARDO ESECUZIONE + MESSAGGIO + RITONO MENU
 			@REM ==================================================================
 			:ERRORE
-			ECHO selezione errata!
-			@REM Ritardo per 0 secondi
-			@choice /C:X /N /T:1 /D:X > null
+				ECHO selezione errata!
+				@REM Ritardo per 0 secondi
+				@choice /C:X /N /T:1 /D:X > null
+			
+
+					@REM IMPOSTO LA VARIABILE DI SCELTA E RITORNO AL MENU ATTIVO
+					@REM ritorno al sotto Menu impostando zero la variabile per evitare di 
+					@REM ripetere lo stesso comando, in quanto rimane memorizzato in memoria,
+					@REM l'ultima opzione scelta.
+
+					s=zero
+					cls
+				@ECHO. ritorno al menu principale
+				
+				GOTO SELECT_MENU
 			@REM ==================================================================
 
+		
 
-			@REM IMPOSTO LA VARIABILE DI SCELTA E RITORNO AL MENU ATTIVO
-			@REM ==================================================================
-			@REM ritorno al sotto Menu impostando zero la variabile per evitare di 
-			@REM ripetere lo stesso comando, in quanto rimane memorizzato in memoria,
-			@REM l'ultima opzione scelta.
+		:-------------------------------------------------|*@GESTIONE_LA_QUERCIA_ConSottoMenu*
+		:@GESTIONE_LA_QUERCIA_ConSottoMenu
 
-			s=zero
-			cls
+				CLS
 
-			GOTO SELECT_MENU
-			@REM ==================================================================
-
-				:------------------------------------------------MODELLO SCELTA
-
-					:-------------------------------------------------AVVIOMYSQL
-
-					:AVVIOMYSQL
-					ECHO.
-					ECHO Avvio MODELLO
-					ECHO.
-					@REM ritorno al menu principale
-					GOTO SELECT
-
-
-		:-------------------------------------------------|*GESTIONE_LA_QUERCIA_ConSottoMenu*
-		:GESTIONE_LA_QUERCIA_ConSottoMenu
-
-			CLS
-
+		@ECHO. SOTTO_MENU LA_QUERCIA_@GESTIONE_LA_QUERCIA_ConSottoMenu
 			ECHO.//==============================================================================//  
-			ECHO.			SOTTO_MENU LA_QUERCIA_GESTIONE_LA_QUERCIA_ConSottoMenu
 			ECHO SOTTO MENU 01 - @sottoMenu_(questo è il @sotto @menu della quercia)
 			ECHO TODO: sotto menu @da @utilizzare @??
 			ECHO.
@@ -164,52 +153,37 @@
 				SET /p s=Inserisci i Valori? 1-10/e:
 			@REM ==================================================================
 
-
-			@REM CONTROLLO IF SCELTA + USCITA  @controllo@sotto@menu_(le if di controllo sotto menu)
+		@ECHO. CONTROLLO IF SCELTA + USCITA  @controllo@sotto@menu_(le if di controllo sotto menu)
 			@REM ==================================================================
 
-				IF "%s%" equ "0" (GOTO GESTIONE_LA_QUERCIA_ConSottoMenu)
-				@REM @1	
-				IF "%s%" equ "1" (GOTO DA DA_UTILIZZARE)           
-				IF "%s%" equ "23" (GOTO MENU_SALVATAGGI_SU_DISCHI_ESTERNI)
-				IF "%s%" equ "66" (CLS
-						  GOTO SOTTO_MENU_06_ESTRAZIONI)
-				IF "%s%" equ "88" (GOTO SHUTDOWNDATASTAGE)
-				IF "%s%" equ "99" (GOTO DA_UTILIZZARE)
-				IF "%s%" equ "110" (echo "comando da attivare")
-				IF "%s%" equ "n" (GOTO NUOVASHELL)
+				IF "%s%" equ "0" (GOTO @GESTIONE_LA_QUERCIA_ConSottoMenu)
 				
 				@REM 		RITORNO AL MENU PRINCIPALE
 				@REM ------------------------------------
-				IF "%s%" equ "e" (GOTO SELECT_MENU)
+				IF "%s%" equ "e" (GOTO)
 				IF "%s%" equ "E" (GOTO SELECT_MENU)
 				
 			@REM ==================================================================
-			@REM SELEZIONE ERRATA - RITARDO ESECUZIONE + MESSAGGIO
-			@REM ==================================================================
 
+		@ECHO. SELEZIONE ERRATA - RITARDO ESECUZIONE + MESSAGGIO + RITONO MENU
+			@REM ==================================================================
+			:ERRORE
 				ECHO selezione errata!
 				@REM Ritardo per 0 secondi
 				@choice /C:X /N /T:1 /D:X > null
-			@REM ==================================================================
+			
 
+					@REM IMPOSTO LA VARIABILE DI SCELTA E RITORNO AL MENU ATTIVO
+					@REM ritorno al sotto Menu impostando zero la variabile per evitare di 
+					@REM ripetere lo stesso comando, in quanto rimane memorizzato in memoria,
+					@REM l'ultima opzione scelta.
 
-			@ECHO. IMPOSTO LA VARIABILE DI SCELTA E RITORNO AL MENU ATTIVO
-			@ECHO. ==================================================================
-			@ECHO. ritorno al sotto Menu impostando zero la variabile per evitare di 
-			@ECHO. ripetere lo stesso comando, in quanto rimane memorizzato in memoria,
-			@ECHO. l'ultima opzione scelta.
-
-
-				@ECHO.
-				@ECHO.  RITORNO AL MENU PRINCIPALE DELLA QUECIA
-
-				s=zero
-				cls
-
+					s=zero
+					cls
+				@ECHO. ritorno al menu principale
+				
 				GOTO GESTIONE_LA_QUERCIA_ConSottoMenu
 			@REM ==================================================================
-
 
 				
 
@@ -302,8 +276,12 @@
 				
 				DIR %APPL_03_PATH_S%%APPL_03_FILE_S%
 
-				@REM Ritardo per /T:8 secondi
-					@REM @choice /C:X /N /T:8 /D:X > NUL
+				
+
+
+				@ECHO  @Ciclo@for_(per attesa di 8 secondi con un ciclo for )
+				@ECHO //=====================================================================//
+					@REM sospeso e sostituito con ciclo form @choice /C:X /N /T:8 /D:X > NUL
 
  					
 					set "countdown=8"
@@ -315,7 +293,9 @@
 					)
 
 					echo Tempo scaduto.
+					@REM  todo : una pausa attivata controllare?? 
 					pause
+				@ECHO //=====================================================================//
 
 					
 
@@ -325,7 +305,7 @@
 			:-----------------------------------??**APPL_04_FIREFOX COOKIE
 
 				@SET APPL_02_PATH_S=C:\Users\icivi\AppData\Roaming\Mozilla\Firefox\Profiles\u06k90v4.default-release\storage\default\
-					@rem TODO: da finire
+					@rem TODO: da finire la cancella zione di fire fox
 			
 			:-----------------------------------APPL_05_SISTEMA CASH DI WINDEOS
 

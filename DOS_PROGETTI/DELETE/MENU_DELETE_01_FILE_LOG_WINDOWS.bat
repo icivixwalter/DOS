@@ -26,6 +26,7 @@
 
 
 
+		ECHO.			MENU_DELETE_01_FILE_LOG_WINDOWS.bat 
 		ECHO.//==============================================================================//  
 		ECHO.			MENU PRINCIPALE - DELETE  
 		ECHO.			@dos@menu_(costruzione dei @menu in @dos, @MASCHERA @DEI @MENU)_@MENU@DOS 
@@ -48,7 +49,7 @@
 		ECHO.
 		ECHO //--------------------------------------------------------------// 
 		ECHO.
-		ECHO [e] esci
+		ECHO [x] uscita EXIT
 		ECHO ..........................................................................
 		ECHO.
 
@@ -81,8 +82,8 @@
 		@REM 		USCITA
 		@REM ------------------------------------
 
-		IF "%s%" equ "e" (GOTO EXIT)
-		IF "%s%" equ "E" (GOTO EXIT)
+		IF "%s%" equ "x" (GOTO EXIT)
+		IF "%s%" equ "X" (GOTO EXIT)
 
 
 		@REM ==================================================================
