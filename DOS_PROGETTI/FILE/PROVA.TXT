@@ -1,0 +1,9 @@
+"\"MODELLO_FILE_DA_APRIRE.txt"" 
+
+...............................................................................
+     MESSAGGIO TESTO
+
+...............................................................................
+"QUESTA E LA PATH ED IL FILE CARICATO ---> "\"MODELLO_FILE_DA_APRIRE.txt""
+E l'operazione è riuscita con il 
+salvataggio e apertura del file denomiato prova.txt
