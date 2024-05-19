@@ -734,7 +734,7 @@ ESEMPI_DIVISI_PER_LETTERA
 
 
 	T
-		@ESEMPIO@TOTALCOMMADER_(Apro total commander)
+		@ESEMPIO@TOTALCOMMADER_(Apro total commander @esempio@total)
 			C:\CASA\PROGRAMMI\TOTALCMD_64\TOTALCMD64.EXE left: c:\CASA\LTT\ANALISI\SUBLIME_TEXT_ANALISI\, right: c:\CASA\LTT\
 				
 					@apro@total@commander_(apro total commander left e right)
@@ -810,16 +810,19 @@ ESEMPI_DIVISI_PER_LETTERA
 						....
 
 				Examples:
-						@esempi
+						@esempi_(@esempio @apertura @total@commander, @apri@total)
 						
 						totalcmd.exe c:\windows left window is loaded with c:\windows  			= apre solo il destro 
 						
 						totalcmd.exe left: d:\data, right: c:\programs
 																= apre il dx e sx preimpostati
+					:Commands_line_parameters
 							....
-							TODO: DA FARE 
+						@esempio@total_(apro @progetto @msys ed @access, @apro@msys)
+					
+							"C:\Program Files\totalcmd\TOTALCMD64.EXE" left: c:\Casa\LINGUAGGI\ACCESS\PROGETTI_MDB\DLL_LIBRERIE\, right: c:\Casa\LINGUAGGI\ACCESS\PROGETTI_MDB\ 
 
-				:Commands_line_parameters
+
 		@ESEMPI@TIMEOUT
 
 

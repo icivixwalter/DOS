@@ -3,9 +3,13 @@ UTILITA_FILE
 	Note
 		Utilità per la gestione di vari progetti quali,
 			errori git 
-			+ 
+			si trova questa utilita in questa directory
+			 C:\CASA\LINGUAGGI\DOS\UTILITA_FILE.md
 
+			 @aprire@utilita_(attiva il comando dos:
+			 	start "apri" C:\CASA\LINGUAGGI\DOS\UTILITA_FILE.md)
 
+			 	start "apri" C:\CASA\LINGUAGGI\DOS\UTILITA_FILE.md	
 
 Errori_Git
 	Note

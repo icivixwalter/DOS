@@ -64,577 +64,507 @@
 	"buffers":
 	[
 		{
-			"contents": "Microsoft Windows [Versione 10.0.22631.3593]                          \n(c) Microsoft Corporation. Tutti i diritti riservati.                 \n                                                                      \nC:\\CASA\\LINGUAGGI\\DOS>git status                                      \nOn branch main                                                        \nYour branch is up to date with 'origin/main'.                         \n                                                                      \nChanges to be committed:                                              \n  (use \"git restore --staged <file>...\" to unstage)                   \n        new file:   DOS_PROGETTI/DELETE/DELETE_01_FILE_LOG_WINDOWS.bat​‌​\n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/ANALISI_COMANDO_FO​‌​\nR_(Analisi).odt                                                       \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/ANALISI_ESPANSIONE​‌​\n_VARIABILI_EnableDelayedExpansion.odt                                 \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_COMANDI_FOR_N0​‌​\n1_(EsempioFor_GestisceLaData)_(DaDecifrare).doc                       \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_COMANDI_FOR_N0​‌​\n1_00_(COMANDO_FOR).pdf                                                \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_COMANDI_FOR_N0​‌​\n1_04_(DescrizioneComando)(Nozioni).txt                                \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_COMANDI_FOR_N0​‌​\n2_(comandi_FOR)_(GestioneFile).doc                                    \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_COMANDI_FOR___​‌​\n__________________.txt                                                \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR.}=========​‌​\n=====================@FOR.txt                                         \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N01_00_(CO​‌​\nMANDO_FOR).pdf                                                        \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N01_00_APR​‌​\nI_FILE_(Modello).bat                                                  \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N01_04_(CO​‌​\nMANDO_FOR)_(DescrizioneComando)(Nozioni).txt                          \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N02_00_TOK​‌​\nEN_(Prova).bat                                                        \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N03_01_CIC​‌​\nLO_(CicloConIF_annidato)_daSistemare.bat                              \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N03_02_CIC​‌​\nLO_(ElencoTutti_File)_(AColonne).bat                                  \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N03_03_CIC​‌​\nLO_(CHIAMO_ROUTINE).BAT                                               \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N03_04_CIC​‌​\nLO_(File)_(Antecedenti_30gg).bat                                      \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N03_05_CIC​‌​\nLO_(File)_(BancaIntesa)_(StampaTxt).bat                               \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N03_06_CIC​‌​\nLO_(File)_(TutteLeBanche)_(StampaTxt).bat                             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N04_01_CIC​‌​\nLO_(INTERVALLO_VALORI)_(StampaTxt) - Copia.bat                        \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N04_01_CIC​‌​\nLO_(INTERVALLO_VALORI)_(StampaTxt).bat                                \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N04_02_CIC​‌​\nLO_(INTERVALLO_VALORI)_(ANNIDATO).bat                                 \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N04_03_CIC​‌​\nLO_(INTERVALLO_VALORI)_(ANNIDATO)_(PER_ANNI).bat                      \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N04_21_CIC​‌​\nLO_((ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.ba​‌​\nt                                                                     \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N04_}-----​‌​\n------------------------------------------------------------@FOR_INTER​‌​\nVALLO.txt                                                             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N10-------​‌​\n-----------------------------------------------------.txt             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N10_(ELENC​‌​\nO_FILE).bat                                                           \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21-------​‌​\n-----------------------------------------------------.txt             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR).txt                                                           \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_01_(copiaSingoloFile).bat                            \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_02_(copiaLISTAFile).bat                              \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_03_(HELLO).bat                                       \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_22_(ArchiviaFileconRAR).bat                          \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_23_(ArchiviaDIRECTORYconRAR).bat                     \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_24_(ArchiviaLeCartelleIN_MODO_RICORSIVO).bat         \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_26_(ArchiviaCartelle_SENZA_PATH)_(SceltaCartellaParte​‌​\nnza_Arrivo).bat                                                       \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N21_(COMAN​‌​\nDO_FOR)_(ESEMPI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrent​‌​\ne.bat                                                                 \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22-------​‌​\n-----------------------------------------------------.txt             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22_(COMAN​‌​\nDO_FOR_F).txt                                                         \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22_(COMAN​‌​\nDO_FOR_F)_(ESEMPI)_01_(F_Token).bat                                   \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22_(COMAN​‌​\nDO_FOR_F)_(ESEMPI)_05_(F_Token)_(CopiaFileElencati)_(NO).bat          \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22_(COMAN​‌​\nDO_FOR_F)_(ESEMPI)_05_TEST.TXT                                        \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22_(COMAN​‌​\nDO_FOR_F)_(ESEMPI)_09_(F_Token)_(COPIA_RICORSIVA)_(PROVA).bat         \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N22_(COMAN​‌​\nDO_FOR_F)_(ESEMPI)_10_(con_parametroPercorsoCompleto).bat             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N302_01_LE​‌​\nGGI_CONTENUTO_FILE_TXT.bat                                            \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N302_02_FI​‌​\nLE_TXT.txt                                                            \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N32-------​‌​\n----------------------------------------------------@ESPANSIONE_RITARD​‌​\nATA.txt                                                               \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N32_(Esemp​‌​\nioCiclo_con_RAR_COMPRIMI)_ESPANSIONE_RITARDATA.BAT                    \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N32_FOR_(5​‌​\n_Scelte)_ESPANSIONE_RITARDATA.BAT                                     \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N33-------​‌​\n----------------------------------------------------@ESPANSIONE_RITARD​‌​\nATA.txt                                                               \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR_N33_FOR_(5​‌​\n_Scelte).ZIP                                                          \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_FOR___________​‌​\n______________________________________.txt                            \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/DOS_PARAMETRI.TXT \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_BASE_(Esempi).​‌​\nbat                                                                   \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_BASE_(SPOSTA_G​‌​\nRUPPI_DI_FILE)_(Input_PathEFile)/FOR_BASE_(SPOSTA_GRUPPI_DI_FILE)_(Inp​‌​\nut_PathEFile).zip                                                     \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_BASE_(SPOSTA_G​‌​\nRUPPI_DI_FILE)_(Input_Tipo).bat                                       \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_D_Folder_(Anal​‌​\nisi).doc                                                              \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_F_Output_(SENS​‌​\nA_ESPANSIONE_VARIABILI).bat                                           \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_F_Output_(brev​‌​\ne_stampa_5_caratteri).bat                                             \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_{ElaboraTesto}​‌​\n.bat                                                                  \n        new file:   DOS_PROGETTI/ESEMPI_CMD/CMD_FOR/FOR_}-------------​‌​\n-------------------------------------@FOR_SEMPLICE.txt                \n        new file:   DOS_PROGETTI/FILE/DOS_FOR_N03_04_CICLO_(File)_(Ant​‌​\necedenti_30gg).bat                                                    \n        new file:   DOS_PROGETTI/FILE/DOS_FOR_N10_(ELENCO_FILE).bat   \n        new file:   DOS_PROGETTI/FILE/DOS_FOR_N21_(COMANDO_FOR)_(ESEMP​‌​\nI)_27_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat         \n        new file:   DOS_PROGETTI/FILE/DOS_FOR_NXX_(ElencaFile)_(Direct​‌​\noryCorrente).bat                                                      \n        new file:   DOS_PROGETTI/FILE/PROVA.TXT                       \n        new file:   DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_INCREMENTALE_RAR​‌​\n/BAT_INCREMENTALE.ZIP                                                 \n        new file:   DOS_TUTORIAL/CHOICHE.pdf                          \n        new file:   DOS_TUTORIAL/DATE_(DOS_Imposta_ShordDate).pdf     \n        new file:   DOS_TUTORIAL/DATE_(VARIE_IMPOSTAZIONI).zip        \n        new file:   DOS_TUTORIAL/DIR_DIRECTORY.zip                    \n        new file:   DOS_TUTORIAL/DIR_FILE.zip                         \n        new file:   DOS_TUTORIAL/EXIT.pdf                             \n        new file:   DOS_TUTORIAL/FINDSTR.pdf                          \n        new file:   DOS_TUTORIAL/FOR.pdf                              \n        new file:   DOS_TUTORIAL/PING_(RETE).pdf                      \n        new file:   DOS_TUTORIAL/RENAME.pdf                           \n        new file:   DOS_TUTORIAL/SET+ESPANSIONI_VARIABILI.pdf         \n        new file:   DOS_TUTORIAL/TASKKILL_guida-tasklist-e-taskkill.pd​‌​\nf                                                                     \n        new file:   DOS_TUTORIAL/XCOPY+XCOPY32.pdf                    \n        new file:   DOS_TUTORIAL/XCOPY_N03_(Comandi DOS e altro).pdf  \n        new file:   SHA256/crea_sha256.exe                            \n        new file:   chiave                                            \n                                                                      \nChanges not staged for commit:                                        \n  (use \"git add/rm <file>...\" to update what will be committed)       \n  (use \"git restore <file>...\" to discard changes in working directory​‌​\n)                                                                     \n        deleted:    DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_INCREMENTALE_INT​‌​\nERNO/ZIP_7ZIP_INCREMENTALE_FILE_UNICO_(CRIPTA+DECODIFICA_INTERNO).BAT \n        modified:   DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_INCREMENTALE_INT​‌​\nERNO/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT            \n        modified:   Progetti_DOS.sublime-workspace                    \n                                                                      \n                                                                      \nC:\\CASA\\LINGUAGGI\\DOS>git add .                                       \nwarning: in the working copy of 'Progetti_DOS.sublime-workspace', LF w​‌​\nill be replaced by CRLF the next time Git touches it                  \n                                                                      \nC:\\CASA\\LINGUAGGI\\DOS>git commit -m \"agg casa\"                        \nAuthor identity unknown                                               \n                                                                      \n*** Please tell me who you are.                                       \n                                                                      \nRun                                                                   \n                                                                      \n  git config --global user.email \"you@example.com\"                    \n  git config --global user.name \"Your Name\"                           \n                                                                      \nto set your account's default identity.                               \nOmit --global to set the identity only in this repository.            \n                                                                      \nfatal: unable to auto-detect email address (got 'icivi@LenovoWalter.(n​‌​\none)')                                                                \n                                                                      \nC:\\CASA\\LINGUAGGI\\DOS>",
+			"contents": "Searching 225 files for \"totalecommander\"\n\n0 matches\n\nSearching 225 files for \"total\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\COMANDI_DOS_TUTTI_GLI_ESEMPI.MD:\n  737: \t\t@ESEMPIO@TOTALCOMMADER_(Apro total commander)\n  738: \t\t\tC:\\CASA\\PROGRAMMI\\TOTALCMD_64\\TOTALCMD64.EXE left: c:\\CASA\\LTT\\ANALISI\\SUBLIME_TEXT_ANALISI\\, right: c:\\CASA\\LTT\\\n  740: \t\t\t\t\t@apro@total@commander_(apro total commander left e right)\n  744: \t\t\t\t\tTOTAL COMMADER I PARAMETI DEI COMANDI IN LINEA\n  753: \t\t\t\t\tTotal Commander può essere chiamato con una o due directory come parametri della riga di comando. \n  755: \t\t\t\t\tpiù icone per Total Commander in progman o nel menu di avvio, che avviano Total Commander in\n  757: \t\t\t\t\tda quello predefinito wincmd.ini per consentire a più utenti sulla stessa macchina di avere impostazioni diverse in Total Commander.\n  760: \t\t\t\t\ttotalcmd.exe [/o] [/n] [Drive1:\\Directory1 [Drive2:\\Directory2]] [/i=name.ini] [/f=ftpname.ini]\n  762: \t\t\t\t\ttotalcmd.exe [/o] [/n] [/L=Drive1:\\Directory1] [/R=Drive2:\\Directory2] [/i=name.ini] [/f=ftpname.ini]\n  770: \t\t\t\t\tCarica la prima directory passata a Total Commander nella finestra di sinistra e la seconda nella finestra di destra. I nomi delle directory contenenti spazi devono essere inseriti tra virgolette! Specificare sempre il nome completo del percorso, inclusa l'unità! Per aprire una connessione FTP memorizzata, utilizzare FTPOPEN: nome_ftp_memorizzato come percorso\n  773: \t\t\t\t\tSe Total Commander è già in esecuzione, attivalo e passa i percorsi nella riga di comando a quell'istanza (sostituisce le impostazioni nella finestra di dialogo di configurazione per avere più finestre)\n  778: \t\t\t\t\tApre in ogni caso una nuova finestra di Total Commander (sovrascrive le impostazioni nella finestra di configurazione per consentire solo una copia di Total Commander alla volta)\n  792: \t\t\t\t\tAvvia \"Confronta per contenuto\" senza la finestra principale di TC, ad es. totalcmd.exe /S=C c:\\file1 d:\\file2\n  797: \t\t\t\t\t\tAprire la finestra di dialogo \"Trova file\" senza la finestra principale di TC, ad es. totalcmd.exe /S=F \"c:\\percorso iniziale\"\n  803: \t\t\t\t\t\tAprire la finestra di dialogo \"Trova file\" senza la finestra principale di TC, ad es. totalcmd.exe /S=F \"c:\\percorso iniziale\"\n  815: \t\t\t\t\t\ttotalcmd.exe c:\\windows left window is loaded with c:\\windows  \t\t\t= apre solo il destro \n  817: \t\t\t\t\t\ttotalcmd.exe left: d:\\data, right: c:\\programs\n\nC:\\CASA\\LINGUAGGI\\DOS\\COMANDI_DOS\\DOS_ESEMPI_N002_ELENCO_FILE.BAT:\n   18: \t\techo \"Totale nro file SOLO POSTA INTERNA in pdf\" \n   22: \t\t@rem totalizza file \n   25: \t\t@rem TOTALE_FILE_2016\n   31: \t\t\techo \"TOTALE_FILE_2016------------->\" %Nro_TOT_FILE_Pdf% \n   37: \t\t@rem TOTALE_FILE_2016 *** FINE ***\n\nC:\\CASA\\LINGUAGGI\\DOS\\DATE_DOS\\Calendar.bat:\n   92: :: 7 on the total of offset days reviels the starting day of the\n  109: :: each additional offset is generated by adding the total days of\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FILE\\DOS_ESEMPI_N135_CREA_FILE_01_(ConNomeNumerato)_(Utiliza_RoutineEsterna).bat:\n   16:  \t@ECHO \"Totale file creati --->%TotNro%\"\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N32_(EsempioCiclo_con_RAR_COMPRIMI)_ESPANSIONE_RITARDATA.BAT:\n  156: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  162: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  217: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  223: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  290: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  295: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t>> FILE_COMANDO_03.txt\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\DOS_FOR_N32_FOR_(5_Scelte)_ESPANSIONE_RITARDATA.BAT:\n  141: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  147: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_01.txt\n  202: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  208: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  276: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.mdb)\n  282: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_03.txt\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\FOR_BASE\\DOS_FOR_N32_(EsempioCiclo_con_RAR_COMPRIMI)_ESPANSIONE_RITARDATA.BAT:\n  156: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  162: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  217: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  223: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  290: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  295: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t>> FILE_COMANDO_03.txt\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_FOR\\FOR_BASE\\DOS_FOR_N32_FOR_(5_Scelte)_ESPANSIONE_RITARDATA.BAT:\n  141: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  147: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_01.txt\n  202: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  208: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  276: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.mdb)\n  282: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_03.txt\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_SPLIT\\DOS_ESEMPI_N102_SPLIT_FILE_02_(RICOSTRUISCI_FILE).bat:\n   40: \t\t\techo \"Totale nro file in Pdf ------------->\" %ctr% \n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_SPLIT\\SPLIT_FILE\\001_Split_FILE.bat:\n   44: \t\techo \"Totale nro file -------------------->\" %NroFile% \n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_SPLIT\\SPLIT_FILE\\003_plit_CANCELLA.bat:\n   25: \t\techo \"Totale nro file -------------------->\" %NroFile% \n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESEMPI_CMD\\CMD_SPLIT\\SPLIT_FILE\\004_Split_RICOSTRUISCI.bat:\n   40: \t\t\techo \"Totale nro file in Pdf ------------->\" %ctr% \n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_PROGETTI\\ESPANSIONE_RITARDATA\\DOS_FOR_N32_FOR_(5_Scelte)_ESPANSIONE_RITARDATA.BAT:\n  141: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  147: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_01.txt\n  202: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.)\n  208: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_02.txt\n  276: \t\t\t\t@REM scrivo il totale di file salvati occorre scriver echo. con il Punto (.mdb)\n  282: \t\t\t\t\techo. TOTALE NRO FILE SALVATI : !TotNro!  \t\t\t\t\t\t>> FILE_COMANDO_03.txt\n\nC:\\CASA\\LINGUAGGI\\DOS\\DOS_TUTORIAL\\JAVA_JSX_CONCETTI_CHIAVE_(SISTEMARE).MD:\n  534: \t\t\t\t\t\tconto.totale -= ammontare;\n\n65 matches across 14 files\n",
 			"settings":
 			{
-				"buffer_size": 14098,
+				"buffer_size": 7021,
 				"line_ending": "Windows",
-				"name": " ",
+				"name": "Find Results",
 				"scratch": true
 			},
 			"undo_stack":
 			[
+			]
+		},
+		{
+			"file": "COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
+			"settings":
+			{
+				"buffer_size": 39085,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "_"
+					},
+					"AQAAAPx9AAAAAAAA/X0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/H0AAAAAAAD8fQAAAAAAAP///////+9/"
+				],
+				[
+					7,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAP19AAAAAAAA/30AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/X0AAAAAAAD9fQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "esempio"
+					},
+					"BwAAAP59AAAAAAAA/30AAAAAAAAAAAAA/30AAAAAAAAAfgAAAAAAAAAAAAAAfgAAAAAAAAF+AAAAAAAAAAAAAAF+AAAAAAAAAn4AAAAAAAAAAAAAAn4AAAAAAAADfgAAAAAAAAAAAAADfgAAAAAAAAR+AAAAAAAAAAAAAAR+AAAAAAAABX4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/n0AAAAAAAD+fQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "@"
+					},
+					"AQAAAP59AAAAAAAA/30AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/n0AAAAAAAD+fQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " @apertura"
+					},
+					"CgAAAAZ+AAAAAAAAB34AAAAAAAAAAAAAB34AAAAAAAAIfgAAAAAAAAAAAAAIfgAAAAAAAAl+AAAAAAAAAAAAAAl+AAAAAAAACn4AAAAAAAAAAAAACn4AAAAAAAALfgAAAAAAAAAAAAALfgAAAAAAAAx+AAAAAAAAAAAAAAx+AAAAAAAADX4AAAAAAAAAAAAADX4AAAAAAAAOfgAAAAAAAAAAAAAOfgAAAAAAAA9+AAAAAAAAAAAAAA9+AAAAAAAAEH4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABn4AAAAAAAAGfgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": " @totale"
+					},
+					"CAAAABB+AAAAAAAAEX4AAAAAAAAAAAAAEX4AAAAAAAASfgAAAAAAAAAAAAASfgAAAAAAABN+AAAAAAAAAAAAABN+AAAAAAAAFH4AAAAAAAAAAAAAFH4AAAAAAAAVfgAAAAAAAAAAAAAVfgAAAAAAABZ+AAAAAAAAAAAAABZ+AAAAAAAAF34AAAAAAAAAAAAAF34AAAAAAAAYfgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEH4AAAAAAAAQfgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"left_delete",
+					null,
+					"AQAAABd+AAAAAAAAF34AAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAGH4AAAAAAAAYfgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "@commander"
+					},
+					"CgAAABd+AAAAAAAAGH4AAAAAAAAAAAAAGH4AAAAAAAAZfgAAAAAAAAAAAAAZfgAAAAAAABp+AAAAAAAAAAAAABp+AAAAAAAAG34AAAAAAAAAAAAAG34AAAAAAAAcfgAAAAAAAAAAAAAcfgAAAAAAAB1+AAAAAAAAAAAAAB1+AAAAAAAAHn4AAAAAAAAAAAAAHn4AAAAAAAAffgAAAAAAAAAAAAAffgAAAAAAACB+AAAAAAAAAAAAACB+AAAAAAAAIX4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAF34AAAAAAAAXfgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAACF+AAAAAAAAIn4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIX4AAAAAAAAhfgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": " @apri"
+					},
+					"BgAAACJ+AAAAAAAAI34AAAAAAAAAAAAAI34AAAAAAAAkfgAAAAAAAAAAAAAkfgAAAAAAACV+AAAAAAAAAAAAACV+AAAAAAAAJn4AAAAAAAAAAAAAJn4AAAAAAAAnfgAAAAAAAAAAAAAnfgAAAAAAACh+AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIn4AAAAAAAAifgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "@total"
+					},
+					"BgAAACh+AAAAAAAAKX4AAAAAAAAAAAAAKX4AAAAAAAAqfgAAAAAAAAAAAAAqfgAAAAAAACt+AAAAAAAAAAAAACt+AAAAAAAALH4AAAAAAAAAAAAALH4AAAAAAAAtfgAAAAAAAAAAAAAtfgAAAAAAAC5+AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKH4AAAAAAAAofgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": " @esempio"
+					},
+					"CQAAAMNvAAAAAAAAxG8AAAAAAAAAAAAAxG8AAAAAAADFbwAAAAAAAAAAAADFbwAAAAAAAMZvAAAAAAAAAAAAAMZvAAAAAAAAx28AAAAAAAAAAAAAx28AAAAAAADIbwAAAAAAAAAAAADIbwAAAAAAAMlvAAAAAAAAAAAAAMlvAAAAAAAAym8AAAAAAAAAAAAAym8AAAAAAADLbwAAAAAAAAAAAADLbwAAAAAAAMxvAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAw28AAAAAAADDbwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "@total"
+					},
+					"BgAAAMxvAAAAAAAAzW8AAAAAAAAAAAAAzW8AAAAAAADObwAAAAAAAAAAAADObwAAAAAAAM9vAAAAAAAAAAAAAM9vAAAAAAAA0G8AAAAAAAAAAAAA0G8AAAAAAADRbwAAAAAAAAAAAADRbwAAAAAAANJvAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzG8AAAAAAADMbwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"CAAAADF/AAAAAAAAMn8AAAAAAAAAAAAAMn8AAAAAAAA5fwAAAAAAAAAAAAA5fwAAAAAAADp/AAAAAAAAAAAAADp/AAAAAAAAQX8AAAAAAAAAAAAAMn8AAAAAAAAyfwAAAAAAAAcAAAAJCQkJCQkJOn8AAAAAAAA7fwAAAAAAAAAAAAA7fwAAAAAAAEJ/AAAAAAAAAAAAADN/AAAAAAAAM38AAAAAAAAHAAAACQkJCQkJCQ",
+					"AQAAAAAAAAABAAAAMX8AAAAAAAAxfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"unindent",
+					null,
+					"AQAAADR/AAAAAAAANH8AAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAO38AAAAAAAA7fwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"paste",
+					null,
+					"AQAAADp/AAAAAAAAr38AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOn8AAAAAAAA6fwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"paste",
+					null,
+					"AQAAAK9/AAAAAAAA2X8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAr38AAAAAAACvfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANl/AAAAAAAA2n8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2X8AAAAAAADZfwAAAAAAAAAAAAAAgI5A"
+				],
+				[
+					57,
+					1,
+					"paste",
+					null,
+					"AQAAANp/AAAAAAAA338AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2n8AAAAAAADafwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"paste",
+					null,
+					"AQAAAN9/AAAAAAAAEoAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA338AAAAAAADffwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAABKAAAAAAAAAE4AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEoAAAAAAAAASgAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAABSAAAAAAAAAFYAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFIAAAAAAAAAUgAAAAAAAAAAAAAAAcIxA"
+				],
+				[
+					63,
+					1,
+					"paste",
+					null,
+					"AQAAABWAAAAAAAAAO4AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFYAAAAAAAAAVgAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABOAAAAAAAAAFIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAE4AAAAAAAAATgAAAAAAAAAAAAAAAGI5A"
+				],
+				[
+					69,
+					2,
+					"right_delete",
+					null,
+					"AgAAABSAAAAAAAAAFIAAAAAAAAABAAAAChSAAAAAAAAAFIAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAFIAAAAAAAAAUgAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"paste",
+					null,
+					"AQAAABSAAAAAAAAAGoAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFIAAAAAAAAAUgAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAECAAAAAAAAAQYAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQIAAAAAAAABAgAAAAAAAAP///////+9/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEGAAAAAAAAAQoAAAAAAAAAAAAAAQoAAAAAAAABFgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQYAAAAAAAABBgAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"right_delete",
+					null,
+					"AgAAAK9/AAAAAAAAr38AAAAAAAABAAAAIkGAAAAAAAAAQYAAAAAAAAADAAAACQkJ",
+					"AQAAAAAAAAABAAAAr38AAAAAAACvfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAN5/AAAAAAAA338AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3n8AAAAAAADefwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABqAAAAAAAAAG4AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGoAAAAAAAAAagAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAK9/AAAAAAAAsH8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAr38AAAAAAACvfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					111,
+					1,
+					"right_delete",
+					null,
+					"AQAAADN/AAAAAAAAM38AAAAAAAB4AAAACgkJCQkJCUM6XENBU0FcUFJPR1JBTU1JXFRPVEFMQ01EXzY0XFRPVEFMQ01ENjQuRVhFIGxlZnQ6IGM6XENBU0FcTFRUXEFOQUxJU0lcU1VCTElNRV9URVhUX0FOQUxJU0lcLCByaWdodDogYzpcQ0FTQVxMVFRc",
+					"AQAAAAAAAAABAAAAq38AAAAAAAAzfwAAAAAAAAAAAAAAAPC/"
+				],
 				[
 					116,
-					1,
-					"terminus_render",
+					3,
+					"unindent",
 					null,
-					"AwAAAPw2AAAAAAAAEzcAAAAAAAAWAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPhM3AAAAAAAAQjcAAAAAAAAAAAAAEzcAAAAAAAATNwAAAAAAAC8AAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAEjcAAAAAAAASNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					118,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAFDcAAAAAAAAXAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmcUNwAAAAAAAEI3AAAAAAAAAAAAABQ3AAAAAAAAFDcAAAAAAAAuAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAEzcAAAAAAAATNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					120,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAFTcAAAAAAAAYAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpFTcAAAAAAABCNwAAAAAAAAAAAAAVNwAAAAAAABU3AAAAAAAALQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAFDcAAAAAAAAUNwAAAAAAAAAAAAAAAPC/"
+					"AwAAADR/AAAAAAAANH8AAAAAAAABAAAACTR/AAAAAAAANH8AAAAAAAABAAAACTR/AAAAAAAANH8AAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAANH8AAAAAAADNfwAAAAAAAAAAAAAAAAAA"
 				],
 				[
 					122,
-					1,
-					"terminus_render",
+					7,
+					"indent",
 					null,
-					"AQAAABU3AAAAAAAAFjcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFTcAAAAAAAAVNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					124,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAFzcAAAAAAAAaAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCAXNwAAAAAAAEI3AAAAAAAAAAAAABc3AAAAAAAAFzcAAAAAAAArAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAFjcAAAAAAAAWNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					126,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAGDcAAAAAAAAbAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjGDcAAAAAAABCNwAAAAAAAAAAAAAYNwAAAAAAABg3AAAAAAAAKgAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAFzcAAAAAAAAXNwAAAAAAAAAAAAAAAPC/"
+					"BwAAADR/AAAAAAAANX8AAAAAAAAAAAAANH8AAAAAAAA1fwAAAAAAAAAAAAA0fwAAAAAAADV/AAAAAAAAAAAAADR/AAAAAAAANX8AAAAAAAAAAAAANH8AAAAAAAA1fwAAAAAAAAAAAAA0fwAAAAAAADV/AAAAAAAAAAAAADR/AAAAAAAANX8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANH8AAAAAAADJfwAAAAAAAAAAAAAAAAAA"
 				],
 				[
 					128,
-					1,
-					"terminus_render",
+					2,
+					"left_delete",
 					null,
-					"AwAAAPw2AAAAAAAAGTcAAAAAAAAcAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjbxk3AAAAAAAAQjcAAAAAAAAAAAAAGTcAAAAAAAAZNwAAAAAAACkAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAGDcAAAAAAAAYNwAAAAAAAAAAAAAAAPC/"
+					"AgAAACN/AAAAAAAAI38AAAAAAAAOAAAAVE9ETzogREEgRkFSRSAifwAAAAAAACJ/AAAAAAAAAQAAAAk",
+					"AQAAAAAAAAABAAAAMX8AAAAAAAAjfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					129,
+					1,
+					"insert",
+					{
+						"characters": "@esempio"
+					},
+					"CAAAACJ/AAAAAAAAI38AAAAAAAAAAAAAI38AAAAAAAAkfwAAAAAAAAAAAAAkfwAAAAAAACV/AAAAAAAAAAAAACV/AAAAAAAAJn8AAAAAAAAAAAAAJn8AAAAAAAAnfwAAAAAAAAAAAAAnfwAAAAAAACh/AAAAAAAAAAAAACh/AAAAAAAAKX8AAAAAAAAAAAAAKX8AAAAAAAAqfwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIn8AAAAAAAAifwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					130,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAGjcAAAAAAAAdAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb24aNwAAAAAAAEI3AAAAAAAAAAAAABo3AAAAAAAAGjcAAAAAAAAoAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAGTcAAAAAAAAZNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "@total_"
+					},
+					"BwAAACp/AAAAAAAAK38AAAAAAAAAAAAAK38AAAAAAAAsfwAAAAAAAAAAAAAsfwAAAAAAAC1/AAAAAAAAAAAAAC1/AAAAAAAALn8AAAAAAAAAAAAALn8AAAAAAAAvfwAAAAAAAAAAAAAvfwAAAAAAADB/AAAAAAAAAAAAADB/AAAAAAAAMX8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKn8AAAAAAAAqfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					131,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAADF/AAAAAAAAM38AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMX8AAAAAAAAxfwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					132,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAGzcAAAAAAAAeAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25mGzcAAAAAAABCNwAAAAAAAAAAAAAbNwAAAAAAABs3AAAAAAAAJwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAGjcAAAAAAAAaNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "apro"
+					},
+					"BAAAADJ/AAAAAAAAM38AAAAAAAAAAAAAM38AAAAAAAA0fwAAAAAAAAAAAAA0fwAAAAAAADV/AAAAAAAAAAAAADV/AAAAAAAANn8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMn8AAAAAAAAyfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					133,
+					1,
+					"insert",
+					{
+						"characters": " @prog"
+					},
+					"BgAAADZ/AAAAAAAAN38AAAAAAAAAAAAAN38AAAAAAAA4fwAAAAAAAAAAAAA4fwAAAAAAADl/AAAAAAAAAAAAADl/AAAAAAAAOn8AAAAAAAAAAAAAOn8AAAAAAAA7fwAAAAAAAAAAAAA7fwAAAAAAADx/AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANn8AAAAAAAA2fwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					134,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAHDcAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maRw3AAAAAAAAQjcAAAAAAAAAAAAAHDcAAAAAAAAcNwAAAAAAACYAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "etto"
+					},
+					"BAAAADx/AAAAAAAAPX8AAAAAAAAAAAAAPX8AAAAAAAA+fwAAAAAAAAAAAAA+fwAAAAAAAD9/AAAAAAAAAAAAAD9/AAAAAAAAQH8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPH8AAAAAAAA8fwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					135,
+					1,
+					"insert",
+					{
+						"characters": " @msy"
+					},
+					"BQAAAEB/AAAAAAAAQX8AAAAAAAAAAAAAQX8AAAAAAABCfwAAAAAAAAAAAABCfwAAAAAAAEN/AAAAAAAAAAAAAEN/AAAAAAAARH8AAAAAAAAAAAAARH8AAAAAAABFfwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQH8AAAAAAABAfwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					136,
 					1,
-					"terminus_render",
-					null,
-					"AQAAABw3AAAAAAAAHTcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHDcAAAAAAAAcNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAEV/AAAAAAAARn8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARX8AAAAAAABFfwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					137,
+					1,
+					"insert",
+					{
+						"characters": " ed"
+					},
+					"AwAAAEZ/AAAAAAAAR38AAAAAAAAAAAAAR38AAAAAAABIfwAAAAAAAAAAAABIfwAAAAAAAEl/AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARn8AAAAAAABGfwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					138,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAHjcAAAAAAAAhAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgHjcAAAAAAABCNwAAAAAAAAAAAAAeNwAAAAAAAB43AAAAAAAAJAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAHTcAAAAAAAAdNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": " @access"
+					},
+					"CAAAAEl/AAAAAAAASn8AAAAAAAAAAAAASn8AAAAAAABLfwAAAAAAAAAAAABLfwAAAAAAAEx/AAAAAAAAAAAAAEx/AAAAAAAATX8AAAAAAAAAAAAATX8AAAAAAABOfwAAAAAAAAAAAABOfwAAAAAAAE9/AAAAAAAAAAAAAE9/AAAAAAAAUH8AAAAAAAAAAAAAUH8AAAAAAABRfwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASX8AAAAAAABJfwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					140,
+					145,
 					1,
-					"terminus_render",
+					"right_delete",
 					null,
-					"AwAAAPw2AAAAAAAAHzcAAAAAAAAiAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLR83AAAAAAAAQjcAAAAAAAAAAAAAHzcAAAAAAAAfNwAAAAAAACMAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAHjcAAAAAAAAeNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					142,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAIDcAAAAAAAAjAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS0gNwAAAAAAAEI3AAAAAAAAAAAAACA3AAAAAAAAIDcAAAAAAAAiAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAHzcAAAAAAAAfNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					144,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAITcAAAAAAAAkAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nITcAAAAAAABCNwAAAAAAAAAAAAAhNwAAAAAAACE3AAAAAAAAIQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAIDcAAAAAAAAgNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					146,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAIjcAAAAAAAAlAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbCI3AAAAAAAAQjcAAAAAAAAAAAAAIjcAAAAAAAAiNwAAAAAAACAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAITcAAAAAAAAhNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					148,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAIzcAAAAAAAAmAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG8jNwAAAAAAAEI3AAAAAAAAAAAAACM3AAAAAAAAIzcAAAAAAAAfAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAIjcAAAAAAAAiNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					150,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAJDcAAAAAAAAnAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iJDcAAAAAAABCNwAAAAAAAAAAAAAkNwAAAAAAACQ3AAAAAAAAHgAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAIzcAAAAAAAAjNwAAAAAAAAAAAAAAAPC/"
+					"AQAAAFN/AAAAAAAAU38AAAAAAAACAAAACgo",
+					"AQAAAAAAAAABAAAAU38AAAAAAABVfwAAAAAAAAAAAAAAAAAA"
 				],
 				[
 					152,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAJTcAAAAAAAAoAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYSU3AAAAAAAAQjcAAAAAAAAAAAAAJTcAAAAAAAAlNwAAAAAAAB0AAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAJDcAAAAAAAAkNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					154,
-					1,
-					"terminus_render",
-					null,
-					"AQAAACU3AAAAAAAAJjcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAJTcAAAAAAAAlNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAA6AAAAAAAAAD4AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADoAAAAAAAAAOgAAAAAAAAAAAAAAAAAAA"
 				],
 				[
 					156,
+					4,
+					"swap_line_up",
+					null,
+					"CAAAAPB/AAAAAAAA8H8AAAAAAAAeAAAACQkJCTpDb21tYW5kc19saW5lX3BhcmFtZXRlcnMK738AAAAAAAANgAAAAAAAAAAAAADvfwAAAAAAAO9/AAAAAAAAHgAAAAkJCQk6Q29tbWFuZHNfbGluZV9wYXJhbWV0ZXJzClN/AAAAAAAAcX8AAAAAAAAAAAAAU38AAAAAAABTfwAAAAAAAB4AAAAJCQkJOkNvbW1hbmRzX2xpbmVfcGFyYW1ldGVycwocfwAAAAAAADp/AAAAAAAAAAAAABx/AAAAAAAAHH8AAAAAAAAeAAAACQkJCTpDb21tYW5kc19saW5lX3BhcmFtZXRlcnMKEH8AAAAAAAAufwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8H8AAAAAAADwfwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					159,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAJzcAAAAAAAAqAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgJzcAAAAAAABCNwAAAAAAAAAAAAAnNwAAAAAAACc3AAAAAAAAGwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAJjcAAAAAAAAmNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAABR/AAAAAAAAFX8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFH8AAAAAAAAUfwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					158,
+					161,
 					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAKDcAAAAAAAArAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdSg3AAAAAAAAQjcAAAAAAAAAAAAAKDcAAAAAAAAoNwAAAAAAABoAAAAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAJzcAAAAAAAAnNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					160,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAKTcAAAAAAAAsAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXMpNwAAAAAAAEI3AAAAAAAAAAAAACk3AAAAAAAAKTcAAAAAAAAZAAAAICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKDcAAAAAAAAoNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					162,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAKjcAAAAAAAAtAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlKjcAAAAAAABCNwAAAAAAAAAAAAAqNwAAAAAAACo3AAAAAAAAGAAAACAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKTcAAAAAAAApNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					164,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAKzcAAAAAAAAuAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlcis3AAAAAAAAQjcAAAAAAAAAAAAAKzcAAAAAAAArNwAAAAAAABcAAAAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKjcAAAAAAAAqNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					166,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAALDcAAAAAAAAvAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci4sNwAAAAAAAEI3AAAAAAAAAAAAACw3AAAAAAAALDcAAAAAAAAWAAAAICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKzcAAAAAAAArNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					168,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAALTcAAAAAAAAwAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lLTcAAAAAAABCNwAAAAAAAAAAAAAtNwAAAAAAAC03AAAAAAAAFQAAACAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAALDcAAAAAAAAsNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					170,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAALjcAAAAAAAAxAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbS43AAAAAAAAQjcAAAAAAAAAAAAALjcAAAAAAAAuNwAAAAAAABQAAAAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAALTcAAAAAAAAtNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					172,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAALzcAAAAAAAAyAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWEvNwAAAAAAAEI3AAAAAAAAAAAAAC83AAAAAAAALzcAAAAAAAATAAAAICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAALjcAAAAAAAAuNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					174,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAMDcAAAAAAAAzAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpMDcAAAAAAABCNwAAAAAAAAAAAAAwNwAAAAAAADA3AAAAAAAAEgAAACAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAALzcAAAAAAAAvNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					176,
-					1,
-					"terminus_render",
-					null,
-					"AQAAADA3AAAAAAAAMTcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMDcAAAAAAAAwNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					178,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAMjcAAAAAAAA1AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAyNwAAAAAAAEI3AAAAAAAAAAAAADI3AAAAAAAAMjcAAAAAAAAQAAAAICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAMTcAAAAAAAAxNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					181,
-					2,
-					"terminus_render",
-					null,
-					"BgAAAPw2AAAAAAAAMzcAAAAAAAA2AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiMzcAAAAAAABCNwAAAAAAAAAAAAAzNwAAAAAAADM3AAAAAAAADwAAACAgICAgICAgICAgICAgIPw2AAAAAAAANDcAAAAAAAA3AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaTQ3AAAAAAAAQjcAAAAAAAAAAAAANDcAAAAAAAA0NwAAAAAAAA4AAAAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAMjcAAAAAAAAyNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					183,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAANTcAAAAAAAA4AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWM1NwAAAAAAAEI3AAAAAAAAAAAAADU3AAAAAAAANTcAAAAAAAANAAAAICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAANDcAAAAAAAA0NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					185,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAANjcAAAAAAAA5AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpNjcAAAAAAABCNwAAAAAAAAAAAAA2NwAAAAAAADY3AAAAAAAADAAAACAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAANTcAAAAAAAA1NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					187,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAANzcAAAAAAAA6AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpdjc3AAAAAAAAQjcAAAAAAAAAAAAANzcAAAAAAAA3NwAAAAAAAAsAAAAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAANjcAAAAAAAA2NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					189,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAODcAAAAAAAA7AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpdmk4NwAAAAAAAEI3AAAAAAAAAAAAADg3AAAAAAAAODcAAAAAAAAKAAAAICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAANzcAAAAAAAA3NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					191,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAANzcAAAAAAAA8AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpdml4NzcAAAAAAABCNwAAAAAAAAAAAAA3NwAAAAAAADc3AAAAAAAACwAAACAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAODcAAAAAAAA4NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					194,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAANjcAAAAAAAA7AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpdmk2NwAAAAAAAEI3AAAAAAAAAAAAADY3AAAAAAAANjcAAAAAAAAMAAAAICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAANzcAAAAAAAA3NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					196,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAANTcAAAAAAAA6AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpdjU3AAAAAAAAQjcAAAAAAAAAAAAANTcAAAAAAAA1NwAAAAAAAA0AAAAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAANjcAAAAAAAA2NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					198,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAMzcAAAAAAAA5AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaWNpMzcAAAAAAABCNwAAAAAAAAAAAAAzNwAAAAAAADM3AAAAAAAADwAAACAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAANTcAAAAAAAA1NwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					200,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPw2AAAAAAAAMjcAAAAAAAA3AAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaTI3AAAAAAAAQjcAAAAAAAAAAAAAMjcAAAAAAAAyNwAAAAAAABAAAAAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAMzcAAAAAAAAzNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					202,
-					1,
-					"terminus_render",
-					null,
-					"NAAAAAQwAAAAAAAATTAAAAAAAABPAAAAICAgICAgICBtb2RpZmllZDogICBET1NfUFJPR0VUVEkvWklQX0lOQ1JFTUVOVEFMRS9aSVBfSU5DUkVNRU5UQUxFX0lOVOKAi+KAjOKAi04wAAAAAAAAiDAAAAAAAABGAAAARVJOTy9aSVBfN1pJUF9JTkNSRU1FTlRBTEVfe0NSSVBUQStERUNPRElGSUNBX0lOVEVSTk99LkJBVCAgICAgICAgICAgIIgwAAAAAAAAlDAAAAAAAAAAAAAAlTAAAAAAAADHMAAAAAAAAEYAAAAgICAgICAgIG1vZGlmaWVkOiAgIFByb2dldHRpX0RPUy5zdWJsaW1lLXdvcmtzcGFjZSAgICAgICAgICAgICAgICAgICAgxzAAAAAAAADbMAAAAAAAAAAAAADcMAAAAAAAANwwAAAAAAAARgAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDcMAAAAAAAACIxAAAAAAAAAAAAACMxAAAAAAAAIzEAAAAAAABGAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMxAAAAAAAAaTEAAAAAAAAAAAAAajEAAAAAAACJMQAAAAAAAEYAAABDOlxDQVNBXExJTkdVQUdHSVxET1M+Z2l0IGFkZCAuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgiTEAAAAAAACwMQAAAAAAAAAAAACxMQAAAAAAAPoxAAAAAAAATwAAAHdhcm5pbmc6IGluIHRoZSB3b3JraW5nIGNvcHkgb2YgJ1Byb2dldHRpX0RPUy5zdWJsaW1lLXdvcmtzcGFjZScsIExGIHfigIvigIzigIv7MQAAAAAAAC8yAAAAAAAARgAAAGlsbCBiZSByZXBsYWNlZCBieSBDUkxGIHRoZSBuZXh0IHRpbWUgR2l0IHRvdWNoZXMgaXQgICAgICAgICAgICAgICAgICAvMgAAAAAAAEEyAAAAAAAAAAAAAEIyAAAAAAAAQjIAAAAAAABGAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEIyAAAAAAAAiDIAAAAAAAAAAAAAiTIAAAAAAAC3MgAAAAAAAEYAAABDOlxDQVNBXExJTkdVQUdHSVxET1M+Z2l0IGNvbW1pdCAtbSAiYWdnIGNhc2EiICAgICAgICAgICAgICAgICAgICAgICAgtzIAAAAAAADPMgAAAAAAAAAAAADQMgAAAAAAAOcyAAAAAAAARgAAAEF1dGhvciBpZGVudGl0eSB1bmtub3duICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDnMgAAAAAAABYzAAAAAAAAAAAAABczAAAAAAAAFzMAAAAAAABGAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBczAAAAAAAAXTMAAAAAAAAAAAAAXjMAAAAAAAB9MwAAAAAAAEYAAAAqKiogUGxlYXNlIHRlbGwgbWUgd2hvIHlvdSBhcmUuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfTMAAAAAAACkMwAAAAAAAAAAAAClMwAAAAAAAKUzAAAAAAAARgAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICClMwAAAAAAAOszAAAAAAAAAAAAAOwzAAAAAAAA7zMAAAAAAABGAAAAUnVuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIO8zAAAAAAAAMjQAAAAAAAAAAAAAMzQAAAAAAAAzNAAAAAAAAEYAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzQAAAAAAAB5NAAAAAAAAAAAAAB6NAAAAAAAAKw0AAAAAAAARgAAACAgZ2l0IGNvbmZpZyAtLWdsb2JhbCB1c2VyLmVtYWlsICJ5b3VAZXhhbXBsZS5jb20iICAgICAgICAgICAgICAgICAgICCsNAAAAAAAAMA0AAAAAAAAAAAAAME0AAAAAAAA7DQAAAAAAABGAAAAICBnaXQgY29uZmlnIC0tZ2xvYmFsIHVzZXIubmFtZSAiWW91ciBOYW1lIiAgICAgICAgICAgICAgICAgICAgICAgICAgIOw0AAAAAAAABzUAAAAAAAAAAAAACDUAAAAAAAAINQAAAAAAAEYAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCDUAAAAAAABONQAAAAAAAAAAAABPNQAAAAAAAHY1AAAAAAAARgAAAHRvIHNldCB5b3VyIGFjY291bnQncyBkZWZhdWx0IGlkZW50aXR5LiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2NQAAAAAAAJU1AAAAAAAAAAAAAJY1AAAAAAAA0DUAAAAAAABGAAAAT21pdCAtLWdsb2JhbCB0byBzZXQgdGhlIGlkZW50aXR5IG9ubHkgaW4gdGhpcyByZXBvc2l0b3J5LiAgICAgICAgICAgINA1AAAAAAAA3DUAAAAAAAAAAAAA3TUAAAAAAADdNQAAAAAAAEYAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg3TUAAAAAAAAjNgAAAAAAAAAAAAAkNgAAAAAAAG02AAAAAAAATwAAAGZhdGFsOiB1bmFibGUgdG8gYXV0by1kZXRlY3QgZW1haWwgYWRkcmVzcyAoZ290ICdpY2l2aUBMZW5vdm9XYWx0ZXIuKG7igIvigIzigItuNgAAAAAAAHQ2AAAAAAAARgAAAG9uZSknKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0NgAAAAAAALQ2AAAAAAAAAAAAALU2AAAAAAAAtTYAAAAAAABGAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgILU2AAAAAAAA+zYAAAAAAAAAAAAA/DYAAAAAAABFNwAAAAAAADYAAABDOlxDQVNBXExJTkdVQUdHSVxET1M+Z2l0IGNvbmZpZyAtLWdsb2JhbCB1c2VyLmVtYWlsICJFNwAAAAAAAEY3AAAAAAAAAAAAAEY3AAAAAAAAYDcAAAAAAAAAAAAAYDcAAAAAAACMNwAAAAAAAAAAAABgNwAAAAAAAGA3AAAAAAAALAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAMjcAAAAAAAAyNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					204,
-					1,
-					"terminus_render",
-					null,
-					"BgAAAPw2AAAAAAAAKjcAAAAAAABPAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5lbWFpbCAiaHR0cHM6Ly9naXRodWIuY+KAi+KAjOKAiyo3AAAAAAAAQjcAAAAAAAAAAAAAQzcAAAAAAABDNwAAAAAAABoAAABvbS9pY2l2aXh3YWx0ZXIvQUNDRVNTLmdpdEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICo3AAAAAAAAKjcAAAAAAAAYAAAAICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAYDcAAAAAAABgNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					208,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGzcAAAAAAAAuAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjYXNhIhs3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBs3AAAAAAAAGzcAAAAAAAAnAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAKjcAAAAAAAAqNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					210,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAHDcAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBhZGQgLhw3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBw3AAAAAAAAHDcAAAAAAAAmAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					213,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGzcAAAAAAAAgAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzdGF0dXMbNwAAAAAAAEI3AAAAAAAAAAAAAEI3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAIk3AAAAAAAAAAAAAEI3AAAAAAAAQjcAAAAAAABHAAAACiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAbNwAAAAAAABs3AAAAAAAAJwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAHDcAAAAAAAAcNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					215,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAKjcAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBhZGQgLio3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICo3AAAAAAAAKjcAAAAAAAAYAAAAICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					220,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGzcAAAAAAAAuAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjYXNhIhs3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBs3AAAAAAAAGzcAAAAAAAAnAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAKjcAAAAAAAAqNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					222,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAHDcAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBhZGQgLhw3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBw3AAAAAAAAHDcAAAAAAAAmAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					226,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGzcAAAAAAAAgAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBzdGF0dXMbNwAAAAAAAEI3AAAAAAAAAAAAAEI3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAIk3AAAAAAAAAAAAAEI3AAAAAAAAQjcAAAAAAABHAAAACiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAbNwAAAAAAABs3AAAAAAAAJwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAHDcAAAAAAAAcNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					228,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAKjcAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBhZGQgLio3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICo3AAAAAAAAKjcAAAAAAAAYAAAAICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					232,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAKTcAAAAAAAAuAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjYXNhIik3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICk3AAAAAAAAKTcAAAAAAAAZAAAAICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKjcAAAAAAAAqNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					235,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAKDcAAAAAAAAtAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjYXNhKDcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKDcAAAAAAAAoNwAAAAAAABoAAAAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKTcAAAAAAAApNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					237,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAJzcAAAAAAAAsAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjYXMnNwAAAAAAAEI3AAAAAAAAAAAAAEI3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAIk3AAAAAAAAAAAAAEI3AAAAAAAAQjcAAAAAAABHAAAACiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnNwAAAAAAACc3AAAAAAAAGwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAKDcAAAAAAAAoNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					240,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAJjcAAAAAAAArAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjYSY3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICY3AAAAAAAAJjcAAAAAAAAcAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAJjcAAAAAAAAmNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					242,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAJDcAAAAAAAAqAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyBjJDcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJDcAAAAAAAAkNwAAAAAAAB4AAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAJjcAAAAAAAAmNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					245,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAIzcAAAAAAAAoAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnZyM3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICM3AAAAAAAAIzcAAAAAAAAfAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAJDcAAAAAAAAkNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					247,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAITcAAAAAAAAnAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gImFnITcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgITcAAAAAAAAhNwAAAAAAACEAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAIzcAAAAAAAAjNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					250,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAHzcAAAAAAAAlAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gIh83AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3AAAAAAAAIDcAAAAAAAAiAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAITcAAAAAAAAhNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					252,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAHjcAAAAAAAAkAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLW0gHjcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgHjcAAAAAAAAeNwAAAAAAACQAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAIDcAAAAAAAAgNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					254,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAHDcAAAAAAAAiAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgLRw3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIB03AAAAAAAAHTcAAAAAAAAlAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAHjcAAAAAAAAeNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					257,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGzcAAAAAAAAhAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taXQgGzcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgGzcAAAAAAAAbNwAAAAAAACcAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					259,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGjcAAAAAAAAfAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21taRo3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBo3AAAAAAAAGjcAAAAAAAAoAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAGzcAAAAAAAAbNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					262,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAGDcAAAAAAAAeAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjb21tGDcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgGDcAAAAAAAAYNwAAAAAAACoAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAGDcAAAAAAAAYNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					264,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAFzcAAAAAAAAcAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjbxc3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBc3AAAAAAAAFzcAAAAAAAArAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAGDcAAAAAAAAYNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					267,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAFTcAAAAAAAAbAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdCBjFTcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgFTcAAAAAAAAVNwAAAAAAAC0AAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAFTcAAAAAAAAVNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					269,
-					2,
-					"terminus_render",
-					null,
-					"DgAAAPw2AAAAAAAAFDcAAAAAAAAZAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpdBQ3AAAAAAAAQjcAAAAAAAAAAAAAQjcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAiTcAAAAAAAAAAAAAQjcAAAAAAABCNwAAAAAAAEcAAAAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBQ3AAAAAAAAFDcAAAAAAAAuAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIPw2AAAAAAAAEzcAAAAAAAAYAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmdpEzcAAAAAAABCNwAAAAAAAAAAAABCNwAAAAAAAEM3AAAAAAAAAAAAAEM3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAACJNwAAAAAAAAAAAABCNwAAAAAAAEI3AAAAAAAARwAAAAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgEzcAAAAAAAATNwAAAAAAAC8AAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAFDcAAAAAAAAUNwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					271,
-					1,
-					"terminus_render",
-					null,
-					"BwAAAPw2AAAAAAAAEjcAAAAAAAAXAAAAQzpcQ0FTQVxMSU5HVUFHR0lcRE9TPmcSNwAAAAAAAEI3AAAAAAAAAAAAAEI3AAAAAAAAQzcAAAAAAAAAAAAAQzcAAAAAAABDNwAAAAAAAAAAAABDNwAAAAAAAIk3AAAAAAAAAAAAAEI3AAAAAAAAQjcAAAAAAABHAAAACiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICASNwAAAAAAABI3AAAAAAAAMAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAEzcAAAAAAAATNwAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHd/AAAAAAAAeH8AAAAAAAAAAAAAeH8AAAAAAAB9fwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAd38AAAAAAAB3fwAAAAAAAAAAAAAAgHBA"
 				]
 			]
-		},
-		{
-			"file": ".gitattributes",
-			"settings":
-			{
-				"buffer_size": 66,
-				"line_ending": "Windows"
-			}
 		}
 	],
 	"build_system": "",
@@ -649,11 +579,11 @@
 		"selected_items":
 		[
 			[
-				"TE",
-				"Terminus: Open Default Shell in Tab (View)"
+				"term",
+				"Terminus: Open Default Shell in Panel"
 			],
 			[
-				"term",
+				"TE",
 				"Terminus: Open Default Shell in Tab (View)"
 			],
 			[
@@ -851,7 +781,10 @@
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/DOS/UTILITA_FILE.MD",
+		"/C/CASA/LINGUAGGI/DOS/README.md",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_INCREMENTALE_INTERNO/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT",
+		"/C/Program Files/Git/mingw64/share/doc/git-doc/git-config.html",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_CRIPTA_INTERNO.MD",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE/ZIP_7ZIP_INCREMENTALE_CRIPTA+DECODFICA_ESTERNO.BAT",
@@ -866,7 +799,6 @@
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/XCOPY_MODELLO.MD",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ESEMPI_CMD/CMD_VARI/DOS_MODELLO_N02_MODELLO_AttivitaSequenziali.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/ZIP_INCREMENTALE_RAR/ZIP_RAR_INCREMENTALE.BAT",
-		"/C/CASA/LINGUAGGI/DOS/README.md",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_FOR_N04_21_CICLO_(ArchiviaCartelle_SENZA_PATH)_NellaCartellaCorrente.bat",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/Terminality/README.md",
 		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/TerminalinPackages/Default.sublime-keymap",
@@ -874,7 +806,6 @@
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/COPIA/Zip_rar_SALVA_TUTTO_ARCHIVI_Y.bat.BAT",
 		"/C/CASA/LINGUAGGI/DOS/COMANDI_DOS/DOS_ESEMPI_N002_ELENCO_FILE.BAT",
 		"/C/CASA/LINGUAGGI/DOS/Progetti_DOS.sublime-project",
-		"/C/CASA/LINGUAGGI/DOS/UTILITA_FILE.MD",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/BROWSER/Browser.md",
 		"/C/CASA/LINGUAGGI/DOS/GIT_BAT/git_OpenGitHub.bat",
 		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/SPLIT/Split_Dos.md",
@@ -977,12 +908,11 @@
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/TabellaProdottiConStato.tsx",
 		"/C/Users/icivi/AppData/Local/lapce/Lapce-Stable/data/plugins/d4rkr41n.dracula/README.md",
 		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/TabellaProdotti.tsx",
-		"/C/GESTIONI/JAVA_JSX_CONCETTI_CHIAVE.MD",
-		"/C/CASA/LINGUAGGI/HTML/PROGETTI_HTML/REACT_CONCETTI_CHIAVE/src/components/App.css"
+		"/C/GESTIONI/JAVA_JSX_CONCETTI_CHIAVE.MD"
 	],
 	"find":
 	{
-		"height": 37.6
+		"height": 49.6
 	},
 	"find_in_files":
 	{
@@ -999,6 +929,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"total",
+			"totalecommander",
 			"_LaQuercia",
 			"filtri",
 			"for file concatenato",
@@ -1110,80 +1042,298 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14098,
+						"buffer_size": 7021,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										172,
+										177
+									],
+									[
+										192,
+										197
+									],
+									[
+										237,
+										242
+									],
+									[
+										249,
+										254
+									],
+									[
+										351,
+										356
+									],
+									[
+										373,
+										378
+									],
+									[
+										415,
+										420
+									],
+									[
+										474,
+										479
+									],
+									[
+										599,
+										604
+									],
+									[
+										659,
+										664
+									],
+									[
+										806,
+										811
+									],
+									[
+										835,
+										840
+									],
+									[
+										943,
+										948
+									],
+									[
+										1093,
+										1098
+									],
+									[
+										1435,
+										1440
+									],
+									[
+										1687,
+										1692
+									],
+									[
+										1798,
+										1803
+									],
+									[
+										1913,
+										1918
+									],
+									[
+										2048,
+										2053
+									],
+									[
+										2188,
+										2193
+									],
+									[
+										2242,
+										2247
+									],
+									[
+										2344,
+										2349
+									],
+									[
+										2474,
+										2479
+									],
+									[
+										2532,
+										2537
+									],
+									[
+										2562,
+										2567
+									],
+									[
+										2595,
+										2600
+									],
+									[
+										2661,
+										2666
+									],
+									[
+										2756,
+										2761
+									],
+									[
+										2869,
+										2874
+									],
+									[
+										3032,
+										3037
+									],
+									[
+										3216,
+										3221
+									],
+									[
+										3296,
+										3301
+									],
+									[
+										3391,
+										3396
+									],
+									[
+										3471,
+										3476
+									],
+									[
+										3562,
+										3567
+									],
+									[
+										3642,
+										3647
+									],
+									[
+										3838,
+										3843
+									],
+									[
+										3918,
+										3923
+									],
+									[
+										4009,
+										4014
+									],
+									[
+										4089,
+										4094
+									],
+									[
+										4180,
+										4185
+									],
+									[
+										4263,
+										4268
+									],
+									[
+										4488,
+										4493
+									],
+									[
+										4568,
+										4573
+									],
+									[
+										4663,
+										4668
+									],
+									[
+										4743,
+										4748
+									],
+									[
+										4834,
+										4839
+									],
+									[
+										4914,
+										4919
+									],
+									[
+										5119,
+										5124
+									],
+									[
+										5199,
+										5204
+									],
+									[
+										5290,
+										5295
+									],
+									[
+										5370,
+										5375
+									],
+									[
+										5461,
+										5466
+									],
+									[
+										5544,
+										5549
+									],
+									[
+										5737,
+										5742
+									],
+									[
+										5886,
+										5891
+									],
+									[
+										6042,
+										6047
+									],
+									[
+										6204,
+										6209
+									],
+									[
+										6386,
+										6391
+									],
+									[
+										6466,
+										6471
+									],
+									[
+										6557,
+										6562
+									],
+									[
+										6637,
+										6642
+									],
+									[
+										6728,
+										6733
+									],
+									[
+										6811,
+										6816
+									],
+									[
+										6972,
+										6977
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								14098,
-								14098
+								2033,
+								2033
 							]
 						],
 						"settings":
 						{
-							"__vi_external_disable": true,
-							"auto_complete": false,
-							"auto_complete_commit_on_tab": false,
-							"bracket_highlighter.clone_locations":
-							{
-							},
-							"bracket_highlighter.ignore": true,
-							"color_scheme": "Terminus.hidden-color-scheme",
-							"draw_centered": false,
-							"draw_indent_guides": false,
-							"draw_unicode_white_space": false,
-							"draw_white_space": "none",
-							"gutter": false,
-							"highlight_line": false,
-							"is_widget": true,
-							"result_base_dir": "C:\\CASA\\LINGUAGGI\\DOS",
-							"result_file_regex": null,
-							"result_line_regex": null,
-							"rulers":
-							[
-								500
-							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
 							"scroll_past_end": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"terminus.highlight_counter": 224,
-							"terminus_view": true,
-							"terminus_view.args":
-							{
-								"auto_close": true,
-								"cancellable": false,
-								"cmd":
-								[
-									"cmd.exe"
-								],
-								"cwd": "C:\\CASA\\LINGUAGGI\\DOS",
-								"default_title": "Command Prompt",
-								"env":
-								{
-									"TERMINUS_SUBLIME": "1",
-									"TERM_PROGRAM": "Terminus-Sublime"
-								},
-								"file_regex": null,
-								"line_regex": null,
-								"panel_name": "Terminus",
-								"reactivable": true,
-								"show_in_panel": null,
-								"tag": null,
-								"timeit": false,
-								"title": null
-							},
-							"terminus_view.cancellable": false,
-							"terminus_view.key.ctrl+k": true,
-							"terminus_view.key.ctrl+p": true,
-							"terminus_view.natural_keyboard": true,
-							"terminus_view.reactivable": true,
-							"terminus_view.tag": null,
-							"terminus_view.viewport_y": 4788.0,
-							"word_wrap": false
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4788.0,
+						"translation.y": 924.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1192,28 +1342,30 @@
 				},
 				{
 					"buffer": 1,
-					"file": ".gitattributes",
+					"file": "COMANDI_DOS/COMANDI_DOS_TUTTI_GLI_ESEMPI.MD",
 					"selected": true,
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 66,
+						"buffer_size": 39085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								32637,
+								32788
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Attributes.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 28307.2,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1264,7 +1416,7 @@
 	},
 	"output.Terminus":
 	{
-		"height": 156.0
+		"height": 245.0
 	},
 	"output.diagnostics":
 	{
@@ -1329,10 +1481,10 @@
 	{
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 552.0,
+	"side_bar_width": 241.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
