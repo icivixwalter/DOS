@@ -818,7 +818,7 @@ ESEMPI_DIVISI_PER_LETTERA
 																= apre il dx e sx preimpostati
 					:Commands_line_parameters
 							....
-						@esempio@total_(apro @progetto @msys ed @access, @apro@msys)
+						@esempio@total_(apro @progetto @msys ed @apro@access, @apro@msys)
 					
 							"C:\Program Files\totalcmd\TOTALCMD64.EXE" left: c:\Casa\LINGUAGGI\ACCESS\PROGETTI_MDB\DLL_LIBRERIE\, right: c:\Casa\LINGUAGGI\ACCESS\PROGETTI_MDB\ 
 
