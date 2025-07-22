@@ -1,0 +1,2 @@
+=== VERIFICA INTEGRITÀ: 22/07/2025 17:01:33,45 === 
+[ERRORE] Archivio non trovato: ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z 

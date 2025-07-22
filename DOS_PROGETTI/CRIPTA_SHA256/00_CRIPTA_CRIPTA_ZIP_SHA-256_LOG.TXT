@@ -1,0 +1,59 @@
+=== LOG AVVIATO: 22/07/2025 23:34:09,40 === 
+Nome file da criptare letto: "ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.pdf" 
+[OK] File trovato: "C:\Casa\LINGUAGGI\DOS\DOS_PROGETTI\CRIPTA_SHA256\FILE_DA_CRIPTARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.pdf" 
+[OK] Password caricata. 
+[INFO] Cartella FILE_DA_INVIARE già presente. 
+[OK] File password creato. 
+[OK] File password copiato in FILE_DA_INVIARE. 
+[INFO] Compressione in corso... 
+
+7-Zip 24.04 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-04-05
+
+Open archive: FILE_DA_INVIARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z
+--
+Path = FILE_DA_INVIARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z
+Type = 7z
+Physical Size = 1665058
+Headers Size = 306
+Method = LZMA2:21 7zAES
+Solid = -
+Blocks = 1
+
+Scanning the drive:
+1 file, 1698709 bytes (1659 KiB)
+
+Updating archive: FILE_DA_INVIARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z
+
+Add new data to archive: 1 file, 1698709 bytes (1659 KiB)
+
+
+Files read from disk: 1
+Archive size: 1665058 bytes (1627 KiB)
+Everything is Ok
+[OK] Compressione completata. 
+[INFO] Calcolo SHA-256... 
+[OK] Hash salvato in FILE_DA_INVIARE\hash_sha256_DA_INVIARE.TXT 
+[INFO] Verifica archivio... 
+
+7-Zip 24.04 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-04-05
+
+Scanning the drive for archives:
+1 file, 1665058 bytes (1627 KiB)
+
+Testing archive: FILE_DA_INVIARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z
+--
+Path = FILE_DA_INVIARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z
+Type = 7z
+Physical Size = 1665058
+Headers Size = 306
+Method = LZMA2:21 7zAES
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       1698709
+Compressed: 1665058
+[OK] Archivio verificato. 
+[OK] SHA-256 trovato in FILE_DA_INVIARE 
+=== FINE LOG: 22/07/2025 23:34:09,87 === 

@@ -1,0 +1,13 @@
+ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.pdf
+
+
+
+
+
+
+
+
+
+//INSERISCI IL FILE DA CRIPTARE :  00_INSERISCI_NOME_FILE_DA_CRIPTARE.TXT
+//qui si deve inserire il file, .doc, .pdf .xls o altro da criptare 
+//il file deve trovarsi nella stessa directory.

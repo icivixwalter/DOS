@@ -1,0 +1,3 @@
+for %%E in (TXT 7z) do (
+    del "c:\Casa\LINGUAGGI\DOS\DOS_PROGETTI\CRIPTA_SHA256\FILE_DA_INVIARE\*.%%E"
+)

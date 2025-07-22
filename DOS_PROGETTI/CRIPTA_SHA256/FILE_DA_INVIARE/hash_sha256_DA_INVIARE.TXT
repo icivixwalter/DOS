@@ -1,0 +1,3 @@
+SHA256 hash di FILE_DA_INVIARE\ALLEGATO_A1_servizi_tecnici_FRICCHIONE_all_signed.7z:
+b00a845c6be98d6d75514b122c214996b0f95202bf7aba78aef3db3d39739ff3
+CertUtil: - Esecuzione comando hashfile riuscita.

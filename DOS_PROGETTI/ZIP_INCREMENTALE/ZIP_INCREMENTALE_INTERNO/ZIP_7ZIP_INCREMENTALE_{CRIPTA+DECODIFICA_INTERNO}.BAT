@@ -22,9 +22,9 @@
 		@ECHO. IMPOSTO I PARAMETRI SU TUTTO IL FILE e qui posson ossere cambiati e  
 		@ECHO. di seguito puoi cambiare questo percorso path per una sostituzione collettiva: 
 		@ECHO. 
-		@ECHO. cambia questo parametro ---------: 			c:\CASA\CDM\GE_COND\ 
+		@ECHO. cambia questo parametro ---------: 			c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\ 
 		@ECHO. 
-		@ECHO. cambia questo parametro ---------: 			_archivi_DOS
+		@ECHO. cambia questo parametro ---------: 			_SALVATAGGI_IMPEGNI
 		@ECHO. 
 		@ECHO. 
 		@ECHO. 
@@ -33,10 +33,10 @@
 		@ECHO. 
 		@ECHO. 									effetto sostituzione collettivo
 		@ECHO. --------------------------------------------------------------------------------------------------------
-		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\CASA\CDM\GE_COND\%CARTELLA_SALVATAGGI_S%
-		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\CASA\CDM\GE_COND\AA_SALVATAGGI\
-		@ECHO. LA PATH DI PARTENZA							= 	c:\CASA\CDM\GE_COND\
-		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_archivi_DOS
+		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\%CARTELLA_SALVATAGGI_S%
+		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\
+		@ECHO. LA PATH DI PARTENZA							= 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
+		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_SALVATAGGI_IMPEGNI
 		@ECHO. LISTA FILE UTILIZZATA 						= 	Zip_N70_ElencoFile.txt
 		@ECHO. --------------------------------------------------------------------------------------------------------
 		@ECHO.
@@ -130,7 +130,7 @@
 								@REM VISUALIZZO LA CARTELLA SALVATAGGI IMPOSTATATA AL PUNTO 1)
 								@REM .......................................................		
 									@ECHO. 
-									@ECHO. La cartella salvataggi Ã¨ la seguente
+									@ECHO. La cartella salvataggi è la seguente
 									@echo --------------------------------------> : %CARTELLA_SALVATAGGI_S%
 								@REM .......................................................		
 				
@@ -146,11 +146,11 @@
 
 							@REM imposto le variabili
 
-							@SET PATH_DEST_S=c:\CASA\CDM\GE_COND\%CARTELLA_SALVATAGGI_S%
-							@REM @SET PATH_DEST_S=c:\CASA\CDM\GE_COND\AA_SALVATAGGI\
-							@SET PATH_PART_S=c:\CASA\CDM\GE_COND\
+							@SET PATH_DEST_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\%CARTELLA_SALVATAGGI_S%
+							@REM @SET PATH_DEST_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\
+							@SET PATH_PART_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 							
-							@SET FILE_S=ZIP_SALVATAGGI_archivi_DOS
+							@SET FILE_S=ZIP_SALVATAGGI_SALVATAGGI_IMPEGNI
 							@SET LISTA_FILE_S=Zip_N70_ElencoFile.txt
 
 							
@@ -440,7 +440,7 @@
 				@ECHO  l'ozione -bsp1  ">" lo invio nel file .txt ricostruito.
 
 				@ECHO attenzione se 7z.exe non ha la variabile di ambiente riportare il percorso completo 
-				@ECHO tendo presente che Ã¨ stato salvato in Program File ed ha lo spazio in mezzo per cui 
+				@ECHO tendo presente che è stato salvato in Program File ed ha lo spazio in mezzo per cui 
 				@ECHO occorre inserire tutto il percorso assoluto dell'eseguibile  tra "" altrimenti non lo
 				@ECHO legge l'eseguibile e da errore. CONTROLLARE SEMPRE che l'eseguibile si trovi in quella path.
 				@ECHO 
@@ -449,12 +449,13 @@
 					
 					@ECHO 07.05 recupero i file processati nel .zip e li salvo in .txt
 					@ECHO VADO NELLA PATH DI DESTINAZIONE E SALVO L'ELENCO DEI FILE 
+					@ECHO ................... controllo path di destinazione:
+					@ECHO ...... %PATH_DEST_S%
+					@ECHO ...... file da ricercare %TODAY%_%FILE_S%
+					@ECHO .................................................................. 
+				
 					CD %PATH_DEST_S%
-					@ECHO IL FILE %TODAY%_%FILE_S%
-					DIR
-
-					@REM ci vuole in TODAY_FILE_S.* altrimenti non lo trova
-					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S%.* -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
+					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S%.zip -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
 					
 
 				@ECHO.  					
@@ -540,11 +541,11 @@
 					@REM DIR in dos ha diversi parametri per visualizzare le cartelle ed i file che sono:
 					@REM 		:  /A:-d mostra solo i file    
 					@REM 		/O:n  mostra i file in ordine alfabetico   
-					@REM		/W  per vedere lâ€™elenco formato solo dai nomi dei file 
+					@REM		/W  per vedere l’elenco formato solo dai nomi dei file 
 					@REM		BLOCCATO -----> DIR /S /A:-D /O:n /W %TIPO_FILE_S%> %PATH_DEST_S%%today%_ZIP_SALVATAGGI_ARCHIVI_ARCHIVIO_TIPO_FILE_SALVATI.TXT
 
 
-					@REM -tzip 	=	parametro -t per tipo file processato cioÃ¨ il file zip.
+					@REM -tzip 	=	parametro -t per tipo file processato cioè il file zip.
 					@REM -r 	=	iterazione delle sottocartelle
 					@REM @file 	=	lista file da processare
 					@REM 		 	attenzione nella listafile.txt indicare la path e al posto di *.* occore solo * es. c:\dos\* pero per riportare la path completa
@@ -557,10 +558,10 @@
 					@REM 		quelli processati e salvati su un file .txt, ma deve essere eseguito su doppio comando.
 					@REM NOME DATA CORRENTE : per il nome sulla data corrente occorre utilizzare la variabile tmp
 					@REM 			che contiene il nome in AAMMGG_, Attenzione per espandere la variabile occorre utilizzare ! ! altrimenti non funziona;
-					@REM 			per ora la espanzione delle variabile con (!!) non Ã¨ stata utilizzata 
+					@REM 			per ora la espanzione delle variabile con (!!) non è stata utilizzata 
 					@REM 			es. %!PATH_DEST_S!%%today%_ZIP_SALVATAGGI_ARCHIVI.RAR %TIPO_FILE_S% %PATH_DEST_S%
 
-					@REM  ATTENZIONE in @Zip_N70_ElencoFile.txt  devi inserire solo le directory senza *.* e no le cartelle interne perchÃ¨ altrimenti
+					@REM  ATTENZIONE in @Zip_N70_ElencoFile.txt  devi inserire solo le directory senza *.* e no le cartelle interne perchè altrimenti
 					@REM 				salva solo le sottocartelle e non la cartella madre. Quindi nel file.txt indicare le cartelle ORIGINE in questo
 					@REM  				modo: c:\CASA\LINGUAGGI\ACCESS\
 					@REM  				modo: c:\CASA\LINGUAGGI\CPP\  ... ecc.
@@ -570,7 +571,7 @@
 
 				@REM DIR @ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE
 				@REM ------------------------------------------------------------------------------------------- 
-				@REM Sintassi 	DIR  [unitÃ :][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] [/S]
+				@REM Sintassi 	DIR  [unità:][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] [/S]
 				@REM      	[/B] [/L] [/V]
 					
 
@@ -601,8 +602,8 @@
 
 
 					le opzioni principali sono: 
-					/p per vedere lâ€™elenco a schermate 
-					/w per vedere lâ€™elenco formato solo dai nomi dei file 
+					/p per vedere l’elenco a schermate 
+					/w per vedere l’elenco formato solo dai nomi dei file 
 					/a:h mostra i file nascosti 
 					/a:s mostra i file di sistema 
 					/a:d mostra solo le subdirectory 
@@ -614,11 +615,11 @@
 					/o:s mostra in ordine di grandezza 
 					/o:-s mostra in ordine di grandezza inverso 
 					/s mostra tutto il disco 
-					>prn stampa lâ€™elenco 
+					>prn stampa l’elenco 
 						Esempio: 
 						c:\> DIR c:\LETTERE\ROSSI /a:-d/o:n >prn
 
-						stampa lâ€™elenco, in ordine alfabetico, di tutti i file contenuti nella 
+						stampa l’elenco, in ordine alfabetico, di tutti i file contenuti nella 
 						subdirectory \LETTERE\ROSSI, omettendo i nomi delle eventuali subdirectory presenti. 
 
 
@@ -626,7 +627,7 @@
 
 						@REM DIR @ORDINAMENTO_ALFABETICO_DECRESCENTE_PER_DATA_DI_CREAZIONE
 						@REM ------------------------------------------------------------------------------------------- 
-						@REM Sintassi 	DIR  [unitÃ :][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] [/S]
+						@REM Sintassi 	DIR  [unità:][percorso][nomefile] [/P] [/W] [/O[[:]ordinamento]] [/S]
 						@REM      	[/B] [/L] [/V]
 
 
