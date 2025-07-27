@@ -1,0 +1,77 @@
+/* KEY_BINDING_TERMINUS
+   Queste sono le impostazioni per aprire il terminale interno (Terminus) 
+   dentro Sublime Text.
+   FILE: 
+   C:\Users\icivi\AppData\Roaming\Sublime Text\Packages\User\Default (Windows).sublime-keymap
+*/
+
+[
+    // Aprire il terminale interno (Terminus) nel pannello inferiore
+    //--------------------------------------------------------------//
+    /* Cosa fa (Ctrl + Shift + T)?
+        Apre un nuovo terminale Terminus nel pannello inferiore.
+        Se il pannello è già aperto, crea un nuovo terminale dentro di esso.
+    */
+
+    { 
+        "keys": ["ctrl+shift+t"], 
+        "command": "terminus_open", 
+        "args": {
+            "cwd": "${file_path:${folder}}", // Imposta la directory di lavoro alla cartella attiva
+            "panel_name": "Terminus"        // Nome del pannello in Sublime Text
+        }
+    },
+
+    // CHIUDO IL TERMINALE TERMINUS ANCHE DA DOS
+    //--------------------------------------------------------------//
+    { 
+        //Con T apri ma con Y chiudi
+
+            "keys": ["ctrl+shift+y"], 
+            "command": "terminus_close"
+
+
+
+
+
+
+    },
+
+
+    // DOPPIONE DI ctrl+shift+t: DISABILITATO  Aprire un terminale in una nuova tab di Sublime Text
+    //--------------------------------------------------------------//
+            //            {
+            //                "keys": ["ctrl+alt+t"], 
+            //                "command": "terminus_open", 
+            //                "args": {
+            //                    "cwd": "${file_path:${folder}}",
+            //                    "title": "Command Prompt",
+            //                    "panel_name": "Terminus"
+            //                }
+            //            },
+            //
+            //
+
+
+
+ 
+
+    // Aprire il terminale interno con CMD nella cartella del progetto attivo
+    //--------------------------------------------------------------//
+    {
+        "keys": ["alt+1"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": "cmd.exe",               // Shell di comando Windows
+            "cwd": "${file_path:${folder}}",// Stessa path della cartella attiva
+            "panel_name": "Terminus"        // Nome del pannello nel quale si apre Terminus
+        }
+    },
+
+    // Chiudere il terminale Terminus
+    //--------------------------------------------------------------//
+    { 
+        "keys": ["alt+2"], 
+        "command": "terminus_close" 
+    }
+]

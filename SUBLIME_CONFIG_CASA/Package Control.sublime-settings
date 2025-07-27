@@ -1,0 +1,20 @@
+{
+	"installed_packages":
+	[
+		"GitHub Flavored Markdown Preview",
+		"GitHubTools",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"NativeScript Core XML Syntax",
+		"Package Control",
+		"Rust Enhanced",
+		"Terminal In Packages",
+		"Terminus",
+		"XmlDocs",
+	],
+	"in_process_packages":
+	[
+		"Package Control",
+	],
+	"bootstrapped": true,
+}

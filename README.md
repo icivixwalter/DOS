@@ -1,15 +1,14 @@
-# ACCESS_TUTORIAL
-Tutorial di acces
-
-	GUIDA RIFERIMENTO OGGETTI ACESS
-		Sono gli oggetti di Access 2007.
-		vai a ---> @RIFERIMENTO@OGGETTI@ACCESS
-
-	GUIDA RIFERIMENTO MODELLI DAO
-		sono i modelli dato, vai a ;
-			---> @MODELLI@DAO@.
-
-
+# README DOS
+	note
+		ho creato un progetto che visualizza la cartella fisica del dos
+            "path": "C:/Casa/LINGUAGGI/DOS",
+      e una cartella virtuale  User
+            "path": "C:/Users/icivi/AppData/Roaming/Sublime Text/Packages/User",
+		
+		Per il salvataggio delle impostazioni di sublimetex casa occore attivare il bat
+		COPIA_IMPOSTAZIONI_SUBLIMETEXT.BAT che effettua  il salvataggio dei dati da 
+		sulla cartella SUBLIME_CONFIG_CASA da utilizzare se possibile in ufficio se 
+		devi aggiornare le impostazioni di sublimetext con quelle di casa. 
 
 GIT
 	@COMANDO@UNICO   @GIT@comando@unico(@comando @unico per le compressioni)

@@ -1,0 +1,27 @@
+# Tabella Collassabile
+   per visualizzare la tabella scrivi ctrl+p e MarkdownPreview
+
+## A
+
+<details>
+<summary>M</summary>
+
+| lettera | Nome  | Reparto | Data       | Stato  |
+|---------|-------|---------|------------|--------|
+| M       | Marco | IT      | 01/05/2024 | OK     |
+|         | Merlo | HR      | 02/05/2024 | Errore |
+
+</details>
+
+
+## C
+
+<details>
+<summary>C</summary>
+
+| lettera | Nome    | Reparto | Data       | Stato      |
+|---------|---------|---------|------------|------------|
+| C       | Comegna | Finance | 03/05/2024 | Completato |
+
+</details>
+
