@@ -10,6 +10,10 @@
 		sulla cartella SUBLIME_CONFIG_CASA da utilizzare se possibile in ufficio se 
 		devi aggiornare le impostazioni di sublimetext con quelle di casa. 
 
+	github
+		per i salvataggi su github vedi :
+				https://github.com/icivixwalter/DOS
+
 GIT
 	@COMANDO@UNICO   @GIT@comando@unico(@comando @unico per le compressioni)
 	fare add + commit + push
