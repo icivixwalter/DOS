@@ -1,8 +1,25 @@
+//{
+//	"folders":
+//	[
+//		{
+//			"path": "c:/Casa/LINGUAGGI/DOS/.",
+//		}
+//	],
+//}
+
+
+// HO INSERITO IL PROGETTO PRINCIPALE DOS 
+// e parte del progetto sublimetext.
 {
-	"folders":
-	[
-		{
-			"path": "c:/Casa/LINGUAGGI/DOS/.",
-		}
-	],
+    "folders":
+    [
+        {
+            "path": "C:/Casa/LINGUAGGI/DOS",
+             "name": "DOS"
+        },
+        {
+            "path": "C:/Users/icivi/AppData/Roaming/Sublime Text/Packages/User",
+            "name": "SublimeUserSettings"
+        }
+    ]
 }
