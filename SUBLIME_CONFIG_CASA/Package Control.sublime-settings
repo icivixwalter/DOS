@@ -1,20 +1,23 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"GitHub Flavored Markdown Preview",
-		"GitHubTools",
+		"Markdown Extended",
+		"Markdown Slideshow",
+		"MarkdownEditing",
+		"MarkdownFootnotes",
 		"MarkdownLivePreview",
 		"MarkdownPreview",
-		"NativeScript Core XML Syntax",
+		"Markmon real-time markdown preview",
 		"Package Control",
 		"Rust Enhanced",
-		"Terminal In Packages",
+		"RustAutoComplete",
+		"SublimeREPL",
+		"Terminal",
 		"Terminus",
-		"XmlDocs",
 	],
-	"in_process_packages":
-	[
-		"Package Control",
-	],
-	"bootstrapped": true,
 }

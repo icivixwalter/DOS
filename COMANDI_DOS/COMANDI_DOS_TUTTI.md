@@ -2,7 +2,7 @@ NOTE_DOS
 
 
 
-					@dove@si@trova.il.DOS_(questo è il file dei comandi DOS)
+					@dove@si@trova.il.DOS_(questo è il file dei comandi DOS) 
 					@dove@si@trova@DOS@Comand@tutti_(tutti i comandi del DOS)
 					@dove@si@trova@DOS@Cmd@Comandi.tutti_(file di tutti  i comandi del DOS)
 					@comandi@dos_(file DI TUTTI I COMANDI DOS)
