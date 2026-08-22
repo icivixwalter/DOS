@@ -1,0 +1,234 @@
+=============================================================== 
+TasKill_N50_ANALISI_PROCESSI_REPORT                      
+=============================================================== 
+ 
+Data analisi : 22/08/2026 19:04:14,54 
+Computer     : LENOVOWALTER 
+Utente       : icivi 
+ 
+=============================================================== 
+PROCESSI ATTIVI RILEVATI 
+=============================================================== 
+ 
+
+Nome immagine                  PID Nome sessione    Sessione n. Utilizzo mem
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0     22.484 K
+Secure System                  236 Services                   0     64.132 K
+Registry                       280 Services                   0     30.732 K
+smss.exe                       948 Services                   0      1.696 K
+csrss.exe                     1368 Services                   0      6.708 K
+wininit.exe                   1456 Services                   0      9.364 K
+csrss.exe                     1464 Console                    1      7.448 K
+winlogon.exe                  1552 Console                    1     16.196 K
+services.exe                  1596 Services                   0     20.700 K
+LsaIso.exe                    1628 Services                   0      4.152 K
+lsass.exe                     1636 Services                   0     36.360 K
+svchost.exe                   1780 Services                   0     41.196 K
+fontdrvhost.exe               1808 Services                   0     14.572 K
+fontdrvhost.exe               1816 Console                    1     12.564 K
+WUDFHost.exe                  1916 Services                   0     10.360 K
+svchost.exe                   1952 Services                   0     19.916 K
+svchost.exe                   2000 Services                   0     11.644 K
+WUDFHost.exe                  2032 Services                   0     10.788 K
+svchost.exe                   1316 Services                   0      6.964 K
+svchost.exe                   1312 Services                   0     10.304 K
+svchost.exe                   1660 Services                   0     11.732 K
+dwm.exe                       2096 Console                    1    145.320 K
+svchost.exe                   2136 Services                   0     11.744 K
+svchost.exe                   2164 Services                   0     13.972 K
+svchost.exe                   2192 Services                   0     15.624 K
+svchost.exe                   2240 Services                   0     10.544 K
+svchost.exe                   2348 Services                   0     18.324 K
+IntelCpHDCPSvc.exe            2356 Services                   0      7.936 K
+svchost.exe                   2380 Services                   0     11.788 K
+svchost.exe                   2424 Services                   0      7.416 K
+svchost.exe                   2532 Services                   0     21.308 K
+svchost.exe                   2548 Services                   0     11.428 K
+svchost.exe                   2572 Services                   0      7.924 K
+svchost.exe                   2660 Services                   0     13.812 K
+svchost.exe                   2852 Services                   0     13.700 K
+svchost.exe                   2904 Services                   0     23.396 K
+svchost.exe                   3080 Services                   0     11.088 K
+svchost.exe                   3280 Services                   0     13.816 K
+svchost.exe                   3296 Services                   0     23.536 K
+svchost.exe                   3372 Services                   0      7.528 K
+svchost.exe                   3380 Services                   0     10.472 K
+svchost.exe                   3388 Services                   0     19.516 K
+Memory Compression            3496 Services                   0     91.976 K
+svchost.exe                   3500 Services                   0     32.376 K
+svchost.exe                   3556 Services                   0     11.644 K
+svchost.exe                   3612 Services                   0     11.428 K
+svchost.exe                   3632 Services                   0     12.924 K
+svchost.exe                   3664 Services                   0      8.776 K
+svchost.exe                   3828 Services                   0     23.728 K
+svchost.exe                   3868 Services                   0     10.880 K
+svchost.exe                   3216 Services                   0      8.608 K
+svchost.exe                   3364 Services                   0     25.276 K
+svchost.exe                   4136 Services                   0     19.432 K
+WUDFHost.exe                  4144 Services                   0     20.372 K
+spoolsv.exe                   4252 Services                   0     25.212 K
+svchost.exe                   4316 Services                   0     27.952 K
+WUDFHost.exe                  4372 Services                   0     15.132 K
+svchost.exe                   4436 Services                   0     13.896 K
+svchost.exe                   4460 Services                   0     10.404 K
+svchost.exe                   4496 Services                   0     33.136 K
+WUDFHost.exe                  4572 Services                   0      8.064 K
+svchost.exe                   4628 Services                   0     14.984 K
+svchost.exe                   4712 Services                   0     12.276 K
+ElevocControlService.exe      4724 Services                   0     12.488 K
+Lenovo.Modern.ImControlle     4736 Services                   0     56.520 K
+svchost.exe                   4744 Services                   0     27.832 K
+svchost.exe                   4752 Services                   0     10.856 K
+svchost.exe                   4760 Services                   0     67.336 K
+DAX3API.exe                   4768 Services                   0     22.404 K
+IntelAudioService.exe         4776 Services                   0     41.088 K
+svchost.exe                   4796 Services                   0     15.672 K
+LNBITSSvc.exe                 4812 Services                   0     25.192 K
+OfficeClickToRun.exe          4848 Services                   0     77.144 K
+NgcIso.exe                    4880 Services                   0      4.236 K
+RtkBtManServ.exe              5072 Services                   0     10.056 K
+RtkAudUService64.exe          5080 Services                   0     27.032 K
+SessionService.exe            5092 Services                   0      4.736 K
+WUDFHost.exe                  5100 Services                   0      8.748 K
+svchost.exe                   4208 Services                   0      7.632 K
+UDClientService.exe           4668 Services                   0     62.076 K
+svchost.exe                   5136 Services                   0     27.444 K
+svchost.exe                   5176 Services                   0     28.048 K
+svchost.exe                   5224 Services                   0     15.168 K
+svchost.exe                   5252 Services                   0     12.688 K
+svchost.exe                   5364 Services                   0      9.564 K
+dasHost.exe                   5940 Services                   0     13.952 K
+svchost.exe                   5200 Services                   0      9.356 K
+svchost.exe                   6416 Services                   0    104.836 K
+svchost.exe                   6472 Services                   0     11.648 K
+dasHost.exe                   7064 Services                   0      8.372 K
+svchost.exe                   7192 Services                   0     11.160 K
+svchost.exe                   7452 Services                   0     12.316 K
+svchost.exe                   7468 Services                   0     14.064 K
+unsecapp.exe                  7772 Services                   0     11.144 K
+WmiPrvSE.exe                  7860 Services                   0     28.948 K
+svchost.exe                   7624 Services                   0    133.956 K
+svchost.exe                   7628 Services                   0     33.068 K
+svchost.exe                   1236 Services                   0     10.256 K
+IntelGraphicsSoftware.Ser     6236 Services                   0     38.884 K
+svchost.exe                   8420 Services                   0     32.792 K
+AggregatorHost.exe            8632 Services                   0     13.444 K
+PresentMonService.exe         8740 Services                   0     18.752 K
+conhost.exe                   8748 Services                   0      6.188 K
+svchost.exe                   1752 Services                   0      9.072 K
+svchost.exe                   1372 Services                   0     15.692 K
+RtkAudUService64.exe          9604 Console                    1     18.104 K
+svchost.exe                  10016 Services                   0     13.916 K
+DAX3API.exe                  10160 Console                    1     16.028 K
+AutoModeDetect.exe           10184 Console                    1     15.372 K
+conhost.exe                  10212 Console                    1      9.480 K
+sihost.exe                    9712 Console                    1     51.420 K
+svchost.exe                   9872 Console                    1     45.616 K
+svchost.exe                   9916 Console                    1     11.300 K
+svchost.exe                   9988 Console                    1     47.736 K
+taskhostw.exe                10360 Console                    1     25.216 K
+svchost.exe                  10616 Services                   0     15.884 K
+svchost.exe                  10660 Services                   0     27.616 K
+explorer.exe                 10932 Console                    1    299.872 K
+svchost.exe                  10964 Services                   0     24.100 K
+CrossDeviceResume.exe        11132 Console                    1     56.048 K
+svchost.exe                  11460 Console                    1     28.136 K
+CrossDeviceService.exe       11636 Console                    1     92.244 K
+RuntimeBroker.exe            11768 Console                    1     13.792 K
+SearchHost.exe               10924 Console                    1    115.640 K
+StartMenuExperienceHost.e    12100 Console                    1    137.288 K
+WidgetBoard.exe              12528 Console                    1     35.404 K
+UserOOBEBroker.exe           12580 Console                    1     11.616 K
+RuntimeBroker.exe            12592 Console                    1     50.904 K
+svchost.exe                  12612 Console                    1     24.148 K
+WidgetService.exe            13296 Console                    1     25.348 K
+msedgewebview2.exe           11972 Console                    1    118.192 K
+msedgewebview2.exe           13332 Console                    1     12.824 K
+svchost.exe                  14092 Services                   0     27.192 K
+msedgewebview2.exe           14180 Console                    1     41.776 K
+msedgewebview2.exe           14204 Console                    1     63.084 K
+msedgewebview2.exe           12520 Console                    1     21.232 K
+msedgewebview2.exe           14016 Console                    1     69.844 K
+WmiPrvSE.exe                 14636 Services                   0     22.176 K
+MicrosoftStartFeedProvide    14960 Console                    1     51.688 K
+svchost.exe                  15172 Services                   0     26.384 K
+ctfmon.exe                   13304 Console                    1     32.536 K
+svchost.exe                  15736 Services                   0      7.908 K
+SearchIndexer.exe            15800 Services                   0     30.732 K
+TextInputHost.exe            16164 Console                    1     77.836 K
+smartscreen.exe              17124 Console                    1     13.284 K
+SecurityHealthSystray.exe    18876 Console                    1     13.480 K
+SecurityHealthService.exe    18896 Services                   0     27.960 K
+svchost.exe                  19424 Services                   0     15.740 K
+MicrosoftSecurityApp.exe     10908 Console                    1    194.584 K
+RuntimeBroker.exe            18360 Console                    1     14.484 K
+svchost.exe                  11576 Services                   0     15.920 K
+msedgewebview2.exe           16032 Console                    1     79.564 K
+ApplicationFrameHost.exe      4104 Console                    1     82.592 K
+svchost.exe                   8256 Console                    1     20.656 K
+svchost.exe                  16304 Services                   0      9.648 K
+svchost.exe                  15724 Console                    1     15.248 K
+svchost.exe                  18524 Services                   0      8.556 K
+svchost.exe                  13464 Services                   0     17.344 K
+svchost.exe                  16584 Services                   0     23.192 K
+MessagingPlugin.exe           9316 Console                    1     53.720 K
+conhost.exe                   8772 Console                    1      7.144 K
+AppProvisioningPlugin.exe    18016 Services                   0     35.036 K
+conhost.exe                  18936 Services                   0     10.624 K
+svchost.exe                   5524 Services                   0     49.116 K
+svchost.exe                  20392 Services                   0     30.696 K
+svchost.exe                   1704 Services                   0     11.256 K
+svchost.exe                  20040 Services                   0     50.892 K
+Locator.exe                   4032 Services                   0      4.392 K
+svchost.exe                   8312 Services                   0     45.588 K
+WmiApSrv.exe                  5004 Services                   0     11.064 K
+svchost.exe                   7036 Services                   0      9.240 K
+OfficeClickToRun.exe          5460 Services                   0    216.988 K
+CCleaner_service.exe          9416 Services                   0    103.080 K
+CCleaner.exe                  5988 Console                    1     25.164 K
+OneDrive.Sync.Service.exe     5020 Console                    1     27.324 K
+LenovoVantageService.exe      6980 Services                   0     50.664 K
+LenovoVantage-(VantageCor     2132 Services                   0      9.996 K
+AppActions.exe               17692 Console                    1     43.324 K
+ShellHost.exe                15480 Console                    1    144.832 K
+MpDefenderCoreService.exe    15348 Services                   0     34.124 K
+MsMpEng.exe                   9196 Services                   0    404.504 K
+MoUsoCoreWorker.exe           8660 Services                   0     94.180 K
+NisSrv.exe                    5880 Services                   0     15.732 K
+LenovoVantage-(GenericMes    15920 Console                    1      7.260 K
+backgroundTaskHost.exe        7320 Console                    1     11.368 K
+RuntimeBroker.exe            16464 Console                    1     11.936 K
+svchost.exe                  10172 Services                   0     11.064 K
+LenovoVantage-(SmartDispl    18348 Console                    1     11.796 K
+WmiPrvSE.exe                  8672 Services                   0     15.596 K
+svchost.exe                   9576 Services                   0      9.188 K
+svchost.exe                  18748 Services                   0      7.904 K
+SystemSettings.exe            7124 Console                    1    101.680 K
+svchost.exe                   3736 Services                   0     13.776 K
+TOTALCMD64.EXE                3228 Console                    1     60.576 K
+git.exe                      16244 Console                    1      9.916 K
+sublime_text.exe             19732 Console                    1     83.996 K
+crash_handler.exe             8336 Console                    1      8.236 K
+plugin_host-3.3.exe          13116 Console                    1     33.324 K
+plugin_host-3.8.exe          11396 Console                    1     67.412 K
+svchost.exe                  17540 Services                   0      9.988 K
+audiodg.exe                   2692 Services                   0     21.880 K
+dllhost.exe                  20292 Console                    1     16.008 K
+svchost.exe                  16540 Services                   0     19.584 K
+svchost.exe                  16972 Services                   0     15.028 K
+cmd.exe                      18964 Console                    1      9.180 K
+conhost.exe                  18344 Console                    1     16.136 K
+tasklist.exe                  6160 Console                    1     11.928 K
+ 
+=============================================================== 
+FASE SUCCESSIVA 
+=============================================================== 
+ 
+Valutare i processi da inserire nel file: 
+ 
+TasKill_N51_PROCESSI_DA_KILLARE.lst 
+ 
+ATTENZIONE: 
+inserire solamente processi conosciuti. 

@@ -1,0 +1,62 @@
+:: ==========================================================
+:: TasKill_N51_PROCESSI_DA_KILLARE.lst
+::
+:: Elenco processi utente da terminare
+::
+:: ==========================================================
+
+
+:: --- Browser ---
+msedge.exe
+chrome.exe
+firefox.exe
+
+
+:: --- Suite Office ---
+WINWORD.EXE
+EXCEL.EXE
+POWERPNT.EXE
+OUTLOOK.EXE
+
+
+:: --- Comunicazione ---
+Teams.exe
+ms-teams.exe
+WhatsApp.exe
+Discord.exe
+Telegram.exe
+
+
+:: --- Cloud Sync ---
+OneDrive.exe
+Dropbox.exe
+GoogleDriveFS.exe
+
+
+:: --- Aggiornatori applicativi ---
+AdobeCollabSync.exe
+
+
+:: --- Launcher ---
+steam.exe
+steamwebhelper.exe
+EpicGamesLauncher.exe
+Battle.net.exe
+
+
+:: --- Multimedia ---
+Spotify.exe
+iTunes.exe
+vlc.exe
+
+
+:: --- Sviluppo ---
+Code.exe
+devenv.exe
+idea64.exe
+
+
+:: --- Utility utente ---
+YourPhone.exe
+PhoneExperienceHost.exe
+Widgets.exe

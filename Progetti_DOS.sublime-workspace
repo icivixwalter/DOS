@@ -15,88 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "GESTIONE POWERSHELL  \n   In questo file: README_POWERSHELL.md\n   \n\n\n\n## ELENCO COMANDI POWERSHELL\n# 📚 Elenco Comandi PowerShell (A-Z)\n\nElenco dei principali cmdlet per la gestione di sistema, file e attività pianificate.\n\n---\n\n### 🅰️ Lettera A\n* `Add-Content`: Aggiunge dati a un file (senza sovrascrivere).\n* `Add-Type`: Carica classi .NET nello script.\n\n### 🅱️ Lettera B\n* `Backup-GPO`: Crea backup dei Group Policy Objects.\n* `Begin`: Definisce il blocco di inizializzazione di una funzione.\n\n### 🅾️ Lettera C\n* `Clear-Host`: Pulisce la schermata del terminale.\n* `Compare-Object`: Confronta due set di dati (es. due file CSV).\n* `ConvertFrom-Csv`: Trasforma stringhe CSV in oggetti di memoria.\n* `ConvertTo-Html`: Crea una pagina web dai dati ottenuti.\n* `Copy-Item`: Copia file o directory.\n\n### 🅳 Lettera D\n* `Debug-Process`: Esegue il debug di un processo attivo.\n* `Disable-ScheduledTask`: Disattiva un'attività pianificata.\n\n### 🅴 Lettera E\n* `Enable-ScheduledTask`: Attiva un'attività pianificata.\n* `Export-Csv`: Esporta oggetti in un file CSV (fondamentale per Access).\n\n### 🅵 Lettera F\n* `ForEach-Object`: Esegue un ciclo su ogni elemento di una lista.\n* `Format-List`: Mostra tutte le proprietà di un oggetto in lista.\n\n### 🅶 Lettera G\n* `Get-Command`: Mostra tutti i comandi installati.\n* `Get-Content`: Legge il contenuto di un file (Tabella di memoria).\n* `Get-History`: Mostra gli ultimi comandi digitati.\n* `Get-Process`: Elenca i processi attivi.\n* `Get-ScheduledTask`: Ottiene i dettagli delle attività pianificate.\n* `Get-Service`: Mostra lo stato dei servizi Windows.\n\n### 🅸 Lettera I\n* `Import-Csv`: Carica un file CSV come oggetto PowerShell.\n* `Invoke-WebRequest`: Scarica contenuti o file dal web.\n\n### 🅼 Lettera M\n* `Measure-Object`: Conta righe, caratteri o calcola valori numerici.\n* `Move-Item`: Sposta un file o una cartella.\n\n### 🅽 Lettera N\n* `New-Item`: Crea un nuovo elemento (file, cartella o chiave registro).\n* `New-Alias`: Crea una scorciatoia personalizzata per un comando.\n\n### 🅾️ Lettera O\n* `Out-File`: Invia l'output a un file di testo.\n* `Out-GridView`: Mostra i dati in una tabella interattiva esterna.\n\n### 🆁 Lettera R\n* `Read-Host`: Chiede un input all'utente (Pausa con domanda).\n* `Remove-Item`: Elimina file, cartelle o oggetti.\n* `Rename-Item`: Rinomina un file o una cartella.\n* `Restart-Service`: Riavvia un servizio di Windows.\n\n### 🆂 Lettera S\n* `Select-Object`: Filtra le colonne (proprietà) desiderate.\n* `Set-Content`: Scrive/Sovrascrive il contenuto di un file.\n* `Sort-Object`: Ordina i dati (es. per nome attività).\n* `Start-Process`: Avvia un programma o un file eseguibile.\n* `Stop-Process`: Termina un processo in esecuzione.\n\n### 🆃 Lettera T\n* `Test-Path`: Verifica se un file o percorso esiste (True/False).\n* `Tree`: Mostra graficamente la struttura delle cartelle.\n\n### 🆄 Lettera U\n* `Unregister-ScheduledTask`: Elimina un'attività pianificata dal sistema.\n* `Update-Help`: Scarica e aggiorna la guida dei comandi.\n\n### 🆆 Lettera W\n* `Where-Object`: Filtra i dati in base a una condizione (es. Stato = 'Pronta').\n* `Write-Host`: Stampa un messaggio colorato a video.",
-			"file": "/C/CASA/LINGUAGGI/POWERSHELL/README_POWERSHELL.md",
-			"file_size": 69,
-			"file_write_time": 134081307629405220,
-			"settings":
-			{
-				"buffer_size": 3136,
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					2,
-					1,
-					"insert",
-					{
-						"characters": "\n\n\n##"
-					},
-					"BQAAAEIAAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEUAAAAAAAAAAAAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": " ELENCO"
-					},
-					"BwAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAARwAAAAAAAABHAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"insert",
-					{
-						"characters": " COMANDI"
-					},
-					"CAAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": " POWERS"
-					},
-					"BwAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": "HELL"
-					},
-					"BAAAAF0AAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAABfAAAAAAAAAAAAAABfAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAYQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					7,
-					1,
-					"run_macro_file",
-					{
-						"file": "Packages/MarkdownEditing/macros/Add Line and Delete Trailing Hashes.sublime-macro"
-					},
-					"AgAAAEUAAAAAAAAARQAAAAAAAAAcAAAAIyMgRUxFTkNPIENPTUFOREkgUE9XRVJTSEVMTEUAAAAAAAAAYgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"paste",
-					null,
-					"AQAAAGIAAAAAAAAAQAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYgAAAAAAAABiAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -154,15 +72,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Casa/LINGUAGGI/DOS",
-		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI",
-		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/ATTIVITA_PIANIFICATE",
-		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User"
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/LOG"
 	],
 	"file_history":
 	[
-		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/ATTIVITA_PIANIFICATE/README_ATTIVITA_PIANIFICATE.MD",
+		"/C/CASA/GE_CASA/GE_MARINO/BANCA/POCKET_OPTION/PCKET_OPTION_CONTRATTO.MD",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/a.txt",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_KILL_SOLO_PROCESSI.bat",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N50_ANALISI_PROCESSI_REPORT.txt",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N50_ANALISI_PROCESSI.bat",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N49_COORDINA_PROCESSI_KILL.bat",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/TasKill_N51_PROCESSI_DA_KILLARE.lst",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/TASKILL/services.txt",
 		"/C/CASA/LINGUAGGI/POWERSHELL/README_POWERSHELL.md",
+		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/ATTIVITA_PIANIFICATE/README_ATTIVITA_PIANIFICATE.MD",
 		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/ATTIVITA_PIANIFICATE/DOS_STAMPA_ATTIVITA_PIANIFICATE_NEL_PC_CORRENTE).bat",
 		"/C/Casa/LINGUAGGI/DOS/DOS_PROGETTI/ATTIVITA_PIANIFICATE/Analisi_Attivita.csv",
 		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_COMPLETO.MD",
@@ -265,7 +189,7 @@
 	],
 	"find":
 	{
-		"height": 31.2
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -280,6 +204,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"POSTE",
 			">",
 			"\\",
 			"@SALVATAGGI@ZIP",
@@ -389,42 +314,12 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/CASA/LINGUAGGI/POWERSHELL/README_POWERSHELL.md",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3136,
-								3136
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 31.2
+		"height": 32.0
 	},
 	"input":
 	{
@@ -471,7 +366,7 @@
 	"project": "Progetti_DOS.sublime-project",
 	"replace":
 	{
-		"height": 59.2
+		"height": 60.8
 	},
 	"save_all_on_build": false,
 	"select_file":

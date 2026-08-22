@@ -14,12 +14,17 @@
     "folders":
     [
         {
-            "path": "C:/Casa/LINGUAGGI/DOS",
-             "name": "DOS"
+            "path": "DOS_PROGETTI\\TASKILL",
+             /*"name": "DOS",*/
         },
         {
-            "path": "C:/Users/icivi/AppData/Roaming/Sublime Text/Packages/User",
-            "name": "SublimeUserSettings"
-        }
-    ]
+            "path": "C:\\Casa\\LINGUAGGI\\DOS",
+            "name": "DOS",
+        },
+        {
+			"path": "C:\\Users\\icivi\\AppData\\Roaming\\Sublime Text\\Packages\\User",
+		
+            "name": "SublimeUserSettings",
+        },
+    ],
 }

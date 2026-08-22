@@ -1,0 +1,20 @@
+========================================================== 
+TasKill_N49 - AVVIO COORDINAMENTO 
+Data : 22/08/2026 
+Ora  : 19:04:14,51 
+Percorso : C:\CASA\LINGUAGGI\DOS\DOS_PROGETTI\TASKILL\ 
+========================================================== 
+[N50] Avvio analisi processi 
+N50 completato correttamente 
+[N51] Avvio terminazione processi 
+ERRORE N51 KILL PROCESSI 
+[N52] Avvio pulizia temporanei 
+ERRORE N52 PULIZIA 
+[N53] Creazione report finale 
+ERRORE N53 REPORT 
+ 
+========================================================== 
+TasKill_N49 FINE PROCEDURA 
+Data fine : 22/08/2026 
+Ora fine  : 19:04:22,33 
+========================================================== 
